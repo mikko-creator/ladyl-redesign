@@ -1,0 +1,28 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-flower",
+  "file": "assets/generated/g-flower.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Still-life photograph of four dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and twisted amber pistils, resting in a small round polished brass dish with a stepped fluted Art Deco rim, the dish set on soft lavender velvet. Centred subject with generous space around it, soft warm side light, shallow depth of field, a softly blurred deep violet background, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 1348317500,
+  "requestId": "01a1a2bc-80bc-7610-b657-5998773ef687",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "b8d06fd0f48531ffbe271eab4057211f31f11eb7f93f3dc456ba846fc6f6e0e2",
+  "raw": "tmp/img/raw/g-flower.1793731632790.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:14.585Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Cured buds in a fluted copper-gold bowl on lavender velvet; clean",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

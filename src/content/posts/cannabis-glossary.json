@@ -1,0 +1,479 @@
+{
+ "slug": "cannabis-glossary",
+ "path": "/blog/cannabis-glossary/",
+ "url": "https://ladyljerseycity.com/blog/cannabis-glossary/",
+ "title": "Cannabis Glossary: Terms to Know | LADY L CANNABIS",
+ "description": "This cannabis glossary breaks down THC, terpenes, and dispensary lingo in plain language. Get a clear cannabis terminology guide before your next visit.",
+ "canonical": "https://ladyljerseycity.com/blog/cannabis-glossary/",
+ "ogImage": "/assets/photos/ll/cannabis-glossary-jersey-city-dispensary-terms-1024x538.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms-1024x538.webp",
+ "h1": "Your Cannabis Glossary: The Terms Every Jersey City Shopper Should Know",
+ "postId": "1189",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms.webp",
+     "width": "2400",
+     "height": "1260",
+     "caption": "Illustrated cannabis glossary index cards marked A–Z, surrounded by a cannabis flower bud, pre-roll, gummy, and tincture bottle icons",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/",
+        "name": "Your Cannabis Glossary: The Terms Every Jersey City Shopper Should Know"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#webpage",
+     "url": "https://ladyljerseycity.com/blog/cannabis-glossary/",
+     "name": "Cannabis Glossary: Terms to Know | LADY L CANNABIS",
+     "datePublished": "2026-10-12T07:02:00-06:00",
+     "dateModified": "2026-10-12T07:05:56-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Cannabis Glossary: Terms to Know | LADY L CANNABIS",
+     "datePublished": "2026-10-12T07:02:00-06:00",
+     "dateModified": "2026-10-12T07:05:56-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "This cannabis glossary breaks down THC, terpenes, and dispensary lingo in plain language. Get a clear cannabis terminology guide before your next visit.",
+     "name": "Cannabis Glossary: Terms to Know | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/cannabis-glossary/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Year-Round School Supply Donations in Jersey City | Lady L",
+   "href": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/"
+  },
+  {
+   "label": "Next Post",
+   "title": "How to Dose Edibles: A Beginner-to-Pro Guide to Getting It Right",
+   "href": "https://ladyljerseycity.com/blog/how-to-dose-edibles/"
+  }
+ ],
+ "dateText": "October 12th, 2026",
+ "date": "2026-10-12T07:02:00-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "/blog/ hub card",
+ "image": {
+  "src": "/assets/photos/ll/cannabis-glossary-jersey-city-dispensary-terms.webp",
+  "w": 2400,
+  "h": 1260,
+  "alt": "Illustrated cannabis glossary index cards marked A–Z, surrounded by a cannabis flower bud, pre-roll, gummy, and tincture bottle icons"
+ },
+ "excerpt": "The adult-use cannabis market is booming, and flower remains one of the most popular products on dispensary shelves. That means a lot of people are walking into stores and hearing words like “terpene,” “live resin,” and “entourage effect” for the very first time. If you’ve ever nodded along at the counter while secretly wondering what a budtender just said, you’re in good company.",
+ "html": "<p>The adult-use cannabis market is booming, and flower remains one of the most popular products on dispensary shelves. That means a lot of people are walking into stores and hearing words like “terpene,” “live resin,” and “entourage effect” for the very first time. If you’ve ever nodded along at the counter while secretly wondering what a budtender just said, you’re in good company.</p>\n<p>This cannabis glossary breaks down the words you’ll actually hear on the West Side and beyond, from the science-y stuff to the casual slang your cousin uses. Think of this as the cheat sheet you wish someone had handed you on day one. We’ve grouped every term by category so you can jump straight to whatever’s tripping you up.</p>\n<h2>The Plant and Its Basics</h2>\n<p><strong>Cannabis:</strong> The scientific name for the plant family. It covers both the THC-rich varieties you’ll find on dispensary shelves and hemp, a variety with very little THC. People have cultivated cannabis worldwide for a long time, using it for wellness, adult enjoyment, and even industrial materials like textiles.</p>\n<p><strong>Hemp:</strong> A variety of cannabis that contains very low amounts of THC, legally under 0.3 percent in the United States. Growers raise it mostly for CBD-rich wellness products, fiber, and seeds. Because its THC is so low, hemp generally won’t produce a high.</p>\n<p><strong>Weed:</strong> Casual slang for cannabis. You’ll also hear nicknames like “pot,” “herb,” and “bud” out in social settings. These words are fine among friends, though at the counter we tend to stick with “flower” or “cannabis” to keep things clear.</p>\n<p><strong>Strain:</strong> A specific variety of cannabis bred for particular genetics, aromas, and effects. Strains carry creative names like Blue Dream or Pineapple Express, and each one expresses its own mix of cannabinoids and terpenes.</p>\n<p><strong>Endocannabinoid system (ECS):</strong> A regulatory network inside your own body that helps keep things in balance. It produces its own natural cannabinoids and also responds to the ones in cannabis. The ECS influences processes like mood, appetite, and sleep, which helps explain why cannabis affects different people in such different ways.</p>\n<h2>Cannabinoids</h2>\n<p>Cannabinoids are the natural compounds inside cannabis that interact with your body’s endocannabinoid system. Researchers have identified more than a hundred so far, and each plays its own role in how a product feels. These are the ones you’ll see most on New Jersey labels.</p>\n<p><strong>THC (tetrahydrocannabinol):</strong> The cannabinoid most people associate with the classic cannabis high. It works on receptors in your brain and body to create euphoria, relaxation, and altered perception. When a product is described as intoxicating, THC is usually the reason.</p>\n<p><strong>THCA (tetrahydrocannabinolic acid):</strong> The raw, inactive form of THC found in fresh, unheated flower. It won’t get you high on its own. Heat converts it into active THC, which is why lab labels often list THCA separately.</p>\n<p><strong>CBD (cannabidiol):</strong> A<strong> non-intoxicating</strong> cannabinoid many shoppers reach for when they want the plant’s effects without feeling high. It’s often sourced from hemp and shows up across a wide range of wellness-focused products. Plenty of consumers pair it with THC to soften the overall experience.</p>\n<p><strong>CBG (cannabigerol):</strong> Often called the “mother cannabinoid” because other cannabinoids form from it as the plant grows. It’s non-intoxicating and showing up on more labels every year. Interest keeps rising as people look beyond just THC and CBD. CBG is most prominent in sativa and sativa-dominant strains, so when you spot it on a label, think “G for groovy” — it’s associated with uplifting, energizing effects that keep you feeling focused and ready to take on the day.</p>\n<p><strong>CBN (cannabinol):</strong> A cannabinoid that forms as THC ages and breaks down over time. It’s <strong>mildly intoxicating</strong> at most and frequently appears in products marketed toward <strong>rest and evening use</strong>. You’ll spot it more often in dedicated CBN blends.</p>\n<p><strong>CBC (cannabichromene):</strong> A <strong>non-intoxicating</strong> cannabinoid that works best alongside THC and CBD. It won’t alter your mood or perception, but research suggests it may help with body discomfort, inflammation, and protecting healthy brain cells. It also appears to slow the breakdown of natural feel-good chemicals like anandamide. Rarely a headline ingredient, but a valuable part of any full-spectrum profile.</p>\n<p><strong>THCV (tetrahydrocannabivarin): </strong>A <strong>rarer</strong> cannabinoid chemically related to THC, but with a notably different profile. Unlike THC, it may suppress appetite, sharpen focus, and promote an energizing, clear-headed lift. Early research also points to potential benefits for blood sugar regulation and anxiety relief. It appears in select strains and specialty products, and researchers are still uncovering what makes it unique.</p>\n<p><strong>Delta-8 THC:</strong> A milder cousin of regular delta-9 THC, usually described as producing a gentler high. Its legal status and availability vary, so it’s less common on regulated New Jersey menus. Ask a budtender if you’re curious whether it’s in stock.</p>\n<h2>Terpenes</h2>\n<p>Terpenes are the aromatic oils that give each strain its distinctive scent and flavor. Beyond smell, they appear to shape how cannabinoids affect you, working together with them in what’s called the entourage effect. Two products with the same THC number can feel different because their terpene profiles differ. Here are the ones you’ll encounter most.</p>\n<p><strong>Myrcene:</strong> The <strong>most common</strong> cannabis terpene, with an <strong>earthy, musky, herbal </strong>aroma also found in <strong>mangoes and hops</strong>. It’s frequently linked to heavier, relaxing strain profiles and that settle-in feeling. Many <strong>indica-leaning</strong> products lead with it.</p>\n<p><strong>Limonene:</strong> A <strong>bright, citrusy</strong> terpene that smells like <strong>lemon, orange, or grapefruit peel.</strong> It’s commonly associated with upbeat, mood-lifting profiles. You’ll find it in plenty of <strong>daytime-friendly</strong> strains.</p>\n<p><strong>Caryophyllene:</strong> A <strong>spicy, peppery</strong> terpene also found in <strong>black pepper, cloves, and cinnamon</strong>. It stands out because it interacts with your body’s cannabinoid receptors directly, which is unusual for a terpene. Products with a warm, peppery bite often feature it.</p>\n<p><strong>Pinene:</strong> A <strong>crisp, piney, evergreen-forest</strong> aroma, and one of the most recognizable terpenes once you know it. It shows up in strains marketed as <strong>clear or daytime-friendly</strong>. As the name suggests, think fresh pine needles.</p>\n<p><strong>Linalool:</strong> A <strong>soft, floral, lavender-lik</strong>e terpene common in strains geared toward <strong>winding down</strong>. It’s the same aromatic compound that gives lavender its calming reputation. You’ll often see it highlighted in <strong>evening or rest-focused</strong> products.</p>\n<p><strong>Humulene:</strong> An <strong>earthy, woody, slightly hoppy</strong> terpene shared with the hops in beer. It rounds out the aroma of many strains rather than dominating them, and frequently appears alongside caryophyllene. Beyond its aromatic qualities, humulene is also widely studied for its potential role in appetite suppression and weight management.</p>\n<p><strong>Terpinolene:</strong> A <strong>complex</strong> terpene blending <strong>floral, herbal, and citrus</strong> notes with a hint of <strong>pine</strong>. It’s less common as a dominant terpene, so strains that lead with it tend to smell distinctive. Many <strong>uplifting</strong> profiles include it.</p>\n<p><strong>Ocimene:</strong> A <strong>sweet, herbal</strong> terpene with <strong>fresh, slightly tropical</strong> notes. It contributes to the brighter side of a strain’s aroma. You’ll usually find it as a supporting player in the overall profile.</p>\n<h2>Product Types You’ll See on the Shelf</h2>\n<p><strong>Flower:</strong> The dried buds of the cannabis plant, and still the single most popular product category in New Jersey. People smoke it in joints, pipes, and bongs, or vaporize it in a dry herb device. Flower is prized for its range of strains, aromas, and nuanced effects.</p>\n<p><strong>Nug:</strong> A casual, affectionate term for a single bud of quality flower. You’ll hear folks admire “frosty nugs,” a nod to the sparkly trichomes coating a well-grown bud. It’s slang, but it’s slang you’ll hear constantly.</p>\n<p><strong>Trim:</strong> The smaller leaves and leftover plant material trimmed away from the buds during processing. Trim carries fewer cannabinoids than the bud itself, so it usually gets turned into other products rather than sold as flower. Nothing goes to waste.</p>\n<p><strong>Pre-roll:</strong> A ready-to-smoke joint already filled with ground flower. Pre-rolls save you the effort of rolling and make a great low-commitment option for beginners. You’ll find them sold individually or in multi-packs.</p>\n<p><strong>Concentrate:</strong> A potent extract made by isolating the resinous compounds from cannabis flower. Concentrates come in many forms and typically carry much higher potency than flower. Because of that strength, they suit experienced consumers best.</p>\n<p><strong>Edibles</strong>: Cannabis-infused foods and drinks like gummies, chocolates, and teas. Since your body has to digest them, they take longer to kick in but tend to last for hours. Their effects also feel more consistent session to session, which many people appreciate.</p>\n<p><strong>Drinks</strong>: Cannabis-infused beverages like sodas, teas, and coffees. Similar to edibles, they take longer to kick in as your body needs to digest them first. However, many people find them a more discreet and enjoyable way to consume cannabis.</p>\n<p><strong>Tincture:</strong> A liquid cannabis extract, usually sold in a small bottle with a dropper. You place a measured dose under your tongue, where it absorbs faster than an edible but slower than smoking. Tinctures make precise dosing easy, which is why beginners often like them.</p>\n<p><strong>Topical:</strong> A cream, balm, lotion, or salve infused with cannabinoids and applied directly to the skin. Topicals aim for localized relief and generally don’t produce any intoxicating high. That makes them a comfortable entry point for people curious about cannabis without the head change.</p>\n<p><strong>Vape cartridge:</strong> A prefilled container of cannabis oil that screws onto a standard vape battery. Cartridges are convenient, relatively discreet, and among the most popular formats on the market today. They deliver effects quickly, similar to smoking.</p>\n<h2>Concentrate Types, Explained</h2>\n<p><strong>Kief:</strong> The fine, powdery collection of trichomes that falls to the bottom of a grinder. It’s essentially concentrated resin in its simplest form. Many people sprinkle it over flower for an extra kick.</p>\n<p><strong>Hash:</strong> A traditional concentrate made by compressing trichomes into a solid form. Cultures around the world have produced hash for centuries. It packs more potency than flower while staying simpler than modern extracts.</p>\n<p><strong>Rosin:</strong> A solventless concentrate pressed out of flower or hash using only heat and pressure. Because it skips chemical solvents entirely, rosin appeals to consumers who want a cleaner extraction method. It’s grown into a favorite among concentrate fans.</p>\n<p><strong>Live resin:</strong> A concentrate made from cannabis that’s frozen fresh right after harvest instead of dried first. Freezing preserves more of the plant’s original terpenes, so live resin tends to taste and smell especially vivid. That flavor is its main draw.</p>\n<p><strong>Distillate:</strong> A highly refined concentrate stripped down to nearly pure cannabinoid content, often odorless and tasteless. Its consistency makes it ideal for vape cartridges and edibles. Because it’s so refined, it delivers potency without much of the plant’s original flavor.</p>\n<h2>How People Consume Cannabis</h2>\n<p><strong>Smoking:</strong> The most traditional method, which involves burning dried flower and inhaling it through a joint, pipe, or bong. Effects arrive within minutes, so you get quick feedback on how a product feels. That speed makes it easier to control your dose puff by puff.</p>\n<p><strong>Vaping:</strong> Heating flower or oil at lower temperatures than smoking, producing vapor instead of smoke. Many consumers find it smoother and more discreet. Effects come on fast, much like smoking.</p>\n<p><strong>Dab</strong>: A method that flash-vaporizes a small amount of concentrate on a heated surface so you can inhale the vapor. Dabs hit hard and fast, which is why they’re generally recommended for experienced users. Beginners are better off starting elsewhere.</p>\n<p><strong>Eating or drinking</strong>: Cannabis can be consumed in a variety of food and drink products, commonly known as edibles. Unlike smoking or dabbing, edibles take longer to kick in — typically anywhere from 30 minutes to 2 hours — as the cannabis needs to be digested and processed by the body before you feel any effects. Because of this delay, it’s important to start with a low dose and be patient before taking more.</p>\n<p><strong>Microdosing:</strong> Taking very small amounts of THC, often just 1 to 2 milligrams at a time, to feel subtle effects without becoming intoxicated. Lots of newcomers and wellness-focused consumers use this approach to stay functional. It’s an easy way to build comfort gradually.</p>\n<h2>Effects and Sensations</h2>\n<p><strong>Euphoria:</strong> The classic uplifting “high” tied to THC, ranging from a gentle mood boost to a deep sense of joy. How strong it feels depends on the product, the dose, and your own body chemistry. It’s the sensation many people are chasing.</p>\n<p><strong>Body high:</strong> A calming, physical relaxation that spreads through the muscles, often linked with heavier strains. People describe it as a melt-into-the-couch kind of comfort. It tends to suit evenings and downtime.</p>\n<p><strong>Head high:</strong> A more cerebral, mental buzz that can spark creativity, focus, or sociability. It often feels energizing and uplifting. Higher THC doses can tip it toward feeling overwhelming, so pacing helps.</p>\n<p><strong>The munchies:</strong> The boost in appetite many people notice after consuming THC-rich products. Food can taste more enjoyable, so keeping some snacks on hand is a smart move. It’s one of the most talked-about cannabis effects for good reason.</p>\n<p><strong>Couch-lock:</strong> A term for deep physical sedation that leaves you feeling glued to your seat. It usually results from potent products or higher doses. Best saved for lazy days when you’ve got nowhere to be.</p>\n<p><strong>Cottonmouth:</strong> The dry-mouth feeling that sometimes accompanies cannabis. It’s harmless and easy to manage by keeping water nearby and staying hydrated before and during.</p>\n<p><strong>Tolerance:</strong> What builds up with regular use, gradually reducing your sensitivity so you need more for the same effect. Taking occasional breaks can reset it. Understanding tolerance helps explain why a dose that floored you once might feel mild later on.</p>\n<h2>Strain Categories</h2>\n<p><strong>Indica:</strong> Traditionally described as the relaxing, body-heavy category, often associated with sedation and downtime. Research now shows these labels aren’t truly scientific. Effects depend far more on a strain’s cannabinoid and terpene content than on the indica name alone.</p>\n<p><strong>Sativa:</strong> Commonly described as uplifting and energizing, with head-focused effects people reach for during the day. Like indica, though, this label is more tradition than hard science. The specific chemical profile tells you much more.</p>\n<p><strong>Hybrid:</strong> A strain created by crossing indica and sativa genetics. Hybrids can lean relaxing, energizing, or land somewhere in the middle depending on their makeup. After decades of breeding, most strains you’ll find today are technically hybrids.</p>\n<h2>Potency and Labeling Terms</h2>\n<p><strong>Potency:</strong> A measure of how strong a product is. Flower potency shows up as a percentage of THC by weight, while edibles and concentrates list milligrams of cannabinoids. Higher potency doesn’t always mean a better experience, since a balanced product can feel more enjoyable than a maxed-out one.</p>\n<p><strong>Entourage effect:</strong> The idea that cannabinoids and terpenes work better together than they do alone. According to this concept, the full mix of compounds in a product shapes the experience more than any single ingredient. It’s a big reason full-spectrum products have grown so popular.</p>\n<p><strong>Full-spectrum:</strong> A product that keeps a wide range of the plant’s cannabinoids and terpenes, closely resembling its natural state. This mix is believed to drive the entourage effect. Many consumers seek it out for that fuller, more rounded feel.</p>\n<p><strong>Broad-spectrum:</strong> Similar to full-spectrum, but with the THC removed. It keeps other cannabinoids and terpenes intact. That makes it a fit for people who want the plant’s variety without any intoxication.</p>\n<p><strong>Decarboxylation:</strong> The process of heating cannabis to activate its cannabinoids. Raw flower holds compounds in an inactive form, and heat from smoking, vaping, or baking converts them into the active THC and CBD your body responds to. That’s exactly why eating raw cannabis does nothing while a properly made edible does plenty.</p>\n<p><strong>Lab testing:</strong> The independent screening every legal product goes through before it reaches a shelf. Labs check potency, terpene content, and contaminants like pesticides or mold. This testing is one of the biggest reasons to buy from a licensed dispensary rather than an unregulated source.</p>\n<h2>Dispensary and Slang Terms</h2>\n<p><strong>Dispensary</strong> (or Dispo)<strong>:</strong> A licensed dispensary is a legal, regulated retail store where adults can purchase cannabis products — and it’s very different from a traditional smoke shop. Unlike smoke shops, which sell tobacco products and smoking accessories, dispensaries are strictly regulated by the state. Every product on the shelves has been lab-tested and clearly labeled for potency, ingredients, and dosage. Staff are trained to guide customers through their options.</p>\n<p><strong>Budtender:</strong> The friendly staff member who guides you through the menu, answers questions, and helps match you to the right product. Think of them like a bartender who specializes in cannabis. Telling a budtender it’s your first time is the fastest way to a good visit.</p>\n<p><strong>Dime bag:</strong> Older slang for ten dollars’ worth of cannabis, common before legalization. You’re unlikely to hear it in a modern dispensary. It lives on mostly as a piece of cannabis history.</p>\n<h2>Bringing It All Together</h2>\n<p>Learning this vocabulary is the first real step toward shopping with confidence instead of guessing. One of our regulars put it plainly on a recent visit: she’d tried an edible once years ago, misjudged the dose because she didn’t understand onset times, and swore off cannabis for months. Once she picked up a few of these terms, she came back, started low, and found a routine that fit her life. That’s the whole point of a glossary like this.</p>\n<p>Building your own cannabis vocabulary doesn’t happen in one trip. It grows every time you try something new, read a label, or compare two products side by side. Keep this list handy, bring your questions with you, and let the budtenders at Lady L fill in whatever this guide doesn’t cover.</p>",
+ "sections": [
+  {
+   "id": "your-cannabis-glossary-the-terms-every-jersey-city-shopper-s",
+   "src": "bde-section-428-104",
+   "heading": "Your Cannabis Glossary: The Terms Every Jersey City Shopper Should Know",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "the-plant-and-its-basics",
+   "src": "bde-section-428-107",
+   "heading": "The Plant and Its Basics",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The adult-use cannabis market is booming, and flower remains one of the most popular products on dispensary shelves. That means a lot of people are walking into stores and hearing words like “terpene,” “live resin,” and “entourage effect” for the very first time. If you’ve ever nodded along at the counter while secretly wondering what a budtender just said, you’re in good company."
+    },
+    {
+     "type": "p",
+     "html": "This cannabis glossary breaks down the words you’ll actually hear on the West Side and beyond, from the science-y stuff to the casual slang your cousin uses. Think of this as the cheat sheet you wish someone had handed you on day one. We’ve grouped every term by category so you can jump straight to whatever’s tripping you up."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Cannabis:</strong> The scientific name for the plant family. It covers both the THC-rich varieties you’ll find on dispensary shelves and hemp, a variety with very little THC. People have cultivated cannabis worldwide for a long time, using it for wellness, adult enjoyment, and even industrial materials like textiles."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Hemp:</strong> A variety of cannabis that contains very low amounts of THC, legally under 0.3 percent in the United States. Growers raise it mostly for CBD-rich wellness products, fiber, and seeds. Because its THC is so low, hemp generally won’t produce a high."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Weed:</strong> Casual slang for cannabis. You’ll also hear nicknames like “pot,” “herb,” and “bud” out in social settings. These words are fine among friends, though at the counter we tend to stick with “flower” or “cannabis” to keep things clear."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Strain:</strong> A specific variety of cannabis bred for particular genetics, aromas, and effects. Strains carry creative names like Blue Dream or Pineapple Express, and each one expresses its own mix of cannabinoids and terpenes."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Endocannabinoid system (ECS):</strong> A regulatory network inside your own body that helps keep things in balance. It produces its own natural cannabinoids and also responds to the ones in cannabis. The ECS influences processes like mood, appetite, and sleep, which helps explain why cannabis affects different people in such different ways."
+    },
+    {
+     "type": "h2",
+     "text": "Cannabinoids"
+    },
+    {
+     "type": "p",
+     "html": "Cannabinoids are the natural compounds inside cannabis that interact with your body’s endocannabinoid system. Researchers have identified more than a hundred so far, and each plays its own role in how a product feels. These are the ones you’ll see most on New Jersey labels."
+    },
+    {
+     "type": "p",
+     "html": "<strong>THC (tetrahydrocannabinol):</strong> The cannabinoid most people associate with the classic cannabis high. It works on receptors in your brain and body to create euphoria, relaxation, and altered perception. When a product is described as intoxicating, THC is usually the reason."
+    },
+    {
+     "type": "p",
+     "html": "<strong>THCA (tetrahydrocannabinolic acid):</strong> The raw, inactive form of THC found in fresh, unheated flower. It won’t get you high on its own. Heat converts it into active THC, which is why lab labels often list THCA separately."
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBD (cannabidiol):</strong> A<strong> non-intoxicating</strong> cannabinoid many shoppers reach for when they want the plant’s effects without feeling high. It’s often sourced from hemp and shows up across a wide range of wellness-focused products. Plenty of consumers pair it with THC to soften the overall experience."
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBG (cannabigerol):</strong> Often called the “mother cannabinoid” because other cannabinoids form from it as the plant grows. It’s non-intoxicating and showing up on more labels every year. Interest keeps rising as people look beyond just THC and CBD. CBG is most prominent in sativa and sativa-dominant strains, so when you spot it on a label, think “G for groovy” — it’s associated with uplifting, energizing effects that keep you feeling focused and ready to take on the day."
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBN (cannabinol):</strong> A cannabinoid that forms as THC ages and breaks down over time. It’s <strong>mildly intoxicating</strong> at most and frequently appears in products marketed toward <strong>rest and evening use</strong>. You’ll spot it more often in dedicated CBN blends."
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBC (cannabichromene):</strong> A <strong>non-intoxicating</strong> cannabinoid that works best alongside THC and CBD. It won’t alter your mood or perception, but research suggests it may help with body discomfort, inflammation, and protecting healthy brain cells. It also appears to slow the breakdown of natural feel-good chemicals like anandamide. Rarely a headline ingredient, but a valuable part of any full-spectrum profile."
+    },
+    {
+     "type": "p",
+     "html": "<strong>THCV (tetrahydrocannabivarin): </strong>A <strong>rarer</strong> cannabinoid chemically related to THC, but with a notably different profile. Unlike THC, it may suppress appetite, sharpen focus, and promote an energizing, clear-headed lift. Early research also points to potential benefits for blood sugar regulation and anxiety relief. It appears in select strains and specialty products, and researchers are still uncovering what makes it unique."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Delta-8 THC:</strong> A milder cousin of regular delta-9 THC, usually described as producing a gentler high. Its legal status and availability vary, so it’s less common on regulated New Jersey menus. Ask a budtender if you’re curious whether it’s in stock."
+    },
+    {
+     "type": "h2",
+     "text": "Terpenes"
+    },
+    {
+     "type": "p",
+     "html": "Terpenes are the aromatic oils that give each strain its distinctive scent and flavor. Beyond smell, they appear to shape how cannabinoids affect you, working together with them in what’s called the entourage effect. Two products with the same THC number can feel different because their terpene profiles differ. Here are the ones you’ll encounter most."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Myrcene:</strong> The <strong>most common</strong> cannabis terpene, with an <strong>earthy, musky, herbal </strong>aroma also found in <strong>mangoes and hops</strong>. It’s frequently linked to heavier, relaxing strain profiles and that settle-in feeling. Many <strong>indica-leaning</strong> products lead with it."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Limonene:</strong> A <strong>bright, citrusy</strong> terpene that smells like <strong>lemon, orange, or grapefruit peel.</strong> It’s commonly associated with upbeat, mood-lifting profiles. You’ll find it in plenty of <strong>daytime-friendly</strong> strains."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Caryophyllene:</strong> A <strong>spicy, peppery</strong> terpene also found in <strong>black pepper, cloves, and cinnamon</strong>. It stands out because it interacts with your body’s cannabinoid receptors directly, which is unusual for a terpene. Products with a warm, peppery bite often feature it."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Pinene:</strong> A <strong>crisp, piney, evergreen-forest</strong> aroma, and one of the most recognizable terpenes once you know it. It shows up in strains marketed as <strong>clear or daytime-friendly</strong>. As the name suggests, think fresh pine needles."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Linalool:</strong> A <strong>soft, floral, lavender-lik</strong>e terpene common in strains geared toward <strong>winding down</strong>. It’s the same aromatic compound that gives lavender its calming reputation. You’ll often see it highlighted in <strong>evening or rest-focused</strong> products."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Humulene:</strong> An <strong>earthy, woody, slightly hoppy</strong> terpene shared with the hops in beer. It rounds out the aroma of many strains rather than dominating them, and frequently appears alongside caryophyllene. Beyond its aromatic qualities, humulene is also widely studied for its potential role in appetite suppression and weight management."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Terpinolene:</strong> A <strong>complex</strong> terpene blending <strong>floral, herbal, and citrus</strong> notes with a hint of <strong>pine</strong>. It’s less common as a dominant terpene, so strains that lead with it tend to smell distinctive. Many <strong>uplifting</strong> profiles include it."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Ocimene:</strong> A <strong>sweet, herbal</strong> terpene with <strong>fresh, slightly tropical</strong> notes. It contributes to the brighter side of a strain’s aroma. You’ll usually find it as a supporting player in the overall profile."
+    },
+    {
+     "type": "h2",
+     "text": "Product Types You’ll See on the Shelf"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Flower:</strong> The dried buds of the cannabis plant, and still the single most popular product category in New Jersey. People smoke it in joints, pipes, and bongs, or vaporize it in a dry herb device. Flower is prized for its range of strains, aromas, and nuanced effects."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Nug:</strong> A casual, affectionate term for a single bud of quality flower. You’ll hear folks admire “frosty nugs,” a nod to the sparkly trichomes coating a well-grown bud. It’s slang, but it’s slang you’ll hear constantly."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Trim:</strong> The smaller leaves and leftover plant material trimmed away from the buds during processing. Trim carries fewer cannabinoids than the bud itself, so it usually gets turned into other products rather than sold as flower. Nothing goes to waste."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Pre-roll:</strong> A ready-to-smoke joint already filled with ground flower. Pre-rolls save you the effort of rolling and make a great low-commitment option for beginners. You’ll find them sold individually or in multi-packs."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Concentrate:</strong> A potent extract made by isolating the resinous compounds from cannabis flower. Concentrates come in many forms and typically carry much higher potency than flower. Because of that strength, they suit experienced consumers best."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Edibles</strong>: Cannabis-infused foods and drinks like gummies, chocolates, and teas. Since your body has to digest them, they take longer to kick in but tend to last for hours. Their effects also feel more consistent session to session, which many people appreciate."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Drinks</strong>: Cannabis-infused beverages like sodas, teas, and coffees. Similar to edibles, they take longer to kick in as your body needs to digest them first. However, many people find them a more discreet and enjoyable way to consume cannabis."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Tincture:</strong> A liquid cannabis extract, usually sold in a small bottle with a dropper. You place a measured dose under your tongue, where it absorbs faster than an edible but slower than smoking. Tinctures make precise dosing easy, which is why beginners often like them."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Topical:</strong> A cream, balm, lotion, or salve infused with cannabinoids and applied directly to the skin. Topicals aim for localized relief and generally don’t produce any intoxicating high. That makes them a comfortable entry point for people curious about cannabis without the head change."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Vape cartridge:</strong> A prefilled container of cannabis oil that screws onto a standard vape battery. Cartridges are convenient, relatively discreet, and among the most popular formats on the market today. They deliver effects quickly, similar to smoking."
+    },
+    {
+     "type": "h2",
+     "text": "Concentrate Types, Explained"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Kief:</strong> The fine, powdery collection of trichomes that falls to the bottom of a grinder. It’s essentially concentrated resin in its simplest form. Many people sprinkle it over flower for an extra kick."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Hash:</strong> A traditional concentrate made by compressing trichomes into a solid form. Cultures around the world have produced hash for centuries. It packs more potency than flower while staying simpler than modern extracts."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Rosin:</strong> A solventless concentrate pressed out of flower or hash using only heat and pressure. Because it skips chemical solvents entirely, rosin appeals to consumers who want a cleaner extraction method. It’s grown into a favorite among concentrate fans."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Live resin:</strong> A concentrate made from cannabis that’s frozen fresh right after harvest instead of dried first. Freezing preserves more of the plant’s original terpenes, so live resin tends to taste and smell especially vivid. That flavor is its main draw."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Distillate:</strong> A highly refined concentrate stripped down to nearly pure cannabinoid content, often odorless and tasteless. Its consistency makes it ideal for vape cartridges and edibles. Because it’s so refined, it delivers potency without much of the plant’s original flavor."
+    },
+    {
+     "type": "h2",
+     "text": "How People Consume Cannabis"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Smoking:</strong> The most traditional method, which involves burning dried flower and inhaling it through a joint, pipe, or bong. Effects arrive within minutes, so you get quick feedback on how a product feels. That speed makes it easier to control your dose puff by puff."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Vaping:</strong> Heating flower or oil at lower temperatures than smoking, producing vapor instead of smoke. Many consumers find it smoother and more discreet. Effects come on fast, much like smoking."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Dab</strong>: A method that flash-vaporizes a small amount of concentrate on a heated surface so you can inhale the vapor. Dabs hit hard and fast, which is why they’re generally recommended for experienced users. Beginners are better off starting elsewhere."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Eating or drinking</strong>: Cannabis can be consumed in a variety of food and drink products, commonly known as edibles. Unlike smoking or dabbing, edibles take longer to kick in — typically anywhere from 30 minutes to 2 hours — as the cannabis needs to be digested and processed by the body before you feel any effects. Because of this delay, it’s important to start with a low dose and be patient before taking more."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Microdosing:</strong> Taking very small amounts of THC, often just 1 to 2 milligrams at a time, to feel subtle effects without becoming intoxicated. Lots of newcomers and wellness-focused consumers use this approach to stay functional. It’s an easy way to build comfort gradually."
+    },
+    {
+     "type": "h2",
+     "text": "Effects and Sensations"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Euphoria:</strong> The classic uplifting “high” tied to THC, ranging from a gentle mood boost to a deep sense of joy. How strong it feels depends on the product, the dose, and your own body chemistry. It’s the sensation many people are chasing."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Body high:</strong> A calming, physical relaxation that spreads through the muscles, often linked with heavier strains. People describe it as a melt-into-the-couch kind of comfort. It tends to suit evenings and downtime."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Head high:</strong> A more cerebral, mental buzz that can spark creativity, focus, or sociability. It often feels energizing and uplifting. Higher THC doses can tip it toward feeling overwhelming, so pacing helps."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The munchies:</strong> The boost in appetite many people notice after consuming THC-rich products. Food can taste more enjoyable, so keeping some snacks on hand is a smart move. It’s one of the most talked-about cannabis effects for good reason."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Couch-lock:</strong> A term for deep physical sedation that leaves you feeling glued to your seat. It usually results from potent products or higher doses. Best saved for lazy days when you’ve got nowhere to be."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Cottonmouth:</strong> The dry-mouth feeling that sometimes accompanies cannabis. It’s harmless and easy to manage by keeping water nearby and staying hydrated before and during."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Tolerance:</strong> What builds up with regular use, gradually reducing your sensitivity so you need more for the same effect. Taking occasional breaks can reset it. Understanding tolerance helps explain why a dose that floored you once might feel mild later on."
+    },
+    {
+     "type": "h2",
+     "text": "Strain Categories"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Indica:</strong> Traditionally described as the relaxing, body-heavy category, often associated with sedation and downtime. Research now shows these labels aren’t truly scientific. Effects depend far more on a strain’s cannabinoid and terpene content than on the indica name alone."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Sativa:</strong> Commonly described as uplifting and energizing, with head-focused effects people reach for during the day. Like indica, though, this label is more tradition than hard science. The specific chemical profile tells you much more."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Hybrid:</strong> A strain created by crossing indica and sativa genetics. Hybrids can lean relaxing, energizing, or land somewhere in the middle depending on their makeup. After decades of breeding, most strains you’ll find today are technically hybrids."
+    },
+    {
+     "type": "h2",
+     "text": "Potency and Labeling Terms"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Potency:</strong> A measure of how strong a product is. Flower potency shows up as a percentage of THC by weight, while edibles and concentrates list milligrams of cannabinoids. Higher potency doesn’t always mean a better experience, since a balanced product can feel more enjoyable than a maxed-out one."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Entourage effect:</strong> The idea that cannabinoids and terpenes work better together than they do alone. According to this concept, the full mix of compounds in a product shapes the experience more than any single ingredient. It’s a big reason full-spectrum products have grown so popular."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Full-spectrum:</strong> A product that keeps a wide range of the plant’s cannabinoids and terpenes, closely resembling its natural state. This mix is believed to drive the entourage effect. Many consumers seek it out for that fuller, more rounded feel."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Broad-spectrum:</strong> Similar to full-spectrum, but with the THC removed. It keeps other cannabinoids and terpenes intact. That makes it a fit for people who want the plant’s variety without any intoxication."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Decarboxylation:</strong> The process of heating cannabis to activate its cannabinoids. Raw flower holds compounds in an inactive form, and heat from smoking, vaping, or baking converts them into the active THC and CBD your body responds to. That’s exactly why eating raw cannabis does nothing while a properly made edible does plenty."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Lab testing:</strong> The independent screening every legal product goes through before it reaches a shelf. Labs check potency, terpene content, and contaminants like pesticides or mold. This testing is one of the biggest reasons to buy from a licensed dispensary rather than an unregulated source."
+    },
+    {
+     "type": "h2",
+     "text": "Dispensary and Slang Terms"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Dispensary</strong> (or Dispo)<strong>:</strong> A licensed dispensary is a legal, regulated retail store where adults can purchase cannabis products — and it’s very different from a traditional smoke shop. Unlike smoke shops, which sell tobacco products and smoking accessories, dispensaries are strictly regulated by the state. Every product on the shelves has been lab-tested and clearly labeled for potency, ingredients, and dosage. Staff are trained to guide customers through their options."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Budtender:</strong> The friendly staff member who guides you through the menu, answers questions, and helps match you to the right product. Think of them like a bartender who specializes in cannabis. Telling a budtender it’s your first time is the fastest way to a good visit."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Dime bag:</strong> Older slang for ten dollars’ worth of cannabis, common before legalization. You’re unlikely to hear it in a modern dispensary. It lives on mostly as a piece of cannabis history."
+    },
+    {
+     "type": "h2",
+     "text": "Bringing It All Together"
+    },
+    {
+     "type": "p",
+     "html": "Learning this vocabulary is the first real step toward shopping with confidence instead of guessing. One of our regulars put it plainly on a recent visit: she’d tried an edible once years ago, misjudged the dose because she didn’t understand onset times, and swore off cannabis for months. Once she picked up a few of these terms, she came back, started low, and found a routine that fit her life. That’s the whole point of a glossary like this."
+    },
+    {
+     "type": "p",
+     "html": "Building your own cannabis vocabulary doesn’t happen in one trip. It grows every time you try something new, read a label, or compare two products side by side. Keep this list handy, bring your questions with you, and let the budtenders at Lady L fill in whatever this guide doesn’t cover."
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "slug": "give-back-all-year-lady-l-school-supply-donation-drive",
+ "path": "/events/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "url": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "title": "Give Back All Year: Lady L School Supply Donation Drive | LADY L CANNABIS",
+ "description": "The school year may begin in September, but the need for classroom essentials continues all year long!",
+ "canonical": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "ogImage": "/assets/photos/ll/ladyl_school_supply_events_cover-1.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Events_Cover-1.webp",
+ "h1": "Give Back All Year: Lady L School Supply Donation Drive",
+ "postId": "1179",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/",
+        "name": "Give Back All Year: Lady L School Supply Donation Drive"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Lady L at Bowl Burger Bistro’s First Birthday",
+   "href": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up",
+   "href": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/"
+  }
+ ],
+ "dateText": "Year-Round",
+ "timeText": "",
+ "startISO": null,
+ "image": null,
+ "sections": [
+  {
+   "id": "give-back-all-year-lady-l-school-supply-donation-drive",
+   "src": "bde-section-670-100",
+   "heading": "Give Back All Year: Lady L School Supply Donation Drive",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Year-Round",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "In-store drop off"
+    },
+    {
+     "type": "h2",
+     "text": "🎒 Give Back All Year: Lady L’s School Supply Donation Drive",
+     "wasH1": true
+    },
+    {
+     "type": "p",
+     "html": "<strong>A YEAR-ROUND COMMUNITY INITIATIVE</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>When:</strong> Ongoing — 365 Days a Year"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Where:</strong> Lady L Jersey City | West Side Avenue, Jersey City, NJ"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Admission:</strong> Free — No purchase necessary"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Who Can Participate:</strong> All community members"
+    },
+    {
+     "type": "h2",
+     "text": "School Supplies Run Out. Our Support Doesn’t. 💜"
+    },
+    {
+     "type": "p",
+     "html": "The school year may begin in September, but the need for classroom essentials continues all year long!"
+    },
+    {
+     "type": "p",
+     "html": "Lady L is keeping the spirit of back-to-school giving alive with our <strong>ongoing, year-round school supply donation drive</strong>, supporting students, teachers, and families in the Jersey City community."
+    },
+    {
+     "type": "p",
+     "html": "Whether it’s October, January, or July, there’s always an opportunity to make a difference."
+    },
+    {
+     "type": "h3",
+     "text": "🎒 What Can You Donate?"
+    },
+    {
+     "type": "p",
+     "html": "We’re collecting new, unused school supplies, including:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Backpacks and lunch bags",
+      "Notebooks and writing paper",
+      "Pens, pencils, and erasers",
+      "Crayons, markers, and colored pencils",
+      "Folders, binders, and pencil cases",
+      "Glue sticks, rulers, and other classroom essentials"
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "💜 How to Participate"
+    },
+    {
+     "type": "p",
+     "html": "<strong>1. Gather your supplies.</strong> Choose new, unused classroom essentials you’d like to contribute."
+    },
+    {
+     "type": "p",
+     "html": "<strong>2. Visit Lady L.</strong> Bring your donations to our Jersey City location during regular business hours."
+    },
+    {
+     "type": "p",
+     "html": "<strong>3. Spread the word.</strong> Encourage your friends, neighbors, and family to participate."
+    },
+    {
+     "type": "h3",
+     "text": "Why We’re Doing This"
+    },
+    {
+     "type": "p",
+     "html": "We believe supporting education is an investment in our neighborhood’s future."
+    },
+    {
+     "type": "p",
+     "html": "As a locally owned Jersey City business, Lady L is committed to creating meaningful opportunities for neighbors to come together and support one another."
+    },
+    {
+     "type": "p",
+     "html": "<strong>No special occasion. No deadline. Just neighbors helping neighbors.</strong>"
+    },
+    {
+     "type": "h3",
+     "text": "📍 Drop-Off Information"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Location:</strong> Lady L Jersey City, West Side Avenue, Jersey City, NJ"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Dates:</strong> Ongoing throughout the year"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Cost:</strong> Free to participate. No purchase necessary."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Questions?</strong> Visit us in-store to learn more about the donation initiative."
+    },
+    {
+     "type": "h3",
+     "text": "Small Acts. Big Community Impact."
+    },
+    {
+     "type": "p",
+     "html": "One notebook. One backpack. One thoughtful gesture at a time."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Let’s keep Jersey City giving, all year long. 💜</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<em>Lady L Jersey City — Proudly Supporting Our Community.</em>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

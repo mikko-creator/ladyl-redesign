@@ -1,0 +1,95 @@
+{
+ "slug": "edie-parker-pop-up",
+ "path": "/events/edie-parker-pop-up/",
+ "url": "https://ladyljerseycity.com/events/edie-parker-pop-up/",
+ "title": "Edie Parker Pop-Up | LADY L CANNABIS",
+ "description": "Edie Parker is joining us with customer favorites, product insights, and special on-site promos.",
+ "canonical": "https://ladyljerseycity.com/events/edie-parker-pop-up/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Edie Parker Pop-Up",
+ "postId": "687",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/edie-parker-pop-up/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/edie-parker-pop-up/",
+        "name": "Edie Parker Pop-Up"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "High Point Buzz Bus Returns",
+   "href": "https://ladyljerseycity.com/events/high-point-buzz-bus-returns/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "3 Acres Holiday Night Market",
+   "href": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/"
+  }
+ ],
+ "dateText": "Friday, December 12, 2025",
+ "timeText": "5:00 PM - 7:00 PM",
+ "startISO": "2025-12-12",
+ "image": null,
+ "sections": [
+  {
+   "id": "edie-parker-pop-up",
+   "src": "bde-section-670-100",
+   "heading": "Edie Parker Pop-Up",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Friday, December 12, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "5:00 PM - 7:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Edie Parker is joining us with customer favorites, product insights, and special on-site promos."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

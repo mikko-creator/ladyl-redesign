@@ -1,0 +1,23 @@
+{
+  "tool": "Higgsfield MCP generate_image / generate_image_batch + tools/ai-label.mjs",
+  "slot": "g-hf-mirror",
+  "file": "assets/generated/g-hf-mirror.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (Higgsfield z_image). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "higgsfield z_image",
+  "jobId": "2bb6b1b7-860d-4966-9763-2feb3b3c2f2e",
+  "aspectRatio": "4:3",
+  "prompt": "Interior photograph of a large round Art Deco brass sunburst mirror hanging on a smooth lavender plaster wall, above a long deep violet velvet bench with a coral cushion, a tall cream vase of pale pampas grass beside the bench, the mirror reflecting only a soft blurred lavender wall, warm soft lamp light, clean modern bohemian styling, palette of lavender, aubergine violet, gold, coral and warm cream. No people, no text, no letters, no logos, no signage.",
+  "raw": "tmp/img/hf/dl/g-hf-mirror.png",
+  "rawSha256": "bca2ff2a1b3153dd30ff01c8fe3368a0f3be67998f3ed0bc366d8c1e1806e259",
+  "width": 2048,
+  "height": 1536,
+  "sha256": "6c4e3cbe43c80d0813d41607f2a37fdf3eef22595c07a7d8c3d9105753e46040",
+  "postEdit": "PNG -> JPEG q92 (the source has no alpha), XMP label embedded",
+  "generatedAt": "2026-11-04",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: no people, no text or marks, no candy, no alcohol",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

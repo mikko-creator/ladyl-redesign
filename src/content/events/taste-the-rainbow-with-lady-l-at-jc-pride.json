@@ -1,0 +1,125 @@
+{
+ "slug": "taste-the-rainbow-with-lady-l-at-jc-pride-🌈✨",
+ "path": "/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/",
+ "url": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/",
+ "fileSlug": "taste-the-rainbow-with-lady-l-at-jc-pride",
+ "pathDecoded": "/events/taste-the-rainbow-with-lady-l-at-jc-pride-🌈✨/",
+ "title": "Taste the Rainbow with Lady L at JC Pride! 🌈✨ | LADY L CANNABIS",
+ "description": "Hey Lady L Fam,",
+ "canonical": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/",
+ "ogImage": "/assets/photos/ll/1785163815490-28268ec4-008c-44ab-8623-038be35c3bd2_1-300x276.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/07/1785163815490-28268ec4-008c-44ab-8623-038be35c3bd2_1-300x276.webp",
+ "h1": "Taste the Rainbow with Lady L at JC Pride! 🌈✨",
+ "postId": "1111",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/",
+        "name": "Taste the Rainbow with Lady L at JC Pride! 🌈✨"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work.",
+   "href": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Lady L at Bowl Burger Bistro’s First Birthday",
+   "href": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/"
+  }
+ ],
+ "dateText": "Sat, 8/22, 2026",
+ "timeText": "12:30-9PM",
+ "startISO": "2026-08-22",
+ "image": null,
+ "sections": [
+  {
+   "id": "taste-the-rainbow-with-lady-l-at-jc-pride",
+   "src": "bde-section-670-100",
+   "heading": "Taste the Rainbow with Lady L at JC Pride! 🌈✨",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Sat, 8/22, 2026",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "12:30-9PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Jersey City Pride Festival [Downtown JC]"
+    },
+    {
+     "type": "h3",
+     "text": "We’re Back & Ready to Celebrate! 🌈"
+    },
+    {
+     "type": "p",
+     "html": "Hey Lady L Fam,"
+    },
+    {
+     "type": "p",
+     "html": "Love is in the air, and we are thrilled to announce our <strong>2nd year</strong> attending the <strong>Jersey City Pride Festival</strong>!"
+    },
+    {
+     "type": "p",
+     "html": "Come celebrate <strong>LOVE</strong> with us, catch up with your favorite Lady L staff, and meet some amazing special guests!"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>📅 Date:</strong> Saturday, August 22, 2026",
+      "<strong>⏰ Time:</strong> 12:30 PM – 9:00 PM",
+      "<strong>📍 Location:</strong> Jersey Ave (Right near the food vendors—just follow the delicious smells!)"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Whether you’re stopping by to say HIGH, snapping a pic with the crew, or checking out what’s new, we can’t wait to taste the rainbow with you!"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

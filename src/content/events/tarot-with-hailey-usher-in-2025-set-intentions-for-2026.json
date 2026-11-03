@@ -1,0 +1,95 @@
+{
+ "slug": "tarot-with-hailey-usher-in-2025-set-intentions-for-2026",
+ "path": "/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/",
+ "url": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/",
+ "title": "Tarot with Hailey — Usher In 2025 & Set Intentions for 2026 | LADY L CANNABIS",
+ "description": "Let Hailey and her magical tarot deck guide you into the new year with clarity and grounding. Perfect for reflecting on 2025 and stepping into 2026 as your",
+ "canonical": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Tarot with Hailey — Usher In 2025 & Set Intentions for 2026",
+ "postId": "678",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/",
+        "name": "Tarot with Hailey — Usher In 2025 &#038; Set Intentions for 2026"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Double Point Tuesday",
+   "href": "https://ladyljerseycity.com/events/double-point-tuesday/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "10-Min Complimentary Reiki with Jenn",
+   "href": "https://ladyljerseycity.com/events/10-min-complimentary-reiki-with-jenn/"
+  }
+ ],
+ "dateText": "Wednesday, December 31, 2025",
+ "timeText": "5:00 PM - 7:00 PM",
+ "startISO": "2025-12-31",
+ "image": null,
+ "sections": [
+  {
+   "id": "tarot-with-hailey-usher-in-2025-set-intentions-for-2026",
+   "src": "bde-section-670-100",
+   "heading": "Tarot with Hailey — Usher In 2025 & Set Intentions for 2026",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Wednesday, December 31, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "5:00 PM - 7:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Let Hailey and her magical tarot deck guide you into the new year with clarity and grounding. Perfect for reflecting on 2025 and stepping into 2026 as your best self."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

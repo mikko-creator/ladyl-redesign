@@ -1,0 +1,143 @@
+{
+ "slug": "west-side-morning-glory-vol-1-coffee-cannabis-community-before-work",
+ "path": "/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/",
+ "url": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/",
+ "title": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work. | LADY L CANNABIS",
+ "description": "Join Lady L Cannabis and Cosy Cup Library Cafe for JC's first daybreaker on July 16. Coffee, cannabis & community with DJ Chris Back East all before work.",
+ "canonical": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/",
+ "ogImage": "/assets/photos/ll/ladyl_summerseries1_desktop_2000x1000_v1_opt2-1024x512.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_SummerSeries1_Desktop_2000x1000_V1_Opt2-1024x512.webp",
+ "h1": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work.",
+ "postId": "1105",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/",
+        "name": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Jersey City LGBTQ+ Pride Festival",
+   "href": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Taste the Rainbow with Lady L at JC Pride! 🌈✨",
+   "href": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/"
+  }
+ ],
+ "dateText": "Thursday, July 16, 2026",
+ "timeText": "8:00–10:00AM",
+ "startISO": "2026-07-16",
+ "image": null,
+ "sections": [
+  {
+   "id": "west-side-morning-glory-vol-1-coffee-cannabis-community-befo",
+   "src": "bde-section-670-100",
+   "heading": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work.",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Thursday, July 16, 2026",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "8:00–10:00AM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Cosy Cup Library Cafe Backyard, West Side Ave, Jersey City"
+    },
+    {
+     "type": "p",
+     "html": "You’ve never had a Thursday morning like this one."
+    },
+    {
+     "type": "p",
+     "html": "We’ve got a first for Jersey City, and we think you’re exactly the kind of person who shows up for it."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Lady L Cannabis</strong> is teaming up with our friends at <strong>Cosy Cup Library Cafe</strong> to throw <strong>JC’s very first daybreaker</strong> – because who says mornings have to be boring?"
+    },
+    {
+     "type": "p",
+     "html": "<strong>WEST SIDE MORNING GLORY VOL. 1 | </strong><strong>Coffee. Cannabis. Community. Before work.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Picture it: the sun’s barely up, the iced drip coffee is flowing, the ganja is strong, and <strong>DJ Chris Back East</strong> is spinning beats that’ll make you forget you have a 9AM standup. This is a backyard hang for people who want to start their day a little differently, with good company, good music, and yes, a little something to take the edge off before the grind begins."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Dance before deadlines. We’ll see you there.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>📅 When:</strong> Thursday, July 16<br><strong>⏰ Time:</strong> 8:00–10:00AM<br><strong>📍 Where:</strong> Cosy Cup Library Cafe Backyard, West Side Ave, Jersey City<br><strong>🎧 Music:</strong> DJ Chris Back East<br><strong>☕ Vibe:</strong> Iced drip coffee, cannabis, community – all before your day even starts"
+    },
+    {
+     "type": "p",
+     "html": "This is a limited series, so if this one’s a hit, there’s more where it came from. But Vol. 1 is where it starts, and we’d love for you to be part of it."
+    },
+    {
+     "type": "p",
+     "html": "<strong>BYOW [Bring Your Own Weed]</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Stock up before the event – unfortunately we cannot distribute cannabis products at the cafe, but our shop is ready to meet all of your cannabis hopes &amp; dreams<strong> ahead</strong> of the rager."
+    },
+    {
+     "type": "p",
+     "html": "Come as you are. Leave ready to take on the day (eventually)."
+    },
+    {
+     "type": "p",
+     "html": "See you at sunrise,<br><strong>The Lady L Team</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

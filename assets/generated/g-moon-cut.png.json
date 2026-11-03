@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-moon-cut",
+  "file": "assets/generated/g-moon-cut.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A polished brass crescent moon wall ornament, a slim elegant crescent with a fine ridged Art Deco border, with one tiny brass star dangling below it on a short fine brass chain, the whole ornament fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey studio background, soft even light, no shadow, nothing else in the frame, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 3917714221,
+  "requestId": "01a1a2bd-03e1-7e30-b937-0ac6758b9215",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1a2bd-35b7-7890-9faa-a98ba1ca068e"
+  },
+  "width": 2048,
+  "height": 2048,
+  "sha256": "0e94fe95a881e87e5cb8d7c484ac9095da370b91da3e951fef48af56e9a3a83b",
+  "raw": "tmp/img/raw/g-moon-cut.1793731667639.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:53.958Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Ridged brass crescent with two tiny stars on a chain below it; alpha clean; reads as boho celestial decor (stars hang below, not inside the crescent)",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

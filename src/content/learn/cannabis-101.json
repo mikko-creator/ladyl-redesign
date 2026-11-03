@@ -1,0 +1,187 @@
+{
+  "slug": "cannabis-101",
+  "path": "/education/cannabis-101/",
+  "title": "Cannabis 101: The Plant, the Products and Your First Visit",
+  "seoTitle": "Cannabis 101: The Plant, the Products and Your First Visit | LADY L CANNABIS",
+  "description": "A plain-language start: the cannabis plant, THC, CBD and terpenes, the main product formats, how timing differs, and tips for a first visit to Lady L.",
+  "date": "2026-11-04",
+  "group": "basics",
+  "order": 1,
+  "readMinutes": 6,
+  "kicker": "Start here",
+  "lede": "New to cannabis, coming back after a long break, or just curious about what's on the shelves? Welcome in. This is the short, zero-judgment tour: what the plant is, what the words on a label mean, how the main formats differ, and how to make your first visit easy.",
+  "sections": [
+    {
+      "heading": "What cannabis is",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Cannabis is a flowering plant. Most of what you'll see in a licensed shop starts with the dried flowers of the female plant, either as the flower itself or as something made from it: oils, extracts, edibles and more."
+        },
+        {
+          "type": "p",
+          "html": "Before anything else, here is the state on where to buy:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "legal-buy-at-licensed",
+            "legal-unlicensed-illegal"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The rest of the rules, from purchase limits to driving and travel, live in our guide to <a href=\"/education/recreational-cannabis/\">recreational cannabis in New Jersey</a>."
+        }
+      ]
+    },
+    {
+      "heading": "The plant and its parts",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "You don't need a botany degree, but a few words help when you're reading a menu or chatting with a budtender."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Flower, or buds.</strong> The dense, sticky flowers of the female plant. This is what gets dried, cured and sold as flower, and what goes into pre-rolls.",
+            "<strong>Trichomes.</strong> Tiny, crystal-like resin glands that coat the buds. They make most of the plant's cannabinoids and terpenes. Lady L's blog has a whole post on <a href=\"/blog/what-are-cannabis-trichomes/\">cannabis trichomes</a>.",
+            "<strong>Sugar leaves.</strong> The small leaves tucked into the buds, often frosted with trichomes. They are usually trimmed off before the flower is packaged.",
+            "<strong>Fan leaves.</strong> The big, iconic leaves you know from the cannabis symbol. They feed the plant as it grows but carry very little resin.",
+            "<strong>Stems and seeds.</strong> Structure and the next generation. Neither one is what you're shopping for."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Cannabinoids: THC, CBD and friends",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Cannabinoids are natural compounds made by the plant. Labels usually put two of them front and center."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>THC (tetrahydrocannabinol).</strong> The main intoxicating compound in cannabis, the one behind feeling high. Lady L's blog digs deeper in <a href=\"/blog/what-is-thc/\">What Is THC?</a>",
+            "<strong>CBD (cannabidiol).</strong> A close cousin of THC that does not produce a high the way THC does. Some products contain both, so check the label for each number.",
+            "<strong>Minor cannabinoids.</strong> CBN, CBG and THCV show up in smaller amounts, and some labels list them too. Research on them is still growing, so read the label and ask questions."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "How strength is shown depends on the format: flower and vapes usually list THC as a percentage, while edibles and tinctures list it in milligrams."
+        }
+      ]
+    },
+    {
+      "heading": "Terpenes: the nose knows",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Terpenes are the aromatic compounds behind the smell and flavor of cannabis. They aren't unique to it: the same compounds turn up in citrus peel, pine needles, lavender and black pepper. A few names you may see:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Myrcene:</strong> earthy and musky, also found in hops and mango.",
+            "<strong>Limonene:</strong> bright citrus, like orange or lemon peel.",
+            "<strong>Pinene:</strong> fresh pine and rosemary.",
+            "<strong>Linalool:</strong> floral, the scent you know from lavender.",
+            "<strong>Caryophyllene:</strong> peppery and spicy, also in black pepper and cloves."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Aroma is personal, so let your nose join the conversation."
+        }
+      ]
+    },
+    {
+      "heading": "The main formats, and why timing differs",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "How you consume cannabis changes how soon you feel it and how long it lasts. These are general patterns only: every body is different, and so is every product."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong><a href=\"/products/flower/\">Flower</a>, <a href=\"/products/pre-rolls/\">pre-rolls</a> and <a href=\"/products/infused-pre-rolls/\">infused pre-rolls</a>.</strong> Smoked, or heated in a dry-herb vaporizer. Inhaled cannabis is usually felt within minutes and tends to fade over a few hours. Infused pre-rolls add a concentrate to the flower, so read their labels closely.",
+            "<strong><a href=\"/products/vapes/\">Vapes</a>.</strong> Cartridges and disposable pens heat cannabis oil into a vapor. The timing is close to smoking: quick to arrive, quicker to fade than an edible.",
+            "<strong><a href=\"/products/concentrates/\">Concentrates</a>.</strong> Rosin, resin, hash and other extracts gather the plant's cannabinoids into a small amount. They are usually vaporized, arrive quickly and call for a very small serving.",
+            "<strong><a href=\"/products/edibles/\">Edibles</a>.</strong> Gummies, chocolates and other infused treats. Because they are digested, they take longer to kick in, often 30 minutes to two hours, and the experience usually lasts longer than inhaling. Lady L's guide on <a href=\"/blog/how-to-dose-edibles/\">how to dose edibles</a> walks you through it.",
+            "<strong><a href=\"/products/tinctures/\">Tinctures</a>.</strong> Liquid cannabis, measured with a dropper. Held under the tongue they may arrive sooner than an edible; swallowed or stirred into a drink, they behave much more like one.",
+            "<strong><a href=\"/products/accessories/\">Accessories</a>.</strong> The gear that goes with the formats above, from grinders to pipes."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The state's own list of legal product categories:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "legal-product-categories"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Tips for your first visit",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Bring your ID.</strong> From <a href=\"/\">Lady L's FAQ</a>: “Please bring a valid, government-issued ID every time you visit.”",
+            "<strong>Order ahead if you like.</strong> <a href=\"/faq/\">Lady L's FAQ</a> says it plainly: “Yes, we absolutely recommend you browse our menu and place an order before coming by.” Choose <a href=\"/in-store-pickup/\">in-store pickup</a> or <a href=\"/service/\">delivery</a>.",
+            "<strong>Ask everything.</strong> Can you ask budtenders for recommendations? The answer in <a href=\"/faq/\">Lady L's FAQ</a>: “Yes, please do.”",
+            "<strong>Start low, go slow.</strong> Begin with a small amount and give it time, especially with edibles. You can always have a little more later, but you can't take it back.",
+            "<strong>Plan the ride home.</strong> Lady L's own reminder, printed on every page: “Avoid driving or heavy machinery use.”",
+            "<strong>Know where you'll enjoy it.</strong> As <a href=\"/\">Lady L's FAQ</a> notes, “Lady L does not provide on-site consumption space.” The <a href=\"/education/recreational-cannabis/\">New Jersey guide</a> covers where consumption is and is not allowed.",
+            "<strong>Parking.</strong> From <a href=\"/faq/\">Lady L's FAQ</a>: “there are metered spots right in front of the shop on West Side Ave.”",
+            "<strong>Paying and saving.</strong> Questions about payment, discounts or points? <a href=\"/faq/\">Lady L's FAQ</a> and the <a href=\"/rewards/\">rewards page</a> have the details."
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "<strong>Zero judgment, always.</strong> In Lady L's own words: “First-timers can expect a calm, clear, no-pressure conversation.”"
+        }
+      ]
+    },
+    {
+      "heading": "Keep learning",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<a href=\"/cannabis-guide/\">Lady L's Cannabis Guide</a>: flower fundamentals, the classic categories and alternative cannabinoids.",
+            "<a href=\"/blog/cannabis-for-beginners-a-warm-no-pressure-guide-to-your-first-time/\">Lady L's beginner's guide</a> to a warm, no-pressure first time.",
+            "<a href=\"/blog/cannabis-glossary/\">Your Cannabis Glossary</a>, for the words you'll hear at the counter.",
+            "<a href=\"/education/recreational-cannabis/\">Recreational cannabis in New Jersey</a>: the rules, with official sources.",
+            "<a href=\"/education/medical-cannabis/\">Medical cannabis in New Jersey</a>: how the state program works."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "General Information: Legal Cannabis in New Jersey (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/"
+    },
+    {
+      "label": "Recreational Cannabis in New Jersey (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/"
+    },
+    {
+      "label": "Lady L Cannabis: Frequently Asked Questions",
+      "url": "/faq/"
+    },
+    {
+      "label": "Lady L Cannabis: home page FAQ",
+      "url": "/"
+    }
+  ]
+}

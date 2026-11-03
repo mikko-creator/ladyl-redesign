@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-bud-cut",
+  "file": "assets/generated/g-bud-cut.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Macro photograph of a single dense cured cannabis flower bud, frosty with resin trichomes, green calyxes with violet hints and twisted amber pistils, the whole bud fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, sharp focus throughout, soft even light, no shadow, nothing else in the frame, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 2932507653,
+  "requestId": "01a1a2bd-155e-79f2-b6fe-44e937f0eda6",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1a2bd-459d-7820-b984-e706a9f08db7"
+  },
+  "width": 2048,
+  "height": 2048,
+  "sha256": "38d7a44ba967e97bbf73270b96ffa3060712d443a5714e45041f23a3c64339d0",
+  "raw": "tmp/img/raw/g-bud-cut.1793731672088.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:58.304Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Single cured bud; alpha clean, no border alpha",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

@@ -1,0 +1,240 @@
+{
+ "slug": "events",
+ "path": "/events/",
+ "url": "https://ladyljerseycity.com/events/",
+ "title": "Events | LADY L CANNABIS",
+ "description": "Events Archive | LADY L CANNABIS",
+ "canonical": "https://ladyljerseycity.com/events/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Lady L Cannabis Events",
+ "postId": "",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "CollectionPage",
+     "@id": "https://ladyljerseycity.com/events/#webpage",
+     "url": "https://ladyljerseycity.com/events/",
+     "name": "Events | LADY L CANNABIS",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/events/#breadcrumb"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "lady-l-cannabis-events",
+   "src": "bde-section-762-100",
+   "heading": "Lady L Cannabis Events",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-762-105",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "loop",
+     "of": "events",
+     "items": [
+      {
+       "href": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/",
+       "title": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up",
+       "dateText": "Friday, October 30, 2026",
+       "timeText": "6-8PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/",
+       "title": "Give Back All Year: Lady L School Supply Donation Drive",
+       "dateText": "Year-Round"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/",
+       "title": "Lady L at Bowl Burger Bistro’s First Birthday",
+       "dateText": "Saturday, August 15, 2026",
+       "timeText": "2-7PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/",
+       "title": "Taste the Rainbow with Lady L at JC Pride! 🌈✨",
+       "dateText": "Sat, 8/22, 2026",
+       "timeText": "12:30-9PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/",
+       "title": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work.",
+       "dateText": "Thursday, July 16, 2026",
+       "timeText": "8:00–10:00AM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/",
+       "title": "Jersey City LGBTQ+ Pride Festival",
+       "dateText": "Saturday, August 23, 2025",
+       "timeText": "1:00 PM - 9:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/grand-opening/",
+       "title": "Grand Opening",
+       "dateText": "Saturday, September 13, 2025",
+       "timeText": "11:00 AM - 9:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/terpene-pop-up-bar/",
+       "title": "Terpene Pop Up Bar",
+       "dateText": "Saturday, October 11, 2025",
+       "timeText": "3:00 PM - 5:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/",
+       "title": "Wonderbrett & Bliss co. Takeover",
+       "dateText": "Saturday, October 18, 2025",
+       "timeText": "3:00 PM - 5:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/terrascend-pop-up-and-special-promotion/",
+       "title": "Kind Tree & Legend Pop-Up",
+       "dateText": "Saturday, October 25, 2025",
+       "timeText": "3:00 PM - 5:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/",
+       "title": "🎃 Costume Contest – All Day Halloween",
+       "dateText": "Friday, October 31, 2025",
+       "timeText": "10:00 AM - 10:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/northlake-supply-pop-up/",
+       "title": "North Lake Supply Pop-Up",
+       "dateText": "Friday, October 10, 2025",
+       "timeText": "5:00 PM - 7:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/self-care-sunday/",
+       "title": "Self Care Sunday",
+       "dateText": "Sunday, November 2, 2025",
+       "timeText": "1:00 PM - 3:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+       "title": "Happy Farmer Pop Up",
+       "dateText": "Saturday, November 1, 2025",
+       "timeText": "3:00 PM - 5:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/karls-birthday/",
+       "title": "Karl’s Birthday Extravaganza",
+       "dateText": "Saturday, November 8, 2025",
+       "timeText": "10:00 AM - 5:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/",
+       "title": "November Customers’ BDay Celebration",
+       "dateText": "Saturday, November 15, 2025",
+       "timeText": "7:00 PM - 9:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/",
+       "title": "Lady L’s Birthday Bash",
+       "dateText": "Thursday, November 20, 2025",
+       "timeText": "5:00 PM - 10:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/",
+       "title": "GG’s Garden 3rd Annual Toy Drive",
+       "dateText": "Thursday, November 20, 2025 8:00 AM -",
+       "timeText": "Thursday, December 18, 2025 9:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/green-week/",
+       "title": "Green Week",
+       "dateText": "Friday, November 21, 202510:00 AM -",
+       "timeText": "Friday, November 28, 202510:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/",
+       "title": "3 Acres Holiday Night Market",
+       "dateText": "Saturday, December 6, 2025",
+       "timeText": "11:00 AM - 12:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/edie-parker-pop-up/",
+       "title": "Edie Parker Pop-Up",
+       "dateText": "Friday, December 12, 2025",
+       "timeText": "5:00 PM - 7:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/high-point-buzz-bus-returns/",
+       "title": "High Point Buzz Bus Returns",
+       "dateText": "Saturday, December 20, 2025",
+       "timeText": "7:00 PM - 9:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/10-min-complimentary-reiki-with-jenn/",
+       "title": "10-Min Complimentary Reiki with Jenn",
+       "dateText": "Sunday, December 28, 2025",
+       "timeText": "1:00 PM - 3:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/",
+       "title": "Tarot with Hailey — Usher In 2025 & Set Intentions for 2026",
+       "dateText": "Wednesday, December 31, 2025",
+       "timeText": "5:00 PM - 7:00 PM"
+      },
+      {
+       "href": "https://ladyljerseycity.com/events/double-point-tuesday/",
+       "title": "Double Point Tuesday",
+       "dateText": "Tuesday, December 9, 2025",
+       "timeText": "10:00 AM - 8:00 PM"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

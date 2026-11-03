@@ -1,0 +1,228 @@
+{
+ "slug": "community",
+ "path": "/community/",
+ "url": "https://ladyljerseycity.com/community/",
+ "title": "Community | Join Our Cannabis Community — Lady L Cannabis Dispensary",
+ "description": "Discover our community hub for Lady L Cannabis. Get early access and learn more about our upcoming Jersey City location.",
+ "canonical": "https://ladyljerseycity.com/community/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Community Causes",
+ "postId": "268",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/community/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/community/",
+        "name": "Community"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/community/#webpage",
+     "url": "https://ladyljerseycity.com/community/",
+     "name": "Community | Join Our Cannabis Community — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-28T13:42:57-06:00",
+     "dateModified": "2026-06-08T07:42:26-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/community/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Community | Join Our Cannabis Community — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-28T13:42:57-06:00",
+     "dateModified": "2026-06-08T07:42:26-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Discover our community hub for Lady L Cannabis. Get early access and learn more about our upcoming Jersey City location.",
+     "name": "Community | Join Our Cannabis Community — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/community/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/community/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/community/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "community-causes",
+   "src": "bde-section-268-100",
+   "heading": "Community Causes",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "A few of the local initiatives and coalitions we’re part of to help make Jersey City better for all of its people."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/unsplash-image-d7ufy08ckku.webp",
+     "alt": "unsplash-image-d7UfY08CkKU",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/unsplash-image-d7UfY08CkKU.webp",
+     "w": 2500,
+     "h": 1650
+    },
+    {
+     "type": "h2",
+     "text": "Traffic Reform Warriors"
+    },
+    {
+     "type": "p",
+     "html": "Traffic safety shouldn’t be an afterthought—it should be a priority."
+    },
+    {
+     "type": "p",
+     "html": "The <a href=\"https://www.trafficreformwarriors.org/\" target=\"_blank\">Traffic Reform Warriors</a> are a coalition of Jersey City residents fighting for safer streets, better enforcement<strong>,</strong> and real accountability from city officials."
+    },
+    {
+     "type": "p",
+     "html": "We are parents, commuters, cyclists, and pedestrians who believe that no one should fear for their life just crossing the street."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "taking-care-of-customers-out-side-of-west-side",
+   "src": "bde-section-268-112",
+   "heading": "Taking care of customers Out side of West Side",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We’re within walking distance of nearby Jersey City neighborhoods like"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "McGinley Square,",
+      "West Bergen,",
+      "Bergen-Lafayette,",
+      "Hackensack River Waterfront",
+      "and Droyer’s Point."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "If you’re driving to us, <strong>we’re within a 10-20 minutes drive time from</strong>"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Journal Square,",
+      "Historic Downtown,",
+      "Greenville,",
+      "South Kearny,",
+      "The Heights,",
+      "Curries Woods,",
+      "Bayonne",
+      "and Constable Hook."
+     ]
+    },
+    {
+     "type": "button",
+     "text": "order for pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/img_0765.webp",
+     "alt": "IMG_0765",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/IMG_0765.webp",
+     "w": 1080,
+     "h": 810
+    },
+    {
+     "type": "p",
+     "html": "Lady L is also within walking distance to Lincoln Park and the West Side Avenue Light Rail Station."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lincolnparkjerseycity.webp",
+     "alt": "Lincoln+Park+Jersey+City",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LincolnParkJerseyCity.webp",
+     "w": 1080,
+     "h": 810
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "West Side"
+  },
+  {
+   "id": "s3",
+   "src": "bde-section-268-123",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_eyelovejc-e1774728637990.webp",
+     "alt": "LadyL_Iconography_EyeLoveJC",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_EyeLoveJC-e1774728637990.webp",
+     "w": 1733,
+     "h": 485
+    }
+   ]
+  }
+ ]
+}

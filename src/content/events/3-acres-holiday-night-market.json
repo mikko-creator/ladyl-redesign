@@ -1,0 +1,91 @@
+{
+ "slug": "3-acres-holiday-night-market",
+ "path": "/events/3-acres-holiday-night-market/",
+ "url": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/",
+ "title": "3 Acres Holiday Night Market | LADY L CANNABIS",
+ "description": "Celebrate at Lady L Cannabis's 3 Acres Holiday Night Market on December 6, 2025. Join your West Side neighbors for a festive, community-driven cannabis event.",
+ "canonical": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "3 Acres Holiday Night Market",
+ "postId": "691",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/",
+        "name": "3 Acres Holiday Night Market"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Edie Parker Pop-Up",
+   "href": "https://ladyljerseycity.com/events/edie-parker-pop-up/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Green Week",
+   "href": "https://ladyljerseycity.com/events/green-week/"
+  }
+ ],
+ "dateText": "Saturday, December 6, 2025",
+ "timeText": "11:00 AM - 12:00 PM",
+ "startISO": "2025-12-06",
+ "image": null,
+ "sections": [
+  {
+   "id": "3-acres-holiday-night-market",
+   "src": "bde-section-670-100",
+   "heading": "3 Acres Holiday Night Market",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, December 6, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "11:00 AM - 12:00 PM",
+     "role": "time"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

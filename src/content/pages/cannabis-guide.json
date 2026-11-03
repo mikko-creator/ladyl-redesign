@@ -1,0 +1,365 @@
+{
+ "slug": "cannabis-guide",
+ "path": "/cannabis-guide/",
+ "url": "https://ladyljerseycity.com/cannabis-guide/",
+ "title": "Discover Cannabis Flower Categories — Lady L Cannabis Dispensary",
+ "description": "Explore cannabis flower types at Lady L Cannabis. Learn about Indica, Sativa, and Hybrid effects, plus alternative cannabinoids. Shop online or in-store in Jersey City, NJ.",
+ "canonical": "https://ladyljerseycity.com/cannabis-guide/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Guide to cannabis Flower",
+ "postId": "258",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/cannabis-guide/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/cannabis-guide/",
+        "name": "Cannabis Guide"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/cannabis-guide/#webpage",
+     "url": "https://ladyljerseycity.com/cannabis-guide/",
+     "name": "Discover Cannabis Flower Categories — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-28T13:24:12-06:00",
+     "dateModified": "2026-04-02T05:11:16-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/cannabis-guide/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Discover Cannabis Flower Categories — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-28T13:24:12-06:00",
+     "dateModified": "2026-04-02T05:11:16-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Explore cannabis flower types at Lady L Cannabis. Learn about Indica, Sativa, and Hybrid effects, plus alternative cannabinoids. Shop online or in-store in Jersey City, NJ.",
+     "name": "Discover Cannabis Flower Categories — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/cannabis-guide/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/cannabis-guide/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/cannabis-guide/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "guide-to-cannabis-flower",
+   "src": "bde-section-258-116",
+   "heading": "Guide to cannabis Flower",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/archway_stars-scaled.webp",
+     "alt": "Archway_Stars",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Archway_Stars-scaled.webp",
+     "w": 1522,
+     "h": 2560
+    },
+    {
+     "type": "p",
+     "html": "The Lady L Cannabis",
+     "role": "kicker"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "flower-fundamentals",
+   "src": "bde-section-258-141",
+   "heading": "Flower Fundamentals",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Cannabis flower is where it all begins—aromatic, potent, and packed with personality. From Indica to Sativa, THC to terpenes, understanding the basics can help you find the right strain and experience for your needs. This guide breaks down everything you need to know to shop smart and smoke confidently."
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Indica, Sativa, Hybrid",
+       "a_html": "<p>These classic categories are a helpful starting point for understanding how different cannabis strains might make you feel.</p>"
+      },
+      {
+       "q": "Alternative Cannabinoids",
+       "a_html": "<p>There’s more to cannabis than just THC. Compounds like CBD, CBN, THCV, and CBG each bring their own unique effects—helping with everything from sleep to focus to stress relief. Exploring these cannabinoids can help you personalize your cannabis experience.</p>"
+      },
+      {
+       "q": "Extraction, Hash, Live Resin & Rosin",
+       "a_html": "<p>Cannabis concentrates come in many forms, each offering a more potent, flavorful, or refined version of the plant. From traditional hash to modern extracts like live resin and rosin, these products deliver strong effects with a smaller dose.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "the-3-classic-flower-categories-indica-sativa-hybrid",
+   "src": "bde-section-258-151",
+   "heading": "The 3 Classic Flower Categories: Indica, Sativa Hybrid",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_flower.webp",
+     "alt": "LadyL_Iconography_Flower",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_Flower.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "type": "p",
+     "html": "Most modern, commercially produced cannabis no longer fits neatly into traditional strain categories, due to widespread hybridization and the infusion of edibles."
+    },
+    {
+     "type": "p",
+     "html": "Still, these classic categories—Indica, Sativa, and Hybrid—remain helpful for describing the general effects people can expect."
+    },
+    {
+     "type": "p",
+     "html": "Cannabis products like flower, concentrates, and vapes are often labeled as Indica-leaning, Sativa-leaning, or Hybrid to reflect their typical effects."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_indica_v2.webp",
+     "alt": "LadyL_Iconography_Indica_V2",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_Indica_V2.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "For pain relief, <strong>relaxation</strong> and all other feelings related to being <strong>stoned</strong>."
+    },
+    {
+     "type": "button",
+     "text": "Browse our Indicas",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower?type=Indica"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_hybrid_v2.webp",
+     "alt": "LadyL_Iconography_Hybrid_V2",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_Hybrid_V2.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "For all the fun, groovy, joyful times <strong>between relaxation and high vibration</strong>."
+    },
+    {
+     "type": "button",
+     "text": "Browse our Hybrids",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower?type=Hybrid"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_sativa_v2.webp",
+     "alt": "LadyL_Iconography_Sativa_V2",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_Sativa_V2.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "For energy, activity, getting outdoors and other <strong>higher</strong> vibrational adventures."
+    },
+    {
+     "type": "button",
+     "text": "Browse our Sativas",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower?type=Sativa"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Flower"
+  },
+  {
+   "id": "explore-alternative-cannabinoids",
+   "src": "bde-section-258-180",
+   "heading": "Explore alternative cannabinoids",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_brandmark.webp",
+     "alt": "LadyL_Iconography_BrandMark",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_BrandMark.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "type": "p",
+     "html": "THC isn’t the only game in town. Cannabis contains a whole spectrum of compounds—called cannabinoids—that offer unique effects and benefits. Whether you’re looking for better sleep, more focus, or relief without the high, these lesser-known cannabinoids can help you fine-tune your experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_cbd.webp",
+     "alt": "LadyL_Iconography_CBD",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_CBD.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBD (Cannabidiol)</strong><br>A go-to for relaxation without the high. CBD can help ease anxiety, reduce inflammation, and support overall calm — perfect for daytime use or when you want to stay clear-headed."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_cbn.webp",
+     "alt": "LadyL_Iconography_CBN",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_CBN.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBN (Cannabinol)</strong><br>Commonly known as the “sleepy cannabinoid.” CBN may help you unwind and drift off naturally, making it a favorite for nighttime use and deep rest."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_thcv.webp",
+     "alt": "LadyL_Iconography_THCV",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_THCV.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "<strong>THCV (Tetrahydrocannabivarin)</strong><br>Sometimes called “the energy cannabinoid.” THCV is known for boosting focus, curbing appetite, and delivering a clear, uplifted experience — great for staying productive."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_cbg.webp",
+     "alt": "LadyL_Iconography_CBG",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_CBG.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "<strong>CBG (Cannabigerol)</strong><br>A lesser-known powerhouse that may help with mood, gut health, and mental clarity. CBG is non-intoxicating and often used for its balancing and soothing effects."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "subscribe-to-our-newsletter",
+   "src": "bde-section-258-264",
+   "heading": "Subscribe to our newsletter",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_smoke.webp",
+     "alt": "LadyL_Iconography_Smoke",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_Smoke.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "type": "p",
+     "html": "Get shop updates, community news, and product spotlights directly to your inbox."
+    },
+    {
+     "type": "form",
+     "fields": [
+      "Email Address"
+     ],
+     "fieldTypes": [
+      {
+       "input": "email"
+      }
+     ],
+     "button": "SIGN UP"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "visit-us",
+   "src": "bde-section-258-269",
+   "heading": "Visit Us",
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "Shop in store or order ahead for pickup at"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://g.co/kgs/S63FHfB\">547 West Side Avenue<br>Jersey City, NJ 07304</a>",
+     "role": "link"
+    },
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://maps.google.com/maps?q=Lady+L+Cannabis+547+West+Side+Ave%2C+Jersey+City%2C+NJ+07304%2C+USA&t=m&z=14&output=embed&iwloc=near",
+     "note": ""
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

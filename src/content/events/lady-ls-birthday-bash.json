@@ -1,0 +1,99 @@
+{
+ "slug": "lady-ls-birthday-bash",
+ "path": "/events/lady-ls-birthday-bash/",
+ "url": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/",
+ "title": "Lady L's Birthday Bash | LADY L CANNABIS",
+ "description": "Come celebrate with Lady L herself from 5 PM – 10 PM!",
+ "canonical": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Lady L’s Birthday Bash",
+ "postId": "702",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/",
+        "name": "Lady L&#8217;s Birthday Bash"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "GG’s Garden 3rd Annual Toy Drive",
+   "href": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "November Customers’ BDay Celebration",
+   "href": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/"
+  }
+ ],
+ "dateText": "Thursday, November 20, 2025",
+ "timeText": "5:00 PM - 10:00 PM",
+ "startISO": "2025-11-20",
+ "image": null,
+ "sections": [
+  {
+   "id": "lady-ls-birthday-bash",
+   "src": "bde-section-670-100",
+   "heading": "Lady L’s Birthday Bash",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Thursday, November 20, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "5:00 PM - 10:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Come celebrate with Lady L herself from 5 PM – 10 PM!"
+    },
+    {
+     "type": "p",
+     "html": "Enjoy special pricing on Lady L’s favorites — <a href=\"https://lab.alpineiq.com/click/4688/DNE/debug?redirect=https%3A%2F%2Fshop.ladyljerseycity.com%2Fmenu%2F%3Fbrand%3DMiss%2BGrass%252CEdie%2BParker%26order%3Dprice%26utm_medium%3Demail%26utm_source%3Dalpineiq&amp;isEmail=true\" target=\"_blank\"><strong>Miss Grass and Edie Parker</strong></a> — and meet the birthday girl in person."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

@@ -1,0 +1,433 @@
+{
+ "slug": "little-ferry-weed-delivery",
+ "path": "/service/little-ferry-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/little-ferry-weed-delivery/",
+ "name": "Little Ferry",
+ "county": "Bergen",
+ "title": "Reliable Little Ferry Weed Delivery | LADY L CANNABIS",
+ "description": "Little Ferry weed delivery is fast, discreet, and professionally handled by Lady L Cannabis. Get reliable cannabis delivery in Little Ferry, NJ, from a woman-owned West Side microdispensary.",
+ "canonical": "https://ladyljerseycity.com/service/little-ferry-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Little Ferry Weed Delivery",
+ "postId": "974",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/little-ferry-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/little-ferry-weed-delivery/",
+        "name": "Little Ferry Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-little-ferry-weed-delivery",
+   "src": "bde-section-974-100",
+   "heading": "Unique Little Ferry Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Little Ferry Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "Little Ferry weed delivery doesn't get more personal than it does with <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a>. Our woman-owned microdispensary on West Side Avenue serves Bergen County and beyond with a handpicked product lineup, professional drivers, and a delivery process built for people who value their time. Little Ferry sits right along the Hackensack River with easy access to the Meadowlands, a dining scene that reflects the borough's cultural mix, and a small-town feel that's genuinely hard to find this close to New York City. So, skip the trip, Little Ferry, relax at home, and let us bring the menu to you."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-little-ferry-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-974-109",
+   "heading": "Our Little Ferry Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The Lady L delivery menu is built around one straightforward idea: stock what's worth having and leave the rest out. Every category reflects that thinking, and the range gives customers something to work with regardless of preference or experience level. Here's what's available:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is the cornerstone of the Lady L menu, and the selection proves it. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer span a spectrum from reliable everyday picks to premium top-shelf options for customers who want the absolute best on offer. Stock rotates, so there's always something new worth a closer look."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Pre-rolls make a great experience effortless. No setup, no guesswork, just a quality product ready when you are. We carry classic and infused varieties from brands that meet our quality standard, at prices that fit naturally into a range of budgets."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "The edibles section rewards browsers. Gummies, chocolates, and other ingestible formats span a wide range of strengths, onset profiles, and flavors, giving customers genuine options rather than a handful of token choices. Availability shifts regularly, so the live menu is always the most accurate look at what's currently in stock."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Portable, consistent, and quietly in demand, vapes hold a strong position on the Lady L delivery menu. We carry top cartridge brands alongside full-spectrum 1g and 2g disposables for customers who want a clean, reliable format they can count on every time."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures fill a gap that the rest of the menu doesn't address. Topicals work at the point of contact on the skin for targeted comfort, while tinctures bring a precise, flexible dosing approach that integrates naturally into daily life. Check the live menu for current availability."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates serve a specific customer with specific expectations, and Lady L takes the category seriously. Solventless and live resin options appear regularly on the delivery menu. Worth checking back often if this is your preferred format."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs bring a full-spectrum, concentrated cannabis experience that experienced customers return to for the versatility and range of applications they provide. Typically available in syringe form, they can be used in multiple ways depending on personal preference. Check the live menu for what's currently in stock."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-974-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Little Ferry is a small borough where people know their streets and their neighbors. Every Little Ferry weed delivery order from Lady L is handled with that in mind. Orders go out in plain, unmarked packaging, and our drivers approach each stop with a professionalism and composure that makes the whole exchange feel like nothing out of the ordinary. That's the standard, not the exception."
+    },
+    {
+     "type": "p",
+     "html": "ID verification is part of every handoff, and all drivers operate within New Jersey's legal framework for cannabis delivery. That means they’re trained, courteous, and focused on getting every delivery right."
+    },
+    {
+     "type": "p",
+     "html": "Typical delivery time runs approximately one hour. Lady L draws on a combination of in-house drivers and a trusted third-party service to keep the weed delivery Little Ferry customers depend on running on schedule and within a tight, consistent window."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-little-ferry-works",
+   "src": "bde-section-974-150",
+   "heading": "How Cannabis Delivery in Little Ferry Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Ordering Little Ferry weed delivery through Lady L is straightforward enough that you won't waste time figuring anything out. Four steps, a confirmed account, and a driver on the way. Here's the breakdown."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Pull up the menu and explore what's currently in stock. The menu reflects real-time inventory, so every item you see is available for Little Ferry weed delivery. Take your time, make your selections, and give the cart a final look before heading to checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once your order is confirmed, a driver is on the move. Most deliveries land in approximately one hour. Your driver will contact you upon arrival and verify your valid government-issued ID before completing the handoff."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-974-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.littleferrynj.org/\">Little Ferry, NJ</a>, is a place that doesn't announce itself loudly but has plenty going on. The dining scene along Main Street and Sylvan Avenue reflects a genuinely diverse community; the natural spaces along the Hackensack River offer a quieter side of life; and Washington Avenue carries a history that stretches back to the Revolutionary War. Getting weed delivery Little Ferry residents rely on from Lady L means your order is ready when you are, whether you're home along Bergen Turnpike, on Colonial Court, or in the residential blocks off Liberty Street."
+    },
+    {
+     "type": "card",
+     "href": "https://palermocafe.com/",
+     "title": "Palermo’s Cafe & Bakery",
+     "level": 3,
+     "html": "Located at 399 Liberty Street, Palermo's has been a Little Ferry institution since 1989, serving artisan brick-oven pizzas, paninis, sandwiches, and a full lineup of traditional Italian gourmet desserts that have earned it a devoted following well beyond the borough. The cafe also offers beer, wine, and cocktails alongside its food menu, and the custom cake shop has become one of the more sought-after destinations in the area for celebration cakes and specialty desserts. Indoor seating and a patio make it a natural gathering spot in any season."
+    },
+    {
+     "type": "card",
+     "href": "https://nikkisbarandgrill.godaddysites.com/",
+     "title": "Nikki’s Bar & Grill",
+     "level": 3,
+     "html": "Nikki's on Washington Avenue has established itself as one of Little Ferry's most lively spots since opening in 2017. The bar and grill features 14 TVs for sports viewing, eight draft beers, more than 25 bottled selections, and a menu of American and BBQ dishes headlined by the Tres Golpes burger and a rotating lineup of tacos and wings. Karaoke on Tuesdays and live DJs or bands on weekends keep the atmosphere consistently energetic, with a late-night kitchen running well past midnight most nights."
+    },
+    {
+     "type": "card",
+     "href": "https://njaudubon.org/wp-content/wildlife/MeadowlandsTrails/Sites/tabid/443/Scope/site/Guide/MEADOWLNDS/Site/96/Default.html",
+     "title": "Losen Slote Creek Park",
+     "level": 3,
+     "html": "Losen Slote Creek Park occupies 28 acres of lowland forest and meadow right in Little Ferry, preserved since 1990 through a cooperative agreement with the New Jersey Meadowlands Commission. What makes the park distinctive is its layered natural history: the Losen Slote Creek itself was once a tidal tributary of the Hackensack River, later impounded to create the wetland habitat that now borders Mehrhof Pond, a former clay mining site that has gradually transformed into one of the area's most productive wildlife habitats. The trail through the park passes through a rich mix of damp woodland, shrub thicket, and open meadow, with botanical diversity and birdlife that reward visitors in every season."
+    },
+    {
+     "type": "card",
+     "href": "https://whiskeyroadssportsbar.com/",
+     "title": "Whiskey Roads Sports Bar",
+     "level": 3,
+     "html": "Whiskey Roads at 152 Washington Avenue describes itself as a premium dive experience, where the energy of a neighborhood tavern meets the atmosphere of a high-end whiskey lounge. The family-owned bar hosts live music, DJs, and comedy shows in partnership with the Meadowlands Comedy Club, along with a food menu that includes lunch specials, half-baby-back ribs, porterhouse steak, and a late-night kitchen that runs until 2:30 AM on weekends. The polished concrete floors and signature neon lighting give it a character that's distinctly its own."
+    },
+    {
+     "type": "card",
+     "href": "https://www.yelp.com/biz/victorias-mexican-american-grill-little-ferry-2",
+     "title": "Victoria's Mexican-American Grill",
+     "level": 3,
+     "html": "Victoria's at 201 Main Street is a mom-and-pop Mexican-American restaurant that has quietly built one of the strongest reputations on the local dining scene. The menu spans tacos, fajitas, chimichangas, coconut shrimp, housemade guacamole, and churros, with complimentary chips and black bean dip arriving at the table as a matter of course. Ranked among the top restaurants in the borough, it earns its following one honest, flavorful plate at a time. BYOB."
+    },
+    {
+     "type": "card",
+     "href": "https://www.littleferrynj.org/",
+     "title": "Lakeview Field",
+     "level": 3,
+     "html": "Lakeview Field, at 20 Indian Lake Road, sits along the shores of Indian Lake and is one of Little Ferry's most active outdoor recreational spaces. Baseball fields, open lawns, and access to waterside fishing make it a natural draw for residents year-round. The lakeside setting gives it a calm, unhurried character that feels removed from the borough's busier commercial corridors, yet is still close to everything."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "little-ferry-weed-delivery-faq",
+   "src": "bde-section-974-204",
+   "heading": "Little Ferry Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L Cannabis deliver in and around Little Ferry, NJ?",
+       "a_html": "<p>We deliver throughout Little Ferry (ZIP code 07643) as part of our Zone 2 coverage area. Our drivers reach customers across the borough's residential streets, from the homes along Liberty and Main Streets to the blocks near Bergen Turnpike, Colonial Court, and the neighborhoods closer to Indian Lake Road and the Hackensack River waterfront.</p>\n<p>Our delivery reach extends well beyond Little Ferry, covering communities across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like Moonachie, Ridgefield Park, and South Hackensack to communities further out across the region, Lady L's drivers are on the road, serving northern New Jersey customers daily.</p>"
+      },
+      {
+       "q": "When is Lady L's Little Ferry weed delivery service available?",
+       "a_html": "<p>Little Ferry falls within our Zone 2 delivery area. Here's when you can place an order:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Every order needs to be in and confirmed before the last call time.</p>\n<p>A $75 order minimum applies, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "What age do you need to be to receive a Lady L delivery in Little Ferry?",
+       "a_html": "<p>Per New Jersey's adult-use cannabis law, the minimum age is 21, and every Lady L delivery order adheres to that rule without exception. Your age is verified when you first register your Lady L account, and your driver will confirm your ID upon arrival before the handoff.</p>"
+      },
+      {
+       "q": "What identification does Lady L accept for cannabis delivery?",
+       "a_html": "<p>Government-issued photo ID is what you need, and the most common forms all qualify: driver's licenses, state-issued identification cards, and passports. Out-of-state IDs are accepted. Have your ID uploaded to your Lady L account before your first order, and keep the physical document on hand when your driver arrives.</p>"
+      },
+      {
+       "q": "Do I need a medical cannabis card to place a Little Ferry delivery order?",
+       "a_html": "<p>No medical card is necessary. Lady L operates as a fully adult-use cannabis microdispensary, which means the process is open to any customer 21 or older with a valid ID and a confirmed account. Nothing else is required.</p>"
+      },
+      {
+       "q": "What's the purchase limit for a single delivery order?",
+       "a_html": "<p>New Jersey caps each transaction at one ounce, or 28.35 grams, of usable cannabis. That ceiling covers all product types combined, broken down as follows:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes come with a Little Ferry cannabis delivery order?",
+       "a_html": "<p>New Jersey adult-use cannabis carries three charges: a 6.625% state sales tax, a $2.50-perounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax in municipalities that have authorized it. All applicable charges appear at checkout before your order is finalized, so there are no surprises on the back end.</p>"
+      },
+      {
+       "q": "How does Lady L handle payment for delivery?",
+       "a_html": "<p>Payment goes through in full before your order is confirmed and before we dispatch your delivery driver. Lady L accepts ACH payment and a debit option for delivery customers, but not cash. You’ll set up your payment method in your Lady L account at the time of registration. For specific questions, call us at 201-595-0706.</p>"
+      },
+      {
+       "q": "What should I do if my delivery is running late?",
+       "a_html": "<p>Reach out directly if your order is taking longer than the typical one-hour window. Distance, traffic, and order volume can all shift timing on any given run, and our team stays on top of every order in the queue. We won't leave you guessing about where things stand.</p>"
+      },
+      {
+       "q": "I need to change or cancel my order. Is that possible?",
+       "a_html": "<p>Speed matters here. Get in touch the moment something needs to change, because once a driver is dispatched, modifications may not be possible. Call 201-595-0706 or reach us through the website, and our team will do everything we can to accommodate you.</p>"
+      },
+      {
+       "q": "Does someone need to be present when my delivery arrives?",
+       "a_html": "<p>Yes, and that requirement is firm. An adult 21 or older with a valid government-issued ID must be there when the driver arrives. Packages can’t be left unattended, so if no one who meets the age and ID requirements is available at the time, the handoff can’t be completed. Make sure you're reachable during your estimated window.</p>"
+      },
+      {
+       "q": "What deals or discounts are available for Little Ferry weed delivery customers?",
+       "a_html": "<p>Lady L’s rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>, so checking with our team or keeping tabs on the promotions section of the website are the best ways to stay up to date on what's available to delivery customers.</p>\n<p>Meanwhile, loyalty points stack up on delivery orders at the same rate as in-store purchases: every dollar spent earns one point, and 100 points convert to $5. Lady L also runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my delivery driver?",
+       "a_html": "<p>Our drivers never expect a tip, but they consistently earn one. Every delivery is handled with care, discretion, and a professionalism that makes the whole experience feel easy. If yours did, a tip in the 15-20% range is a solid way to show you appreciate the driver's effort.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "little-ferry-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-974-214",
+   "heading": "Little Ferry Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Little Ferry has earned its reputation as a community that takes care of its own, and Lady L Cannabis approaches every delivery with that same sense of responsibility. From our West Side home base, every Little Ferry weed delivery order goes out backed by a curated product lineup, drivers who hold themselves to a professional standard, and a process designed to feel completely effortless on your end."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to extend that same care to<a href=\"https://ladyljerseycity.com/service/\"> Little Ferry and the surrounding communities</a>. Your next order is just a few easy steps away."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

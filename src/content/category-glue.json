@@ -1,0 +1,98 @@
+{
+  "flower": {
+    "label": "Flower",
+    "intro": "Flower is the dried, cured bud of the cannabis plant, the form most people picture first. It's usually ground and rolled, packed into a pipe or heated in a dry-herb vaporizer. Each strain has its own look and aroma, so it pays to read the label and ask questions.",
+    "points": [
+      "Usually sold by weight, from a single gram to larger sizes such as an eighth (3.5 grams).",
+      "Labels list cannabinoid content, often as a THC percentage.",
+      "Ask a budtender to compare strains by aroma and style."
+    ],
+    "seoTitle": "Flower in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse cannabis flower at Lady L Cannabis in Jersey City. Order online for in-store pickup or delivery from our West Side shop.",
+    "alt": "Cured cannabis buds in a small brass Art Deco dish on lavender velvet."
+  },
+  "pre-rolls": {
+    "label": "Pre-Rolls",
+    "intro": "Pre-rolls are cannabis flower that comes ground and rolled, ready to light. They are the no-prep way to enjoy flower: no grinder, no papers, no rolling skills required. Common forms include single joints, smaller minis and multi-packs.",
+    "points": [
+      "Ready to light, with no grinding or rolling.",
+      "Sizes run from minis to full-size joints, sold singly or in packs.",
+      "Keep them sealed and away from heat so they stay fresh."
+    ],
+    "seoTitle": "Pre-Rolls in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse pre-rolls at Lady L Cannabis in Jersey City. Order ahead for in-store pickup at our West Side shop, or choose delivery.",
+    "alt": "Plain pre-rolled joints on a brass tray with dried flowers."
+  },
+  "infused-pre-rolls": {
+    "label": "Infused Pre-Rolls",
+    "intro": "Infused pre-rolls pair flower with an added concentrate, such as kief, hash or oil, in one ready-made joint. Some carry the concentrate inside, while others are coated or dusted on the outside. The label covers the whole joint, flower and concentrate together.",
+    "points": [
+      "Flower plus a concentrate, rolled and ready.",
+      "Read the label closely, since it counts both the flower and the concentrate.",
+      "New to them? Ask a budtender how they differ from a standard pre-roll."
+    ],
+    "seoTitle": "Infused Pre-Rolls in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse infused pre-rolls at Lady L Cannabis in Jersey City. Order online for in-store pickup or delivery from our West Side Avenue shop.",
+    "alt": "Plain pre-rolled joints dusted with golden kief on a terrazzo slab."
+  },
+  "vapes": {
+    "label": "Vapes",
+    "intro": "Vapes heat cannabis oil into a vapor instead of burning it. Most come as a cartridge that attaches to a battery, or as an all-in-one disposable pen. Oils are made in different ways, so the label is your guide.",
+    "points": [
+      "Cartridges pair with a compatible battery; disposables are ready to use.",
+      "Ask whether a cartridge fits the battery you already own.",
+      "The label lists the oil's cannabinoid content and volume."
+    ],
+    "seoTitle": "Vapes in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse vapes and cartridges at Lady L Cannabis in Jersey City. Order online for in-store pickup or delivery from our West Side shop.",
+    "alt": "A single plain vape cartridge with amber oil, standing on frosted lavender glass."
+  },
+  "edibles": {
+    "label": "Edibles",
+    "intro": "Edibles are foods and candies made with cannabis, such as gummies and chocolates. Because they are digested, they take longer to arrive than smoking or vaping, so patience is part of the plan. Labels usually show THC in milligrams per piece and per package.",
+    "points": [
+      "Common forms include gummies, chocolates and other treats.",
+      "Doses are measured in milligrams of THC, per piece and per package.",
+      "Start small and give it time before having more."
+    ],
+    "seoTitle": "Edibles in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse cannabis edibles at Lady L Cannabis in Jersey City. Order online for in-store pickup or delivery from our West Side shop.",
+    "alt": "Plain dark chocolate squares and a small amber glass jar on cream linen."
+  },
+  "tinctures": {
+    "label": "Tinctures",
+    "intro": "Tinctures are liquid cannabis extracts in a small bottle with a dropper. The dropper makes a serving easy to measure, whether it goes under the tongue or into food or a drink. Labels list the cannabinoid content per bottle and often per serving.",
+    "points": [
+      "Measured with a dropper, so servings are easy to adjust.",
+      "Taken under the tongue or mixed into food and drinks.",
+      "Check the label for cannabinoid content per serving."
+    ],
+    "seoTitle": "Tinctures in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse cannabis tinctures at Lady L Cannabis in Jersey City. Order ahead for in-store pickup or delivery from our West Side Avenue shop.",
+    "alt": "Three plain amber dropper bottles among cannabis leaves and dried flowers."
+  },
+  "concentrates": {
+    "label": "Concentrates",
+    "intro": "Concentrates are extracts that gather the plant's cannabinoids and terpenes into a compact form. Common styles include rosin, live resin, hash, wax and shatter, each with its own texture. They are usually vaporized with a dab rig or a concentrate vaporizer, and servings are very small.",
+    "points": [
+      "Styles include rosin, live resin, hash, wax and shatter.",
+      "Usually vaporized with a dab rig or a concentrate vaporizer.",
+      "Servings are tiny, so begin with the smallest amount."
+    ],
+    "seoTitle": "Concentrates in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse cannabis concentrates at Lady L Cannabis in Jersey City. Order online for in-store pickup or delivery from our West Side shop.",
+    "alt": "A small mound of amber rosin on parchment on a small gold tray."
+  },
+  "accessories": {
+    "label": "Accessories",
+    "intro": "Accessories are the gear that goes with your cannabis: tools for grinding, rolling, smoking, vaping and storing. Common pieces include grinders, rolling papers and trays, pipes, batteries for cartridges and storage containers.",
+    "points": [
+      "Grinders and rolling gear for flower.",
+      "Batteries for vape cartridges.",
+      "Pipes and storage for everyday use."
+    ],
+    "seoTitle": "Accessories in Jersey City, NJ | LADY L CANNABIS",
+    "description": "Browse cannabis accessories at Lady L Cannabis in Jersey City. Shop online for in-store pickup or delivery from our West Side shop.",
+    "alt": "A clear glass hand pipe, a brass grinder and a small brass rolling tray with an Art Deco fan border on violet velvet."
+  }
+}

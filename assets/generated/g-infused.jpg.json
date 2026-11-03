@@ -1,0 +1,30 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-infused",
+ "file": "assets/generated/g-infused.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Overhead still-life photograph of two thick hand-rolled cannabis cone joints lying side by side, packed full, their narrow ends twisted shut into small paper twists, no filters, the paper fully coated in a glittering crust of golden-amber kief, beside a small brass Art Deco dish holding a few cured green cannabis buds and a little mound of golden kief, on a polished lavender terrazzo slab with coral and cream stone flecks. Clean modern editorial photograph, bohemian Art Deco parlor mood, soft warm light, shallow depth of field. No people, no hands, no text, no letters, no labels, no logos, no cigarettes, nothing candy-like.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "3:2"
+ },
+ "seed": 1190545467,
+ "requestId": "01a1a2e2-6bdf-7b43-9c31-c4145f0f4ea4",
+ "cutout": null,
+ "width": 2496,
+ "height": 1664,
+ "sha256": "d71609b2f7b55675674a0f992967ffdefe4618b800d24b1e22f85b52a8827667",
+ "raw": "tmp/img/raw/g-infused.1793732082070.jpg",
+ "attempt": 4,
+ "generatedAt": "2026-11-03T18:54:43.904Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "note": "two kief-coated cone pre-rolls, cured buds and kief in brass dishes; no text, no people"
+ },
+ "id": "g-infused",
+ "replacedBy": "main session",
+ "alt": "Two cone pre-rolls with kief-coated tips beside brass dishes of cured cannabis buds and golden kief on lavender terrazzo."
+}

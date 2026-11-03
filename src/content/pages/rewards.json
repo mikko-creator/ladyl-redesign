@@ -1,0 +1,397 @@
+{
+ "slug": "rewards",
+ "path": "/rewards/",
+ "url": "https://ladyljerseycity.com/rewards/",
+ "title": "Rewards | Join & Save Now — Lady L Cannabis Dispensary",
+ "description": "Unlock exclusive rewards with Lady L Cannabis in Jersey City. Join the High Roller Club, earn points, and enjoy member-only perks in the best loyalty program in town.",
+ "canonical": "https://ladyljerseycity.com/rewards/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Lady L Rewards",
+ "postId": "151",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/rewards/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/rewards/",
+        "name": "Loyalty Rewards Program"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/rewards/#webpage",
+     "url": "https://ladyljerseycity.com/rewards/",
+     "name": "Rewards | Join &amp; Save Now — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-25T08:33:56-06:00",
+     "dateModified": "2026-04-23T17:38:04-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/rewards/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Rewards | Join &amp; Save Now — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-25T08:33:56-06:00",
+     "dateModified": "2026-04-23T17:38:04-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Unlock exclusive rewards with Lady L Cannabis in Jersey City. Join the High Roller Club, earn points, and enjoy member-only perks in the best loyalty program in town.",
+     "name": "Rewards | Join &amp; Save Now — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/rewards/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/rewards/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/rewards/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "lady-l-rewards",
+   "src": "bde-section-151-100",
+   "heading": "Lady L Rewards",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "alt": "LadyL_Iconography_FNL_Accessories",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_FNL_Accessories.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h2",
+     "text": "Be part of a loyalty program that gives you cash back—every purchase, every time."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-151-107",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<strong>Already a Member? <a href=\"https://lab.alpineiq.com/wallet/4688\" target=\"_blank\">login here </a>to see your rewards activity</strong>"
+    }
+   ]
+  },
+  {
+   "id": "why-join",
+   "src": "bde-section-151-113",
+   "heading": "Why Join?",
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "Customers earn 1 point for every dollar spent (100 Points = $5)",
+      "First to know about new products, drops and promos",
+      "Bonus point opportunities all year<br>(birthday points, double points days, referral perks, &amp; more)"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Join Now",
+     "href": "https://lab.alpineiq.com/join/c/4688/109975"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "how-it-works-simple-as-1-2-3",
+   "src": "bde-section-151-121",
+   "heading": "How It Works (simple as 1-2-3)",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lettersnumbers-27.webp",
+     "alt": "LettersNumbers-27",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LettersNumbers-27.webp",
+     "w": 150,
+     "h": 150
+    },
+    {
+     "type": "h3",
+     "text": "Sign Up"
+    },
+    {
+     "type": "p",
+     "html": "Sign up with your name + mobile/email at checkout or via <a href=\"https://lab.alpineiq.com/join/c/4688/109975\" target=\"_blank\">sign up form</a>"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lettersnumbers-28.webp",
+     "alt": "LettersNumbers-28",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LettersNumbers-28.webp",
+     "w": 150,
+     "h": 150
+    },
+    {
+     "type": "h3",
+     "text": "Earn Points"
+    },
+    {
+     "type": "p",
+     "html": "Earn points automatically on eligible purchases"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lettersnumbers-29.webp",
+     "alt": "LettersNumbers-29",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LettersNumbers-29.webp",
+     "w": 150,
+     "h": 150
+    },
+    {
+     "type": "h3",
+     "text": "Redeem points"
+    },
+    {
+     "type": "p",
+     "html": "Redeem points for dollars off when you’re ready"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "earning-math",
+   "src": "bde-section-151-153",
+   "heading": "Earning math:",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "You earn 1 point per $1 spent."
+    },
+    {
+     "type": "h2",
+     "text": "Example:"
+    },
+    {
+     "type": "p",
+     "html": "Spend $100 → earn 100 points → worth $5 off next time."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "ways-to-earn-extra-points",
+   "src": "bde-section-151-163",
+   "heading": "Ways to earn extra points",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_rewards.webp",
+     "alt": "LadyL_Iconography_Rewards",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Rewards.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Birthday bonus:</strong> <strong>200 points</strong> ($10 in credit) during your birthday month",
+      "<strong>Referral love:</strong> Give friends <strong>10% off</strong> their first purchase— and <strong>you get 100 points</strong>",
+      "<strong>Double Point Days:</strong> pop-up multipliers on select days/products",
+      "<strong>Quick surveys &amp; product feedback:</strong> easy points, big impact",
+      "<strong>Events &amp; activations:</strong> scan a code in‑store to collect bonus points"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We’ll highlight current bonus offers in your emails/texts so you never miss a boost."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "reward-tiers",
+   "src": "bde-section-151-177",
+   "heading": "Reward Tiers",
+   "blocks": [
+    {
+     "type": "h4",
+     "text": "100 Points = $5 Off"
+    },
+    {
+     "type": "h4",
+     "text": "200 Points = $10 Off"
+    },
+    {
+     "type": "h4",
+     "text": "500 Points = $25 Off"
+    },
+    {
+     "type": "h4",
+     "text": "Redeeming your points"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>At checkout:</strong> Tell us you want to use points—our budtender applies it instantly.",
+      "<strong>Online</strong>: At checkout, select which tier discount you’re using.",
+      "<strong>Use a little or a lot</strong>: Save them up or shave a few dollars off every trip",
+      "<strong>No blackout dates</strong>: Redeem whenever you like on eligible items"
+     ]
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_rewards-1.webp",
+     "alt": "LadyL_Iconography_Rewards",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Rewards-1.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "type": "h2",
+     "text": "Join Lady L Rewards today!"
+    },
+    {
+     "type": "button",
+     "text": "sign up now",
+     "href": "https://lab.alpineiq.com/join/c/4688/109975"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "faqs",
+   "src": "bde-section-151-211",
+   "heading": "faqs",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "How do I track points?",
+       "a_html": "<p>We track them for you. Check your receipt, ask a budtender, or peek at your <a href=\"https://lab.alpineiq.com/wallet/4688\" target=\"_blank\">account link</a>.</p>"
+      },
+      {
+       "q": "Do I need a phone number?",
+       "a_html": "<p>In order to sign up for our Rewards Program powered by Alpine IQ, you’ll need to either provide a phone number or email address. We need at least one of these to create a unique member wallet to store points.</p>"
+      },
+      {
+       "q": "Do points expire?",
+       "a_html": "<p>Points earned through purchase expire <strong>365 days</strong> from issue date.</p>\n<p>Points gifted to you by staff, for your birthday or any other way besides purchase never expire as long as you have an active account!</p>"
+      },
+      {
+       "q": "How does the referral program work?",
+       "a_html": "<p>Refer a friend via your own unique and personal Alpine IQ referral link. This can be found in any emails you may reveive from us.</p>\n<p>Share that link and get 100 points for every friend that signs up. They also receive 10% off their first purchase.</p>"
+      },
+      {
+       "q": "When do points post?",
+       "a_html": "<p>Please allow up to 24 hours for points earned via purchase to appear in your AIQ wallet.</p>"
+      },
+      {
+       "q": "Anything I can’t earn or redeem on?",
+       "a_html": "<p>Points aren’t earned on taxes, tips, or gift cards and can’t be used to pay taxes or fees. Some promo‑priced items may be excluded—ask us!</p>"
+      },
+      {
+       "q": "Can I stack discounts?",
+       "a_html": "<p>You can use points with many promos, but some offers can’t be combined. We’ll always try to get you the best value.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "the-fine-but-friendly-print",
+   "src": "bde-section-151-217",
+   "heading": "The fine (but friendly) print",
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "Must be <strong>21+</strong>. Valid ID required.",
+      "Lady L Rewards is free; by joining you agree to receive program communications (you can opt out any time).",
+      "Program rules, earning rates, and exclusions may change—current details always posted here and in-store.",
+      "Please consume responsibly and shop legal—your dollars support our Jersey City community."
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "earn-and-redeem-points-here",
+   "src": "bde-section-151-220",
+   "heading": "Earn and redeem points here",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://maps.app.goo.gl/dD5J91qXs9bYQaSaA\">547 West Side Avenue<br>Jersey City</a>",
+     "role": "link"
+    },
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://maps.google.com/maps?q=Lady+L+Cannabis+547+West+Side+Ave%2C+Jersey+City%2C+NJ+07304%2C+USA&t=m&z=14&output=embed&iwloc=near",
+     "note": ""
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

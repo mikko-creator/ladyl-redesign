@@ -1,0 +1,343 @@
+{
+ "slug": "give-back-all-year-lady-l-school-supply-donation-drive",
+ "path": "/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "url": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "title": "Year-Round School Supply Donations in Jersey City | Lady L | LADY L CANNABIS",
+ "description": "Lady L's Year-Round School Supply Donation Drive in Jersey City",
+ "canonical": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+ "ogImage": "/assets/photos/ll/ladyl_school_supply_blog_cover.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp",
+ "h1": "Year-Round School Supply Donations in Jersey City | Lady L",
+ "postId": "1165",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp",
+     "width": "1086",
+     "height": "724",
+     "caption": "Backpacks, notebooks, pencils and classroom supplies supporting Lady L's year-round Jersey City donation drive.",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+        "name": "Year-Round School Supply Donations in Jersey City | Lady L"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#webpage",
+     "url": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+     "name": "Year-Round School Supply Donations in Jersey City | Lady L | LADY L CANNABIS",
+     "datePublished": "2026-10-10T15:00:37-06:00",
+     "dateModified": "2026-10-10T15:11:19-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Year-Round School Supply Donations in Jersey City | Lady L | LADY L CANNABIS",
+     "keywords": "school,supply,donation,jersey city,donate",
+     "datePublished": "2026-10-10T15:00:37-06:00",
+     "dateModified": "2026-10-10T15:11:19-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Lady L&#039;s Year-Round School Supply Donation Drive in Jersey City",
+     "name": "Year-Round School Supply Donations in Jersey City | Lady L | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday",
+   "href": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/"
+  },
+  {
+   "label": "Next Post",
+   "title": "Your Cannabis Glossary: The Terms Every Jersey City Shopper Should Know",
+   "href": "https://ladyljerseycity.com/blog/cannabis-glossary/"
+  }
+ ],
+ "dateText": "October 10th, 2026",
+ "date": "2026-10-10T15:00:37-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "/blog/ hub card",
+ "image": {
+  "src": "/assets/photos/ll/ladyl_school_supply_blog_cover.webp",
+  "w": 1086,
+  "h": 724,
+  "alt": "Backpacks, notebooks, pencils and classroom supplies supporting Lady L's year-round Jersey City donation drive."
+ },
+ "excerpt": "Lady L’s Year-Round School Supply Donation Drive in Jersey City",
+ "html": "<h2>School Supplies Run Out. Our Support Doesn’t. 💜</h2>\n<p><strong>Lady L’s Year-Round School Supply Donation Drive in Jersey City</strong></p>\n<p><em>Because supporting our community shouldn’t be seasonal.</em></p>\n<p>Every September, communities come together to help students start the school year with fresh notebooks, sharpened pencils, new backpacks, and everything they need to succeed.</p>\n<p>But what happens when September ends?</p>\n<p>The need for school supplies doesn’t disappear when the back-to-school season is over. Notebooks fill up, pencils get lost, backpacks wear out, and teachers often find themselves purchasing classroom essentials out of their own pockets.</p>\n<p>At <strong>Lady L Jersey City</strong>, we believe that supporting local students, educators, and families should be a year-round commitment.</p>\n<p>That’s why <strong>our Back-to-School Donation Drive continues all 365 days of the year.</strong></p>\n<h2>Why Year-Round School Supply Donations Matter</h2>\n<p>Education is one of the foundations of a strong, thriving community. Yet for many families, keeping up with the ongoing cost of school supplies can be challenging.</p>\n<p>A single school year requires more than one shopping trip. Students continuously need fresh materials, and teachers frequently replenish classroom essentials to ensure everyone has the tools to participate and learn.</p>\n<p>By keeping our donation initiative active throughout the year, we hope to encourage a simple but important shift in thinking:</p>\n<p><strong>Giving back isn’t something we do once a year. It’s something we build into everyday life.</strong></p>\n<h2>How You Can Help Jersey City Students and Teachers</h2>\n<p>Supporting our local classrooms doesn’t require a major financial commitment. Small, thoughtful contributions can add up to meaningful community impact.</p>\n<p>Lady L welcomes donations of new, unused school supplies, including:</p>\n<ul><li>📓 Notebooks, composition books, and loose-leaf paper</li><li>✏️ Pencils, pens, erasers, and sharpeners</li><li>🖍️ Crayons, markers, and colored pencils</li><li>📁 Folders, binders, and pencil cases</li><li>🎒 Backpacks and lunch bags</li><li>📏 Rulers, glue sticks, and other classroom essentials</li></ul>\n<p>Whether you’re clearing out unused supplies at home, shopping for your own family, or simply looking for an easy way to give back, every contribution is appreciated.</p>\n<h2>Building a Stronger West Side, Together</h2>\n<p>Lady L is proud to be part of Jersey City’s West Side community.</p>\n<p>As a locally owned small business, we believe our responsibility extends beyond our storefront. We want to contribute to a neighborhood where families feel supported, educators feel appreciated, and children have opportunities to thrive.</p>\n<p>Community involvement doesn’t always require a large event or elaborate initiative. Sometimes it starts with a notebook, a box of pencils, or a neighbor choosing to help another neighbor.</p>\n<p><strong>When local businesses and residents work together, even the smallest acts of generosity can create lasting connections.</strong></p>\n<h2>Make Giving Back Part of Your Routine</h2>\n<p>The next time you’re shopping for school supplies, consider picking up one extra item for a local student.</p>\n<p>Have unused supplies sitting in a drawer? Give them a purpose.</p>\n<p>Want to teach your children about community responsibility? Invite them to help choose supplies to donate.</p>\n<p>These everyday actions help create a culture of generosity that reaches beyond the classroom.</p>\n<h2>Drop Off Your Donations at Lady L Jersey City</h2>\n<p>📍 <strong>Lady L Jersey City — West Side Avenue, Jersey City, NJ</strong></p>\n<p>📅 <strong>When:</strong> Year-round</p>\n<p>🎒 <strong>What:</strong> New, unused school supplies and classroom essentials</p>\n<p>💜 <strong>Who:</strong> Anyone who wants to support local education and the Jersey City community</p>\n<p>Stop by during regular business hours to contribute to our ongoing collection.</p>\n<h2>Community Isn’t Just Where We Do Business. It’s Who We Show Up For.</h2>\n<p>At Lady L, we believe a stronger Jersey City starts with people looking out for one another.</p>\n<p>Thank you to every neighbor, customer, family member, and community supporter who helps make initiatives like this possible.</p>\n<p>Together, we can make sure the spirit of back-to-school giving lasts long after the first school bell rings.</p>\n<p><strong>Small acts. Big community impact. All year long.</strong></p>\n<p><em>With love,</em></p>\n<p><strong>The Lady L Team 💜</strong></p>",
+ "sections": [
+  {
+   "id": "year-round-school-supply-donations-in-jersey-city-lady-l",
+   "src": "bde-section-428-104",
+   "heading": "Year-Round School Supply Donations in Jersey City | Lady L",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "school-supplies-run-out-our-support-doesnt",
+   "src": "bde-section-428-107",
+   "heading": "School Supplies Run Out. Our Support Doesn’t. 💜",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<strong>Lady L’s Year-Round School Supply Donation Drive in Jersey City</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<em>Because supporting our community shouldn’t be seasonal.</em>"
+    },
+    {
+     "type": "p",
+     "html": "Every September, communities come together to help students start the school year with fresh notebooks, sharpened pencils, new backpacks, and everything they need to succeed."
+    },
+    {
+     "type": "p",
+     "html": "But what happens when September ends?"
+    },
+    {
+     "type": "p",
+     "html": "The need for school supplies doesn’t disappear when the back-to-school season is over. Notebooks fill up, pencils get lost, backpacks wear out, and teachers often find themselves purchasing classroom essentials out of their own pockets."
+    },
+    {
+     "type": "p",
+     "html": "At <strong>Lady L Jersey City</strong>, we believe that supporting local students, educators, and families should be a year-round commitment."
+    },
+    {
+     "type": "p",
+     "html": "That’s why <strong>our Back-to-School Donation Drive continues all 365 days of the year.</strong>"
+    },
+    {
+     "type": "h2",
+     "text": "Why Year-Round School Supply Donations Matter"
+    },
+    {
+     "type": "p",
+     "html": "Education is one of the foundations of a strong, thriving community. Yet for many families, keeping up with the ongoing cost of school supplies can be challenging."
+    },
+    {
+     "type": "p",
+     "html": "A single school year requires more than one shopping trip. Students continuously need fresh materials, and teachers frequently replenish classroom essentials to ensure everyone has the tools to participate and learn."
+    },
+    {
+     "type": "p",
+     "html": "By keeping our donation initiative active throughout the year, we hope to encourage a simple but important shift in thinking:"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Giving back isn’t something we do once a year. It’s something we build into everyday life.</strong>"
+    },
+    {
+     "type": "h2",
+     "text": "How You Can Help Jersey City Students and Teachers"
+    },
+    {
+     "type": "p",
+     "html": "Supporting our local classrooms doesn’t require a major financial commitment. Small, thoughtful contributions can add up to meaningful community impact."
+    },
+    {
+     "type": "p",
+     "html": "Lady L welcomes donations of new, unused school supplies, including:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "📓 Notebooks, composition books, and loose-leaf paper",
+      "✏️ Pencils, pens, erasers, and sharpeners",
+      "🖍️ Crayons, markers, and colored pencils",
+      "📁 Folders, binders, and pencil cases",
+      "🎒 Backpacks and lunch bags",
+      "📏 Rulers, glue sticks, and other classroom essentials"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Whether you’re clearing out unused supplies at home, shopping for your own family, or simply looking for an easy way to give back, every contribution is appreciated."
+    },
+    {
+     "type": "h2",
+     "text": "Building a Stronger West Side, Together"
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to be part of Jersey City’s West Side community."
+    },
+    {
+     "type": "p",
+     "html": "As a locally owned small business, we believe our responsibility extends beyond our storefront. We want to contribute to a neighborhood where families feel supported, educators feel appreciated, and children have opportunities to thrive."
+    },
+    {
+     "type": "p",
+     "html": "Community involvement doesn’t always require a large event or elaborate initiative. Sometimes it starts with a notebook, a box of pencils, or a neighbor choosing to help another neighbor."
+    },
+    {
+     "type": "p",
+     "html": "<strong>When local businesses and residents work together, even the smallest acts of generosity can create lasting connections.</strong>"
+    },
+    {
+     "type": "h2",
+     "text": "Make Giving Back Part of Your Routine"
+    },
+    {
+     "type": "p",
+     "html": "The next time you’re shopping for school supplies, consider picking up one extra item for a local student."
+    },
+    {
+     "type": "p",
+     "html": "Have unused supplies sitting in a drawer? Give them a purpose."
+    },
+    {
+     "type": "p",
+     "html": "Want to teach your children about community responsibility? Invite them to help choose supplies to donate."
+    },
+    {
+     "type": "p",
+     "html": "These everyday actions help create a culture of generosity that reaches beyond the classroom."
+    },
+    {
+     "type": "h2",
+     "text": "Drop Off Your Donations at Lady L Jersey City"
+    },
+    {
+     "type": "p",
+     "html": "📍 <strong>Lady L Jersey City — West Side Avenue, Jersey City, NJ</strong>"
+    },
+    {
+     "type": "p",
+     "html": "📅 <strong>When:</strong> Year-round"
+    },
+    {
+     "type": "p",
+     "html": "🎒 <strong>What:</strong> New, unused school supplies and classroom essentials"
+    },
+    {
+     "type": "p",
+     "html": "💜 <strong>Who:</strong> Anyone who wants to support local education and the Jersey City community"
+    },
+    {
+     "type": "p",
+     "html": "Stop by during regular business hours to contribute to our ongoing collection."
+    },
+    {
+     "type": "h2",
+     "text": "Community Isn’t Just Where We Do Business. It’s Who We Show Up For."
+    },
+    {
+     "type": "p",
+     "html": "At Lady L, we believe a stronger Jersey City starts with people looking out for one another."
+    },
+    {
+     "type": "p",
+     "html": "Thank you to every neighbor, customer, family member, and community supporter who helps make initiatives like this possible."
+    },
+    {
+     "type": "p",
+     "html": "Together, we can make sure the spirit of back-to-school giving lasts long after the first school bell rings."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Small acts. Big community impact. All year long.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<em>With love,</em>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>The Lady L Team 💜</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

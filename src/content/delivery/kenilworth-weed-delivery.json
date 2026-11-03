@@ -1,0 +1,433 @@
+{
+ "slug": "kenilworth-weed-delivery",
+ "path": "/service/kenilworth-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/kenilworth-weed-delivery/",
+ "name": "Kenilworth",
+ "county": "Union",
+ "title": "Reliable Kenilworth Weed Delivery | LADY L CANNABIS",
+ "description": "Get reliable Kenilworth weed delivery right to your door by Lady L Cannabis. Enjoy cannabis delivery in Kenilworth, NJ, from a woman-owned West Side microdispensary rooted in community, built on care.",
+ "canonical": "https://ladyljerseycity.com/service/kenilworth-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Kenilworth Weed Delivery",
+ "postId": "992",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/kenilworth-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/kenilworth-weed-delivery/",
+        "name": "Kenilworth Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-kenilworth-weed-delivery",
+   "src": "bde-section-992-100",
+   "heading": "Unique Kenilworth Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Kenilworth Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "The cannabis industry is full of big promises but short on follow-through. <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> was built as a direct response to that disconnect. Owner Lili Hollandt opened this West Side microdispensary with a clear conviction: a smaller, more focused operation could deliver a better experience than what a large chain could offer. The result is a menu of carefully selected products, a staff that takes cannabis education seriously, and a delivery service built around real professionalism. Our Kenilworth weed delivery service carries all of that to Union County, reaching a borough that values its local businesses and the quality they bring. So you can place your trust in Lady L, place your order, and let us take care of the rest."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-kenilworth-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-992-109",
+   "heading": "Our Kenilworth Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady L keeps the Kenilworth weed delivery menu sharp by focusing on what customers actually want rather than stocking for volume. The result is a lineup that covers a range of formats, price points, and experience levels without feeling padded. Here's what you'll find when you browse:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower drives more demand than any other category on the menu, and the selection reflects that weight. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer cover a spectrum that runs from reliable everyday picks to premium options for customers who want the absolute best."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Pre-rolls exist for a simple reason: sometimes you just want something that’s ready and prep-free. We carry classic and infused varieties from brands that meet our quality standard, with pricing that makes adding one to any order a straightforward decision."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "Few categories on the menu feel as personal as edibles. Gummies, chocolates, and other ingestible formats come in a wide range of strengths, flavors, and onset profiles, giving customers real options rather than a handful of choices."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes offer something distinct from everything else on the menu: a clean, portable format that requires almost no thought to use well. We carry top cartridge brands and full-spectrum 1g and 2g disposables for customers who want consistency and discretion in equal measure."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures fill a gap that nothing else on the menu addresses. Topicals work directly at the site of discomfort on the skin, while tinctures bring a measured, adaptable dosing approach that integrates naturally into daily life."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates draw a specific customer with specific expectations, and Lady L takes the category seriously. Solventless and live resin options appear regularly on the delivery menu. If potency and purity drive your decisions, this is the category worth watching."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs offer a full-spectrum, concentrated cannabis experience that experienced customers return to for the flexibility and versatility they provide. Typically available in syringe form, they can be used in multiple ways depending on personal preference."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-992-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Discretion and professionalism aren't mere selling points at Lady L. They're baseline expectations. Every Kenilworth weed delivery order goes out in plain, unmarked packaging, and our drivers travel through Union County with a steady, unassuming composure that makes the whole experience appear like nothing out of the ordinary."
+    },
+    {
+     "type": "p",
+     "html": "Every delivery involves proper ID verification, and every driver operates fully within New Jersey's legal framework for cannabis delivery. Trained and courteous, our team holds the same standard on every run regardless of where the route takes them."
+    },
+    {
+     "type": "p",
+     "html": "Typical turnaround time runs approximately one hour. To keep every Kenilworth weed delivery on schedule, Lady L operates through a combination of in-house drivers and a trusted third-party service, giving us the flexibility to maintain tight windows and consistent timing across the full coverage area."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-kenilworth-works",
+   "src": "bde-section-992-150",
+   "heading": "How Cannabis Delivery in Kenilworth Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Ordering Kenilworth weed delivery through Lady L is a process designed to be clear and friction-free from the very first step. Here's what to expect."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Open the delivery menu and explore what's currently available. Every item reflects real-time stock, so what you see is what you can get. Take your time, make your selections, and give your cart a final review before heading to checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once we’ve confirmed your order, a driver is on the move. Most deliveries arrive in approximately one hour. Your driver will contact you upon arrival, verify your ID, and complete the handoff. That’s all there is to it."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-992-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.kenilworthborough.com/\">Kenilworth, NJ</a>, keeps things local in the best possible way. Kenilworth Boulevard draws residents in with a walkable stretch of independently owned restaurants, shops, and gathering spots that give the borough its distinct small-town character, while the surrounding green spaces offer a quieter counterpoint to all that activity. For weed delivery Kenilworth has come to rely on, Lady L makes it easy to keep your plans on your own terms, whether you'll be heading out to one of the borough's standout spots or chilling at home."
+    },
+    {
+     "type": "card",
+     "href": "https://www.gallopinghillgolfcourse.com/",
+     "title": "Galloping Hill Golf Course",
+     "level": 3,
+     "html": "Galloping Hill Golf Course covers 271 acres in Kenilworth and is widely regarded as one of the most challenging public courses in the region. The 18-hole layout underwent a major renovation in 2014 by renowned architect Rees Jones, restoring the course's original shot values and updating drainage throughout. The on-site Learning Center features 52 stalls and a 9-hole practice course, making it a destination for players of all skill levels."
+    },
+    {
+     "type": "card",
+     "href": "https://chatandgriddle.com/",
+     "title": "Chat & Griddle",
+     "level": 3,
+     "html": "Chat &amp; Griddle is a brunch and breakfast spot on Kenilworth Boulevard known for hand-crafted sandwiches, chicken and waffles, French toast, burgers, and all-day breakfast served in a relaxed, welcoming atmosphere. The menu covers a wide range of cravings from hearty morning plates to satisfying lunch options, with something to suit most tastes. It has earned a strong local following for consistent quality and a laid-back dining experience."
+    },
+    {
+     "type": "card",
+     "href": "https://exploreunioncounty.com/places/new-jersey/kenilworth/parks-1/black-brook-park/",
+     "title": "Black Brook Park",
+     "level": 3,
+     "html": "Black Brook Park on N 19th Street is one of 36 Union County parks and a well-used outdoor resource in Kenilworth. The park features baseball, soccer, and softball fields, along with fishing access, and the Black Brook Park Path connects directly to the East Coast Greenway, the long-distance trail network stretching from Maine to Florida. It's a solid everyday green space with recreational depth that goes beyond what its footprint might suggest."
+    },
+    {
+     "type": "card",
+     "href": "https://kenilworthdiner.com/",
+     "title": "Kenilworth Diner",
+     "level": 3,
+     "html": "The Kenilworth Diner has been serving the borough for over 40 years with fresh, homestyle cooking and the kind of attentive service that turns first-time visitors into regulars. The menu covers fresh soups, hearty entrees, and an award-winning cheesecake that has earned a following well beyond Kenilworth's borders. An expanded catering menu rounds out an operation that has grown steadily without losing the warmth that built its reputation."
+    },
+    {
+     "type": "card",
+     "href": "https://avaskenilworth.com/",
+     "title": "Ava's Kitchen and Bar",
+     "level": 3,
+     "html": "Tucked just off Kenilworth Boulevard, Ava's Kitchen and Bar is a neighborhood spot built around a wood-burning brick oven and a genuine commitment to the craft of pizza-making. The kitchen uses sourdough starters, lengthy fermentations, stone-ground local flours, and seasonal ingredients to produce thin, crackly-crusted pies with a flavor profile that's hard to replicate. Beyond pizza, the bar offers 32 beers on tap, wines by the glass, and an extensive selection of craft spirits and cocktails."
+    },
+    {
+     "type": "card",
+     "href": "https://www.nj.gov/dca/njht/funded/sitedetails/oswaldnitschkehouse.shtml",
+     "title": "Oswald J. Nitschke House",
+     "level": 3,
+     "html": "The Oswald J. Nitschke House is an 1880 wood-framed farmhouse and one of Kenilworth's most significant historic landmarks. Built by a German immigrant who served three terms as mayor and championed the borough's incorporation in 1907, the house was saved from demolition in 2003 when the Kenilworth Historical Society relocated it to prevent its loss to commercial development. Preserved and restored with support from the New Jersey Historic Trust, it serves as a living history museum and cultural arts center that reflects the immigrant influences and suburban development that shaped the borough's early character."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "kenilworth-weed-delivery-faq",
+   "src": "bde-section-992-204",
+   "heading": "Kenilworth Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L Cannabis deliver in Kenilworth?",
+       "a_html": "<p>All of Kenilworth (ZIP code 07033) is within Lady L's Zone 2 delivery area. Every order placed here gets the same professional, curated service that customers across northern New Jersey have come to expect. Our drivers head out from West Side Avenue and cover the entire borough.</p>\n<p>And the coverage doesn't stop at Kenilworth's borders. Lady L reaches communities across Hudson, Essex, Bergen, Union, and Passaic counties, with neighboring towns like Cranford, Garwood, and Springfield among the many regular stops on our delivery routes.</p>"
+      },
+      {
+       "q": "When is Lady L's Kenilworth weed delivery available?",
+       "a_html": "<p>Our Zone 2 delivery schedule is as follows:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Orders need to be placed and confirmed before the last call time for that day.</p>\n<p>A $75 order minimum applies, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "What’s the age requirement to receive cannabis delivery in Kenilworth?",
+       "a_html": "<p>In New Jersey, the law sets the adult-use minimum at 21, and that applies to every Lady L delivery order without exception. Your age is verified during account registration, and the driver will confirm your ID again upon arrival.</p>"
+      },
+      {
+       "q": "What ID do I need to show when my Lady L delivery arrives?",
+       "a_html": "<p>Government-issued photo ID is the standard across the board. Driver's licenses, state-issued identification cards, and passports all qualify, and unexpired out-of-state IDs are accepted without issue. You'll need to upload your ID to your Lady L account before placing your first order, and have the physical document ready when your driver shows up.</p>"
+      },
+      {
+       "q": "Does Lady L require a medical cannabis card for delivery?",
+       "a_html": "<p>Not at all. Lady L is a fully adult-use operation, open to any customer 21 or older. No referral, no card, no special status required. A confirmed account and a valid ID are the only things standing between you and a delivery order.</p>"
+      },
+      {
+       "q": "How much can I order in a single Kenilworth delivery?",
+       "a_html": "<p>New Jersey law permits us to sell up to the equivalent of 28.35 grams, or one ounce, of usable cannabis per transaction. Here's how that breaks down across product types:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to a Kenilworth cannabis delivery order?",
+       "a_html": "<p>Three taxes apply to adult-use cannabis in New Jersey: a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax where the local municipality has authorized it. All of them are broken out at checkout before your order is confirmed.</p>"
+      },
+      {
+       "q": "How do I pay for a Lady L delivery order?",
+       "a_html": "<p>ACH payment and a debit option are both accepted for delivery, but cash is not. You’ll set up your preferred payment method through your account at registration, then Lady L collects full payment before confirming your order and sending a driver. Questions about the process? Call the store directly at 201-595-0706.</p>"
+      },
+      {
+       "q": "My delivery is taking longer than expected. What now?",
+       "a_html": "<p>One hour is the typical window for weed delivery Kenilworth customers receive from Lady L, but order volume, road conditions, and distance can all factor in on any given day. If your delivery is running behind, don't wait; reach out to our team directly. We keep tabs on every order and will give you a straight answer on timing.</p>"
+      },
+      {
+       "q": "What if I need to cancel or adjust my order?",
+       "a_html": "<p>The sooner you contact us, the better. Once a driver is dispatched, making changes to an order may not be possible. Call us at 201-595-0706 or reach out through the website, and our team will do whatever we can to help.</p>"
+      },
+      {
+       "q": "Does someone need to be available when my delivery arrives?",
+       "a_html": "<p>Yes, an adult 21 or older with a valid government-issued ID must be there when the driver arrives. No exceptions. If a qualifying adult is not available at the time of delivery, the driver can’t complete the handoff, so make sure you’re reachable during the estimated window.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals or discounts on Kenilworth weed delivery?",
+       "a_html": "<p>Lady L offers deals every day, but our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>. It's always worth checking with our team or browsing the promotions section on the website to see what's currently active.</p>\n<p>As for loyalty points, they apply to every delivery order at the same rate as in-store purchases, which means every order is building toward something. A dollar spent is a point earned, and every 100 points converts to $5 in store credit. Lady L also runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my delivery driver?",
+       "a_html": "<p>It's never expected, but it's always appreciated. A tip in the 15-20% range is a solid way to recognize a driver who showed up on time, handled the delivery with discretion, and made the whole experience feel effortless.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "kenilworth-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-992-214",
+   "heading": "Kenilworth Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Kenilworth is a community that knows what it values: downhome local businesses, a strong sense of place, and services that actually deliver on what they promise. Lady L Cannabis was built on those same principles. From our West Side base, we extend a curated product lineup, professional drivers, and a delivery process designed to feel effortless to every one of our Kenilworth weed delivery customers."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve<a href=\"https://ladyljerseycity.com/service/\"> Kenilworth and the surrounding communities</a> with cannabis delivery that's consistent, discreet, and worth coming back for. We're here when you're ready."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

@@ -1,0 +1,471 @@
+{
+ "slug": "dispensary-near-statue-of-liberty",
+ "path": "/new-jersey/dispensary-near-statue-of-liberty/",
+ "url": "https://ladyljerseycity.com/new-jersey/dispensary-near-statue-of-liberty/",
+ "name": "Statue of Liberty",
+ "title": "Bold Dispensary Near Statue of Liberty | LADY L CANNABIS",
+ "description": "Need a dispensary near Statue of Liberty? Lady L Cannabis is minutes away in Jersey City. Hop off your flight & enjoy our products & friendly, local service at our dispensary close to the Statue of Liberty!",
+ "canonical": "https://ladyljerseycity.com/new-jersey/dispensary-near-statue-of-liberty/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Dispensary Near Statue of Liberty",
+ "postId": "898",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-statue-of-liberty/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/",
+        "name": "New Jersey"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-statue-of-liberty/",
+        "name": "Dispensary Near Statue of Liberty"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "dispensary-near-statue-of-liberty",
+   "src": "bde-section-898-100",
+   "heading": "Dispensary Near Statue of Liberty",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you're looking for a dispensary near the Statue of Liberty, Lady L Cannabis is your closest real option. Our shop sits on Jersey City's West Side, just 31 minutes away via I-78 W through the Holland Tunnel. You've just stood at the foot of one of the world's most iconic landmarks. Now comes the easy part. Lady L is a woman-owned cannabis microbusiness where the products are curated, the service is warm, and the experience is unlike any dispensary you've walked into before."
+    },
+    {
+     "type": "button",
+     "text": "Order for Pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "directions-from-statue-of-liberty-to-lady-l",
+   "src": "bde-section-898-107",
+   "heading": "Directions from Statue of Liberty to Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Getting from the Statue of Liberty to Lady L takes about 22 to 50 minutes, depending on tunnel traffic. The drive covers 8.2 miles via I-78 W through the Holland Tunnel. This route has tolls."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Get on NY-9A N/West St from Battery Park — 1 min (0.2 mi)",
+      "Continue on NY-9A N/West St — 4 min (1.1 mi)",
+      "Take Hudson St to I-78 W/Holland Tunnel — 3 min (0.4 mi)",
+      "Continue on I-78 W. Take NJ-139 W and US-1 Truck S/US-9 Truck S to Communipaw Ave in Jersey City — 14 min (6.0 mi)",
+      "Continue on Communipaw Ave and drive to West Side Ave — 3 min (0.6 mi), we're on the right"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Get direction",
+     "href": "https://maps.app.goo.gl/WiDkXKSES97W288r7"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:+1 (201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "a-dispensary-near-the-statue-of-liberty-with-soul",
+   "src": "bde-section-898-135",
+   "heading": "A Dispensary Near the Statue of Liberty With Soul",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Most people who visit the Statue of Liberty spend the day in motion. You board a ferry, cross the harbor, take in one of the most recognized monuments on earth, and head back to shore with a full afternoon still ahead. That's where Lady L comes in."
+    },
+    {
+     "type": "p",
+     "html": "Lady L does not look like an average dispensary. It has a modern take on 80s design, warm lighting, and a team that wants to know what you're looking for. Founder Lili Hollandt built this place from the ground up after two decades in advertising and media. She arrived in the U.S. in 1999 and has called Jersey City home ever since. That story feels right at home in the shadow of Lady Liberty."
+    },
+    {
+     "type": "p",
+     "html": "In 2025, the Local Girl audience named Lady L the Best Dispensary in Jersey City. That recognition came from real customers, not a campaign. First-timers leave more informed than when they arrived. Regulars get fast, personalized service built around what they already love. The vibe here is warm, bold, and completely its own. The Statue of Liberty draws visitors from every corner of the world. Lady L welcomes all of them. If you're spending the day exploring the harbor area, the short drive across the tunnel is one of the best additions you can make to the itinerary."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "whats-inside-products-worth-the-trip-from-statue-of-liberty",
+   "src": "bde-section-898-144",
+   "heading": "What's Inside: Products Worth the Trip from Statue of Liberty",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Our shelves are built around one standard: quality over quantity. Every product earns its place based on freshness, reliability, and what our customers want. If something doesn't clear that bar, it doesn't make the cut."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Pre-Rolls<br>Grab one on the way out, and you're ready to go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Vapes<br>A discreet experience for customers who prefer something easy on the go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Concentrates<br>For experienced consumers looking for something more."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "p",
+     "html": "Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "A precise, easy-to-dose option for customers who want control over their experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "alt": "2a19df96-cd4c-43b8-ac75-83bfacabd874",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "Topicals"
+    },
+    {
+     "type": "p",
+     "html": "A great entry point for wellness-focused shoppers exploring cannabis for the first time."
+    },
+    {
+     "type": "p",
+     "html": "Our menu spans products from $10 to $150, so there's a strong option at every budget."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "why-dispensary-shoppers-choose-lady-l",
+   "src": "bde-section-898-181",
+   "heading": "Why Dispensary Shoppers Choose Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady Liberty stands for freedom, welcome, and the promise of something better. Lady L Cannabis isn't a stretch from that spirit. This is a woman-owned microbusiness built by an immigrant founder on a neighborhood block in Jersey City, and it operates every day with the same values the harbor's most famous resident represents."
+    },
+    {
+     "type": "p",
+     "html": "Founder Lili Hollandt sits on the West Side Partnership Board of Directors and shows up for this community through sponsorships, toy drives, food drives, and local partnerships. The <a href=\"https://ladyljerseycity.com/rewards/\">West Side Connection Discount VIP program</a> gives back to the people who make the neighborhood what it is. You earn one point for every dollar spent, and 100 points equals $5 in store credit. We also offer rotating promotions for first-time customers, veterans and military, seniors, birthdays, referrals, and more are part of the regular mix. We like to reward our <a href=\"https://ladyljerseycity.com/new-jersey/\">NJ neighborhoods</a>!"
+    },
+    {
+     "type": "button",
+     "text": "Learn More About Us",
+     "href": "https://ladyljerseycity.com/about-us/"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  },
+  {
+   "id": "a-day-worth-having-explore-the-statue-of-liberty",
+   "src": "bde-section-898-190",
+   "heading": "A Day Worth Having: Explore the Statue of Liberty",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The Statue of Liberty is one of the most visited landmarks on earth, and for good reason. A trip to Liberty Island is a full experience before you ever set foot back on shore. Here's what makes the visit worth planning around, and where Lady L fits into the day."
+    },
+    {
+     "type": "card",
+     "href": "https://www.nps.gov/stli/",
+     "title": "The Statue of Liberty National Monument",
+     "level": 3,
+     "html": "The Statue of Liberty National Monument is managed by the National Park Service and draws millions of visitors each year. Liberty Island offers ground-level access, pedestal tours, and crown tours for those who book in advance. The views of New York Harbor from the island are unmatched, and the museum at the base tells the full story of the monument's design, construction, and meaning. Plan for at least two to three hours on the island, especially if you have pedestal or crown access."
+    },
+    {
+     "type": "card",
+     "href": "https://whc.unesco.org/en/list/307/",
+     "title": "A UNESCO World Heritage Site",
+     "level": 3,
+     "html": "The Statue of Liberty holds UNESCO World Heritage Site status, recognized alongside Ellis Island as a landmark of universal significance. That designation speaks to the monument's role not just as an American symbol but as a global one. The connection between Liberty Island and Ellis Island, which sits nearby in the harbor, makes the area a natural full-day destination. Ellis Island's immigration museum is one of the most moving experiences in the New York Harbor area and pairs naturally with a visit to the Statue of Liberty."
+    },
+    {
+     "type": "card",
+     "href": "https://dep.nj.gov/parksandforests/state-park/liberty-state-park/",
+     "title": "Liberty State Park",
+     "level": 3,
+     "html": "Just across the water in Jersey City, Liberty State Park offers some of the best unobstructed views of the Statue of Liberty and the Manhattan skyline available anywhere. The park is the departure point for Statue of Liberty and Ellis Island ferries, and it's a destination in its own right. Walking paths, open green space, and waterfront views make it a natural place to decompress after the ferry ride back. From Liberty State Park, Lady L is less than 10 minutes away by car."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "cannabis-guide-for-dispensary-shoppers",
+   "src": "bde-section-898-228",
+   "heading": "Cannabis Guide for Dispensary Shoppers",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "alt": "03119f51a270ad502b972b1c699799170561feb4",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "w": 1619,
+     "h": 1080
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What makes Lady L different from other dispensaries near Statue of Liberty?",
+       "a_html": "<p>The dispensary near Statue of Liberty that visitors keep talking about is Lady L. There's no other shop in this part of New Jersey quite like it. This is a woman-owned microbusiness where the founder is genuinely present, the budtenders know their products, and the space feels nothing like a corporate cannabis chain. Lili Hollandt built Lady L from scratch on Jersey City's West Side, and in 2025, the Local Girl audience named it the Best Dispensary in Jersey City. Visitors who make the 31-minute trip from Battery Park tend to leave glad they did.</p>"
+      },
+      {
+       "q": "Where is Lady L Cannabis located?",
+       "a_html": "<p>Our shop is at 547 West Side Avenue, Jersey City, NJ 07304, on the West Side's main corridor between Clendenny Avenue and Lexington Avenue. From Battery Park, take NY-9A N to the Holland Tunnel, cross into Jersey City on I-78 W, then follow NJ-139 W to Broadway and drive to West Side Ave. The trip covers 7.9 miles and takes about 31 minutes. This route has tolls. Street parking is available on West Side Avenue and nearby side streets.</p>"
+      },
+      {
+       "q": "How old do I need to be to visit a dispensary near Statue of Liberty?",
+       "a_html": "<p>You need to be 21 or older to shop at Lady L. Adult-use cannabis purchases require a valid, government-issued photo ID on every visit. We accept all valid government-issued IDs, including international IDs and those from other states. Expired and temporary IDs are never accepted.</p>"
+      },
+      {
+       "q": "Do I need to show ID to purchase cannabis?",
+       "a_html": "<p>Every time, no exceptions. Bring a valid government-issued photo ID, such as a driver's license or passport. Expired IDs and temporary IDs are not accepted, whether you're shopping in-store or placing a delivery order.</p>"
+      },
+      {
+       "q": "Do I need a medical card to shop at Lady L?",
+       "a_html": "<p>Not at all. Lady L is an adult-use dispensary. If you're 21 or older with a valid photo ID, you're ready to shop. No medical card, no extra paperwork required.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally buy?",
+       "a_html": "<p>Dispensaries are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession</strong> <strong>Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis purchases in New Jersey?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). All taxes are applied at checkout. Our team can walk you through the breakdown if you have questions.</p>"
+      },
+      {
+       "q": "What forms of payment do you accept at Lady L?",
+       "a_html": "<p>We accept cash, debit cards, pay by bank (ACH), pay by text (Apple/Google debit or credit), and Aeropay. All delivery orders require full payment (pay by bank) before the order is placed. An on-site ATM is available if needed.</p>"
+      },
+      {
+       "q": "Where can I legally consume cannabis?",
+       "a_html": "<p>New Jersey permits cannabis consumption in private residences. Public spaces, parks, vehicles, and federal property are all off-limits. Liberty State Park and Liberty Island are both federally managed spaces, so consumption is not permitted there. You're responsible for knowing and following the rules wherever you consume. Lady L does not have on-site consumption space.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals and discounts for dispensary shoppers?",
+       "a_html": "<p>We do. Our rotating promotions include first-time customer discounts, veteran and military discounts, senior discounts, birthday discounts, referral rewards, and industry discounts. Our community VIP program, the West Side Connection Discount, gives back to the people in our neighborhood. Through our loyalty program, you earn one point for every dollar spent. Every 100 points is worth $5 in store credit. Points apply to both in-store and delivery purchases. Check with our team for what's running when you arrive.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "ready-to-go-directions-to-our-dispensary-near-statue-of-libe",
+   "src": "bde-section-898-239",
+   "heading": "Ready to Go? Directions to Our Dispensary Near Statue of Liberty",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We are easy to reach from Statue of Liberty no matter how you travel. Here's what each option looks like."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/rectangle-3463786.webp",
+     "alt": "Rectangle 3463786",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Rectangle-3463786.webp",
+     "w": 579,
+     "h": 676
+    },
+    {
+     "type": "p",
+     "html": "Driving from Battery Park/Lower Manhattan"
+    },
+    {
+     "type": "p",
+     "html": "Traffic through the Holland Tunnel varies, so plan accordingly. All three routes use I-78 W to cross into Jersey City."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via I-78 W (typically 22–50 min, 8.2 miles)</strong> — The fastest and most direct option. Take NY-9A N from Battery Park, enter the Holland Tunnel via I-78 W, and follow NJ-139 W into Jersey City. Drive to West Side Ave. We're on the right. This route has tolls.",
+      "<strong>Via NY-9A N/West St and I-78 W (typically 26–50 min, 9.0 miles)</strong> — A slightly longer variation of the same tunnel crossing. Adds a few minutes but follows a similar path into Jersey City's West Side.",
+      "<strong>Via I-78 W and US-1 Truck N/US-9 Truck N (typically 28 min to 1 hr, 16.6 miles)</strong> — The longest route by distance. A solid backup if the other two are heavily backed up near the tunnel."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Biking from Liberty State Park"
+    },
+    {
+     "type": "p",
+     "html": "Once you're back on the Jersey City side, Lady L is a quick, mostly flat ride. All three routes clock in under 20 minutes."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via Johnston Ave and Communipaw Ave (15 min, 2.6 miles)</strong> — The fastest cycling route from Liberty State Park. Mostly flat the whole way.",
+      "<strong>Via Johnston Ave (16 min, 2.8 miles)</strong> — One minute slower and slightly longer, but a clean, easy ride along Johnston Ave straight to the West Side.",
+      "<strong>Via Johnston Ave and Jewett Ave (18 min, 3.0 miles)</strong> — The longest of the three bike options."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Whether you take the long way around or hop on your bike, we’re here waiting to show you why we’re the top dispensary near Statue of Liberty!"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Statue of Liberty"
+  }
+ ]
+}

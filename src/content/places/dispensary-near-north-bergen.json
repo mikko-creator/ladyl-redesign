@@ -1,0 +1,504 @@
+{
+ "slug": "dispensary-near-north-bergen",
+ "path": "/new-jersey/dispensary-near-north-bergen/",
+ "url": "https://ladyljerseycity.com/new-jersey/dispensary-near-north-bergen/",
+ "name": "North Bergen",
+ "title": "Bold Dispensary Near North Bergen, NJ | LADY L CANNABIS",
+ "description": "20 minutes down I-95 S & you're at Lady L Cannabis dispensary near North Bergen. North Bergen dispensary shoppers keep coming back for great prices & warm service!",
+ "canonical": "https://ladyljerseycity.com/new-jersey/dispensary-near-north-bergen/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Dispensary Near North Bergen, NJ, Worth Every Mile",
+ "postId": "901",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-north-bergen/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/",
+        "name": "New Jersey"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-north-bergen/",
+        "name": "Dispensary Near North Bergen, NJ"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "dispensary-near-north-bergen-nj-worth-every-mile",
+   "src": "bde-section-901-100",
+   "heading": "Dispensary Near North Bergen, NJ, Worth Every Mile",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Need a solid dispensary near North Bergen? The answer is just 20 minutes south. Lady L Cannabis sits on Jersey City's West Side, a woman-owned cannabis microbusiness built around one simple idea: give people a real experience. Warm service. Curated products. Zero judgment. Whether you have never stepped inside a dispensary or you know exactly what you came for, we’re a dispensary North Bergen you can count on!"
+    },
+    {
+     "type": "button",
+     "text": "Order for Pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "directions-from-north-bergen-to-lady-l",
+   "src": "bde-section-901-107",
+   "heading": "Directions from North Bergen to Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Getting from North Bergen to Lady L is a quick drive down I-95 S. The fastest route takes about 20 minutes and covers 10.8 miles."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Get on NJ-3 W from Tonnelle Avenue",
+      "Continue to NJ-495 W and take the New Jersey Turnpike exit from NJ-3 W",
+      "Take I-95 S toward Newark and follow it to Exit 15E",
+      "Continue on US-1 Truck North toward Jersey City",
+      "Drive to West Side Avenue, and we are on the right at"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Get direction",
+     "href": "https://maps.app.goo.gl/VTJSWZPk3kdL1ots7"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:+1 (201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "a-dispensary-near-north-bergen-with-soul",
+   "src": "bde-section-901-135",
+   "heading": "A Dispensary Near North Bergen With Soul",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "North Bergen and Jersey City's West Side are practically neighbors. Twenty minutes down I-95 S, and you’re somewhere that feels completely different from anything on your side of the Hudson County line. It’s quieter here on West Side Avenue. More residential. More real."
+    },
+    {
+     "type": "p",
+     "html": "Lady L does not look like a dispensary. It feels like stepping into someone's living room. Bold modern 80s design, warm lighting, and a team that actually wants to know what you’re looking for. Founder Lili Hollandt built this place from the ground up after two decades in advertising and media. She came to the U.S. in 1999 and has called Jersey City home since 2010. That background shapes everything here, from how the shelves are stocked to how our budtenders show up every single day."
+    },
+    {
+     "type": "p",
+     "html": "In 2025, the Local Girl audience named Lady L the Best Dispensary in Jersey City. That recognition came from real customers, not a campaign. First-timers leave more informed than when they arrived. Regulars get fast, personalized service that fits their preferences. Everyone walks out with something worth coming back for."
+    },
+    {
+     "type": "p",
+     "html": "If you’re making the trip from North Bergen, it’s easy to make a day of it. Stop by after running errands near Braddock Park, or head our way after cooling off at the community pool. Twenty minutes is nothing when the experience on the other end is this good."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "whats-inside-products-worth-the-trip-from-north-bergen",
+   "src": "bde-section-901-144",
+   "heading": "What's Inside: Products Worth the Trip from North Bergen",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We don't aim to stock everything; we stock the right things for our customers. Every product decision is driven by careful curation. We prioritize freshness and quality. If an item doesn't meet our standards, we don't carry it."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Pre-Rolls<br>Grab one on the way out, and you're ready to go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Vapes<br>A discreet experience for customers who prefer something easy on the go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Concentrates<br>For experienced consumers looking for something more."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "p",
+     "html": "Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "A precise, easy-to-dose option for customers who want control over their experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "alt": "2a19df96-cd4c-43b8-ac75-83bfacabd874",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "Topicals"
+    },
+    {
+     "type": "p",
+     "html": "A great entry point for wellness-focused shoppers exploring cannabis for the first time."
+    },
+    {
+     "type": "p",
+     "html": "Our menu spans products from $10 to $150, so there is a strong option for every budget."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "why-north-bergen-dispensary-shoppers-choose-lady-l",
+   "src": "bde-section-901-181",
+   "heading": "Why North Bergen Dispensary Shoppers Choose Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "North Bergen has a lot going for it. A dispensary like Lady L is not one of the things it has yet. That’s exactly why customers make the trip."
+    },
+    {
+     "type": "p",
+     "html": "Lady L was built with women in mind, and everyone is welcome here. Founder Lili Hollandt sits on the West Side Partnership Board of Directors and shows up for this neighborhood in real, tangible ways. Community sponsorships, toy drives, food drives, local partnerships — that’s just how this business operates every day."
+    },
+    {
+     "type": "p",
+     "html": "Our<a href=\"https://ladyljerseycity.com/rewards/\"> loyalty program</a> makes every visit count. You earn one point for every dollar you spend. Hit 100 points, and that is $5 in store credit. Points apply to both in-store visits and delivery orders, so the rewards keep building."
+    },
+    {
+     "type": "p",
+     "html": "We also offer rotating discounts for first-time customers, veterans and military, seniors, birthdays, and referrals. Our community VIP program, the West Side Connection Discount, gives back to the people who make this <a href=\"https://ladyljerseycity.com/new-jersey/\">NJ neighborhood</a> what it is. We’re a top dispensary North Bergen residents can’t get enough of!"
+    },
+    {
+     "type": "button",
+     "text": "Learn More About Us",
+     "href": "https://ladyljerseycity.com/about-us/"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  },
+  {
+   "id": "a-day-worth-having-explore-north-bergen-nj",
+   "src": "bde-section-901-190",
+   "heading": "A Day Worth Having: Explore North Bergen, NJ",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.northbergen.org/\">North Bergen</a> is more than a pass-through. It’s a real community with parks, local spots, and the kind of neighborhood energy that makes Hudson County worth living in. Before you make the short drive to our dispensary near North Bergen, or after you leave us, here are a few spots worth knowing."
+    },
+    {
+     "type": "card",
+     "href": "http://www.hudsoncountynj.org/braddock-park-north-bergen/",
+     "title": "Braddock Park",
+     "level": 3,
+     "html": "Braddock Park is North Bergen's outdoor anchor. The park sits near the Palisades and offers walking paths, athletic courts, picnic areas, and open green space that locals count on year-round. It’s where you run into your neighbors on a Saturday morning and linger longer than you planned."
+    },
+    {
+     "type": "card",
+     "href": "https://elchapinrestaurantbakerynj.com/",
+     "title": "El Chapin Restaurant & Bakery",
+     "level": 3,
+     "html": "El Chapin Restaurant &amp; Bakery brings authentic Guatemalan flavors to North Bergen, and the community loves it for good reason. From the bakery counter to the full restaurant menu, every dish reflects real culinary tradition and care. It’s warm, welcoming, and the kind of place that regulars protect fiercely."
+    },
+    {
+     "type": "card",
+     "href": "https://www.northbergen.org/Departments/community-pool",
+     "title": "North Bergen Community Pool",
+     "level": 3,
+     "html": "The North Bergen Community Pool is a genuine neighborhood gem. Open to residents during the warmer months, the pool is a spot that brings the whole community together. If you’re planning a summer visit to our dispensary near North Bergen, a morning at the pool is the perfect warm-up."
+    },
+    {
+     "type": "card",
+     "href": "http://cuomosonsdeli.com/",
+     "title": "Cuomo's Son's Deli",
+     "level": 3,
+     "html": "Cuomo's Son's Deli is a North Bergen staple. The staff knows your order, and the food is exactly what it should be. Sandwiches, fresh deli fare, and the unpretentious energy that makes a great local deli feel like home. Grab lunch here before heading our way, and you will hit Lady L well-fed and ready to explore."
+    },
+    {
+     "type": "card",
+     "href": "http://www.njbeerco.com/",
+     "title": "NJ Beer Co.",
+     "level": 3,
+     "html": "NJ Beer Co. is one of Hudson County's beloved craft breweries, and it draws a crowd that loves good drinks and good company. The taproom has a relaxed, social atmosphere that makes it easy to settle in for a pint or two. Community-minded, locally rooted, and genuinely fun. That is a vibe we understand."
+    },
+    {
+     "type": "card",
+     "href": "http://www.allmenus.com/nj/north-bergen/10730-perfect-pizza/menu/",
+     "title": "Perfect Pizza",
+     "level": 3,
+     "html": "New Jersey takes pizza seriously, and Perfect Pizza in North Bergen holds up its end of that reputation. This neighborhood spot is casual, reliable, and exactly what you want before or after a trip to Lady L. The name is confident, and the slices back it up. Grab a quick slice on your way out, or come back for a sit-down meal after your visit."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "cannabis-guide-for-north-bergen-dispensary-shoppers",
+   "src": "bde-section-901-207",
+   "heading": "Cannabis Guide for North Bergen Dispensary Shoppers",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "alt": "03119f51a270ad502b972b1c699799170561feb4",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "w": 1619,
+     "h": 1080
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What makes Lady L the best dispensary near North Bergen?",
+       "a_html": "<p>There is no other dispensary near North Bergen quite like Lady L. This is a woman-owned microbusiness where the founder is actually present, the budtenders genuinely know their stuff, and the space feels nothing like a typical cannabis shop. Lili Hollandt built Lady L from scratch on Jersey City's West Side, and in 2025, the Local Girl audience recognized it as the Best Dispensary in Jersey City. North Bergen dispensary shoppers who make the 20-minute drive tend to keep coming back. The product selection is tight and intentional, and the service is the kind you remember.</p>"
+      },
+      {
+       "q": "Where is Lady L Cannabis located?",
+       "a_html": "<p>Our shop is at 547 West Side Avenue, Jersey City, NJ 07304, sitting on the West Side's main corridor between Clendenny Avenue and Lexington Avenue. From North Bergen, hop on I-95 S, and you will be here in about 20 minutes, covering 10.8 miles. This route includes tolls. Street parking is available on West Side Avenue and the nearby side streets.</p>"
+      },
+      {
+       "q": "How old do I need to be to visit a dispensary near North Bergen?",
+       "a_html": "<p>You need to be 21 or older to shop at Lady L. Adult-use cannabis purchases require a valid, government-issued photo ID on every visit. We accept all valid government-issued IDs, including those from other states. Expired and temporary IDs are never accepted.</p>"
+      },
+      {
+       "q": "Do I need to show ID to purchase cannabis?",
+       "a_html": "<p>Every time, no exceptions. Bring a valid government-issued photo ID, such as a driver's license or passport. Expired IDs and temporary IDs are not accepted, whether you are shopping in-store or placing a delivery order.</p>"
+      },
+      {
+       "q": "Do I need a medical card to shop at Lady L?",
+       "a_html": "<p>Not at all. Lady L is an adult-use dispensary. If you are 21 or older with a valid photo ID, you are ready to shop. No medical card, no extra paperwork.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally buy near North Bergen, NJ?",
+       "a_html": "<p>Dispensaries are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession</strong> <strong>Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis purchases in New Jersey?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). All taxes are applied at checkout. Our team can walk you through the breakdown if you have questions.</p>"
+      },
+      {
+       "q": "What forms of payment do you accept at Lady L?",
+       "a_html": "<p>We accept cash, debit cards, pay by bank (ACH), pay by text (Apple/Google debit or credit), and Aeropay. All delivery orders require full payment (pay by bank) before the order is placed. An on-site ATM is available if needed.</p>"
+      },
+      {
+       "q": "Where can I legally consume cannabis near North Bergen?",
+       "a_html": "<p>New Jersey permits cannabis consumption in private residences. Public spaces, parks, vehicles, and federal property are all off-limits. You are responsible for knowing and following the rules wherever you consume. Lady L does not have on-site consumption space.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals and discounts for North Bergen dispensary shoppers?",
+       "a_html": "<p>We do. Our rotating promotions include first-time customer discounts, veteran and military discounts, senior discounts, birthday discounts, referral rewards, and industry discounts. Our community VIP program, the West Side Connection Discount, gives back to the people in our neighborhood. Through our loyalty program, you earn one point for every dollar spent. Every 100 points is worth $5 in store credit. Points apply to both in-store and delivery purchases. Check with our team for what's running when you arrive.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "ready-to-go-directions-to-our-dispensary-near-north-bergen",
+   "src": "bde-section-901-218",
+   "heading": "Ready to Go? Directions to Our Dispensary Near North Bergen",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We are easy to reach from North Bergen, no matter how you travel. Here is what each option looks like."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/rectangle-3463786.webp",
+     "alt": "Rectangle 3463786",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Rectangle-3463786.webp",
+     "w": 579,
+     "h": 676
+    },
+    {
+     "type": "p",
+     "html": "Driving from North Bergen"
+    },
+    {
+     "type": "p",
+     "html": "You’ve got 3 easy driving options:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via I-95 S (~20 min, 10.8 miles)</strong> - The fastest route from North Bergen into Jersey City's West Side. Take NJ-3 W from Tonnelle Avenue, connect to NJ-495 W, and merge onto I-95 S. Follow it to Exit 15E, then drive to West Side Avenue. Note: this route has tolls.",
+      "<strong>Via Tonnelle Ave (~23 min, 6.4 miles) </strong>- A surface street alternative through Jersey City. Heavier traffic than usual, but no highway required.",
+      "<strong>Via Tonnelle Ave and John F. Kennedy Blvd (~25 min, 5.9 miles)</strong> - The longest of the three options, with some traffic as usual. A solid local road route if you prefer to stay off the Turnpike."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Biking from North Bergen"
+    },
+    {
+     "type": "p",
+     "html": "The ride from North Bergen to Lady L is mostly flat and covers between 5.8 and 7.1 miles, depending on your route."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via Summit Ave (~33 min, 5.8 miles) </strong>- The fastest cycling route from North Bergen. Mostly flat the whole way down.",
+      "<strong>Via Palisade Ave (~37 min, 6.4 miles)</strong> - A scenic ride down Palisade Avenue through the Heights and into Jersey City's West Side.",
+      "<strong>Via Palisade Ave and Montgomery St (~41 min, 7.1 miles)</strong> - The longest of the three bike routes. All routes are mostly flat."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Lady L is the dispensary near North Bergen worth every mile. Come meet the team, find your new favorite product, and see what this <a href=\"https://ladyljerseycity.com/new-jersey/\">NJ dispensary</a> is all about. We would love to be your go-to spot!"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "North Bergen"
+  }
+ ]
+}

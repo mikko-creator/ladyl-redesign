@@ -1,0 +1,176 @@
+{
+ "slug": "lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday",
+ "path": "/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+ "url": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+ "title": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday | LADY L CANNABIS",
+ "description": "The West Side Jersey City community came together this past Saturday for a remarkable milestone as Lady L joined local residents, food lovers, and",
+ "canonical": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday",
+ "postId": "1136",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/08/1000066202.heic",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/08/1000066202.heic",
+     "width": "200",
+     "height": "200",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+        "name": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#webpage",
+     "url": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+     "name": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday | LADY L CANNABIS",
+     "datePublished": "2026-08-17T10:13:01-06:00",
+     "dateModified": "2026-08-18T08:18:18-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/08/1000066202.heic"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday | LADY L CANNABIS",
+     "datePublished": "2026-08-17T10:13:01-06:00",
+     "dateModified": "2026-08-18T08:18:18-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "The West Side Jersey City community came together this past Saturday for a remarkable milestone as Lady L joined local residents, food lovers, and",
+     "name": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/08/1000066202.heic"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Cannabis for Beginners: A Warm, No-Pressure Guide to Your First Time",
+   "href": "https://ladyljerseycity.com/blog/cannabis-for-beginners-a-warm-no-pressure-guide-to-your-first-time/"
+  },
+  {
+   "label": "Next Post",
+   "title": "Year-Round School Supply Donations in Jersey City | Lady L",
+   "href": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/"
+  }
+ ],
+ "dateText": "August 17th, 2026",
+ "date": "2026-08-17T10:13:01-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "none (featured image is HEIC or missing)",
+ "image": null,
+ "excerpt": "The West Side Jersey City community came together this past Saturday for a remarkable milestone as Lady L joined local residents, food lovers, and neighborhood leaders in wishing Bowl Burger Bistro a very happy 1st birthday. Over the past year, this beloved eatery has transformed from a newcomer on the block into a true neighborhood staple, renowned for serving up elevated comfort food with exceptional flair. Marking one year of culinary success, the celebratory gathering highlighted the vibrancy of West Side JC, bringing people together around great food, shared stories, and a mutual passion for the local culture that makes this community thrive.",
+ "html": "<p>The West Side Jersey City community came together this past Saturday for a remarkable milestone as <strong>Lady L</strong> joined local residents, food lovers, and neighborhood leaders in wishing <strong>Bowl Burger Bistro</strong> a very happy 1st birthday. Over the past year, this beloved eatery has transformed from a newcomer on the block into a true neighborhood staple, renowned for serving up elevated comfort food with exceptional flair. Marking one year of culinary success, the celebratory gathering highlighted the vibrancy of West Side JC, bringing people together around great food, shared stories, and a mutual passion for the local culture that makes this community thrive.</p>\n<p>Celebrating Bowl Burger Bistro’s first anniversary is a powerful reminder of how vital it is to lift up and support small business excellence—especially those that are immigrant-led and operated. Immigrant entrepreneurs bring incredible heart, resilience, and unique flavors that enrich the fabric of Jersey City’s local economy. Independent establishments like Bowl Burger Bistro do far more than serve delicious meals; they create local jobs, foster safe communal spaces, and build the distinct character of our neighborhoods. By championing these immigrant-owned gems, residents ensure that West Side JC continues to grow as a diverse, vibrant, and resilient community powered by local passion and small business success.</p>",
+ "sections": [
+  {
+   "id": "lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger",
+   "src": "bde-section-428-104",
+   "heading": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-428-107",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The West Side Jersey City community came together this past Saturday for a remarkable milestone as <strong>Lady L</strong> joined local residents, food lovers, and neighborhood leaders in wishing <strong>Bowl Burger Bistro</strong> a very happy 1st birthday. Over the past year, this beloved eatery has transformed from a newcomer on the block into a true neighborhood staple, renowned for serving up elevated comfort food with exceptional flair. Marking one year of culinary success, the celebratory gathering highlighted the vibrancy of West Side JC, bringing people together around great food, shared stories, and a mutual passion for the local culture that makes this community thrive."
+    },
+    {
+     "type": "p",
+     "html": "Celebrating Bowl Burger Bistro’s first anniversary is a powerful reminder of how vital it is to lift up and support small business excellence—especially those that are immigrant-led and operated. Immigrant entrepreneurs bring incredible heart, resilience, and unique flavors that enrich the fabric of Jersey City’s local economy. Independent establishments like Bowl Burger Bistro do far more than serve delicious meals; they create local jobs, foster safe communal spaces, and build the distinct character of our neighborhoods. By championing these immigrant-owned gems, residents ensure that West Side JC continues to grow as a diverse, vibrant, and resilient community powered by local passion and small business success."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,433 @@
+{
+ "slug": "hillside-weed-delivery",
+ "path": "/service/hillside-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/hillside-weed-delivery/",
+ "name": "Hillside",
+ "county": "Union",
+ "title": "Reliable Hillside Weed Delivery | LADY L CANNABIS",
+ "description": "Get Hillside weed delivery from Lady L, an award-winning woman-owned microdispensary. Enjoy reliable cannabis delivery in Hillside, NJ, with a curated menu and professional drivers at your door.",
+ "canonical": "https://ladyljerseycity.com/service/hillside-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Hillside Weed Delivery",
+ "postId": "1033",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/hillside-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/hillside-weed-delivery/",
+        "name": "Hillside Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-hillside-weed-delivery",
+   "src": "bde-section-1033-100",
+   "heading": "Unique Hillside Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Hiliside Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "Named Best Dispensary in Jersey City by the Local Girl audience in 2025, <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> has built its reputation on something real: warm, expert service and a product menu that earns its place every day. Our Hillside weed delivery service brings that same energy straight to your door in Union County. Founded and led by Lili Hollandt, a Jersey City community member and West Side Partnership Board member, Lady L is rooted in neighborhood pride and genuine connection. Whether you're in Hillside, neighboring Newark, Elizabeth, or Union, skip the trip and let Lady L bring the best of our menu to you."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-hillside-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-1033-109",
+   "heading": "Our Hillside Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every product on our Hillside weed delivery menu is there for a reason: freshness, quality, and the kind of real customer demand that tells us something belongs. Take a look at what's available:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower sits at the top of our menu by popular demand, and we keep it that way with a carefully rotating selection of strains from trusted brands like Rythm, Kind Tree, Legend, Good Green, and Happy Farmer. A wide range of effects and price points means there's always something worth adding to your cart."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Our pre-roll lineup is built for customers who want a quality experience without any extra steps. Classic and infused varieties from brands we stand behind keep the category consistently strong, and pricing stays accessible across the board."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "Gummies, chocolates, and other ingestible formats round out an edibles selection that includes something for every palate and preference. Stock rotates with fresh arrivals, so the live menu is always the most accurate guide to what's currently on hand."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Our vape selection is stocked with top cartridge brands and full-spectrum 1g and 2g disposables for customers who want something clean, portable, and dependable. Check the live menu for current availability."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures bring a low-key, purposeful approach to cannabis wellness. Topicals work directly on the skin, while tinctures offer a flexible, easy-to-manage daily option. Check the current menu for what's in stock."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "For consumers who want more out of every session, concentrates deliver. Solventless and live resin options rotate through the menu regularly, so it's always worth a look even if you've recently checked."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs deliver a potent, full-spectrum experience in a format that's more flexible than it appears. Typically available in syringe form, they can be used in a variety of ways depending on your needs and preferences. Check the live menu for current availability."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-1033-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "For weed delivery Hillside residents can rely on to be discreet and professional, Lady L has you covered. Orders leave the shop in plain, unmarked packaging, and our drivers cover Hillside and the surrounding Union County area with a steady, respectful presence that makes every handoff feel routine."
+    },
+    {
+     "type": "p",
+     "html": "Every driver we send out is trained and genuinely committed to your satisfaction. ID verification is completed at every delivery, and our entire operation runs in full compliance with New Jersey cannabis delivery law."
+    },
+    {
+     "type": "p",
+     "html": "Both in-house drivers and a vetted third-party service keep our delivery network running smoothly, with most orders arriving at your door in approximately one hour."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-hillside-works",
+   "src": "bde-section-1033-150",
+   "heading": "How Cannabis Delivery in Hillside Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "From account setup to doorstep handoff, Hillside weed delivery through Lady L is built to be clear and easy at every turn. Here's a quick walkthrough of what to expect."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Pull up the delivery menu and explore what's currently available. Stock is updated in real time, so the menu always reflects what's actually on hand. Add your selections to the cart and give your order a final look before heading to checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "With your order confirmed, a driver heads your way. Typical delivery time runs approximately one hour. Your driver will reach out upon arrival and verify your valid government-issued ID before completing the handoff. That's the whole process."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-1033-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://hillsidenj.us/\">Hillside</a> is a Union County township with deep roots, a diverse community, and a location that puts Newark, Elizabeth, and New York City well within reach. There's more going on here than its modest size suggests, and the weed delivery Hillside residents count on from Lady L makes it easy to enjoy every bit of it on your own terms."
+    },
+    {
+     "type": "card",
+     "href": "http://ucnj.org/parks-activities/",
+     "title": "Conant Park",
+     "level": 3,
+     "html": "One of 36 Union County parks, Conant Park is Hillside's most well-rounded outdoor destination. Soccer fields, a softball field, basketball courts, a fitness trail, an outdoor gym, a 1.1-mile walking path along the Elizabeth River, picnic tables with grills, and free WiFi make it a genuine community hub worth spending time in."
+    },
+    {
+     "type": "card",
+     "href": "https://ttobsteakhouse.com/",
+     "title": "Taste of Brazil Steakhouse",
+     "level": 3,
+     "html": "Hillside's outpost of this beloved Brazilian steakhouse brings the full Rodízio experience to Liberty Avenue, with gaucho-served fire-roasted cuts arriving tableside in the classic tradition. A hot buffet featuring Feijoada, Farofa, and Pão de Queijo, a fresh salad bar, and handcrafted Caipirinhas round out a dining experience that feels like a genuine celebration every time."
+    },
+    {
+     "type": "card",
+     "href": "https://www.cometpizzaristorante.com/",
+     "title": "Comet Pizza",
+     "level": 3,
+     "html": "A Hillside staple on North Broad Street, Comet Pizzeria &amp; LaMarca Ristorante offers handmade, made-to-order pizza alongside a full Italian dinner menu in a newly renovated dining room. From classic pepperoni to specialty pies and comforting pasta dishes, it's the kind of neighborhood spot that earns its regulars one slice at a time."
+    },
+    {
+     "type": "card",
+     "href": "https://hillsidehistoricalsociety.org/",
+     "title": "Hillside Historical Society",
+     "level": 3,
+     "html": "Home to the Woodruff House and Eaton Store Museum, the Hillside Historical Society preserves the township's origins through rotating exhibits, vintage photo archives, and a dedicated Phil Rizzuto Sports Exhibit honoring the New York Yankees legend who called Hillside home. The Grand Old Fashion Barn and virtual tour options add further depth to one of Union County's most distinctive local history resources."
+    },
+    {
+     "type": "card",
+     "href": "https://www.instagram.com/theeleganthomecake/",
+     "title": "The Elegant Home Cakes",
+     "level": 3,
+     "html": "Led by owner Jennifer, The Elegant Home Cakes on Salem Avenue is a Hillside custom cake studio known for visually stunning, made-to-order creations that combine exceptional craftsmanship with flavors ranging from classic red velvet to tropical piña colada. The attention to detail and commitment to exceeding expectations have made it a beloved local find for anyone marking a special occasion."
+    },
+    {
+     "type": "card",
+     "href": "https://keanstage.com/",
+     "title": "Kean Stage",
+     "level": 3,
+     "html": "The professional presenting series at Kean University in nearby Union, Kean Stage brings world-class performers in music, dance, and theatre to intimate venues, including the Wilkins Theatre and the Enlow Recital Hall. With a programming calendar spanning genres and disciplines, and a strong commitment to accessibility and education, it's one of the most culturally rich performing arts destinations in northern New Jersey."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "hillside-weed-delivery-faq",
+   "src": "bde-section-1033-204",
+   "heading": "Hillside Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L deliver in and around Hillside, NJ?",
+       "a_html": "<p>Lady L brings Hillside weed delivery throughout ZIP code 07205, seven days a week as part of our Zone 2 delivery coverage. Hillside is just one part of a network that spans a broad footprint across northern New Jersey. From Newark and Elizabeth to Union, Linden, and beyond, we reach dozens of communities across Union, Essex, Bergen, Hudson, and Passaic counties.</p>\n<p>Our coverage extends far beyond the immediate area, connecting customers from the suburbs of central New Jersey to the communities closest to the George Washington Bridge.</p>"
+      },
+      {
+       "q": "When can I place a Hillside weed delivery order?",
+       "a_html": "<p>Our delivery hours for Hillside are as follows:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>All orders must be placed and confirmed before the applicable last call time.</p>\n<p>As part of our Zone 2 service area, Hillside, NJ, receives free delivery on orders of $75 or more.</p>"
+      },
+      {
+       "q": "How old do you have to be to get cannabis delivered in Hillside?",
+       "a_html": "<p>New Jersey's adult-use cannabis law is clear: you must be 21 or older to place a delivery order. Your age is verified when you create your Lady L account, and the driver will confirm your ID at the door before they complete the handoff. No exceptions apply.</p>"
+      },
+      {
+       "q": "What ID does Lady L accept for delivery?",
+       "a_html": "<p>Any valid, government-issued photo ID is accepted, including driver's licenses, state-issued IDs, and passports. Out-of-state IDs are welcome. Your ID must be uploaded to your Lady L account before your first order, and the physical ID must be present when your driver arrives.</p>"
+      },
+      {
+       "q": "Do I need a medical cannabis card for Hillside weed delivery?",
+       "a_html": "<p>No medical card is required. Lady L is an adult-use dispensary open to any customer 21 or older. A confirmed Lady L account and a valid ID are everything you need to place your order.</p>"
+      },
+      {
+       "q": "What is the purchase limit for a single cannabis delivery order?",
+       "a_html": "<p>New Jersey law allows us to sell up to the equivalent of 28.35 grams, or one ounce, of usable cannabis per transaction. That total can include any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What are the taxes on cannabis delivery orders in New Jersey?",
+       "a_html": "<p>New Jersey adult-use cannabis purchases include a 6.625% state sales tax, a 2% municipal transfer or user tax, where applicable, and a $ 2.50-per-ounce Social Equity Excise Fee (SEEF). These apply equally to delivery orders, and every applicable charge is itemized at checkout before you confirm.</p>"
+      },
+      {
+       "q": "What are the payment options for Lady L delivery orders?",
+       "a_html": "<p>Delivery orders are processed through your Lady L account via ACH. There’s a debit option, but cash is not accepted for delivery. Orders must be paid in full before they’re confirmed and dispatched. If you have any payment questions, reach out to us directly at 201-595-0706.</p>"
+      },
+      {
+       "q": "What should I do if my Hillside weed delivery is running late?",
+       "a_html": "<p>Typical delivery time runs approximately one hour, though order volume, traffic, and distance can all be factors. If your order is taking longer than expected, contact our team directly. We track every order closely and address delays as quickly as possible.</p>"
+      },
+      {
+       "q": "Can I modify or cancel my order after confirming it?",
+       "a_html": "<p>Contact us as soon as possible if anything needs to change. Once an order has been dispatched, modifications may not be possible, but our team will do everything we can to help. Reach us by phone at 201-595-0706 or through the website.</p>"
+      },
+      {
+       "q": "Do I need to be home when my delivery driver arrives?",
+       "a_html": "<p>Yes. An adult 21 or older must be present and show a valid government-issued ID when the driver arrives. If no one is available at the time of delivery, the handoff can’t be completed. Please make sure you're home and available during your estimated delivery window to avoid any delays.</p>"
+      },
+      {
+       "q": "Are any deals or discounts available on Hillside weed delivery orders?",
+       "a_html": "<p>Yes. <a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\">Delivery deals differ from in-store promotions</a>, but loyalty points apply to delivery orders at the same rate as in-store purchases. That means every dollar spent on Hillside weed delivery earns one point, and every 100 points equals $5 in store credit.</p>\n<p>Plus, discount programs are available for first-time customers, veterans and military members, seniors, and several other groups. Lady L deals rotate regularly, so check the promotions section on our website or reach out to the team to see what's currently running.</p>"
+      },
+      {
+       "q": "Should I tip the delivery driver, and how much?",
+       "a_html": "<p>Tipping is never required, but it's always a welcome gesture. For the reliable weed delivery Hillside residents appreciate, our drivers bring real professionalism and care to every order. A 15-20% tip is a meaningful way to show appreciation.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "hillside-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-1033-214",
+   "heading": "Hillside Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady L Cannabis was born from a belief that a great dispensary should feel like a neighbor, not a corporation. From the carefully curated product menu to the warm, knowledgeable service that keeps customers coming back, everything we do reflects that commitment. Our Hillside weed delivery service is how we bring it all to your door, and we're honored to serve<a href=\"https://ladyljerseycity.com/service/\"> Hillside and the surrounding Union County communities</a>."
+    },
+    {
+     "type": "p",
+     "html": "The menu is curated, the drivers are professional, and Lady L is ready when you are."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

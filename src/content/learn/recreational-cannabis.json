@@ -1,0 +1,297 @@
+{
+  "slug": "recreational-cannabis",
+  "path": "/education/recreational-cannabis/",
+  "title": "Recreational Cannabis in New Jersey: Know Before You Go",
+  "seoTitle": "Recreational Cannabis in New Jersey: Know Before You Go | LADY L CANNABIS",
+  "description": "NJ adult-use cannabis rules with official sources: who can buy, ID, purchase limits, possession, where to consume, taxes, delivery, driving and travel.",
+  "date": "2026-11-04",
+  "group": "new-jersey",
+  "order": 2,
+  "readMinutes": 7,
+  "kicker": "New Jersey law",
+  "lede": "Legal cannabis comes with a few house rules, and the state writes them. Here is New Jersey's adult-use rulebook in plain language, every legal point linked to its official source, plus Lady L's own answers where they help.",
+  "sections": [
+    {
+      "heading": "Who can buy",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Here is the state's wording:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "legal-creamm-act",
+            "age-who-can-buy",
+            "legal-buy-at-licensed",
+            "legal-unlicensed-illegal"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "And for anyone under 21:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "age-under-21-prohibited",
+            "age-adults-supplying-minors"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Bring your ID",
+      "blocks": [
+        {
+          "type": "facts",
+          "ids": [
+            "age-id-check",
+            "age-id-each-transaction"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "From <a href=\"/\">Lady L's FAQ</a>: “Please bring a valid, government-issued ID every time you visit. We accept all valid government-issued IDs, including out-of-state IDs.”"
+        }
+      ]
+    },
+    {
+      "heading": "How much you can buy",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The state's figures for a single purchase:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "limit-per-transaction",
+            "limit-flower",
+            "limit-concentrate",
+            "limit-vape",
+            "limit-edibles",
+            "limit-combination"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The state rules word these caps a little differently, so here they are too:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "limit-rule-flower",
+            "limit-rule-concentrate-vape",
+            "limit-rule-edibles",
+            "limit-rule-combination"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How much you can have",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Two official texts describe possession differently: the Commission's consumer page and the state rules. Here are both, each with its source."
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "poss-six-ounces",
+            "poss-rule-one-ounce"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Sharing with a friend who is 21 or older? Gifting has its own rule:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "poss-gifting"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "And growing your own:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "grow-not-allowed"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Where you can and can't consume",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Buying legally is step one. Where you enjoy it is step two:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "use-private-spaces",
+            "use-where-cigarettes",
+            "use-smoke-free-air-act",
+            "use-rule-tobacco-places",
+            "use-rule-institutions"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "On consumption areas:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "use-consumption-areas",
+            "use-consumption-area-open-packages"
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "<strong>At Lady L:</strong> “It's your responsibility to consume only in legal locations. Lady L does not provide on-site consumption space.” (<a href=\"/\">Lady L's FAQ</a>)"
+        },
+        {
+          "type": "p",
+          "html": "And at work:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "use-workplace"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Taxes",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Here is how <a href=\"/\">Lady L's FAQ</a> explains the taxes on an adult-use purchase:"
+        },
+        {
+          "type": "callout",
+          "html": "“Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). These taxes are applied at checkout.”"
+        }
+      ]
+    },
+    {
+      "heading": "Delivery and pickup",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Lady L can bring the shop to your door or have your order waiting at the counter. From <a href=\"/\">Lady L's FAQ</a>: “We offer delivery to customers throughout Jersey City and across a broad area of northern New Jersey.” And at the door: “A valid government-issued ID is required upon delivery.”"
+        },
+        {
+          "type": "p",
+          "html": "Zones, minimums, hours and account details are on <a href=\"/service/\">Lady L's delivery page</a>. Prefer to pick up? <a href=\"/faq/\">Lady L's FAQ</a> says: “Yes, we absolutely recommend you browse our menu and place an order before coming by.” The <a href=\"/in-store-pickup/\">in-store pickup</a> page has the steps."
+        }
+      ]
+    },
+    {
+      "heading": "Driving",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "This one is simple. From the Commission:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "drive-illegal",
+            "drive-medical-too",
+            "drive-statute",
+            "drive-dre",
+            "drive-first-offense"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Lady L's own reminder, printed on every page: “Avoid driving or heavy machinery use.” Coming without a car? From <a href=\"/about-us/\">About Lady L</a>: “Lady L is also within comfortable walking distance to Lincoln Park and the West Side Avenue Light Rail Station.”"
+        }
+      ]
+    },
+    {
+      "heading": "Travelling",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Visiting from out of state? You are welcome to shop with a valid ID, as the ID answer above says. Taking your purchase home is another story:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "transport-state-lines",
+            "legal-federal-law"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The fine print",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "This guide restates official New Jersey sources in plain language. Laws and rules change, so the linked pages have the final word. Questions about shopping at Lady L? Start with the <a href=\"/faq/\">FAQ</a>, or read <a href=\"/education/cannabis-101/\">Cannabis 101</a> if you are just getting started."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Recreational Cannabis in New Jersey (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/"
+    },
+    {
+      "label": "General Information: Legal Cannabis in New Jersey (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/"
+    },
+    {
+      "label": "N.J.A.C. 17:30 Personal Use Cannabis Rules (Supp. 3-6-23) (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/documents/rules/NJAC%201730%20Personal%20Use%20Cannabis.pdf"
+    },
+    {
+      "label": "Safe & Responsible Consumption (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/safe-responsible-consumption/"
+    },
+    {
+      "label": "Patient FAQs (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/patient-faqs/"
+    },
+    {
+      "label": "Workplace & DUI Laws (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/workplace-dui-laws/"
+    },
+    {
+      "label": "Don't Drive High (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/dont-drive-high/"
+    },
+    {
+      "label": "Cannabis Related Laws (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/resources/cannabis-laws/"
+    },
+    {
+      "label": "Lady L Cannabis: home page FAQ",
+      "url": "/"
+    },
+    {
+      "label": "Lady L Cannabis: Frequently Asked Questions",
+      "url": "/faq/"
+    },
+    {
+      "label": "Lady L Cannabis: delivery",
+      "url": "/service/"
+    },
+    {
+      "label": "Lady L Cannabis: About Us",
+      "url": "/about-us/"
+    }
+  ]
+}

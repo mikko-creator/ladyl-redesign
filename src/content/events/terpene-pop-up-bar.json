@@ -1,0 +1,103 @@
+{
+ "slug": "terpene-pop-up-bar",
+ "path": "/events/terpene-pop-up-bar/",
+ "url": "https://ladyljerseycity.com/events/terpene-pop-up-bar/",
+ "title": "Terpene Pop Up Bar | LADY L CANNABIS",
+ "description": "Smell the Terps, Taste the Garden 🌿✨",
+ "canonical": "https://ladyljerseycity.com/events/terpene-pop-up-bar/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Terpene Pop Up Bar",
+ "postId": "738",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/terpene-pop-up-bar/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/terpene-pop-up-bar/",
+        "name": "Terpene Pop Up Bar"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Wonderbrett & Bliss co. Takeover",
+   "href": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Grand Opening",
+   "href": "https://ladyljerseycity.com/events/grand-opening/"
+  }
+ ],
+ "dateText": "Saturday, October 11, 2025",
+ "timeText": "3:00 PM - 5:00 PM",
+ "startISO": "2025-10-11",
+ "image": null,
+ "sections": [
+  {
+   "id": "terpene-pop-up-bar",
+   "src": "bde-section-670-100",
+   "heading": "Terpene Pop Up Bar",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, October 11, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "3:00 PM - 5:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Smell the Terps, Taste the Garden 🌿✨</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Join us for an interactive Terpene Bar Pop Up with <a href=\"https://www.ggsgarden.co/\" target=\"_blank\">GG’s Garden</a>, where you’ll explore the aromas that give cannabis its personality."
+    },
+    {
+     "type": "p",
+     "html": "Smell, sample, and learn how different terpene profiles shape the way you feel—then find the vibe that’s just right for you."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

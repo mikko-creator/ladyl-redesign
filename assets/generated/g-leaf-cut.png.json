@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-leaf-cut",
+  "file": "assets/generated/g-leaf-cut.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single pressed dried cannabis fan leaf with seven slender serrated leaflets on a short stem, laid flat and photographed straight from above, muted sage green with fine visible veins, the whole leaf fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, soft even light, no shadow, nothing else in the frame, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "1:1"
+  },
+  "seed": 736818742,
+  "requestId": "01a1a2bc-e350-74a2-8c4c-2b443bc97d8b",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1a2bd-1498-7461-a180-946680ac1818"
+  },
+  "width": 2048,
+  "height": 2048,
+  "sha256": "dff9beef4a8c38c8c01953b1ab05bb461f762050a16c1211ca2d16d48085826c",
+  "raw": "tmp/img/raw/g-leaf-cut.1793731659324.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:45.595Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Stylised fan leaf with gold veins; alpha clean on night and cream grounds; no border alpha",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

@@ -1,0 +1,537 @@
+{
+ "slug": "dispensary-near-hoboken",
+ "path": "/new-jersey/dispensary-near-hoboken/",
+ "url": "https://ladyljerseycity.com/new-jersey/dispensary-near-hoboken/",
+ "name": "Hoboken",
+ "title": "Bold Dispensary Near Hoboken, NJ | LADY L CANNABIS",
+ "description": "Need a cannabis dispensary near North Bergen, NJ? Lady L is a bold, woman-owned microdispensary 20 min away. North Bergen dispensary shoppers love our curated selection, community roots & zero-judgment vibe.",
+ "canonical": "https://ladyljerseycity.com/new-jersey/dispensary-near-hoboken/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Dispensary Near Hoboken, NJ, Worth Every Mile",
+ "postId": "872",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-hoboken/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/",
+        "name": "New Jersey"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-hoboken/",
+        "name": "Dispensary Near Hoboken, NJ"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "dispensary-near-hoboken-nj-worth-every-mile",
+   "src": "bde-section-872-100",
+   "heading": "Dispensary Near Hoboken, NJ, Worth Every Mile",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "If you're searching for a dispensary near Hoboken, you've already found the right place. Lady L sits on Jersey City's West Side, just 22 minutes from Hoboken via I-78 W. We are a woman-owned cannabis microbusiness, and everything here was built around one idea: give people a real experience. Warm service. Curated products. Zero judgment. Whether you've never stepped inside a dispensary or you know exactly what you want, you'll feel it the second you walk in."
+    },
+    {
+     "type": "button",
+     "text": "Order for Pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "directions-from-hoboken-to-lady-l",
+   "src": "bde-section-872-107",
+   "heading": "Directions from Hoboken to Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Getting from Hoboken to Lady L is a quick, easy drive. The fastest route takes about 22 minutes and covers 6.0 miles via I-78 W. Note that this route includes tolls. Here's how to get here:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Head toward Bloomfield Street, then turn left onto Garden Street",
+      "Turn right onto County Road 681, then continue straight onto Newark Street",
+      "Turn left onto Grove Street, then turn right onto I-78 W / 14th Street",
+      "Follow I-78 W and use the right two lanes to merge onto I-78 W / New Jersey Turnpike Newark Bay Extension (toll road)",
+      "Take Exit 14B toward Jersey City / Liberty State Park (toll road)",
+      "Merge onto Bayview Avenue, then turn right onto Garfield Avenue",
+      "Turn left onto Bramhall Avenue, then right onto Bergen Avenue",
+      "Turn left onto Lexington Avenue, then left onto West Side Avenue",
+      "Lady L Cannabis is on the right"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Get direction",
+     "href": "https://maps.app.goo.gl/XMYdZhhWEAdmiAnUA"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:+1 (201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "a-dispensary-near-hoboken-with-soul",
+   "src": "bde-section-872-135",
+   "heading": "A Dispensary Near Hoboken With Soul",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady L is minutes from Hoboken's Washington Street corridor. Once you take I-78 W into Jersey City and pull onto West Side Avenue, you'll know you've arrived somewhere different. It's quieter here. More neighborhood. More real."
+    },
+    {
+     "type": "p",
+     "html": "Our shop feels like walking into someone's living room. Bold modern 80s design, warm lighting, and a team that genuinely wants to know what you're looking for. Founder Lili Hollandt built Lady L from scratch after two decades in advertising and media. She came to the U.S. in 1999 and has called Jersey City home since 2011. Her background shows in everything, from how our budtenders talk to how the space feels on a Tuesday afternoon."
+    },
+    {
+     "type": "p",
+     "html": "In 2025, the Local Girl audience named Lady L the Best Dispensary in Jersey City. That honor came from real customers who keep coming back. First-timers walk out more informed than when they arrived. Regulars get fast, personalized service that reflects their preferences. Everyone leaves with something worth coming back for."
+    },
+    {
+     "type": "p",
+     "html": "If you're making the trip from Hoboken, fold us into your day. Grab a coffee before you go, stop by after a walk along the waterfront, or make us a Saturday errand that's actually worth running. We are easy to reach and even easier to love."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "whats-inside-products-worth-the-trip-from-hoboken",
+   "src": "bde-section-872-144",
+   "heading": "What's Inside: Products Worth the Trip from Hoboken",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We don't try to carry everything. We carry the right things for the people who walk through our door. Curation drives every product decision we make. Freshness matters. Quality matters. And if something doesn't earn its spot, it doesn't get one."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Pre-Rolls<br>Grab one on the way out, and you're ready to go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Vapes<br>A discreet experience for customers who prefer something easy on the go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Concentrates<br>For experienced consumers looking for something more."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "p",
+     "html": "Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "A precise, easy-to-dose option for customers who want control over their experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "alt": "2a19df96-cd4c-43b8-ac75-83bfacabd874",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "Topicals"
+    },
+    {
+     "type": "p",
+     "html": "A great entry point for wellness-focused shoppers exploring cannabis for the first time."
+    },
+    {
+     "type": "p",
+     "html": "Our menu spans products from $10 to $150, so there's a strong option at every budget."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "why-hoboken-dispensary-shoppers-choose-lady-l",
+   "src": "bde-section-872-181",
+   "heading": "Why Hoboken Dispensary Shoppers Choose Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Hoboken has a lot going for it. A dispensary like Lady L isn't one of the things it has. That's exactly why customers make the trip."
+    },
+    {
+     "type": "p",
+     "html": "Lady L was built with women in mind, and everyone is welcome here. Lili sits on the West Side Partnership Board of Directors and shows up for this neighborhood in real ways. Community sponsorships, toy drives, food drives, local partnerships. That's not a marketing strategy. That's just how this business operates."
+    },
+    {
+     "type": "p",
+     "html": "For first-timers, our budtenders are calm, clear, and completely judgment-free. They ask good questions and give guidance that actually fits your life. They won't overwhelm you with options, and they won't steer you wrong. For regulars, the service is fast and personal. Our team knows your preferences and respects your time."
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://ladyljerseycity.com/rewards/\">Our loyalty program</a> makes every visit count. You earn one point for every dollar you spend. Hit 100 points and that's $5 in store credit. Points apply to both in-store visits and delivery orders, so the rewards keep stacking. We also offer rotating discounts for first-time customers, veterans and military, seniors, birthdays, and referrals. Our community VIP program, the West Side Connection Discount, gives back to the people who make this <a href=\"https://ladyljerseycity.com/new-jersey/\">NJ neighborhood</a> what it is."
+    },
+    {
+     "type": "button",
+     "text": "Learn More About Us",
+     "href": "https://ladyljerseycity.com/about-us/"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  },
+  {
+   "id": "a-day-worth-having-explore-hoboken-nj",
+   "src": "bde-section-872-190",
+   "heading": "A Day Worth Having: Explore Hoboken, NJ",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.hobokennj.gov/\">Hoboken</a> is one of New Jersey's most walkable, most vibrant small cities. Before you make the short drive to our dispensary near Hoboken, or after you're done with us, the city has plenty worth staying for. Here are a few of our favorite spots."
+    },
+    {
+     "type": "card",
+     "href": "https://www.visithudson.org/things-to-do/attractions/hudson-river-waterfront-walkway/",
+     "title": "Hudson River Waterfront Walkway",
+     "level": 3,
+     "html": "The Hoboken stretch of the waterfront walkway is one of the best free experiences in Hudson County. You get unobstructed Manhattan skyline views, fresh air, and a flat path that connects several parks along the water. Walk it at golden hour and you'll understand why people move here from the city. It's photo-worthy in every season and a perfect way to clear your head before heading our way."
+    },
+    {
+     "type": "card",
+     "href": "http://www.gravityvault.com/locations/hoboken-nj",
+     "title": "Gravity Vault Hoboken",
+     "level": 3,
+     "html": "Gravity Vault is Hoboken's indoor rock climbing gym, and it's genuinely fun for all skill levels. Go for a morning session before your visit, or bring friends for an afternoon of something active and hands-on. The routes challenge you without intimidating you. The energy inside is welcoming and community-focused, which makes it a natural complement to the kind of experience we aim to deliver at Lady L."
+    },
+    {
+     "type": "card",
+     "href": "https://www.hobokennj.gov/location/maxwell-place-park",
+     "title": "Maxwell Place Park",
+     "level": 3,
+     "html": "Maxwell Place Park is right on the Hudson waterfront and offers some of the best open green space in the city. There's a playground, open lawn, and stunning water views just steps from the residential neighborhood. People who just want to sit and breathe find something here. Check the Hoboken parks schedule for seasonal events and programming throughout the year."
+    },
+    {
+     "type": "card",
+     "href": "https://hudsontable.com/",
+     "title": "Hudson Table",
+     "level": 3,
+     "html": "Hudson Table is a culinary event space that brings people together around food. It hosts hands-on cooking classes, private experiences, and team events in a warm, modern setting. If you're planning a day in Hoboken, check their calendar for upcoming classes before you arrive. It's a social, creative stop that draws curious, community-minded locals. The vibe here rhymes with ours."
+    },
+    {
+     "type": "card",
+     "href": "https://yogarenew.com/",
+     "title": "Yoga Renew Hoboken",
+     "level": 3,
+     "html": "Yoga Renew offers classes and teacher training in a space that doesn't take itself too seriously. It's accessible, welcoming, and built for people at all experience levels. A morning class here followed by a drive to Lady L makes for a legitimately good day. Both spaces share a commitment to meeting people where they are and helping them feel better when they leave."
+    },
+    {
+     "type": "card",
+     "href": "https://carlosbakery.order.tryperdiem.com/",
+     "title": "Carlos' Bakery",
+     "level": 3,
+     "html": "Carlos' Bakery is a Hoboken landmark. Known from the TV show Cake Boss, this spot has been serving the community for decades with cakes, pastries, and specialty items that are just as good as the reputation suggests. Pick something up before your drive to Lady L, or swing by on the way back. Either way, it's a classic Hoboken experience you don't want to skip."
+    },
+    {
+     "type": "card",
+     "href": "http://napolishobokenpizza.com/",
+     "title": "Napoli's Hoboken Pizza",
+     "level": 3,
+     "html": "Hoboken has a serious pizza reputation, and Napoli's holds a strong place in that legacy. This neighborhood spot is casual, reliable, and exactly what you want after a full afternoon of errands. The slices speak for themselves. Stop in before the drive, or loop back after your visit with us for a well-earned meal."
+    },
+    {
+     "type": "card",
+     "href": "http://www.williemcbrides.com/",
+     "title": "Willie McBride's",
+     "level": 3,
+     "html": "Willie McBride's is one of Hoboken's most beloved bars. It's a classic Irish pub with a warm, lived-in atmosphere, strong pours, and a crowd that feels like regulars even on a first visit. End your Hoboken day here. It's the kind of place that turns a good afternoon into a great evening, and it's exactly the social note this city deserves."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "cannabis-guide-for-hoboken-dispensary-shoppers",
+   "src": "bde-section-872-220",
+   "heading": "Cannabis Guide for Hoboken Dispensary Shoppers",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "alt": "03119f51a270ad502b972b1c699799170561feb4",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "w": 1619,
+     "h": 1080
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What makes Lady L different from other dispensaries near Hoboken?",
+       "a_html": "<p>Lady L is a woman-owned cannabis microbusiness built by a real Jersey City community member. Founder Lili Hollandt designed this shop to feel like a home, not a store. Our budtenders are warm, knowledgeable, and judgment-free. The product selection is curated, not inflated. In 2025, Lady L earned recognition as the Best Dispensary in Jersey City by the Local Girl audience. Hoboken dispensary shoppers who make the trip keep coming back because the service is personal and the vibe is one-of-a-kind.</p>"
+      },
+      {
+       "q": "Where is Lady L Cannabis located?",
+       "a_html": "<p>We are at 547 West Side Avenue, Jersey City, NJ 07304, on the West Side's main corridor between Clendenny Avenue and Oxford Avenue. From Hoboken, the fastest route is via I-78 W, which takes about 22 minutes and 6 miles. This route includes tolls. Street parking is available on West Side Avenue and the surrounding side streets.</p>"
+      },
+      {
+       "q": "How old do I need to be to visit a dispensary near Hoboken?",
+       "a_html": "<p>You must be 21 or older to enter Lady L and make any adult-use cannabis purchase. Bring a valid, government-issued photo ID every time you visit. We accept all valid government-issued IDs, including out-of-state licenses. Temporary or expired IDs are not accepted. There are no exceptions.</p>"
+      },
+      {
+       "q": "Do I need to show ID to purchase cannabis?",
+       "a_html": "<p>Yes, every single time. A valid government-issued photo ID is required for every visit. That means a driver's license or passport. Temporary IDs and expired IDs won't work. This applies to both in-store shopping and delivery orders.</p>"
+      },
+      {
+       "q": "Do I need a medical card to shop at Lady L?",
+       "a_html": "<p>No medical card required. Lady L operates as an adult-use dispensary near Hoboken. Any customer 21 or older can walk in and make a purchase. Your valid photo ID is all you need.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally buy near Hoboken, NJ?",
+       "a_html": "<p>Dispensaries are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession</strong> <strong>Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis purchases in New Jersey?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). All taxes are applied at checkout. Our team can walk you through the breakdown if you have questions.</p>"
+      },
+      {
+       "q": "What forms of payment do you accept at Lady L?",
+       "a_html": "<p>We accept cash. Credit cards are not accepted for in-store purchases. All delivery orders require full payment before the order is placed. An on-site ATM is available if needed.</p>"
+      },
+      {
+       "q": "Where can I legally consume cannabis near Hoboken?",
+       "a_html": "<p>Cannabis consumption is permitted in private residences in New Jersey. Public spaces, vehicles, parks, and federal property are all off-limits. You're responsible for consuming only in legal locations. Lady L doesn't offer on-site consumption space at our dispensary near Hoboken.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals and discounts for Hoboken dispensary shoppers?",
+       "a_html": "<p>We do. Our rotating promotions include first-time customer discounts, veteran and military discounts, senior discounts, birthday discounts, referral rewards, and industry discounts. Our community VIP program, the West Side Connection Discount, gives back to the people who are part of our neighborhood. Through our loyalty program, you earn one point for every dollar spent. Every 100 points is worth $5 in store credit. Points apply to both in-store and delivery purchases. Check with our team for what's running when you arrive.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "ready-to-go-directions-to-our-dispensary-near-hoboken",
+   "src": "bde-section-872-231",
+   "heading": "Ready to Go? Directions to Our Dispensary Near Hoboken",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We are easy to reach from Hoboken no matter how you travel. Here's what each option looks like."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/rectangle-3463786.webp",
+     "alt": "Rectangle 3463786",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Rectangle-3463786.webp",
+     "w": 579,
+     "h": 676
+    },
+    {
+     "type": "p",
+     "html": "Driving from Hoboken"
+    },
+    {
+     "type": "p",
+     "html": "We’re an easy drive over:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via I-78 W (~22 min, 6.0 miles)</strong> — The fastest route from Hoboken into Jersey City's West Side. Note: this route has tolls.",
+      "<strong>Via via US-1 Truck S/US-9 Truck S (~25 min, 4.2 miles)</strong> — A toll-free alternative through Jersey City surface streets, avoiding the NJ-440 S slowdown.",
+      "<strong>Via I-78 W and Garfield Ave (~23 min, 5.9 miles)</strong> — Slightly longer than the fastest route but avoids the NJ-440 S slowdown."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Public Transit from Hoboken"
+    },
+    {
+     "type": "p",
+     "html": "Taking transit? Hoboken is well-connected, and a few options get you close to us."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>HBLR + Bus 1 (~38 min):</strong> Take the Hudson-Bergen Light Rail from Hoboken, connect to Bus 1, and walk about 6 minutes to us.",
+      "<strong>PATH + Bus 1 (~37 min):</strong> Take the PATH from Hoboken, walk to Bus 1, and ride into the West Side. The slightly faster of the two options."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Biking from Hoboken"
+    },
+    {
+     "type": "p",
+     "html": "The ride from Hoboken to Lady L is mostly flat and covers about 3.8 to 4.4 miles. All routes are manageable."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via West Side Ave (~23 min, 3.8 miles):</strong> The fastest and most direct cycling route from Hoboken. All routes are mostly flat.",
+      "<strong>Via Montgomery St (~24 min, 4.3 miles):</strong> A one-minute-longer alternative through Jersey City.",
+      "<strong>Via Coles St (~25 min, 4.4 miles):</strong> The longest of the three flat options, just two minutes behind the fastest."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis is the dispensary near Hoboken that's worth the trip. Come meet the team, find your new favorite product, and see what Jersey City's West Side is all about. We'd love to be your go-to spot."
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Hoboken"
+  }
+ ]
+}

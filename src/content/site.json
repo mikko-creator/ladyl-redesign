@@ -1,0 +1,90 @@
+{
+  "about": "Lady L Cannabis facts for the redesign pitch. Every value is copied from the live site (audit/raw/ladyl/, fetched 2026-11-04); the source page is named in *Source fields. Nothing here is inferred.",
+  "name": "Lady L Cannabis",
+  "shortName": "Lady L",
+  "altNames": ["LADY L CANNABIS", "Lady L Cannabis Dispensary"],
+  "origin": "https://ladyljerseycity.com",
+  "address": { "street": "547 West Side Avenue", "streetShort": "547 West Side Ave", "city": "Jersey City", "state": "NJ", "zip": "07304", "neighborhood": "West Side" },
+  "addressSource": "home + contact page store block and footer",
+  "mapUrl": "https://maps.app.goo.gl/VnR5aaEyZddAmJEW9",
+  "mapPlaceUrl": "https://www.google.com/maps/place/Lady+L+Cannabis+Dispensary+Weed+Delivery/data=!4m2!3m1!1s0x0:0x8dc9e8ffcb618bae?sa=X&ved=1t:2428&ictx=111",
+  "phone": "(201) 595-0706",
+  "phoneHref": "tel:+12015950706",
+  "email": "hi@ladylretail.com",
+  "emailSource": "home footer, Cloudflare email protection decoded",
+  "hours": [
+    { "days": "Monday - Thursday", "open": "10am", "close": "9pm" },
+    { "days": "Friday - Saturday", "open": "10am", "close": "10pm" },
+    { "days": "Sunday", "open": "11am", "close": "8pm" }
+  ],
+  "hoursSchema": [
+    { "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "10:00", "closes": "21:00" },
+    { "dayOfWeek": ["Friday", "Saturday"], "opens": "10:00", "closes": "22:00" },
+    { "dayOfWeek": ["Sunday"], "opens": "11:00", "closes": "20:00" }
+  ],
+  "deliveryHours": [
+    { "days": "Monday - Wednesday", "open": "2pm", "close": "9pm" },
+    { "days": "Thursday", "open": "12pm", "close": "9pm" },
+    { "days": "Friday - Saturday", "open": "12pm", "close": "10pm" },
+    { "days": "Sunday", "open": "12pm", "close": "8pm" }
+  ],
+  "deliveryHoursSource": "home + contact 'Delivery Hours' block (the live text reads 'Friday - Saturday 12pm to 10p'; rendered as 10pm). The home FAQ gives different hours (Monday-Thursday 2 PM - 9 PM, Friday-Saturday 2 PM - 10 PM, Sunday 2 PM - 8 PM, with last-order times): source conflict, docs/OPEN-DECISIONS.md A1. Captured pages keep their own wording verbatim.",
+  "lastCall": "Last call for pickup and delivery is 1 hour before closing.",
+  "delivery": {
+    "window": "Estimated delivery time is approximately 1 hour.",
+    "minimum": "A $75 minimum order applies, and delivery is free on orders of $75 or more.",
+    "zone1": "Zone 1 includes zip codes: 07302, 07304, 07305, 07306, 07307, 07310, and 07311.",
+    "zone1Fee": "Orders $25-$74: A $10 delivery fee applies.",
+    "otherZips": "For all other zip codes, free delivery is available for orders of $75 or more.",
+    "id": "A valid government-issued ID is required upon delivery.",
+    "account": "Our delivery service requires a Lady L account with a valid ID, uploaded and payment submitted in full before placement.",
+    "zones": "We deliver across two zones covering Jersey City and a wide region of surrounding northern New Jersey communities.",
+    "counties": ["Hudson", "Bergen", "Essex", "Union", "Passaic"],
+    "source": "home FAQ 'Do you offer cannabis delivery in Jersey City?' + /service/ (verbatim sentences)"
+  },
+  "pickup": {
+    "order": "Yes, we absolutely recommend you browse our menu and place an order before coming by.",
+    "orderSource": "/faq/ 'Can I place an order for pickup?'",
+    "step": "We are located at 547 West Side Ave, Jersey City 07304. While you're here, browse our shelves, discover in shop surprises and catch up with our friendly Budtenders.",
+    "stepSource": "home 'Easy Steps' (Pick up in Store)"
+  },
+  "menu": {
+    "base": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city",
+    "note": "Lady L's online menu (an ordering app on its own domain). Every 'Order' / 'Shop' CTA that leaves the site goes here; in-site navigation goes to /products/.",
+    "categories": [
+      { "slug": "flower", "label": "Flower", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower" },
+      { "slug": "pre-rolls", "label": "Pre-Rolls", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls" },
+      { "slug": "infused-pre-rolls", "label": "Infused Pre-Rolls", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls" },
+      { "slug": "vapes", "label": "Vapes", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers" },
+      { "slug": "edibles", "label": "Edibles", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles" },
+      { "slug": "tinctures", "label": "Tinctures", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/tinctures" },
+      { "slug": "concentrates", "label": "Concentrates", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates" },
+      { "slug": "accessories", "label": "Accessories", "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/accessories" }
+    ],
+    "categoriesSource": "header Shop menu + home 'shop by category' (Lady L's labels and order; Infused Pre-Rolls links to the pre-rolls menu on the live site)"
+  },
+  "loyaltySignup": "https://ladyljerseycity.com/stores/enterprise/lady-l/signup",
+  "loyaltyLine": "Receive weekly offer, exclusive deal, and massive discounts from Lady L.",
+  "reviews": { "url": "https://share.google/8c6R6ZUSIiIrXRUKa", "rating": "5.0", "count": "158", "platform": "Google", "asOf": "2026-11-04", "source": "home reviews widget (rating and count as shown that day)" },
+  "socials": [
+    { "name": "Instagram", "url": "https://www.instagram.com/ladyljerseycity/", "handle": "@ladyljerseycity" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/lady-l-jersey-city", "handle": "Lady L Jersey City" }
+  ],
+  "founder": "Lili Hollandt",
+  "identity": {
+    "womanOwned": "We're a woman-owned cannabis microbusiness",
+    "adultUse": "No medical card is required. Lady L Cannabis operates as an adult-use dispensary, so any customer 21 or older can walk in and make a purchase.",
+    "noConsumption": "Lady L does not provide on-site consumption space.",
+    "award": "Lady L earned the Best Dispensary in Jersey City title from the Local Girl audience in 2025.",
+    "source": "home intro + home FAQ + /service/ (verbatim)"
+  },
+  "tagline": "A Bold & Electric Jersey City Dispensary",
+  "taglineSource": "home hero heading (verbatim)",
+  "disclaimer": "For adults 21+. Keep out of reach of children. May pose health risks, especially for pregnant or breastfeeding women. Avoid driving or heavy machinery use.",
+  "disclaimerSource": "every page, above the footer (verbatim)",
+  "copyright": "Copyright © 2026 Lady L Cannabis",
+  "licence": null,
+  "licenceNote": "No licence number appears on the live site; none is shown (docs/OPEN-DECISIONS.md).",
+  "logo": { "note": "CAPTURE fills: the live wordmark files under /assets/brand/ (purple and yellow lettering)" },
+  "ageGate": { "question": "Are you 21 or older?", "yes": "Yes, I'm 21+", "no": "No", "denied": "Sorry, you must be 21 or older to visit this site.", "note": "Neutral glue: the live site has no age gate; the adopted architecture has one. Its wording is not used." }
+}

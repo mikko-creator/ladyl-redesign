@@ -1,0 +1,32 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-pampas-cut",
+  "file": "assets/generated/g-pampas-cut.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single tall feathery plume of pampas grass in warm cream and pale beige on its thin stem, gently curving, the whole plume and stem fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey-violet studio background, soft even light, no shadow, nothing else in the frame, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 833634326,
+  "requestId": "01a1a2bc-e6be-7cd2-b5e4-2b9b55452824",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1a2bd-2553-7140-828e-e46bd7e38d9e"
+  },
+  "width": 1792,
+  "height": 2368,
+  "sha256": "da34304fea40c1581f3e0199e21987b4b42f08ce120cc297d3b7a03f4413a53d",
+  "raw": "tmp/img/raw/g-pampas-cut.1793731664021.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:49.752Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Pampas plume; lavender fringe from the grey-violet ground recoloured to the plume cream; stem fade added at the bottom edge",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  },
+  "postEdit": "re-derived from the raw birefnet cut: every semi-transparent pixel set to the plume median cream, all pixels lifted to at least 85% of that cream (removes grey-violet strands from the generation ground), bottom 90 px alpha faded to 0"
+}

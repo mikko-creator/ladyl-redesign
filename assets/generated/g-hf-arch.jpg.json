@@ -1,0 +1,23 @@
+{
+  "tool": "Higgsfield MCP generate_image / generate_image_batch + tools/ai-label.mjs",
+  "slot": "g-hf-arch",
+  "file": "assets/generated/g-hf-arch.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (Higgsfield z_image). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "higgsfield z_image",
+  "jobId": "60cbf97b-7723-4225-9bcd-83f34bd7afe5",
+  "aspectRatio": "3:4",
+  "prompt": "Interior photograph of a bohemian arched doorway in a smooth lavender plaster wall, trailing green plants hanging in cream macrame hangers inside the arch, a rattan peacock chair with a cream cushion and one coral pillow beside the doorway, a small brass Art Deco wall sconce, warm soft late-afternoon light, clean modern bohemian styling, palette of lavender, warm cream, coral and sunflower gold. No people, no text, no letters, no logos, no signage.",
+  "raw": "tmp/img/hf/dl/g-hf-arch.png",
+  "rawSha256": "3ca5d6a9d7abfab2c2e0ba8189ffa566506299ff02780276bcddeaed9286afed",
+  "width": 1536,
+  "height": 2048,
+  "sha256": "0b2a86f08d8d106c7e3808e63eb5625f9a68ae3ef1d81db19b236d3b790d64e4",
+  "postEdit": "PNG -> JPEG q92 (the source has no alpha), XMP label embedded",
+  "generatedAt": "2026-11-04",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: no people, no text or marks, no candy, no alcohol",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

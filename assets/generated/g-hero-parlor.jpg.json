@@ -1,0 +1,28 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-hero-parlor",
+  "file": "assets/generated/g-hero-parlor.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide interior photograph of a moody Art Deco bohemian parlor lounge at dusk, seen straight on. Composition: the entire left half of the frame is an empty, calm, dark deep aubergine-violet plaster wall in deep shadow above a dark floor, with no furniture and no objects at all. Everything sits in the right half: a large round brass Art Deco sunburst mirror with long straight radiating brass rays on the wall, reflecting only a soft blurred wall; below it a lavender velvet armchair with one coral cushion; beside it a tall arched window showing only a soft violet dusk sky; a potted cannabis plant with distinctive serrated seven-fingered fan leaves in a woven rattan basket; tall plumes of pale pampas grass in a cream terrazzo planter; a small brass table lamp glowing warm amber-gold. Low-key cinematic light, warm lamp glow against cool violet dusk, soft deep shadows, calm and luxurious but homely, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9"
+  },
+  "seed": 123981082,
+  "requestId": "01a1a2c3-569c-78e1-8998-88bb6b0eaead",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "cac2476ac5b52e1a3e683bb43e05b852da6529e4308f515342a5fff9482421ce",
+  "raw": "tmp/img/raw/g-hero-parlor.1793732078664.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-03T18:54:40.742Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 2. Calm dark plum wall over the left half (a dark potted palm sits low at 12-31% of the width), brass sunburst mirror at 41-63%, lavender armchair, lamp, pampas and arched window on the right; no text or people. The plants are palms, not cannabis (both attempts)",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

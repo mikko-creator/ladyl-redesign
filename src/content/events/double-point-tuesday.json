@@ -1,0 +1,118 @@
+{
+ "slug": "double-point-tuesday",
+ "path": "/events/double-point-tuesday/",
+ "url": "https://ladyljerseycity.com/events/double-point-tuesday/",
+ "title": "Double Point Tuesday | LADY L CANNABIS",
+ "description": "Starting TODAY you’ll earn 2X loyalty points on every purchase — in-store or online.",
+ "canonical": "https://ladyljerseycity.com/events/double-point-tuesday/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Double Point Tuesday",
+ "postId": "662",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/double-point-tuesday/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/double-point-tuesday/",
+        "name": "Double Point Tuesday"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Event",
+   "title": "Tarot with Hailey — Usher In 2025 & Set Intentions for 2026",
+   "href": "https://ladyljerseycity.com/events/tarot-with-hailey-usher-in-2025-set-intentions-for-2026/"
+  }
+ ],
+ "dateText": "Tuesday, December 9, 2025",
+ "timeText": "10:00 AM - 8:00 PM",
+ "startISO": "2025-12-09",
+ "image": null,
+ "sections": [
+  {
+   "id": "double-point-tuesday",
+   "src": "bde-section-670-100",
+   "heading": "Double Point Tuesday",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Tuesday, December 9, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "10:00 AM - 8:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Starting <strong>TODAY</strong> you’ll earn <strong>2X loyalty points</strong> on every purchase — <strong>in-store or online.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "That means more points, faster rewards, and even more ways to treat yourself at Lady L. Whether you’re stocking up on favorites, trying something new, or placing a quick delivery order, every Tuesday now gets you <strong>double the value</strong>."
+    },
+    {
+     "type": "h3",
+     "text": "How It Works:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Shop in-store or online on Tuesdays",
+      "Your purchase automatically earns 2X loyalty points",
+      "Points can be redeemed for rewards, discounts, and exclusive offers"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Double Points Tuesdays is our way of saying thank you for being part of the Lady L family. We appreciate your support and can’t wait to celebrate more rewards with you all season long."
+    },
+    {
+     "type": "p",
+     "html": "See you Tuesday! 💚"
+    },
+    {
+     "type": "p",
+     "html": "<strong>The Lady L Cannabis Team</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

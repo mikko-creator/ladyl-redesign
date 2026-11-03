@@ -1,0 +1,23 @@
+{
+  "photos": {},
+  "media": {
+    "hero-haze": {
+      "mp4": "/assets/media/hero-haze.mp4",
+      "mp4Small": "/assets/media/hero-haze-sm.mp4",
+      "poster": "/assets/media/hero-haze.webp",
+      "posterSmall": "/assets/media/hero-haze-sm.webp",
+      "posterJpg": "/assets/media/hero-haze.jpg",
+      "posterSmallJpg": "/assets/media/hero-haze-sm.jpg",
+      "w": 1920,
+      "h": 1074,
+      "wSmall": 720,
+      "hSmall": 1080,
+      "duration": 5,
+      "fps": 24,
+      "audio": false,
+      "alt": "",
+      "use": "decorative seamless loop: muted, autoplay, loop, playsinline, aria-hidden, poster first, a visible pause toggle, hidden under prefers-reduced-motion",
+      "note": "AI-generated illustrative motion (fal Kling 2.1 Pro image-to-video from the AI-generated g-haze key frame, first and last frame set to it; jump frame dropped, retimed to constant motion and folded into a seamless 5-second loop with a 12-frame crossfade). Haze and light only: no objects added, no people. The phone file is a 2:3 crop around the window and light rays (45.8% to 83.1% of the width)."
+    }
+  }
+}

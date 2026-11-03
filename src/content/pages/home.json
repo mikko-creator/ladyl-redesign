@@ -1,0 +1,1569 @@
+{
+ "slug": "home",
+ "path": "/",
+ "url": "https://ladyljerseycity.com/",
+ "title": "Visit A Bold Jersey City Dispensary | LADY L CANNABIS",
+ "description": "Lady L Cannabis is a bold, woman-owned Jersey City dispensary rooted on the West Side. Come visit the cannabis dispensary in Jersey City, NJ that locals love.",
+ "canonical": "https://ladyljerseycity.com/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "A Bold & Electric Jersey City Dispensary",
+ "postId": "25",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US",
+     "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://ladyljerseycity.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+     }
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/#webpage",
+     "url": "https://ladyljerseycity.com/",
+     "name": "Visit A Bold Jersey City Dispensary | LADY L CANNABIS",
+     "datePublished": "2026-03-15T16:40:18-06:00",
+     "dateModified": "2026-09-11T10:59:19-06:00",
+     "about": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Visit A Bold Jersey City Dispensary | LADY L CANNABIS",
+     "datePublished": "2026-03-15T16:40:18-06:00",
+     "dateModified": "2026-09-11T10:59:19-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Lady L Cannabis is a bold, woman-owned Jersey City dispensary rooted on the West Side. Come visit the cannabis dispensary in Jersey City, NJ that locals love.",
+     "name": "Visit A Bold Jersey City Dispensary | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "LocalBusiness",
+   "@id": "https://ladyljerseycity.com//#business",
+   "url": "https://ladyljerseycity.com/",
+   "name": "Lady L Cannabis",
+   "image": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Group-2147229562.webp",
+   "logo": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-cannabis.webp",
+   "description": "Lady L Cannabis is a bold, woman-owned Jersey City dispensary rooted on the West Side. Come visit the cannabis dispensary in Jersey City, NJ that locals love.",
+   "priceRange": "$1.8 - $149",
+   "telephone": "+1-201-595-0706",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "547 West Side Ave",
+    "addressLocality": "Jersey City",
+    "addressRegion": "NJ",
+    "postalCode": "07304",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.719545,
+    "longitude": -74.082677
+   },
+   "areaServed": [
+    {
+     "@type": "Place",
+     "name": "Statue of Liberty",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.689281,
+      "longitude": -74.044326
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "addressCountry": "US",
+      "postalCode": "10004"
+     }
+    },
+    {
+     "@type": "Place",
+     "name": "Lincoln Park",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.725409,
+      "longitude": -74.082788
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jersey City",
+      "addressRegion": "NJ",
+      "addressCountry": "US",
+      "postalCode": "07304"
+     }
+    },
+    {
+     "@type": "Place",
+     "name": "Newark International Airport",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.689495,
+      "longitude": -74.175933
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Newark",
+      "addressRegion": "NJ",
+      "addressCountry": "US",
+      "postalCode": "07114"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Jersey City",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.718563,
+      "longitude": -74.039493
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Jersey City",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07302",
+       "07304",
+       "07306",
+       "07305",
+       "07310",
+       "07307",
+       "07311"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Hoboken",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.736526,
+      "longitude": -74.031077
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hoboken",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07030",
+       "07086"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Bayonne",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.668861,
+      "longitude": -74.116776
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bayonne",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07002",
+       "07305"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Kearny",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.771573,
+      "longitude": -74.14575
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kearny",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07031",
+       "07086",
+       "07306",
+       "07032",
+       "07099"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "North Bergen",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.78535,
+      "longitude": -74.029465
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "North Bergen",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07022",
+       "07087",
+       "07047",
+       "07094"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "West Side",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.720881,
+      "longitude": -74.082345
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Side",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07304",
+       "07305",
+       "07306"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "West Bergen",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.714496,
+      "longitude": -74.075773
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "West Bergen",
+      "addressRegion": "NJ",
+      "postalCode": "07035",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "McGinley Square",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.72425,
+      "longitude": -74.069446
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "McGinley Square",
+      "addressRegion": "NJ",
+      "postalCode": "07306",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Bergen-Lafayette",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.711278,
+      "longitude": -74.073082
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bergen-Lafayette",
+      "addressRegion": "NJ",
+      "postalCode": "07304",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Journal Square",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.734363,
+      "longitude": -74.063966
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Journal Square",
+      "addressRegion": "NJ",
+      "postalCode": "07306",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Hackensack River Waterfront",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.714342,
+      "longitude": -74.09708
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hackensack River Waterfront",
+      "addressRegion": "NJ",
+      "postalCode": [
+       "07302",
+       "07304",
+       "07305",
+       "07306"
+      ],
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Droyer's Point",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.711242,
+      "longitude": -74.102436
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Droyer's Point",
+      "addressRegion": "NJ",
+      "postalCode": "07305",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Historic Downtown",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.721824,
+      "longitude": -74.051875
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Historic Downtown",
+      "addressRegion": "NJ",
+      "postalCode": "07302",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "City",
+     "name": "Communipaw",
+     "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.711778,
+      "longitude": -74.062181
+     },
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Communipaw",
+      "addressRegion": "NJ",
+      "postalCode": "07304",
+      "addressCountry": "US"
+     }
+    }
+   ],
+   "additionalType": [
+    "Cannabis Store",
+    "Medical Marijuana Dispensary",
+    "Recreational Marijuana Dispensary"
+   ],
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Lady L Cannabis Menu",
+    "url": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+   },
+   "potentialAction": {
+    "@type": "OrderAction",
+    "target": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+   },
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "telephone": "+1-201-595-0706",
+     "contactType": "customer service"
+    },
+    {
+     "@type": "ContactPoint",
+     "telephone": "+1-201-595-0706",
+     "contactType": "sales"
+    }
+   ],
+   "openingHours": [
+    "Monday 10:00-21:00",
+    "Tuesday 10:00-21:00",
+    "Wednesday 10:00-2:00",
+    "Thursday 10:00-21:00",
+    "Friday 10:00-22:00",
+    "Saturday 10:00-22:00",
+    "Sunday 11:00-20:00"
+   ],
+   "paymentAccepted": "Cash, Debit Card",
+   "sameAs": [
+    "https://maps.app.goo.gl/n54S3dkDNDTiqpoD7",
+    "https://www.mapquest.com/us/new-jersey/lady-l-cannabis-788277147",
+    "https://www.yelp.com/biz/lady-l-cannabis-jersey-city-2",
+    "https://www.youtube.com/@LadyLJerseyCity",
+    "https://www.instagram.com/ladyljerseycity/",
+    "https://www.linkedin.com/company/lady-l-jersey-city"
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 5.0,
+    "reviewCount": 162
+   },
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "New Jersey Cannabis Regulatory Commission",
+    "value": "RE000090"
+   }
+  }
+ ],
+ "sections": [
+  {
+   "id": "a-bold-electric-jersey-city-dispensary",
+   "src": "bde-section-25-219",
+   "heading": "A Bold & Electric Jersey City Dispensary",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "A West Side Jersey City Dispensary Made For You"
+    },
+    {
+     "type": "p",
+     "html": "Welcome to Lady L Cannabis, the Jersey City dispensary that feels like home from the moment you walk in. Our shop lives on West Side Avenue, in Jersey City's West Side neighborhood. We're a woman-owned cannabis microbusiness, and we built this place with one purpose: to serve you with warmth, real knowledge, and zero judgment. Whether you're brand new to cannabis or you know exactly what you want, you'll find your people here."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "Order for Pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "shop-by-category",
+   "src": "bde-section-25-566",
+   "heading": "shop by category",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Curation matters more than quantity. Our dispensary in Jersey City, NJ, carries what's fresh, clean, and actually worth your money. We're not trying to carry everything. Instead, we stock the right things for the people who walk through our door. From feel-good flower to sleep-friendly edibles, we carry what works. Find something that fits your life."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/b31ddef4-84ea-48f9-a7a0-05cd630f685a.webp",
+      "alt": "b31ddef4-84ea-48f9-a7a0-05cd630f685a",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/b31ddef4-84ea-48f9-a7a0-05cd630f685a.webp",
+      "w": 1500,
+      "h": 1500
+     },
+     "title": "Infused Pre-Rolls",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles",
+     "img": {
+      "src": "/assets/photos/ll/d5876979-3840-4bef-8562-0ddef435c039.webp",
+      "alt": "d5876979-3840-4bef-8562-0ddef435c039",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/d5876979-3840-4bef-8562-0ddef435c039.webp",
+      "w": 1500,
+      "h": 1500
+     },
+     "title": "Edibles",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/tinctures",
+     "img": {
+      "src": "/assets/photos/ll/image-1914.webp",
+      "alt": "image 1914",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+      "w": 135,
+      "h": 205
+     },
+     "title": "Tinctures",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/accessories",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_merch.webp",
+      "alt": "LadyL_Iconography_Merch",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Merch.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Accessories",
+     "level": 3
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "location-hours",
+   "src": "bde-section-25-258",
+   "heading": "Location & Hours",
+   "blocks": [
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://maps.google.com/maps?q=Lady+L+Cannabis+547+West+Side+Ave%2C+Jersey+City%2C+NJ+07304%2C+USA&t=m&z=14&output=embed&iwloc=near",
+     "note": ""
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://maps.app.goo.gl/enyXadcmfAERnxja6\">547 West Side Avenue, Jersey City 07304</a>",
+     "role": "link"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:(201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "button",
+     "text": "Get directions",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "& Hours"
+  },
+  {
+   "id": "a-delightful-dispensary-experience-in-a-few-easy-steps",
+   "src": "bde-section-25-293",
+   "heading": "A Delightful Dispensary Experience in a few Easy Steps",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_icon_shoponline.webp",
+     "alt": "LadyL_Icon_ShopOnline",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Icon_ShopOnline.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Shop Online"
+    },
+    {
+     "type": "p",
+     "html": "Browse our <a href=\"https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city\">highly curated Jersey City dispensary menu</a> of cannabis products we think you’ll truly love. We recommend creating an account and <a href=\"https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city\">placing an order</a> online so it's ready for your visit."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_icon_shopinstore.webp",
+     "alt": "LadyL_Icon_ShopInstore",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Icon_ShopInstore.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Pick up in Store"
+    },
+    {
+     "type": "p",
+     "html": "We are located at <a href=\"https://maps.app.goo.gl/kTMjUvRLiSY8UPVS9\" target=\"_blank\">547 West Side Ave, Jersey City 07304</a>. While you’re here, browse our shelves, discover in shop surprises and catch up with our friendly Budtenders."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_icon_delivery.webp",
+     "alt": "LadyL_Icon_Delivery",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Icon_Delivery.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Order Delivery"
+    },
+    {
+     "type": "p",
+     "html": "Get your favorites delivered straight to your door. Browse our menu, place your order online, and enjoy a smooth, reliable delivery experience from the comfort of home."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_icon_higherself.webp",
+     "alt": "LadyL_Icon_HigherSelf",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Icon_HigherSelf.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Be your higher self"
+    },
+    {
+     "type": "p",
+     "html": "Get better sleep, ease the stress, groove out to some tunes, or get into a creative flow. However you like to recreate or medicate, we have the right high for you."
+    },
+    {
+     "type": "button",
+     "text": "Shop now",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Easy Steps"
+  },
+  {
+   "id": "your-jersey-city-dispensary-built-from-the-west-side-up",
+   "src": "bde-section-25-320",
+   "heading": "Your Jersey City Dispensary, Built From the West Side Up",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/group-2147229562.webp",
+     "alt": "Group 2147229562",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Group-2147229562.webp",
+     "w": 606,
+     "h": 722
+    },
+    {
+     "type": "p",
+     "html": "There's no other dispensary Jersey City has seen quite like Lady L. Our founder, Lili Hollandt, built this shop from scratch."
+    },
+    {
+     "type": "p",
+     "html": "Our founder came to the US in 1999 and settled in Jersey City in 2011. She spent two decades in advertising, media, and operations before opening this shop. Her background shows in everything, from our team's communication to the room's atmosphere. The space is bold and warm, inspired by the energy of a well-loved home. It's not corporate or clinical – it's a living room with great products and a team that genuinely cares."
+    },
+    {
+     "type": "p",
+     "html": "Our budtenders know their cannabis and love sharing that knowledge in an easy-to-understand way. First-timers can expect a calm, clear, no-pressure conversation. Regulars get fast, personalized service with product recommendations that fit their needs. No matter what, you'll leave knowing more than when you came in."
+    },
+    {
+     "type": "button",
+     "text": "Explore Our Menu",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "West Side"
+  },
+  {
+   "id": "jersey-city-dispensary-deals-discounts",
+   "src": "bde-section-25-329",
+   "heading": "Jersey City Dispensary Deals & Discounts",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Value is part of what makes Lady L special. Our Jersey City dispensary customers love knowing they're getting a fair deal every time, and we work hard to ensure that. Through our rotating promotions and loyalty rewards, there's always a reason to come back."
+    },
+    {
+     "type": "p",
+     "html": "Our VIP program, the West Side Connection Discount, gives back to the community members closest to our roots. The best way to stay in the loop is through our <a href=\"https://ladyljerseycity.com/rewards/\">loyalty and rewards program</a>. Every dollar you spend earns you one point. Hit 100 points, and you've got $5 in store credit ready to use. Points apply to both in-store visits and delivery orders, so the rewards never stop."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "New customer discount"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "Veteran and military discounts"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "Senior discounts"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "Industry discounts"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "Birthday discounts"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/frame-21.svg",
+     "alt": "Frame 21",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Frame-21.svg",
+     "w": 111,
+     "h": 111
+    },
+    {
+     "type": "h4",
+     "text": "Referral program"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "shop-by-brand",
+   "src": "bde-section-25-373",
+   "heading": "shop by brand",
+   "blocks": [
+    {
+     "type": "button",
+     "text": "Shop Now",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/gr-horz-stacked-logo-blue.webp",
+     "alt": "GR-HORZ-STACKED-LOGO-BLUE",
+     "w": 2327,
+     "h": 527,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/GR-HORZ-STACKED-LOGO-BLUE.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/go2_logo_primary_icon_rgb.webp",
+     "alt": "Go2_Logo_Primary_Icon_RGB",
+     "w": 706,
+     "h": 759,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Go2_Logo_Primary_Icon_RGB.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/tyson20-blk-1-scaled.webp",
+     "alt": "Tyson20-Blk (1)",
+     "w": 2560,
+     "h": 852,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Tyson20-Blk-1-scaled.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/piff-coast-farms.avif",
+     "alt": "Piff Coast Farms",
+     "w": 640,
+     "h": 414,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Piff-Coast-Farms.avif"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/8bc6e051-572c-3914-a7ab-8fc82086ea1b.webp",
+     "alt": "8bc6e051-572c-3914-a7ab-8fc82086ea1b",
+     "w": 800,
+     "h": 270,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/8bc6e051-572c-3914-a7ab-8fc82086ea1b.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/b38a5ad2-1842-37c9-9b70-37a9e0fe64a8.webp",
+     "alt": "b38a5ad2-1842-37c9-9b70-37a9e0fe64a8",
+     "w": 572,
+     "h": 600,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/b38a5ad2-1842-37c9-9b70-37a9e0fe64a8.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/a47de996-4f6a-3357-8dd3-78342510dd52.webp",
+     "alt": "a47de996-4f6a-3357-8dd3-78342510dd52",
+     "w": 205,
+     "h": 180,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/a47de996-4f6a-3357-8dd3-78342510dd52.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/61f543f6-4028-34d7-b8dd-e6db499244e2.webp",
+     "alt": "61f543f6-4028-34d7-b8dd-e6db499244e2",
+     "w": 800,
+     "h": 447,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/61f543f6-4028-34d7-b8dd-e6db499244e2.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/bf630da0-5667-3fb0-b77f-b7132f0006be.webp",
+     "alt": "bf630da0-5667-3fb0-b77f-b7132f0006be",
+     "w": 778,
+     "h": 273,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/bf630da0-5667-3fb0-b77f-b7132f0006be.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/hf_logo_400x400.webp",
+     "alt": "hf_logo_400x400",
+     "w": 400,
+     "h": 400,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/hf_logo_400x400.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/wyld_logo_2024_slate.webp",
+     "alt": "WYLD_LOGO_2024_Slate",
+     "w": 2500,
+     "h": 1219,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/WYLD_LOGO_2024_Slate.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/wana-logo_no-tagline.webp",
+     "alt": "wana logo_no tagline",
+     "w": 1626,
+     "h": 1321,
+     "role": "logo",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/wana-logo_no-tagline.webp"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "brand"
+  },
+  {
+   "id": "your-fun-funky-neighborhood-mom-pop-dispensary",
+   "src": "bde-section-25-425",
+   "heading": "Your fun & funky, neighborhood mom & pop dispensary",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/img_4196-scaled.webp",
+     "alt": "IMG_4196",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/IMG_4196-scaled.webp",
+     "w": 1440,
+     "h": 2560
+    },
+    {
+     "type": "p",
+     "html": "Lady L was built with women in mind, and everyone is welcome here. This is a space for the mothers juggling a hundred things, the daughters figuring out what wellness means to them, and every neighbor who just wants a great experience close to home."
+    },
+    {
+     "type": "p",
+     "html": "Our promise is simple. When you walk through our door, you get a comfortable, welcoming experience built around you. Our budtenders meet you where you are, whether you're brand new to cannabis or you know exactly what you came in for. The vibe is warm, the knowledge is real, and judgment is unwelcome here."
+    },
+    {
+     "type": "button",
+     "text": "Learn More about us",
+     "href": "https://ladyljerseycity.com/about-us/"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "dispensary"
+  },
+  {
+   "id": "after-you-visit-the-west-sides-got-more-for-you",
+   "src": "bde-section-25-435",
+   "heading": "After You Visit, the West Side's Got More for You",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.jerseycitynj.gov/\">Jersey City</a> is one of the liveliest, most layered, and most exciting cities in New Jersey and on the East Coast. Our West Side neighborhood is a little quieter, a little more residential, and a lot more real than the tourist maps suggest. After you stop by our dispensary in Jersey City, there's plenty of the city worth exploring. Here are a few of our favorite spots."
+    },
+    {
+     "type": "card",
+     "href": "https://www.visithudson.org/lincoln-park/",
+     "title": "Lincoln Park",
+     "level": 3,
+     "html": "Lincoln Park sits just minutes from our shop on West Side Avenue, making it one of the most convenient places to decompress before or after your visit. The park spans 273 acres, featuring a lake, walking trails, athletic fields, and some of the most peaceful green space in Hudson County. It's a neighborhood gem that locals count on year-round for fresh air, wide-open skies, and that rare feeling of breathing room in the city."
+    },
+    {
+     "type": "card",
+     "href": "http://treehousejc.com/",
+     "title": "Treehouse Coffee Shop",
+     "level": 3,
+     "html": "Treehouse Coffee Shop is a West Side original, sitting just a few blocks from our door. Local couple Frank and Diana Young opened this place in 2019 with one goal: build something real for the neighborhood they love. The space feels exactly like the name suggests: warm, tucked in, and full of personality. Stop in for an espresso drink, a matcha latte, or the fan-favorite Vietnamese Red Eye before or after your visit with us."
+    },
+    {
+     "type": "card",
+     "href": "http://manacontemporary.com/",
+     "title": "Mana Contemporary",
+     "level": 3,
+     "html": "Mana Contemporary is one of the most significant art campuses in the country, right here in Jersey City. This massive arts complex hosts rotating galleries, artist studios, performance spaces, and cultural exhibitions that pull in serious collectors and curious visitors alike. Whether you're deeply into contemporary art or just looking for something visually stunning to explore, Mana delivers an experience that's both approachable and genuinely impressive."
+    },
+    {
+     "type": "card",
+     "href": "https://loewsjersey.org/",
+     "title": "Landmark Loew's Jersey Theatre",
+     "level": 3,
+     "html": "The Landmark Loew's Jersey is a meticulously preserved 1929 movie palace located in Journal Square. Walking inside feels like stepping into a golden era of design, with ornate details, grand arches, and a restored Wurlitzer organ that still fills the room with sound. The theatre hosts classic film screenings, live performances, and community events throughout the year. It's one of Jersey City's most beloved cultural institutions, and a must for anyone who appreciates history and beauty in the same space."
+    },
+    {
+     "type": "card",
+     "href": "http://razzanj.com/",
+     "title": "Razza",
+     "level": 3,
+     "html": "Razza is widely regarded as one of the best pizzerias in the entire state. Chef Dan Richer has spent years perfecting naturally leavened dough and sourcing the finest seasonal ingredients to create pies that are as thoughtful as they are delicious. A meal at Razza is an experience, not just dinner. The atmosphere is warm, the wine list is well-chosen, and the pizza makes you rethink everything you thought you knew about what a slice could be."
+    },
+    {
+     "type": "card",
+     "href": "http://toricoicecream.com/",
+     "title": "Torico Ice Cream",
+     "level": 3,
+     "html": "Torico Ice Cream is a West Side institution and a true neighborhood treasure. This homegrown, family-owned shop has been serving Jersey City for decades with bold, creative flavors rooted in Latin American tradition. From coconut to passionfruit to mango and beyond, every scoop tastes like it was made with love and a clear point of view. Stop in after visiting our shop for a sweet finish to your West Side adventure."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "why-choose-us",
+   "src": "bde-section-25-464",
+   "heading": "Why Choose Us",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We are dedicated to offering a reliable and high-quality cannabis experience in Jersey City. Our carefully curated selection features trusted brands and lab-tested products, ensuring safety with every purchase."
+    },
+    {
+     "type": "p",
+     "html": "Whether you’re a first-time visitor or a returning customer, we strive to make your experience simple and dependable."
+    },
+    {
+     "type": "button",
+     "text": "view our menu",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/img_4198-scaled.webp",
+     "alt": "IMG_4198",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/IMG_4198-scaled.webp",
+     "w": 1440,
+     "h": 2560
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-13.webp",
+     "alt": "image 13",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-13.webp",
+     "w": 641,
+     "h": 669
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Choose Us"
+  },
+  {
+   "id": "what-our-customers-are-saying",
+   "src": "bde-section-25-474",
+   "heading": "What Our Customers are Saying",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "See what our customers are saying about their experience with us."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/unnamed-scaled-e1774106792464.webp",
+     "alt": "unnamed",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/unnamed-scaled-e1774106792464.webp",
+     "w": 1758,
+     "h": 590
+    },
+    {
+     "type": "p",
+     "html": "5.0",
+     "role": "rating"
+    },
+    {
+     "type": "p",
+     "html": "(158)"
+    },
+    {
+     "type": "button",
+     "text": "write a review",
+     "href": "https://share.google/8c6R6ZUSIiIrXRUKa"
+    },
+    {
+     "type": "review",
+     "name": "Andrea Inga",
+     "text": "Very cutesy , very nice, great quality and exceptional costumer service. I am always pleased when I come into the store. Tiara is always kind, helpful and funny to get attended by. The other staff is also very friendly. Great quality of products along with a great experience. Very pleased and satisfied.",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Cristalee Lamboy",
+     "text": "⭐⭐⭐⭐⭐ Had such a great experience here! The shop is clean, organized, and has a great selection. Everyone was super friendly and welcoming, but I especially want to shout out Tiara! She was so sweet, helpful, and made sure I was taken care of the whole time. You can definitely tell she cares about her customers and her job. ❤️ Definitely recommend stopping by — I’ll be back! 🫶🏽",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Clarissa Santos",
+     "text": "Very friendly and welcoming to new stoners hehe and love the place super chill inside and the service is fast and efficient.",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Femi Gresseau",
+     "text": "Absolutely love love looovveee this place. It’s women owned, and it looks all whimsical inside. My friends love coming here too, we enjoy chatting with the staff and the owners who are so bubbly and lovely",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "sarah ortiz",
+     "text": "W place and they deliver!",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Alena Rose",
+     "text": "Tiara and Eva are the best staff! It was my first time in the store and they graced me with their immense knowledge and recommendations! Will definitely be coming back!",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Coll",
+     "text": "Been coming since day 1. Love it here!",
+     "rating": 5,
+     "platform": "Google"
+    },
+    {
+     "type": "review",
+     "name": "Nataly Ramos",
+     "text": "Josh was honestly the best! He’s such a great budtender and was super nice and helpful the whole time. He actually knows what he’s talking about and took the time to explain everything and answer all my questions without making me feel rushed. Thank you Josh and Lady L!!",
+     "rating": 5,
+     "platform": "Google"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "get-the-latest-updates-sign-up",
+   "src": "bde-section-25-487",
+   "heading": "get the latest updates - sign up",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:(201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City 07304</a>"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    },
+    {
+     "type": "form",
+     "fields": [
+      "Full Name",
+      "Email",
+      "Phone Number"
+     ],
+     "fieldTypes": [
+      {
+       "input": "text"
+      },
+      {
+       "input": "email"
+      },
+      {
+       "input": "phone"
+      }
+     ],
+     "button": "Unlock Deals",
+     "consent": "I agree to the privacy policy."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "follow-us-on-instagram",
+   "src": "bde-section-25-525",
+   "heading": "Follow Us on Instagram",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Stay connected and see what’s happening in-store. Follow us for the latest products, updates, and behind-the-scenes moments."
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DZQX6LpRdYk/",
+     "note": "The stunning @leslietiniz is one of our Edie Parker Mother's Day raffle winners. Congratulations 🎊 on your🌼 🌸 power. P.S. where are my eyes?",
+     "media": "image",
+     "shown": "The stunning @leslietiniz is one of our Edie Parke"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DZF4RbLkZqW/",
+     "note": "🚚 DELIVERY UPDATE 🚚\nStarting June 15, Lady L is expanding delivery flexibility for our Jersey City community.\n✔️ Updated delivery hours\n✔️ New lower order minimum available in select Jersey City zip codes\n✔️ Convenient online ordering\n✔️ Safe, legal cannabis delivered directly to your door\n📍 Zone 1 ZIP Codes:\n07302 • 07304 • 07305 • 07306 • 07307 • 07310 • 07311\nOrders between $25–$74 are now eligible for delivery with a delivery fee.\nAll other delivery areas continue to qualify for delivery on orders of $75+.\nVisit our website for complete delivery details and menu availability.\n#LadyLJerseyCity #JerseyCityCannabis #CannabisDeliveryNJ #HudsonCountyCannabis #NJCannabis #WomenOwnedBusiness #JerseyCityLocal #ShopLocalJC #LegalCannabisNJ #LadyL",
+     "media": "image",
+     "shown": "🚚 DELIVERY UPDATE 🚚 Starting June 15, Lady L is ex"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/reel/DYlUndTDNMN/",
+     "note": "☀️ SUMMER STARTS HERE ☀️\n\nMemorial Day weekend has arrived and Lady L is ready with fresh flavors, sunny-day favorites, and delivery that comes to YOU 💜\n\n🥤 NOW POURING: Stereo Flower Sparkling Teas. Available in refreshing flavors like:\n✨ Yuzu Mint\n✨ Blood Orange Hibiscus\n✨ Clementine Vanilla\nPerfect for pool days, beach hangs, backyard BBQs, and all the World Cup watch parties ahead ⚽️☀️\n\n🍧 Two Scoops of Sorbet\nBurst Lime Sorbet Disposables available in a special weekend offer.\n\n🔥 Buy One Rip One\nSelect North Lake Supply Live Resin Cartridges included.\n\n🚗 Staying in? We’ll meet you there. Delivery available throughout the holiday weekend.\n\nTap the link in bio or visit our online shop to browse the full menu.\n\n#LadyLCannabis #JerseyCityDispensary #NJCannabis #HudsonCounty #MemorialDayWeekend #SummerStartsHere #CannabisCommunity #DeliveryAvailable #StereoFlower #NorthLakeSupply #SayHIGH",
+     "media": "video",
+     "shown": "☀️ SUMMER STARTS HERE ☀️ Memorial Day weekend has"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/reel/DYKmf4QD8Z2/",
+     "note": "💜 Created by a mother, built for the community. 💛\n\nThis Mother’s Day, Lady L celebrates all the women and caregivers who nurture, guide, support, and show up with love every single day. Whether you’re a mom, grandmother, aunt, mentor, bonus mom, or someone who simply leads with heart — today is for you.\n\nThank you for the strength, care, and compassion you bring into the world. We’re proud to be a woman-founded business rooted right here in Jersey City and even prouder to celebrate this beautiful community with you.\n\nWishing everyone assuming the role of a mother a wonderful holiday filled with love, joy, and a little time for yourself. 🌸\n\n#LadyLCannabis #JerseyCity #MothersDay #WomenOwnedBusiness #CommunityFirst #LoveGrowsHere #LadyLFamily #CelebrateResponsibly",
+     "media": "video",
+     "shown": "💜 Created by a mother, built for the community. 💛"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DYDJLeTlH7a/",
+     "note": "A Lady L favorite is pulling up this Friday 🌿\nJoin us 5/8 from 5-7PM for a special High Grass Farms pop-up at Lady L.\nKnown for quality, legacy, and consistently standout products, High Grass Farms has earned its place as a go-to for both our team and our community.\nFeaturing favorites like:\n• Belushi Farms Hash Burger & Mule Fuel\n• Belushi Farms Hash Brick\n• Big Sur Holy 🌿\n• Jerzy Landscapes Pineapple Express & Lemon Cherry Gelato \nCome meet the team, explore the lineup, and kick off the weekend with us.\n📍 Lady L\n🗓 Friday 5/8\n⏰ 5PM-7PM\n\n#LadyL #HighGrassFarms #NJCannabis #NewJerseyCannabis #CannabisCommunity #GardenStateCannabis #CannabisCulture #DispensaryEvent #CannabisEducation",
+     "media": "image",
+     "shown": "A Lady L favorite is pulling up this Friday 🌿 Join"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DYA0OqrEXFr/",
+     "note": "Celebrate Mom the Lady L way 🌸\n\nThis weekend, we’re highlighting thoughtful picks and curated experiences designed to help you show up for the moms, caregivers, and everyday legends in your life.\n\nFrom ready-to-enjoy bundles to limited Lady L gear and a special in-store raffle, there’s something waiting to make the moment feel a little more elevated.\n\nStop by or explore online to find the perfect way to celebrate 💚\n\n#MothersDay #LadyL #NJDispensary #CannabisCommunity #ElevatedGifting #JerseyCity #ShopLocal\n\n21+ only. Consume responsibly.",
+     "media": "carousel",
+     "shown": "Celebrate Mom the Lady L way 🌸 This weekend, we’r"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DX9fqwZFdz1/",
+     "note": "This Mother’s Day, we’re adding a little extra to your flower 🌸\n\nOn May 10, purchase any Edie Parker flower product and receive a raffle entry for a chance to win matching Weedie Bags for you and Mom.\n\nBecause thoughtful details make the day even more special.\n\nVisit us in-store or online to take part.\n\n#MothersDay #EdieParker #LadyL #GardenStateCannabis #NJDispensary #CannabisCommunity #ElevatedGifting\n\n21+ only. For adult use only. Keep out of reach of children.",
+     "media": "image",
+     "shown": "This Mother’s Day, we’re adding a little extra to"
+    },
+    {
+     "type": "embed",
+     "kind": "instagram",
+     "src": "https://www.instagram.com/p/DX2MSkEFGHm/",
+     "note": "Easy Online Ordering Starts Here. \nWhether you are new to online ordering or a seasoned customer, getting started with Dutchie is quick and simple:\n• Log in with your email + password\n• Or use Google / Apple for faster access\n• Can’t log in? Guest checkout is always available\nPro tip: Save your info at checkout to make future orders even easier.\nA smoother way to browse, learn, and order - all on your time.\n\n#LadyL #NJDispensary #CannabisCommunity #JerseyCity #ShopSmart #Dutchie #OnlineOrdering #CannabisEducation\n\n21+ only. Valid ID required.",
+     "media": "image",
+     "shown": "Easy Online Ordering Starts Here. Whether you are"
+    },
+    {
+     "type": "button",
+     "text": "follow on instagram",
+     "href": ""
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "jersey-city-dispensary-faq",
+   "src": "bde-section-25-532",
+   "heading": "Jersey City Dispensary FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where is Lady L Cannabis located?",
+       "a_html": "<p>We're located at 547 West Side Avenue, Jersey City, NJ 07304, right on the West Side's main corridor between Lexington Avenue and Clendenny Avenue. We're steps from Lincoln Park, easy to spot on one of the neighborhood's most active stretches, and just a quick ride from Journal Square.</p>"
+      },
+      {
+       "q": "How old do I have to be to visit the dispensary in Jersey City?",
+       "a_html": "<p>You must be 21 or older to enter our shop and make any adult-use cannabis purchase. Please bring a valid, government-issued ID every time you visit. We accept all valid government-issued IDs, including out-of-state IDs.</p>"
+      },
+      {
+       "q": "Do I need a medical card to visit Lady L?",
+       "a_html": "<p>No medical card is required. Lady L Cannabis operates as an adult-use dispensary, so any customer 21 or older can walk in and make a purchase. You don't need a medical cannabis card to shop with us.</p>"
+      },
+      {
+       "q": "What kinds of cannabis products do you carry?",
+       "a_html": "<p>Our dispensary Jersey City menu includes flower, pre-rolls, vapes, edibles, concentrates, and more. We carry a curated selection from trusted brands, with options at a range of price points. Browse the current menu before you visit to see what's available today. Product availability changes regularly, so we always recommend checking ahead.</p>"
+      },
+      {
+       "q": "What payment methods do you accept?",
+       "a_html": "<p>We accept various forms of payment. Please visit our store or call us at 201-595-0706 to inquire about.</p>"
+      },
+      {
+       "q": "What are the purchase limits at a dispensary in Jersey City, NJ?",
+       "a_html": "<p>Dispensaries are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession</strong> <strong>Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis in New Jersey?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). These taxes are applied at checkout.</p>"
+      },
+      {
+       "q": "Am I eligible for a discount at your weed dispensary Jersey City location?",
+       "a_html": "<p>Lady L offers a range of discount programs, including first-time customer discounts, veteran and military discounts, senior discounts, birthday discounts, referral discounts, and our community-based West Side Connection Discount. Deals rotate, so check with our team when you arrive or browse our <a href=\"https://ladyljerseycity.com/rewards/\">rewards and loyalty page</a> for the latest information.</p>"
+      },
+      {
+       "q": "Where can I legally consume cannabis in Jersey City?",
+       "a_html": "<p>Cannabis consumption is permitted in private residences in New Jersey. It is not permitted in public spaces, in vehicles, or on federal property. It's your responsibility to consume only in legal locations. Lady L does not provide on-site consumption space.</p>"
+      },
+      {
+       "q": "Do you offer cannabis delivery in Jersey City?",
+       "a_html": "<p>Yes! We offer delivery to customers throughout Jersey City and across a broad area of northern New Jersey. Our delivery service requires a Lady L account with a valid ID, uploaded and payment submitted in full before placement.</p>\n<p>A $75 minimum order applies, and delivery is free on orders of $75 or more. A valid government-issued ID is required upon delivery. Estimated delivery time is approximately 1 hour.</p>\n<p>Weed delivery runs:</p>\n<ul><li>Monday-Thursday: 2 PM - 9 PM (Last order: 8:30 PM)</li><li>Friday-Saturday: 2 PM - 10 PM (Last order: 9:30 PM)</li><li>Sunday: 2 PM - 8 PM (Last order: 7:30 PM)</li></ul>\n<p>All orders must be placed and confirmed before the last order cutoff time.</p>\n<p>Delivery Minimums (Zone 1 Only)</p>\n<p>Zone 1 includes zip codes: 07302, 07304, 07305, 07306, 07307, 07310, and 07311.</p>\n<ul><li>Orders $25-$74: A $10 delivery fee applies.</li><li>Orders $75+: Free delivery.</li></ul>\n<p>For all other zip codes, free delivery is available for orders of $75 or more.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "stop-by-stay-high",
+   "src": "bde-section-25-543",
+   "heading": "Stop By, Stay High",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Finding us is easy. We're close to the intersection of West Side Avenue and Clendenny Avenue, and just a short drive from Lincoln Park. If you're coming from the Route 440 corridor, we're a straight shot east on Communipaw Avenue. Street parking is available along West Side Avenue and on the surrounding side streets. When you visit, you're supporting a local, woman-owned business that gives back to the community it serves. We'd love to be your go-to dispensary in Jersey City NJ."
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:(201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "p",
+     "html": "Last call for pickup and delivery is 1 hour before closing."
+    },
+    {
+     "type": "button",
+     "text": "Order now",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Stay High"
+  }
+ ]
+}

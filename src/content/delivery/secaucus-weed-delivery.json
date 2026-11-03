@@ -1,0 +1,433 @@
+{
+ "slug": "secaucus-weed-delivery",
+ "path": "/service/secaucus-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/secaucus-weed-delivery/",
+ "name": "Secaucus",
+ "county": "Hudson",
+ "title": "Reliable Secaucus Weed Delivery | LADY L CANNABIS",
+ "description": "Get fast, discreet Secaucus weed delivery from Lady L Cannabis. Enjoy cannabis delivery in Secaucus, NJ, from a woman-owned West Side microdispensary that covers Hudson County and beyond.",
+ "canonical": "https://ladyljerseycity.com/service/secaucus-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Secaucus Weed Delivery",
+ "postId": "986",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/secaucus-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/secaucus-weed-delivery/",
+        "name": "Secaucus Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-secaucus-weed-delivery",
+   "src": "bde-section-986-100",
+   "heading": "Unique Secaucus Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Secaucus Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> has always believed that the best cannabis experience isn't about having the most square footage or the longest product list. It's about knowing your products deeply, serving your customers well, and building the kind of operation people actually want to come back to. Owner Lili Hollandt brought those values to West Side Avenue, and they travel with every Secaucus weed delivery order we fulfill. Just across the Hudson County border from Jersey City, Secaucus is a commuter-connected town with more green space than any other municipality in the county, a robust dining scene, and a retail footprint that draws visitors from across the region. Secaucus, when you're ready to order, we're ready to deliver."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-secaucus-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-986-109",
+   "heading": "Our Secaucus Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The Lady L Secaucus weed delivery menu is curated with the same intention that drives everything else about the business: we carry what earns its place and cut what doesn't. The result is a focused, high-quality lineup that gives customers real choices without overwhelming them. Here's what you'll find:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower sits at the top of the demand curve on the Lady L menu, and the selection is stocked to match. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer span a range from dependable everyday value to premium, top-shelf options for customers who want the absolute best available. Stock rotates regularly, so there's always something worth exploring."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "A pre-roll is the simplest version of a great cannabis experience, and we take that simplicity seriously. Classic and infused varieties from brands we trust come in at price points that make adding one to any order feel like a natural decision rather than an afterthought."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "The edibles section draws customers who want a different kind of experience from the rest of the menu. Gummies, chocolates, and other ingestible formats span a wide range of strengths, flavors, and onset profiles, offering genuine variety rather than a token selection."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Few formats match vapes for sheer convenience. Clean, portable, and consistent from use to use, we carry top cartridge brands and full-spectrum 1g and 2g disposables for customers who want something that fits quietly into any part of their day."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures occupy a distinct lane on the menu, one focused on targeted comfort and adaptable daily dosing rather than a traditional cannabis experience. Topicals work at the site of application on the skin, while tinctures offer precise, flexible dosing that integrates naturally into any routine."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates draw a specific kind of customer, and Lady L takes that seriously. Solventless and live resin options appear regularly, making this a category worth watching if potency and purity are your benchmarks."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs offer full-spectrum potency in a concentrated format that experienced customers return to for its range of applications and versatility. Typically available in syringe form, they can be used in multiple ways depending on personal preference and experience level. Check the live menu for current availability."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-986-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every order that leaves Lady L's hands as part of our Secaucus weed delivery service is treated with the same non-negotiable standards: plain packaging, no identifying markings, and a driver who handles every stop like a professional should. What arrives at your door looks like nothing in particular, which is exactly the point."
+    },
+    {
+     "type": "p",
+     "html": "New Jersey's legal framework for cannabis delivery governs every run our drivers make, and ID verification is a fixed part of every handoff without exception. The team is trained, reliable, and focused on making the exchange as smooth and unremarkable as possible."
+    },
+    {
+     "type": "p",
+     "html": "The weed delivery that Secaucus residents depend on from Lady L is handled by a combination of dedicated in-house drivers and a vetted third-party service. Most orders reach their destination in approximately one hour."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-secaucus-works",
+   "src": "bde-section-986-150",
+   "heading": "How Cannabis Delivery in Secaucus Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The process behind Secaucus weed delivery through Lady L is designed to be clear and efficient from the first step to the last. Here's what to expect."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Head to the delivery menu and take your time exploring what's in stock. Every item reflects real-time availability, so what you see is what you can actually get. Make your selections, review the cart, and proceed to checkout when you're ready."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "A driver heads out once your order is confirmed. Most deliveries arrive in approximately one hour. Your driver will contact you upon arrival and verify your valid government-issued ID before completing the handoff."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-986-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The town of <a href=\"https://secaucusnj.gov/\">Secaucus, NJ</a>, offers more than its commuter reputation might suggest. This Harmon Cove waterfront community lines the Hackensack River with scenic trails and open space; the Harmon Meadow commercial district draws shoppers and diners from across the region; and the town's wetlands and preserved areas give it a natural character that's rare this close to Manhattan. For weed delivery Secaucus residents can rely on, Lady L is ready when you are, whether you're at home along County Avenue or settled into one of the Riverbend neighborhoods near Paterson Plank Road."
+    },
+    {
+     "type": "card",
+     "href": "https://www.mallsinamerica.com/new-jersey/harmon-meadow",
+     "title": "The Plaza at Harmon Meadow",
+     "level": 3,
+     "html": "The Plaza at Harmon Meadow is Secaucus's primary open-air shopping and dining complex, with more than 30 stores and restaurants, anchored by a cinema and a diverse mix of casual dining options. The center draws steady traffic from across the surrounding region and serves as the commercial heart of the Harmon Meadow district. Its walkable layout and variety of offerings make it a natural gathering point for residents and visitors alike."
+    },
+    {
+     "type": "card",
+     "href": "https://www.hackensackriverkeeper.org/",
+     "title": "Hackensack Riverkeeper",
+     "level": 3,
+     "html": "Founded in 1997, Hackensack Riverkeeper is the public advocate for the Hackensack River, working to protect, preserve, and restore the watershed from its headwaters in New York through the Meadowlands estuary. The organization operates a paddling center at Laurel Hill Park, offering kayak and canoe rentals, guided paddle tours, and Eco-Cruise tours aboard 30-foot pontoon boats. Tidal marshes, salt grass meadows, migratory shorebirds, diamondback terrapins, and sweeping views of the Manhattan skyline are among the highlights of a trip out on the water."
+    },
+    {
+     "type": "card",
+     "href": "https://www.visithudson.org/things-to-do/attractions/laurel-hill-park/",
+     "title": "Laurel Hill Park",
+     "level": 3,
+     "html": "Laurel Hill Park is one of Hudson County's most distinctive public spaces, tucked behind the remaining rock quarry at Laurel Hill along the Hackensack River. The park encompasses nearly 15 acres of natural wetlands alongside a waterfront walkway, an accessible dock, a fishing pier, a boat and canoe launch, walking trails, multipurpose athletic fields, and a lighted synthetic cricket field. The combination of natural habitat and recreational infrastructure makes it genuinely one of a kind among the county's park offerings."
+    },
+    {
+     "type": "card",
+     "href": "https://meadowlandsconservationtrust.org/",
+     "title": "Hackensack Meadowlands Conservation Area",
+     "level": 3,
+     "html": "The Meadowlands Conservation Trust preserves and manages more than 800 acres of ecologically significant land within the Hackensack River watershed, including wetlands adjacent to Secaucus along Mill Creek. Within the town, Mill Creek Point Park sits at the edge of a protected tidal marsh, accessible via a wildlife-viewing trail from Millridge Road and the Mill Creek corridor. The Secaucus Greenway, a 1.6-mile walkway that connects the park to the Hackensack River and continues south past Acorn and Trolley Parks, runs directly through this conservation landscape, offering close-up views of the wetland and its wildlife with the Manhattan skyline as a backdrop."
+    },
+    {
+     "type": "card",
+     "href": "https://www.visithudson.org/things-to-do/attractions/big-snow/",
+     "title": "Big Snow",
+     "level": 3,
+     "html": "Big Snow at the nearby American Dream Mall is the first indoor ski and snowboard park in North America, featuring five acres of real snow, a range of terrain from beginner slopes to more challenging runs, and a ski and snowboard school staffed by experienced instructors. The facility uses state-of-the-art snowmaking and grooming equipment to maintain consistent conditions year-round, making it a destination for skiers and snowboarders regardless of the season or the weather outside."
+    },
+    {
+     "type": "card",
+     "href": "https://www.thefranklin-sc.com/",
+     "title": "The Franklin",
+     "level": 3,
+     "html": "The Franklin at 780 5th Street is a neighborhood Italian-American restaurant and bar led by Chef Jaime Ramirez, a veteran of more than two decades in North Jersey kitchens. The menu spans brunch, lunch, and dinner with a focus on American favorites and Italian specialties, including veal meatballs, braised short rib, wild mushroom risotto, and housemade pasta dishes. A full bar program curated with craft spirits and a thoughtful cocktail list sets it apart from more casual alternatives on the Secaucus dining scene."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "secaucus-weed-delivery-faq",
+   "src": "bde-section-986-204",
+   "heading": "Secaucus Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where in Secaucus does Lady L Cannabis deliver?",
+       "a_html": "<p>Lady L delivers throughout Secaucus, covering ZIP codes 07094 and 07096. Our drivers reach customers across the town's residential neighborhoods, from the Harmon Cove waterfront community to homes in the North End near County Avenue, and the residential developments in the Harmon Meadow and Riverbend areas closer to Paterson Plank Road and Secaucus Junction.</p>\n<p>Our coverage extends well beyond Secaucus, too, reaching communities across Hudson, Bergen, Essex, Union, and Passaic counties. From neighboring towns like Kearny, North Bergen, and Carlstadt to communities further out across the region, Lady L's delivery footprint is broad and continues to grow.</p>"
+      },
+      {
+       "q": "What hours is Secaucus weed delivery available from Lady L?",
+       "a_html": "<p>As part of our Zone 2 coverage area, the Secaucus delivery schedule is as follows:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Every order must be placed and confirmed before the last call time for that day.</p>\n<p>A $75 order minimum applies, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "What is the minimum age for Secaucus weed delivery?",
+       "a_html": "<p>New Jersey law sets the adult-use minimum at 21, and that applies to every Lady L delivery order without exception. Age is verified during account registration, and your driver will confirm your ID upon arrival before completing the handoff.</p>"
+      },
+      {
+       "q": "What identification does Lady L require for cannabis delivery?",
+       "a_html": "<p>A valid government-issued photo ID is the standard requirement, and most common forms qualify: driver's licenses, state-issued IDs, and passports are all accepted, and out-of-state IDs are welcome. Your ID must be uploaded to your Lady L account before placing your first order, and you'll need the physical document on hand when your driver arrives.</p>"
+      },
+      {
+       "q": "Is a medical card needed for Secaucus weed delivery?",
+       "a_html": "<p>No, you don’t need a medical card to order from Lady L. We’re a fully adult-use operation, open to any customer 21 or older. A confirmed account and a valid ID are the only requirements to get started.</p>"
+      },
+      {
+       "q": "How much cannabis can I order in a single Secaucus delivery?",
+       "a_html": "<p>New Jersey sets the per-transaction limit at the equivalent of one ounce, or 28.35 grams, of usable cannabis. Here's how that breaks down across product types:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis delivery orders in Secaucus?",
+       "a_html": "<p>Adult-use cannabis in New Jersey carries three taxes: a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax, where the local municipality has authorized it. Every charge is broken out at checkout before your order is confirmed.</p>"
+      },
+      {
+       "q": "How does payment work for Lady L's delivery orders?",
+       "a_html": "<p>Full payment must be submitted before your order is confirmed and a driver is dispatched. Lady L processes ACH payments and offers a debit option, but cash is not accepted for delivery. Set up your payment method through your Lady L account at registration, and call 201-595-0706 with any specific payment questions.</p>"
+      },
+      {
+       "q": "What if my Secaucus weed delivery is running behind schedule?",
+       "a_html": "<p>Most deliveries arrive within approximately one hour, though order volume, traffic, and distance can all affect timing on any given run. If your order is taking longer than expected, reach out to our team. We stay on top of every order and will give you a straight answer on timing.</p>"
+      },
+      {
+       "q": "Can I change or cancel my order if I need to?",
+       "a_html": "<p>Contact us as quickly as possible if something needs to change. Once your driver is on the road, modifications become difficult or impossible to accommodate, but our team will do everything we can to help. Reach us through the website or by calling 201-595-0706.</p>"
+      },
+      {
+       "q": "Who needs to be home when my delivery arrives?",
+       "a_html": "<p>An adult 21 or older with a valid government-issued ID must be present when the driver arrives. The handoff can’t be completed without someone who meets that requirement coming to the door. Plan to be available and reachable during your estimated delivery window.</p>"
+      },
+      {
+       "q": "Does Lady L offer any deals or discounts on Secaucus weed delivery?",
+       "a_html": "<p>We do! Lady L’s rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>, though, so checking with our team or keeping an eye on the promotions section of the website is the best way to see what's currently available to delivery customers.</p>\n<p>What is the same as in-store is that every delivery order earns loyalty points at a rate of 1 point per dollar spent. Once you hit 100 points, they convert to $5 in store credit you can apply to a future order. In addition, Lady L runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my Lady L delivery driver?",
+       "a_html": "<p>Tipping is never required, but it's a meaningful way to recognize a job well done. Our drivers bring professionalism and discretion to every delivery, and a tip in the 15-20% range goes a long way toward acknowledging that consistent effort.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "secaucus-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-986-214",
+   "heading": "Secaucus Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Secaucus has quietly become one of the most well-connected, livable towns in the region, and Lady L Cannabis is proud to be part of its delivery landscape. From our West Side home base, we bring the same focused product curation, trained drivers, and commitment to discretion that defines everything we do to each Secaucus weed delivery order we fulfill. The standard doesn't change based on the destination."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve<a href=\"https://ladyljerseycity.com/service/\"> Secaucus and the surrounding communities</a> with cannabis delivery built on consistency, professionalism, and genuine care. We're here when you need us."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

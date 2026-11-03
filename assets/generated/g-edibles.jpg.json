@@ -1,0 +1,28 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-edibles",
+  "file": "assets/generated/g-edibles.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Still-life photograph of a few rough, irregular, hand-broken shards of dark chocolate with jagged broken edges and a plain matte surface, no squares and no moulded pattern, loosely piled next to a small round amber glass jar with a plain brass lid, on warm cream linen with a single sprig of dried lavender. Muted earthy tones, deep brown, amber, cream and a touch of lavender. Centred subject with generous space around it, soft window light, calm and minimal, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 142575356,
+  "requestId": "01a1a2c3-5698-7c52-8dbc-a2e354afc9e9",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "fded6259c8bb4da709663a63a34a81ef6944f3e124e44f95e261b25fd710369f",
+  "raw": "tmp/img/raw/g-edibles.1793732080356.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-03T18:54:42.779Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 2. Hand-broken dark chocolate shards and an amber jar with a brass lid on cream linen, lavender sprigs; no embossing",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

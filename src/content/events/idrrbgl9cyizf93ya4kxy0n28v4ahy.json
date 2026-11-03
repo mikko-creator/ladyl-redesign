@@ -1,0 +1,103 @@
+{
+ "slug": "idrrbgl9cyizf93ya4kxy0n28v4ahy",
+ "path": "/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+ "url": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+ "title": "Happy Farmer Pop Up | LADY L CANNABIS",
+ "description": "Get ready for good vibes straight from the farm. This Saturday, Happy Farmer is taking over the shop!",
+ "canonical": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Happy Farmer Pop Up",
+ "postId": "712",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/",
+        "name": "Happy Farmer Pop Up"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Karl’s Birthday Extravaganza",
+   "href": "https://ladyljerseycity.com/events/karls-birthday/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Self Care Sunday",
+   "href": "https://ladyljerseycity.com/events/self-care-sunday/"
+  }
+ ],
+ "dateText": "Saturday, November 1, 2025",
+ "timeText": "3:00 PM - 5:00 PM",
+ "startISO": "2025-11-01",
+ "image": null,
+ "sections": [
+  {
+   "id": "happy-farmer-pop-up",
+   "src": "bde-section-670-100",
+   "heading": "Happy Farmer Pop Up",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, November 1, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "3:00 PM - 5:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Get ready for good vibes straight from the farm. This Saturday, <a href=\"https://lab.alpineiq.com/click/4688/DNE/debug?redirect=https%3A%2F%2Fhappyfarmernj.com%2F%3Futm_medium%3Demail%26utm_source%3Dalpineiq&amp;isEmail=true\" target=\"_blank\"><strong>Happy Farmer</strong></a> is taking over the shop!"
+    },
+    {
+     "type": "p",
+     "html": "Come meet the team behind your favorite sun-grown flower and enjoy <a href=\"https://lab.alpineiq.com/click/4688/DNE/debug?redirect=https%3A%2F%2Fshop.ladyljerseycity.com%2Fmenu%2Fbrands%2Fhappy-farmer-555041%2F%3Forder%3Dprice%26utm_medium%3Demail%26utm_source%3Dalpineiq&amp;isEmail=true\" target=\"_blank\"><strong>20% off all Happy Farmer products</strong></a> — all day long."
+    },
+    {
+     "type": "p",
+     "html": "Stop in, stock up, and show some love to the people growing cannabis the way it’s meant to be: with care, craft, and community."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

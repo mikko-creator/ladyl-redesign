@@ -1,0 +1,433 @@
+{
+ "slug": "roselle-weed-delivery",
+ "path": "/service/roselle-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/roselle-weed-delivery/",
+ "name": "Roselle",
+ "county": "Union",
+ "title": "Reliable Roselle Weed Delivery | LADY L CANNABIS",
+ "description": "Roselle weed delivery is fast, professional, and built around your convenience and privacy with Lady L Cannabis. Get cannabis delivery in Roselle, NJ, from a woman-owned West Side microdispensary.",
+ "canonical": "https://ladyljerseycity.com/service/roselle-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Roselle Weed Delivery",
+ "postId": "970",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/roselle-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/roselle-weed-delivery/",
+        "name": "Roselle Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-roselle-weed-delivery",
+   "src": "bde-section-970-100",
+   "heading": "Unique Roselle Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Roselle Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> is a woman-owned microdispensary rooted in Jersey City's West Side, where owner Lili Hollandt has built something that reflects her own values: a carefully curated product lineup, a team that brings genuine warmth and cannabis knowledge to every interaction, and a delivery operation that extends that same care across a wide stretch of northern New Jersey. Every Roselle weed delivery order we fulfill carries that same commitment. Roselle is a borough with a compelling backstory, the first community in the world to be electrically lit using an overhead wire system designed by Thomas Edison in 1883, and a place that has continued to build its own distinct identity ever since. From the tree-lined blocks off Chestnut Street to the residential areas near Westfield Avenue, Lady L is proud to serve it. Skip the drive and let us bring the menu to you."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-roselle-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-970-109",
+   "heading": "Our Roselle Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every product on the Lady L delivery menu is there because it earned its spot. The selection isn't about volume. It's about giving customers something worth coming back for across every format and price point. Here's what you'll find:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is where most Lady L customers start, and the selection is deep enough to keep them interested. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer anchor the lineup, with a range that runs from solid, budget-conscious picks to top-shelf options that deliver on every level. Stock rotates regularly, so there's always something new to explore."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Think of a pre-roll as the most direct path between wanting something and having it. No prep, no setup, nothing to figure out. We carry classic and infused varieties from brands that pass our quality standard, at prices that make adding one to any order feel like the obvious move."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "The edibles section gives customers a unique kind of cannabis experience. Gummies, chocolates, and other ingestible formats offer a slower, more measured approach that appeals to a different kind of consumer. Strengths, flavors, and onset profiles vary across the selection, giving real options rather than a handful of nearly identical choices."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes occupy a specific lane that nothing else on the menu can quite fill: discreet, portable, and ready to use without any preparation. We carry top cartridge brands and full-spectrum 1g and 2g disposables for customers who want something consistent they can count on every time."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Most of the menu is about the experience of consuming cannabis. Topicals and tinctures are about something different: targeted comfort and adaptable daily dosing that integrates naturally into how you already live. Topicals work at the site of application; tinctures offer precision and flexibility in equal measure."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates are the category for customers who have moved past the basics and know what they want. Lady L stocks solventless and live resin options, with inventory that updates often enough to reward customers who check back frequently."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs are a category that experienced cannabis customers gravitate toward for one main reason: versatility. A full-spectrum, concentrated format typically available in syringe form, they can be used in multiple ways depending on what you're looking for. Check the live menu for what's currently in stock."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-970-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Roselle is a close-knit borough, and every Roselle weed delivery order from Lady L is handled in a way that respects that and our customers’ privacy too. Orders go out in plain, unmarked packaging, with drivers who approach every stop with the kind of steady, composed professionalism that makes the whole exchange feel like nothing worth noticing. There's no fanfare, no flash, just a clean and efficient handoff."
+    },
+    {
+     "type": "p",
+     "html": "New Jersey's legal framework for cannabis delivery governs every run our drivers make, and ID verification is a fixed part of every handoff without exception. With our team, there's no cutting corners on compliance."
+    },
+    {
+     "type": "p",
+     "html": "Behind the scenes, Lady L runs delivery through a combination of in-house drivers and a vetted third-party service. That combination is what keeps the weed delivery Roselle customers rely on arriving on time within a consistent window, order after order."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-roselle-works",
+   "src": "bde-section-970-150",
+   "heading": "How Cannabis Delivery in Roselle Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Placing a Roselle weed delivery order with Lady L is a short, well-defined process that gives you a professional, friendly driver and a clear timeline. Here's how it unfolds."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Head to the delivery menu and take your time to browse the different formats. Stock is updated regularly, so every item you see is available. Make your selections, review the cart, and proceed to checkout when you're satisfied."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once your order is confirmed, a driver is en route. Most deliveries arrive in approximately one hour. Your driver will contact you and verify your valid government-issued ID before the handoff is complete."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-970-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.boroughofroselle.com/\">Roselle, NJ</a>, carries its history lightly but wears it proudly. The borough that put electric light on the map in 1883 has grown into a diverse, community-minded place with a dining scene that reflects its cultural depth, parks that give residents genuine breathing room, and a Chestnut Street corridor that anchors daily life from one end to the other. For weed delivery Roselle residents rely on, Lady L keeps quality cannabis ready whenever you are, whether you're home along Linden Road, near the St. George's Avenue corridor, or anywhere in between."
+    },
+    {
+     "type": "card",
+     "href": "http://ucnj.org/parks-activities/warinanco-park-photos/",
+     "title": "Warinanco Park",
+     "level": 3,
+     "html": "Warinanco Park is one of Union County's most fully equipped public parks, spanning hundreds of acres across Roselle and Elizabeth with a recreational offering that covers nearly every outdoor activity imaginable. Baseball, basketball, cricket, fishing, handball, horseshoes, soccer, softball, and tennis sit alongside a bicycle path, running track, fitness trail, shuffleboard courts, picnic areas, and pedal boats on the park's central lake. An indoor ice skating rink with Wi-Fi access rounds out a facility that draws consistent use in every season."
+    },
+    {
+     "type": "card",
+     "href": "http://www.pinhosbakery.net/",
+     "title": "Pinho's Bakery & Deli",
+     "level": 3,
+     "html": "Pinho's on Chestnut Street has been a Roselle institution since it opened, baking fresh bread, pastries, eclairs, napoleons, mousse tarts, cannolis, and layer cakes daily from the early hours of the morning. The deli side of the operation kicks in just as early, with breakfast sandwiches and grill platters starting at 5 AM followed by made-to-order subs on fresh-baked bread, Boar's Head cold cuts, housemade salads, and daily soups at lunch. Custom wedding and specialty cakes round out an operation that has built its reputation one honest, fresh product at a time."
+    },
+    {
+     "type": "card",
+     "href": "https://lalloronastreetmexicankitchennj.com/",
+     "title": "La Llorona Street Mexican Kitchen & Tequila Lounge",
+     "level": 3,
+     "html": "La Llorona on Linden Road brings a vibrant Mexican street-food concept to Roselle, with a tequila lounge that adds an elevated social dimension to the experience. The kitchen draws on authentic Mexican recipes and bold flavors, with a full food menu running alongside an extensive tequila and cocktail program. Late-night hours on weekends make it one of the more distinctive destinations on the local dining scene."
+    },
+    {
+     "type": "card",
+     "href": "https://www.kokuyobar.com/",
+     "title": "Kokuyo Cocktail Bar",
+     "level": 3,
+     "html": "Kokuyo at 1135 Chestnut Street describes itself as a neighborhood third place, and the vibe backs that up. Island-inspired small plates, creative seasonal craft cocktails, and a relaxed, breezy atmosphere define the experience, with Golden Hour specials running daily from Wednesday through Sunday and all day on Sundays. Private event bookings are available for groups seeking a more intimate, curated experience than a typical bar night out."
+    },
+    {
+     "type": "card",
+     "href": "https://rosellelibrary.org/",
+     "title": "Roselle Memorial Library",
+     "level": 3,
+     "html": "The Roselle Memorial Library at 104 West Fourth Avenue is one of the more full-featured public libraries in the area for a borough of its size. Services span digital borrowing via Libby, Hoopla, and Freegal Music; passport processing; notary services; ESL classes; municipal identification cards; computer and printing access; research databases; and reservable study rooms. A rotating calendar of community programming, including financial empowerment workshops, cultural celebrations, and adult education classes, reflects how deeply embedded the library is in the life of the borough."
+    },
+    {
+     "type": "card",
+     "href": "https://www.mapquest.com/us/new-jersey/arminio-field-779866792",
+     "title": "Arminio Field Fitness Court",
+     "level": 3,
+     "html": "Arminio Athletic Field on Chestnut Street between Eighth and Ninth Avenues is a local landmark built through a collaboration between the Borough of Roselle and the public school district. The complex features a full football field and running track, a field house with a weight room, lockers, and meeting space, an outdoor NationalFit Fitness Court open to the public, and a Walk of Fame honoring former Roselle Ram football players. It's the kind of facility that gives residents a reason to show up and a reason to stay."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "roselle-weed-delivery-faq",
+   "src": "bde-section-970-179",
+   "heading": "Roselle Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where in the borough can I get Roselle weed delivery from Lady L?",
+       "a_html": "<p>Lady L delivers throughout Roselle (ZIP code 07203) as part of our Zone 2 coverage area. Our drivers reach customers across the borough's residential streets, from the the blocks between Pine and Spruce Streets to the homes along Rahway Avenue near the Linden border, and the neighborhoods surrounding Warinanco Park closer to the Elizabeth line.</p>\n<p>Our wide delivery footprint also extends well beyond Roselle's borders, covering communities across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like Cranford, Roselle Park, and Elizabeth to communities further out, Lady L's drivers are on the roads of northern New Jersey every day.</p>"
+      },
+      {
+       "q": "When is Roselle delivery service available?",
+       "a_html": "<p>Roselle falls within our Zone 2 coverage area. Here's the schedule:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Every order needs to be in and confirmed before the last call time.</p>\n<p>A $75 order minimum applies, with free service on all qualifying Roselle weed delivery orders.</p>"
+      },
+      {
+       "q": "What age do you need to be for cannabis delivery in Roselle?",
+       "a_html": "<p>Per New Jersey's adult-use cannabis law, the minimum age is 21, and every Lady L delivery order adheres to that rule without exception. Your age is verified when you first register your Lady L account, and your driver will confirm your ID upon arrival before the handoff.</p>"
+      },
+      {
+       "q": "What ID does Lady L accept?",
+       "a_html": "<p>Any valid government-issued photo ID will work, including driver's licenses, state-issued identification cards, and passports. Out-of-state IDs are accepted. You’ll upload your ID to your Lady L account before placing your first order, and keep the physical document on hand when your driver arrives.</p>"
+      },
+      {
+       "q": "Is a medical cannabis card required to place a Roselle delivery order?",
+       "a_html": "<p>No medical card is necessary. Lady L operates as a fully adult-use cannabis microdispensary, which means the process is open to any customer 21 or older with a valid ID and a confirmed account. Nothing else is required.</p>"
+      },
+      {
+       "q": "What are the purchase limits for cannabis delivery orders?",
+       "a_html": "<p>New Jersey caps each transaction at one ounce, or 28.35 grams, of usable cannabis across all product types combined. Here's how that breaks down:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to Roselle weed delivery orders?",
+       "a_html": "<p>There are three taxes that apply to New Jersey adult-use cannabis: a 6.625% state sales tax, a $2.50-perounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax in municipalities that have authorized it. All applicable charges appear at checkout, so there’s full transparency about what you’re paying for.</p>"
+      },
+      {
+       "q": "How does payment work for Lady L delivery orders in Roselle?",
+       "a_html": "<p>Before a driver is dispatched, full payment needs to be submitted. Lady L offers ACH payment and a debit option, but cash is not accepted for delivery orders. The easiest way to handle it is to set up your preferred payment method through your Lady L account when you register, so everything is ready to go when you place your order. Questions about the payment process? Call 201-595-0706.</p>"
+      },
+      {
+       "q": "What happens if a Lady L delivery runs late?",
+       "a_html": "<p>One hour is the typical window, but order volume, traffic, and distance can all shift that on any given run. If your delivery is taking longer than expected, reach out to our team directly. We track every order and won't leave you without a straight answer on where things stand.</p>"
+      },
+      {
+       "q": "Can I change or cancel my order after placing it?",
+       "a_html": "<p>Possibly, but the sooner you contact us, the better. Once a driver is en route, modifications become difficult and may be impossible to accommodate. Call 201-595-0706 or reach us through the website as quickly as you can, and our team will do everything we can to help.</p>"
+      },
+      {
+       "q": "Who needs to be present when my delivery arrives?",
+       "a_html": "<p>Someone 21 or older with a valid government-issued ID has to be at the delivery address when the driver shows up. That's a firm requirement every time. If no qualifying adult is available at the time of the handoff, the order can’t be completed, so make sure you're reachable during your estimated window.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals on Roselle weed delivery orders?",
+       "a_html": "<p>Lady L does offer delivery deals, and our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>. So, checking with our team and keeping an eye on the promotions section of the website are the best ways to stay current on what's available for delivery customers.</p>\n<p>Also, every delivery order earns loyalty points at the same rate as in-store purchases, which means every dollar you spend equals 1 point, and one hundred points convert to $5 in store credit. On top of that, Lady L runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my delivery driver?",
+       "a_html": "<p>Tipping is optional and never expected, but it's always a reflection of the experience. When a driver shows up on time, handles everything professionally, and makes the whole exchange feel effortless on your end, a tip in the 15-20% range is a meaningful way to say so.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "roselle-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-970-189",
+   "heading": "Roselle Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Roselle was the first community in the world to be lit by electric light, and it has been leading the way on its own terms ever since. Lady L Cannabis is proud to be part of the local picture, bringing every Roselle weed delivery order to the borough with a level of care, professionalism, and product quality that reflects what this community deserves. From our West Side home base, the standard never changes."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve Roselle and the surrounding <a href=\"https://ladyljerseycity.com/service/\">northern New Jersey communities</a> with reliable cannabis delivery built around doing things right. If you're ready to order, browse the menu, and let’s get started!"
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

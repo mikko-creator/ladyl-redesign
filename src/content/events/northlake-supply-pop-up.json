@@ -1,0 +1,103 @@
+{
+ "slug": "northlake-supply-pop-up",
+ "path": "/events/northlake-supply-pop-up/",
+ "url": "https://ladyljerseycity.com/events/northlake-supply-pop-up/",
+ "title": "North Lake Supply Pop-Up | LADY L CANNABIS",
+ "description": "North Lake Supply is pulling up to Lady L!",
+ "canonical": "https://ladyljerseycity.com/events/northlake-supply-pop-up/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "North Lake Supply Pop-Up",
+ "postId": "724",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/northlake-supply-pop-up/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/northlake-supply-pop-up/",
+        "name": "North Lake Supply Pop-Up"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Self Care Sunday",
+   "href": "https://ladyljerseycity.com/events/self-care-sunday/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "🎃 Costume Contest – All Day Halloween",
+   "href": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/"
+  }
+ ],
+ "dateText": "Friday, October 10, 2025",
+ "timeText": "5:00 PM - 7:00 PM",
+ "startISO": "2025-10-10",
+ "image": null,
+ "sections": [
+  {
+   "id": "north-lake-supply-pop-up",
+   "src": "bde-section-670-100",
+   "heading": "North Lake Supply Pop-Up",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Friday, October 10, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "5:00 PM - 7:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "North Lake Supply is pulling up to Lady L!"
+    },
+    {
+     "type": "p",
+     "html": "Come meet the brand, explore their lineup, and snag exclusive specials during this evening pop-up."
+    },
+    {
+     "type": "p",
+     "html": "Perfect time to stop in after work and stock up. ✨"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

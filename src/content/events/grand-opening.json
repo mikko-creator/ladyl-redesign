@@ -1,0 +1,239 @@
+{
+ "slug": "grand-opening",
+ "path": "/events/grand-opening/",
+ "url": "https://ladyljerseycity.com/events/grand-opening/",
+ "title": "Cannabis Shop Grand Opening | LADY L CANNABIS",
+ "description": "Lady L Cannabis is opening its doors on Saturday, September 13 with a full-day celebration in Jersey City’s West Side. From free empanadas and THC-infused mocktails to aura photography, shaved ice, and in-store specials, our grand opening is packed with community, flavor, and good vibes.",
+ "canonical": "https://ladyljerseycity.com/events/grand-opening/",
+ "ogImage": "/assets/photos/ll/celebrationsale.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/04/CelebrationSale.webp",
+ "h1": "Grand Opening",
+ "postId": "746",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/grand-opening/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/grand-opening/",
+        "name": "Grand Opening"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Terpene Pop Up Bar",
+   "href": "https://ladyljerseycity.com/events/terpene-pop-up-bar/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Jersey City LGBTQ+ Pride Festival",
+   "href": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/"
+  }
+ ],
+ "dateText": "Saturday, September 13, 2025",
+ "timeText": "11:00 AM - 9:00 PM",
+ "startISO": "2025-09-13",
+ "image": {
+  "src": "/assets/photos/ll/celebrationsale.webp",
+  "w": 1200,
+  "h": 924,
+  "alt": "Lady L Cannabis grand opening celebration and sale promotional graphic"
+ },
+ "sections": [
+  {
+   "id": "grand-opening",
+   "src": "bde-section-670-100",
+   "heading": "Grand Opening",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, September 13, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "11:00 AM - 9:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis Dispensary 547 West Side AvenueJersey City, NJ, 07304 United States"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/celebrationsale.webp",
+     "alt": "Lady L Cannabis grand opening celebration and sale promotional graphic",
+     "w": 1200,
+     "h": 924,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/CelebrationSale.webp"
+    },
+    {
+     "type": "p",
+     "html": "The wait is almost over! Lady L Cannabis is officially opening our doors at <strong>547 West Side Ave, Jersey City</strong>, and we’re throwing a full-day celebration to mark the occasion. Come join us for food, fun, and festivities right here in the West Side neighborhood."
+    },
+    {
+     "type": "h2",
+     "text": "The Celebration"
+    },
+    {
+     "type": "p",
+     "html": "We’re kicking things off early across the street at <strong>123Events (next to the library on Lex)</strong> with a lineup of local partners and special experiences:"
+    },
+    {
+     "type": "h4",
+     "text": "11AM – 3PM – Early Bites, Bevs and Vibes"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "🥟 <strong>Eat Em Up Empanadas</strong>: 200 munchie boxes of bite-sized empanadas (one meat + one cheese). Free while supplies last—first come, first serve!",
+      "🍋 <strong>Hydrate &amp; Elevate Mocktail Bar</strong>: THC-infused Lavender Lemonade + Uptown Arnold Palmer.",
+      "🌈 <strong>Private Aura Photography</strong>: A one-of-a-kind aura photo experience with a personalized reading + guide card. Limited to 40 sessions—first come, first serve!"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "5 – 9PM – Evening Fun"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "🍧 <strong>Rainbow Snow Shaved Ice Truck</strong>: Refreshing, colorful treats.",
+      "🚌 <strong>Consumption Bus</strong>: A safe space to relax, consume, and connect."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "From morning bites to evening vibes, this day is all about celebrating our neighborhood, our community, and the beginning of Lady L’s journey with you."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lady-l-wheel.gif",
+     "alt": "Lady L Cannabis branded spin-the-wheel prize game with loyalty rewards",
+     "w": 480,
+     "h": 270,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/lady-l-wheel.gif"
+    },
+    {
+     "type": "h4",
+     "text": "✨ Feeling lucky?✨"
+    },
+    {
+     "type": "p",
+     "html": "Make a qualifying purchase of at least $30 for a chance at prizes, discounts, and Lady L goodies."
+    },
+    {
+     "type": "h2",
+     "text": "In-Store Specials"
+    },
+    {
+     "type": "h4",
+     "text": "Doorbusters"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "First 100 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> Kind Tree</a> Pre-roll",
+      "First 40 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> WYLD</a> Edible"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Discounts on Shop Faves and New Drops"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "25% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Ozone\"> <strong>Ozone</strong></a> and<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Simply+Herb\"> <strong>Simply Herb</strong></a>",
+      "30% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> <strong>WYLD</strong></a> and <strong>Old Pal</strong>",
+      "$10 Off New Drops: <strong>Bliss Co.</strong> and <strong>Wonderbrett</strong>",
+      "<strong>and</strong><a href=\"https://shop.ladyljerseycity.com/menu/?on_sale=true&amp;order=-inserted_at\"> <strong>more</strong></a><strong>!</strong>"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "BOGO Specials to Stock Up On"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "BOGO<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> <strong>Kind Tree</strong></a><strong> 50% Off Grape Gilati</strong> Eighth",
+      "3<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=North+Lake+Supply\"> <strong>North Lake Supply</strong></a> pre-rolls for $20",
+      "BOGO <strong>$1</strong><a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Nimbus\"> <strong>Nimbus Vapes</strong></a>"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Spin The Wheel Deals"
+    },
+    {
+     "type": "p",
+     "html": "Make a qualifying purchase of at least $30 for a chance at the following rewards:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>$1 Pre-roll / Pre-roll 5pk</strong>",
+      "<strong>$5 Edible</strong>",
+      "<strong>$10 Eighth or 1g Vape Cartridge</strong>",
+      "<strong>Store Credit/Loyalty Points</strong>",
+      "<a href=\"https://shop.ladyljerseycity.com/menu/products/accessories/lady-l-tote-blue-5603669/?order=-inserted_at\" target=\"_blank\"><strong>Lady L Tote Bag</strong></a>",
+      "<strong>Surprise Gifts</strong>"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "👉 Mark your calendar for Saturday, September 13 . 📍 Lady L Cannabis — 547 West Side Ave, Jersey City",
+     "href": "https://www.google.com/calendar/event?action=TEMPLATE&text=Grand%20Opening&dates=20250913T180000Z/20250914T040000Z&location=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2C%2007304%2C%20United%20States"
+    },
+    {
+     "type": "p",
+     "html": "We can’t wait to celebrate this milestone with you. Come for the specials, stay for the highs, and be part of the beginning of something unforgettable."
+    },
+    {
+     "type": "p",
+     "html": "Love,"
+    },
+    {
+     "type": "p",
+     "html": "The Lady L Team"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

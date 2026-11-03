@@ -1,0 +1,110 @@
+{
+ "slug": "self-care-sunday",
+ "path": "/events/self-care-sunday/",
+ "url": "https://ladyljerseycity.com/events/self-care-sunday/",
+ "title": "Self Care Sunday | LADY L CANNABIS",
+ "description": "Featuring:",
+ "canonical": "https://ladyljerseycity.com/events/self-care-sunday/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Self Care Sunday",
+ "postId": "720",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/self-care-sunday/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/self-care-sunday/",
+        "name": "Self Care Sunday"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Happy Farmer Pop Up",
+   "href": "https://ladyljerseycity.com/events/idrrbgl9cyizf93ya4kxy0n28v4ahy/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "North Lake Supply Pop-Up",
+   "href": "https://ladyljerseycity.com/events/northlake-supply-pop-up/"
+  }
+ ],
+ "dateText": "Sunday, November 2, 2025",
+ "timeText": "1:00 PM - 3:00 PM",
+ "startISO": "2025-11-02",
+ "image": null,
+ "sections": [
+  {
+   "id": "self-care-sunday",
+   "src": "bde-section-670-100",
+   "heading": "Self Care Sunday",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Sunday, November 2, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "1:00 PM - 3:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Featuring:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Jennifer Wai – Reiki Master",
+      "Jessica of Healing Hands Spa – Massage Therapist"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "With a qualifying purchase, enjoy your choice of a 10 minute Reiki or chair Massage."
+    },
+    {
+     "type": "p",
+     "html": "While availability lasts — first come, first served."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

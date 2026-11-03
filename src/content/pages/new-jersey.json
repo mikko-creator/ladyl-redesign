@@ -1,0 +1,416 @@
+{
+ "slug": "new-jersey",
+ "path": "/new-jersey/",
+ "url": "https://ladyljerseycity.com/new-jersey/",
+ "title": "Enjoy the Best of New Jersey Dispensaries | LADY L CANNABIS",
+ "description": "New Jersey dispensaries offer a range of cannabis options & Lady L Cannabis brings a local, community-driven experience to the state. Explore the best of cannabis dispensaries in New Jersey with us!",
+ "canonical": "https://ladyljerseycity.com/new-jersey/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Enjoy The Best of New Jersey Dispensaries Near You",
+ "postId": "",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/new-jersey/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/",
+        "name": "New Jersey"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "CollectionPage",
+     "@id": "https://ladyljerseycity.com/new-jersey/#webpage",
+     "url": "https://ladyljerseycity.com/new-jersey/",
+     "name": "Enjoy the Best of New Jersey Dispensaries | LADY L CANNABIS",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/new-jersey/#breadcrumb"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "enjoy-the-best-of-new-jersey-dispensaries-near-you",
+   "src": "bde-section-487-100",
+   "heading": "Enjoy The Best of New Jersey Dispensaries Near You",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Finding New Jersey dispensaries that feel personal, welcoming, and easy to navigate can change the entire experience. At <a href=\"https://ladyljerseycity.com/\">Lady L</a>, you’re not just exploring another option in a crowded market. You’re stepping into a locally rooted, woman-owned shop that brings warmth, knowledge, and real community energy to the New Jersey cannabis space."
+    },
+    {
+     "type": "p",
+     "html": "Whether you're planning a quick pickup, browsing options ahead of time, or looking for delivery that fits your schedule, everything starts with understanding how cannabis works across the state and where you fit into it."
+    },
+    {
+     "type": "button",
+     "text": "shop now",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "discover-the-magic-of-lady-l-cannabis-in-new-jersey",
+   "src": "bde-section-487-114",
+   "heading": "Discover the Magic of Lady L Cannabis in New Jersey",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Not all New Jersey dispensaries feel the same. Some focus on volume. Others focus on speed. Lady L focuses on people."
+    },
+    {
+     "type": "p",
+     "html": "Built on Jersey City’s West Side, this shop was designed to feel like a real place, not a transactional stop. The space reflects a lived-in energy, shaped by a founder who understands both operations and human connection. That shows up in how conversations happen, how products are curated, and how customers are treated from the moment they walk in."
+    },
+    {
+     "type": "p",
+     "html": "Customers across New Jersey choose Lady L because:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "The experience feels welcoming, not overwhelming",
+      "The product selection is curated, not cluttered",
+      "The team explains cannabis clearly without pressure",
+      "Pickup is fast, and delivery is reliable",
+      "Loyalty rewards build real value over time"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Adult-use cannabis is available to anyone 21 and older, and Lady L keeps that process simple, clear, and approachable for both new and experienced shoppers."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "cannabis-products-across-our-menu",
+   "src": "bde-section-487-142",
+   "heading": "Cannabis Products Across Our Menu",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Across New Jersey dispensaries, product variety continues to expand, but not every menu is curated with intention. At Lady L, the focus stays on what actually works for customers."
+    },
+    {
+     "type": "p",
+     "html": "You’ll find a balanced selection of:"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+     "alt": "LadyL_Iconography_Bud",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+     "w": 300,
+     "h": 300
+    },
+    {
+     "type": "p",
+     "html": "<strong>Flower</strong> that leads the menu with quality and freshness"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+     "alt": "LadyL_Iconography_Gummies",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+     "w": 300,
+     "h": 300
+    },
+    {
+     "type": "p",
+     "html": "<strong>Edibles</strong> designed for approachable, controlled experiences"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+     "alt": "LadyL_Iconography_Vape",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+     "w": 300,
+     "h": 300
+    },
+    {
+     "type": "p",
+     "html": "<strong>Vapes</strong> for convenience and portability"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+     "alt": "LadyL_Iconography_Preroll",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+     "w": 300,
+     "h": 300
+    },
+    {
+     "type": "p",
+     "html": "<strong>Pre-rolls</strong> for easy, ready-to-go options"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+     "alt": "LadyL_Iconography_Concentrate",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+     "w": 300,
+     "h": 300
+    },
+    {
+     "type": "p",
+     "html": "<strong>Concentrates</strong> for more experienced consumers"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "p",
+     "html": "<strong>Topicals and tinctures</strong> for alternative formats"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Occasional beverage options,</strong> depending on availability"
+    },
+    {
+     "type": "p",
+     "html": "Every product is sourced with attention to cleanliness, consistency, and trusted brands. Instead of overwhelming you with endless choices, the menu focuses on the right mix for real people and real routines."
+    },
+    {
+     "type": "p",
+     "html": "Since inventory shifts regularly, it’s always best to check the live menu before visiting or placing an order."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "dispensary-cities-and-areas-served-in-new-jersey",
+   "src": "bde-section-487-202",
+   "heading": "Dispensary Cities and Areas Served in New Jersey",
+   "blocks": [
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-bayonne/",
+     "title": "Bayonne",
+     "level": 3,
+     "html": "Bayonne provides a quieter, more residential environment while staying closely connected to Hudson County’s larger cities. Its layout offers a balance between accessibility and a more relaxed pace of living."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-hoboken/",
+     "title": "Hoboken",
+     "level": 3,
+     "html": "Hoboken is known for its walkable streets, dense residential layout, and close proximity to Jersey City. The area supports a fast-paced lifestyle with easy connections between neighborhoods and nearby transit routes."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-kearny/",
+     "title": "Kearny",
+     "level": 3,
+     "html": "Kearny blends industrial roots with expanding residential areas, creating a space that continues to evolve. Its location offers strong access to nearby cities while maintaining its own distinct local identity."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-lincoln-park/",
+     "title": "Lincoln Park",
+     "level": 3,
+     "html": "Lincoln Park offers one of the largest and most accessible green spaces in Jersey City, surrounded by residential neighborhoods and steady local traffic. The area blends outdoor recreation with everyday city life, making it a consistent destination for nearby residents."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-newark-international-airport/",
+     "title": "Newark International Airport",
+     "level": 3,
+     "html": "The Newark International Airport area serves a high volume of travelers, workers, and nearby residents. It’s a fast-moving environment where accessibility and proximity to transit play a major role in daily activity."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-north-bergen/",
+     "title": "North Bergen",
+     "level": 3,
+     "html": "North Bergen sits along major commuter corridors, making it a convenient access point for surrounding communities. The area connects urban density with more suburban pockets, creating a diverse local flow."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/new-jersey/dispensary-near-statue-of-liberty/",
+     "title": "Statue of Liberty",
+     "level": 3,
+     "html": "The Statue of Liberty area sits along Jersey City’s waterfront, where tourism and local movement intersect. With constant foot traffic and strong transit access, it remains one of the most active zones in the region."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "shopping-at-a-new-jersey-dispensary",
+   "src": "bde-section-487-255",
+   "heading": "Shopping at a New Jersey Dispensary",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Shopping at dispensaries in New Jersey is straightforward once you know the basics."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Age Requirement:</strong> 21+ for adult-use cannabis",
+      "<strong>ID Required:</strong> Valid government-issued ID at purchase and delivery",
+      "<strong>Purchase Limits:</strong> Up to 1 ounce of flower Up to 4 grams of concentrates Up to 1,000 mg of THC in edibles",
+      "<strong>Possession Limit:</strong> Up to 6 ounces total",
+      "<strong>Payment Methods:</strong> Cash",
+      "<strong>Medical Card:</strong> Not required for adult-use purchases"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "You can mix product types within the legal limit, which gives you flexibility when building your order."
+    },
+    {
+     "type": "h3",
+     "text": "Pickup and Delivery Options"
+    },
+    {
+     "type": "p",
+     "html": "Many New Jersey dispensaries now offer flexible shopping options. At Lady L:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Pickup is fast and easy with online ordering",
+      "Delivery covers Jersey City and surrounding areas",
+      "Delivery is free on orders over $75",
+      "A valid ID is required upon delivery",
+      "Payment must be completed before delivery"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Delivery allows you to access cannabis without changing your schedule, while pickup keeps things quick when you’re nearby."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "frequently-asked-questions-about-new-jersey-dispensaries",
+   "src": "bde-section-487-258",
+   "heading": "Frequently Asked Questions About New Jersey Dispensaries",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "alt": "03119f51a270ad502b972b1c699799170561feb4",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "w": 1619,
+     "h": 1080
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Is cannabis legal in New Jersey?",
+       "a_html": "<p>Yes. Adult-use cannabis is legal for individuals 21 and older.</p>"
+      },
+      {
+       "q": "Do I need a medical card?",
+       "a_html": "<p>No. Adult-use purchases do not require a medical card.</p>"
+      },
+      {
+       "q": "How much cannabis can I buy?",
+       "a_html": "<p>New Jersey allows you to purchase up to the equivalent of 1 ounce (28.35 grams) of usable cannabis per transaction. This limit can be split across product types. For example, you could purchase a combination of flower, concentrates, and edibles as long as the total stays within the legal equivalent.</p>"
+      },
+      {
+       "q": "What taxes apply to cannabis?",
+       "a_html": "<p>Cannabis purchases in New Jersey include a 6.625% state sales tax and a possible local municipal tax of up to 2%. There is also a Social Equity Excise Fee (SEEF), which is applied at the cultivation level and may be reflected in overall pricing.</p>"
+      },
+      {
+       "q": "Where can cannabis be consumed?",
+       "a_html": "<p>Cannabis consumption is only permitted in private residences or on private property where it is allowed. Public consumption is not permitted, including in parks, sidewalks, vehicles, or near federal property. It’s important to plan ahead and only consume in legal, private spaces.</p>"
+      },
+      {
+       "q": "Do New Jersey dispensaries offer delivery?",
+       "a_html": "<p>Some do, including Lady L. Delivery requires ID verification and prepayment.</p>"
+      },
+      {
+       "q": "Are there loyalty programs or promotions?",
+       "a_html": "<p>Lady L offers a loyalty program in which points can be redeemed for store credit.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "nj-dispensary-near-me-yes",
+   "src": "bde-section-487-269",
+   "heading": "NJ Dispensary Near Me? Yes!",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Among New Jersey dispensaries, Lady L stands out by keeping things human. The experience stays grounded in community, built for real people, and designed to feel approachable from the start."
+    },
+    {
+     "type": "p",
+     "html": "Whether you’re exploring cannabis for the first time or already know what works for you, you’ll find a place that meets you where you are. From curated products to pickup convenience and delivery that fits your routine, everything is designed to make the process feel easy and worth coming back to."
+    },
+    {
+     "type": "p",
+     "html": "Start exploring New Jersey your way, and let Lady L be part of that routine!"
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

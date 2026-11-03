@@ -1,0 +1,433 @@
+{
+ "slug": "moonachie-weed-delivery",
+ "path": "/service/moonachie-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/moonachie-weed-delivery/",
+ "name": "Moonachie",
+ "county": "Bergen",
+ "title": "Reliable Moonachie Weed Delivery | LADY L CANNABIS",
+ "description": "Skip the trip and get fast, discreet Moonachie weed delivery from Lady L Cannabis. Get cannabis delivery in Moonachie, NJ, from a woman-owned West Side microdispensary with a curated selection.",
+ "canonical": "https://ladyljerseycity.com/service/moonachie-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Moonachie Weed Delivery",
+ "postId": "980",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/moonachie-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/moonachie-weed-delivery/",
+        "name": "Moonachie Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-moonachie-weed-delivery",
+   "src": "bde-section-980-100",
+   "heading": "Unique Moonachie Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Moonachie Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> has spent years proving that a small, focused operation can do things a big one can't. A tightly curated product lineup, a staff that takes cannabis education seriously, and a delivery service built around professionalism and discretion are the pillars of Lady L. Those aren't aspirations. They're the daily standard here at our shop on West Side Avenue, and they travel with every Moonachie weed delivery order we fulfill. Situated within the Hackensack River watershed with Teterboro Airport to the north and some of the region's largest entertainment destinations just minutes away, Moonachie is a quietly connected borough that Lady L is proud to serve. Place your order and let us take care of the rest."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-moonachie-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-980-109",
+   "heading": "Our Moonachie Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Carrying the right products matters more than carrying every product. That's the philosophy behind the Lady L delivery menu, and it shows in every category. Here's what's available:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is the category that sets the tone for everything else on the Lady L menu, and the selection is stocked to reflect that weight. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer cover a spectrum from approachable everyday options to top-shelf picks for customers who want the best available."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "A pre-roll is the most direct path from wanting something to having it. We carry classic and infused varieties from brands that meet our quality standard, at prices that make adding one to any order a natural decision."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "Gummies, chocolates, and other ingestible formats make the edibles section one of the more personal corners of the menu. Strengths, flavors, and onset profiles vary widely, giving customers genuine latitude to find what works for them. Availability shifts regularly, so the live menu is the most reliable read on what's in stock."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes combine discretion and consistency in a format that almost no other category can match. We carry top cartridge brands and full-spectrum 1g and 2g disposables for customers who want something clean and reliable every time."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "These two categories occupy a distinct lane from everything else on the menu. Topicals work directly at the point of contact on the skin for targeted comfort, while tinctures offer a precise, flexible dosing approach that fits naturally into most daily routines. Check the live menu for current availability."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates have a devoted following for good reason, and Lady L stocks the category with that in mind. Solventless and live resin options appear on the delivery menu regularly. If this is your format of choice, check back often as inventory updates often."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs bring a full-spectrum, concentrated cannabis experience in a format that experienced customers return to specifically for its range of applications. Typically available in syringe form, they can be used in multiple ways. Check the live menu for what's currently in stock."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-980-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Moonachie is a borough where people know their neighbors and notice what's happening on the block. So with that in mind, Lady L handles every Moonachie weed delivery with that in mind. Orders go out in plain, unmarked packaging, and our drivers approach each stop with a professionalism and composure that makes the whole exchange feel completely routine."
+    },
+    {
+     "type": "p",
+     "html": "In addition to protecting your privacy, ID verification is a fixed part of every delivery, and all drivers operate fully within New Jersey's legal framework for cannabis delivery. The team is trained, courteous, and committed to a clean handoff every time."
+    },
+    {
+     "type": "p",
+     "html": "Typical delivery time runs approximately one hour. To keep every weed delivery Moonachie customers depend on running smoothly, Lady L draws on a combination of in-house drivers and a trusted third-party service to maintain tight windows across the full coverage area."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-moonachie-works",
+   "src": "bde-section-980-150",
+   "heading": "How Cannabis Delivery in Moonachie Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The process behind Moonachie weed delivery through Lady L is built for simplicity. Four steps, no surprises, and a driver at your door in about an hour. Here’s how it works."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Head to the delivery menu and explore what's currently available. Every item reflects real-time inventory, so what you see is what you can get. Take your time, make your selections, and give your cart a once-over before proceeding to checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once your order is confirmed, a driver heads out. Most deliveries arrive in approximately one hour. Your driver will contact you when they get there and verify your valid government-issued ID before the handoff. And that’s all there is to it."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-980-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.moonachie.us/\">Moonachie, NJ</a>, is a small borough with a strong and unique sense of place. Moonachie Road runs through the heart of the community, connecting residential areas like State Street and East Joseph Street to the dining and commercial corridors that have shaped daily life in town for generations. Just beyond its borders, some of the region's most notable entertainment and dining destinations sit within easy reach. And with the weed delivery Moonachie residents can rely on from Lady L, it keeps things convenient no matter how you plan to spend your time."
+    },
+    {
+     "type": "card",
+     "href": "https://segoviarestaurant.com/",
+     "title": "Segovia Restaurant",
+     "level": 3,
+     "html": "Segovia Restaurant at 150 Moonachie Road has been serving authentic Spanish cuisine for nearly four decades, earning a Zagat Award of Distinction and a consistent spot on New Jersey Monthly's list of the best Spanish and Portuguese restaurants in the state. The menu is built around the finest seafood and meat alongside the freshest seasonal produce, with talented chefs applying a modern touch to traditional Spanish recipes without losing the rusticity that has made the restaurant a regional institution. Private dining and off-premise catering round out an operation that has earned a loyal following well beyond the borough."
+    },
+    {
+     "type": "card",
+     "href": "https://bistro107nj.com/",
+     "title": "Bistro 107 Cucina Italiana",
+     "level": 3,
+     "html": "Bistro 107 at 107 Moonachie Road brings authentic Southern Italian cuisine to the heart of Moonachie, with every dish made fresh to order using only high-quality ingredients. The menu spans classic pasta dishes, fresh seafood, and house specialties prepared with the kind of attention to detail that keeps regulars coming back. A private party space accommodating up to 100 guests, along with a full catering operation, makes it equally suited to a quiet dinner and a larger celebration."
+    },
+    {
+     "type": "card",
+     "href": "https://njahof.org/",
+     "title": "New Jersey Aviation Hall of Fame",
+     "level": 3,
+     "html": "The Aviation Hall of Fame and Museum of New Jersey at 400 Fred Wehran Drive in Teterboro, just north of Moonachie, has been preserving and celebrating the state's rich aviation history since 1972. Named one of the ten best museums in New Jersey, the facility houses an extensive collection of exhibits, artifacts, and inductee histories spanning more than a century of flight. An FAA-approved flight simulator allows experienced pilots to log hours toward certification, and Open Cockpit Days offer hands-on access to historic aircraft year-round."
+    },
+    {
+     "type": "card",
+     "href": "https://njaudubon.org/wp-content/wildlife/MeadowlandsTrails/Sites/tabid/443/Scope/site/Guide/MEADOWLNDS/Site/96/Default.html",
+     "title": "Losen Slote Creek Park",
+     "level": 3,
+     "html": "Losen Slote Creek Park is a 28-acre lowland forest and meadow habitat in nearby Little Ferry, protected since 1990 through an agreement between the Borough of Little Ferry and the New Jersey Meadowlands Commission. The park centers on the impounded Losen Slote Creek, a former tidal tributary of the Hackensack River, and borders Mehrhof Pond, a former clay-mining site now teeming with waterfowl and other wildlife. A nature trail winds through a rich landscape of damp woodlands, thickets, and meadows that support an impressive variety of bird species."
+    },
+    {
+     "type": "card",
+     "href": "https://www.americandream.com/",
+     "title": "American Dream",
+     "level": 3,
+     "html": "American Dream in nearby East Rutherford is one of the most expansive entertainment and retail complexes in North America, featuring an indoor theme park, a full-scale water park, the Big Snow indoor ski and snowboard slope, luxury retail destinations, and a wide range of dining options. The sheer scale and variety of what's available under one roof makes it a legitimate regional destination in its own right, drawing visitors from across the tristate area on a regular basis."
+    },
+    {
+     "type": "card",
+     "href": "https://bergencountynj.gov/bergen-county-department-of-parks/overpeck-county-park/",
+     "title": "Overpeck County Park",
+     "level": 3,
+     "html": "Overpeck County Park spans more than 805 acres across several municipalities and stands as one of Bergen County's premier recreational destinations. The park offers athletic fields, five miles of walking and biking paths, a canoe and kayak launch into Overpeck Creek, a 3,000-seat grass amphitheater, tennis and pickleball courts, a World Trade Center Memorial, and a Bergen County Equestrian Center. The Teaneck Creek section adds a nature-focused dimension that complements the park's more active recreational offerings."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "moonachie-weed-delivery-faq",
+   "src": "bde-section-980-204",
+   "heading": "Moonachie Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where in Moonachie does Lady L Cannabis deliver?",
+       "a_html": "<p>Lady L delivers throughout Moonachie (ZIP code 07074) as part of our Zone 2 coverage area. Our drivers reach customers across the borough's residential streets, from the Panorama City neighborhood along State Street and homes near East Joseph Street to addresses closer to Moonachie Road and the borough's commercial corridor.</p>\n<p>Our delivery footprint extends well beyond Moonachie's borders, reaching communities across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like Wood-Ridge, Carlstadt, and Little Ferry to communities further out across the region, Lady L's drivers are on the go every day.</p>"
+      },
+      {
+       "q": "What hours is Moonachie weed delivery available?",
+       "a_html": "<p>Moonachie falls within our Zone 2 delivery area. Here's the schedule:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>All orders must be placed and confirmed before the last call time.</p>\n<p>A $75 minimum order applies to Moonachie weed delivery, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "What’s the age minimum to get cannabis delivery in Moonachie?",
+       "a_html": "<p>New Jersey's adult-use cannabis law sets the minimum at 21, and every Lady L delivery order follows that without exception. Age is verified when you register your account, and your driver will confirm your ID upon arrival before the handoff.</p>"
+      },
+      {
+       "q": "What do I need for cannabis delivery?",
+       "a_html": "<p>A valid government-issued photo ID is required at two points: uploaded to your Lady L account before your first order and presented in person when your driver arrives. Driver's licenses, state-issued IDs, and passports all qualify. Out-of-state IDs are accepted.</p>"
+      },
+      {
+       "q": "Does Lady L require a medical cannabis card for delivery in Moonachie?",
+       "a_html": "<p>No medical card is required. Lady L is a fully adult-use operation, and any customer 21 or older with a valid ID and a confirmed account can place a delivery order. Nothing else is needed to get started.</p>"
+      },
+      {
+       "q": "How much cannabis can I order?",
+       "a_html": "<p>In New Jersey, the per-transaction limit is one ounce, or 28.35 grams, of usable cannabis. Here's how that breaks down across product types:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to a Moonachie weed delivery order?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to three taxes: a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax where the local municipality has authorized it. All charges are itemized at checkout before your order is confirmed.</p>"
+      },
+      {
+       "q": "How can I pay for Moonachie weed delivery?",
+       "a_html": "<p>Lady L accepts ACH payments. There’s also a debit option, but cash is not accepted for delivery orders. You’ll set up your payment method through your Lady L account at registration. Full payment must be submitted before your order is placed and a driver is dispatched. For specific payment questions, call the store at 201-595-0706.</p>"
+      },
+      {
+       "q": "What if my delivery takes more than one hour?",
+       "a_html": "<p>While one hour is Lady L’s typical delivery window, order volume, traffic, and distance can all shift that estimate on any given day. If your order is running behind, reach out to our team, and we'll give you a straight answer on where things stand.</p>"
+      },
+      {
+       "q": "Can I adjust or cancel my order after it’s confirmed?",
+       "a_html": "<p>Contact us as soon as possible if something needs to change. Once a driver is on the road, modifications become difficult and may not be possible. Our team will do everything we can to help, so don't wait. Reach us through the website or by calling 201-595-0706.</p>"
+      },
+      {
+       "q": "Do I have to be home when my delivery arrives?",
+       "a_html": "<p>An adult 21 or older with a valid government-issued ID must be present and ready when the driver arrives. That's a firm requirement on every delivery, without exception. If no one meeting that requirement is available, the handoff can’t be completed.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals on Moonachie weed delivery orders?",
+       "a_html": "<p>Absolutely. Our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>, though, so the best way to know what's currently available for delivery customers is to check the promotions section on the website or reach out to our team directly.</p>\n<p>Loyalty points stack up on every delivery order at the same rate as in-store purchases, turning every dollar spent into one point of progress toward store credit. A hundred points converts to $5, and those savings add up fast. Lady L also runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my Lady L delivery driver?",
+       "a_html": "<p>Tipping is never required, but it's a meaningful way to recognize a job well done. Our drivers bring professionalism and discretion to every delivery, and a tip in the 15-20% range goes a long way toward acknowledging that consistent effort.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "moonachie-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-980-214",
+   "heading": "Moonachie Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Moonachie may be one of Bergen County's smaller boroughs, but it sits at the center of a well-connected stretch of northern New Jersey that Lady L Cannabis is built to serve. From our West Side home base, every Moonachie weed delivery order goes out with the same curated product lineup, professional drivers, and commitment to discretion that defines everything we do. Small borough, big service."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to extend our delivery coverage to<a href=\"https://ladyljerseycity.com/service/\"> Moonachie and the surrounding communities</a>. Browse the full selection, place your order, and expect a professional, discreet delivery that upholds the same standards every single time."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

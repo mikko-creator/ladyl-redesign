@@ -1,0 +1,28 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-vapes",
+  "file": "assets/generated/g-vapes.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Minimal studio product photograph of one single plain unbranded cannabis oil vape cartridge standing upright: a slim clear glass tube filled with golden amber oil, a matte black mouthpiece on top and a plain brushed metal base, completely smooth with no markings, no graduation lines and no print. It stands on a sheet of frosted lavender glass with a soft gold reflection line, in front of a smooth gradient background from lavender to deep violet. Centred subject with generous space around it, soft diffused light, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 2880576627,
+  "requestId": "01a1a2bc-acea-7840-b919-dda7e804ea08",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "c8944c0c3c0e13418af49a43415568f6c5d6952d67e6f2dea1969d7a9775e4d3",
+  "raw": "tmp/img/raw/g-vapes.1793731645379.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:26.701Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. One plain cartridge, amber oil, no markings, on lavender glass; clean",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

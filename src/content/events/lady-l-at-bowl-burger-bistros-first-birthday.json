@@ -1,0 +1,107 @@
+{
+ "slug": "lady-l-at-bowl-burger-bistros-first-birthday",
+ "path": "/events/lady-l-at-bowl-burger-bistros-first-birthday/",
+ "url": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/",
+ "title": "Lady L at Bowl Burger Bistro's First Birthday | LADY L CANNABIS",
+ "description": "Where: Bowl Burger Bistro on West Side",
+ "canonical": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/",
+ "ogImage": "/assets/photos/ll/bbb-one-year_ig-feed-1024x1024.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/08/BBB-One-Year_IG-FEED-1024x1024.webp",
+ "h1": "Lady L at Bowl Burger Bistro’s First Birthday",
+ "postId": "1128",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/lady-l-at-bowl-burger-bistros-first-birthday/",
+        "name": "Lady L at Bowl Burger Bistro&#8217;s First Birthday"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Taste the Rainbow with Lady L at JC Pride! 🌈✨",
+   "href": "https://ladyljerseycity.com/events/taste-the-rainbow-with-lady-l-at-jc-pride-%f0%9f%8c%88%e2%9c%a8/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Give Back All Year: Lady L School Supply Donation Drive",
+   "href": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/"
+  }
+ ],
+ "dateText": "Saturday, August 15, 2026",
+ "timeText": "2-7PM",
+ "startISO": "2026-08-15",
+ "image": null,
+ "sections": [
+  {
+   "id": "lady-l-at-bowl-burger-bistros-first-birthday",
+   "src": "bde-section-670-100",
+   "heading": "Lady L at Bowl Burger Bistro’s First Birthday",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, August 15, 2026",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "2-7PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Bowl Burger Bistro"
+    },
+    {
+     "type": "h4",
+     "text": "🍔 This Saturday (Aug 15) | Lady L x Bowl Burger Bistro"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Where:</strong> Bowl Burger Bistro on West Side",
+      "<strong>When:</strong> 2:00 PM – 7:00 PM",
+      "<strong>The Vibe:</strong> Come hang out with the Lady L crew! We’ll be on-site hosting a <strong>Women’s Wellness</strong> chat, talking plant medicine, and kicking back with our West Side neighbors."
+     ]
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "slug": "about-us",
+ "path": "/about-us/",
+ "url": "https://ladyljerseycity.com/about-us/",
+ "title": "About Lady L Cannabis — Lady L Cannabis Dispensary",
+ "description": "Lady L Cannabis is your fun and funky, West Side JC, mom and pop dispensary. Just neighbors, ready to serve neighbors.",
+ "canonical": "https://ladyljerseycity.com/about-us/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "your West Side JC mom and pop Pot Shop",
+ "postId": "122",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/about-us/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/about-us/",
+        "name": "About Us"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/about-us/#webpage",
+     "url": "https://ladyljerseycity.com/about-us/",
+     "name": "About Lady L Cannabis — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-23T00:53:49-06:00",
+     "dateModified": "2026-06-08T07:38:45-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/about-us/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "About Lady L Cannabis — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-23T00:53:49-06:00",
+     "dateModified": "2026-06-08T07:38:45-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Lady L Cannabis is your fun and funky, West Side JC, mom and pop dispensary. Just neighbors, ready to serve neighbors.",
+     "name": "About Lady L Cannabis — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/about-us/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/about-us/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/about-us/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "your-west-side-jc-mom-and-pop-pot-shop",
+   "src": "bde-section-122-102",
+   "heading": "your West Side JC mom and pop Pot Shop",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "About Us",
+     "role": "kicker"
+    },
+    {
+     "type": "p",
+     "html": "We started this shop to create a space where everyone feels comfortable, welcome, and taken care of."
+    }
+   ],
+   "headingLevel": 1,
+   "headingAccent": "mom and pop"
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-122-114",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_eye_logo_5x5-1.webp",
+     "alt": "LadyL_Eye_Logo_5x5",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Eye_Logo_5x5-1.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis is <em>your</em> locally owned, independent, <a href=\"https://ladyljerseycity.com/new-jersey/\">West Side Jersey City dispensary</a>."
+    },
+    {
+     "type": "p",
+     "html": "Just neighbors that enjoy cannabis that are excited to share with our community the benefits and joy of legal, adult-use cannabis."
+    },
+    {
+     "type": "p",
+     "html": "We’re easy to talk to, always listening, and open to shaping this place with you. This isn’t just our dispensary—it’s yours too."
+    }
+   ]
+  },
+  {
+   "id": "our-purpose",
+   "src": "bde-section-122-120",
+   "heading": "Our Purpose",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "We exist to create <strong>personal and joyful cannabis shopping experiences</strong> that <strong>reflect and serve our local community</strong>—driven by passion, purpose, and an <strong>unstoppable spirit rooted in family and community</strong>."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "our-core-values",
+   "src": "bde-section-122-124",
+   "heading": "Our core valueS",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Customer and Community First",
+       "a_html": "<p>We exist for our neighbors. Our decisions, our service, and our space are built around the people we serve.</p>"
+      },
+      {
+       "q": "Connecting People With The Plant",
+       "a_html": "<p>We’re here to break the stigma. We believe cannabis is a powerful, personal, and natural part of wellness—and it deserves to be treated that way.</p>"
+      },
+      {
+       "q": "Always Accessible",
+       "a_html": "<p>No gatekeeping, no attitude—just real people and open doors. We believe cannabis should be approachable, inclusive, and judgment-free.</p>"
+      },
+      {
+       "q": "Rooted in Local",
+       "a_html": "<p>New Jersey made us who we are. As a West Side mom-and-pop, we’re proud to keep it homegrown, independent, and locally driven.</p>"
+      },
+      {
+       "q": "Curated with Care",
+       "a_html": "<p>We’re thoughtful about what we put on our shelves—handpicking products we’d be excited to share with our own friends and family.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "were-just-a-short-trip-from-most-jersey-city-neighborhoods",
+   "src": "bde-section-122-130",
+   "heading": "We’re just a short trip from most Jersey City neighborhoods",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<strong>We’re within walking distance (“dogwalker or two” distance 😉💨)</strong> or a brief <strong>5 minute drive</strong> from"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "McGinley Square,",
+      "West Bergen,",
+      "Bergen-Lafayette,",
+      "Hackensack River Waterfront",
+      "and Droyer’s Point."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We’re a <strong>10-20 minute drive</strong> from"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Journal Square,",
+      "Historic Downtown,",
+      "Greenville,",
+      "South Kearny,",
+      "The Heights,",
+      "Curries Woods,",
+      "Bayonne",
+      "and Constable Hook."
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Can't Make The Drive? Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/img_0765.webp",
+     "alt": "IMG_0765",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/IMG_0765.webp",
+     "w": 1080,
+     "h": 810
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lincolnparkjerseycity.webp",
+     "alt": "Lincoln+Park+Jersey+City",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LincolnParkJerseyCity.webp",
+     "w": 1080,
+     "h": 810
+    },
+    {
+     "type": "p",
+     "html": "Lady L is also within comfortable walking distance to Lincoln Park and the West Side Avenue Light Rail Station."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "stop-by-stay-high",
+   "src": "bde-section-122-144",
+   "heading": "Stop By, Stay High",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://maps.app.goo.gl/t1djBbBvsHd124aD6\">547 West Side Avenue<br>Jersey City</a>",
+     "role": "link"
+    },
+    {
+     "type": "embed",
+     "kind": "map",
+     "src": "https://maps.google.com/maps?q=Lady+L+Cannabis+547+West+Side+Ave%2C+Jersey+City%2C+NJ+07304%2C+USA&t=m&z=14&output=embed&iwloc=near",
+     "note": ""
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

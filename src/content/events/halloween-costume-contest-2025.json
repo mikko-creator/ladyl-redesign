@@ -1,0 +1,107 @@
+{
+ "slug": "halloween-costume-contest-2025",
+ "path": "/events/halloween-costume-contest-2025/",
+ "url": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/",
+ "title": "🎃 Costume Contest – All Day Halloween | LADY L CANNABIS",
+ "description": "Come in costume and spend $50 or more to enter.",
+ "canonical": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "🎃 Costume Contest – All Day Halloween",
+ "postId": "728",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/halloween-costume-contest-2025/",
+        "name": "🎃 Costume Contest – All Day Halloween"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "North Lake Supply Pop-Up",
+   "href": "https://ladyljerseycity.com/events/northlake-supply-pop-up/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Kind Tree & Legend Pop-Up",
+   "href": "https://ladyljerseycity.com/events/terrascend-pop-up-and-special-promotion/"
+  }
+ ],
+ "dateText": "Friday, October 31, 2025",
+ "timeText": "10:00 AM - 10:00 PM",
+ "startISO": "2025-10-31",
+ "image": null,
+ "sections": [
+  {
+   "id": "costume-contest-all-day-halloween",
+   "src": "bde-section-670-100",
+   "heading": "🎃 Costume Contest – All Day Halloween",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Friday, October 31, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "10:00 AM - 10:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Come in costume and spend $50 or more to enter."
+    },
+    {
+     "type": "p",
+     "html": "We’ll snap your pic, our staff will pick their <strong>Top 5</strong>, and next week <strong>our followers will vote</strong> for who takes home the treats:"
+    },
+    {
+     "type": "p",
+     "html": "🥇 1st Place — <strong>$1 ounce</strong><br>🥈 2nd Place — <strong>$1 half ounce</strong><br>🥉 3rd Place — <strong>$1 eighth</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Plus, enjoy <strong>20% off select “Halloween-themed” products</strong> all day long."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

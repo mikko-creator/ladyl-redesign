@@ -1,0 +1,433 @@
+{
+ "slug": "maplewood-weed-delivery",
+ "path": "/service/maplewood-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/maplewood-weed-delivery/",
+ "name": "Maplewood",
+ "county": "Essex",
+ "title": "Reliable Maplewood Weed Delivery | LADY L CANNABIS",
+ "description": "Maplewood weed delivery has never been this fast and easy. Get cannabis delivery in Maplewood, NJ, from a woman-owned West Side microdispensary with a reputation built on care.",
+ "canonical": "https://ladyljerseycity.com/service/maplewood-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Maplewood Weed Delivery",
+ "postId": "983",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/maplewood-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/maplewood-weed-delivery/",
+        "name": "Maplewood Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-maplewood-weed-delivery",
+   "src": "bde-section-983-100",
+   "heading": "Unique Maplewood Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Maplewood Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "What separates <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> from the rest isn't one single thing. It's the combination: a curated product lineup that prioritizes quality over quantity, a woman-owned operation with real roots in its community, and a delivery service that holds itself to the same high standard on every run. That's what powers our Maplewood weed delivery program. Known for its tree-lined streets, direct Midtown access via NJ Transit's Morris and Essex Line, and one of the most beloved downtown commercial districts in the state, Maplewood is the kind of town we’re proud to serve. Place your order today and experience the Lady L difference."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-maplewood-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-983-109",
+   "heading": "Our Maplewood Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The Lady L delivery menu reflects a straightforward conviction: a focused selection of quality products will always outperform a bloated one. Every category is stocked with intention, and the range gives customers a reason to come back. Here's what you'll find:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower leads every metric on the Lady L menu, and the selection is built around that reality. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer span a range from dependable everyday picks to top-shelf options for customers who want the best the menu has to offer. Stock rotates, so there's always something new worth exploring."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "A well-made pre-roll does exactly what it promises: delivers a consistent, ready-to-go experience without any setup. We carry classic and infused varieties from brands that clear our quality bar, at prices that make adding one to any order an easy call."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "The edibles section earns its place on the menu by offering something the other categories can't: a wide range of formats, strengths, and onset profiles that give customers genuine options rather than a token selection. Gummies, chocolates, and other ingestible formats are all represented."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes combine portability and consistency in a way that few other formats can match. We carry top cartridge brands and full-spectrum 1g and 2g disposables for customers who want something clean and reliable that fits into any part of their day."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures bring a wellness-focused dimension to the menu that nothing else quite covers. Topicals work at the point of application for localized comfort, while tinctures offer a measured, adaptable dosing approach that slots naturally into daily routines. Check the live menu for what's currently available."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates are for customers who know exactly what they want, and Lady L takes that seriously. Solventless and live resin options regularly appear on the delivery menu, making this a category worth keeping an eye on if potency and purity are your benchmarks."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs deliver a full-spectrum, concentrated cannabis experience in a format experienced customers return to for the range of applications it provides. Typically available in syringe form, they can be used in multiple ways depending on personal preference and experience level."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-983-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Few things matter more in a close-knit township than trust, and every Maplewood weed delivery from Lady L is handled in a way that honors that. Orders go out in plain, unmarked packaging, and our drivers handle every one with a quiet, steady professionalism that makes the whole experience feel like a non-event. That's the intention, and it's the standard on every run."
+    },
+    {
+     "type": "p",
+     "html": "ID verification is part of every handoff without exception, and every driver operates fully within New Jersey's legal framework for cannabis delivery. The team is trained, courteous, and committed to making each exchange as smooth and unremarkable as possible."
+    },
+    {
+     "type": "p",
+     "html": "The typical turnaround time is approximately one hour. To keep every weed delivery Maplewood residents order running on schedule, Lady L draws on a combination of in-house drivers and a vetted third-party service to maintain tight windows across the full coverage area."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-maplewood-works",
+   "src": "bde-section-983-150",
+   "heading": "How Cannabis Delivery in Maplewood Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Ordering Maplewood weed delivery through Lady L is a process built for clarity. A few minutes and a confirmed account are all it takes to get started. Here's how it works."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Open the delivery menu and take your time perusing what's available. Stock reflects real-time inventory, so what you see is what you can actually get. Make your selections, review the cart, and head to checkout when you're ready."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once your order is confirmed, a driver heads out. Most deliveries arrive in approximately one hour. Your driver will contact you upon arrival and verify your valid government-issued ID before the handoff is complete."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-983-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.maplewoodnj.gov/\">Maplewood</a> earns its reputation one block at a time. The Village district along Maplewood Avenue between Baker and Durand Streets is home to a beloved independent bookstore, award-winning restaurants, boutiques, and a craft brewery, all within easy walking distance of Maplewood Station. The Wyoming and Hilton neighborhoods offer a quieter residential counterpoint, while Springfield Avenue adds its own commercial character to the mix. For weed delivery Maplewood, NJ, residents count on, Lady L keeps things ready when you are, whether you'll be heading out to one of your favorite local spots or you’re settled in for the day."
+    },
+    {
+     "type": "card",
+     "href": "https://segoviarestaurant.com/",
+     "title": "Maplewood Memorial Park",
+     "level": 3,
+     "html": "Maplewood Memorial Park is a 25-acre historic landmark at the center of town, designed in the early twentieth century by the prominent landscape architecture firms Brinley &amp; Holbrook and the Olmsted Brothers. Listed on both the State and National Registers of Historic Places, the park features broad greenways, a pond, rustic bridges over a channelized river, an amphitheater, ballfields, and courts, all within a picturesque landscape that has anchored community life for over a century. The Maplewood Memorial Park Conservancy stewards the ongoing restoration and improvement of the park."
+    },
+    {
+     "type": "card",
+     "href": "https://bistro107nj.com/",
+     "title": "Maplewood Village",
+     "level": 3,
+     "html": "Maplewood Village is the town's walkable downtown commercial district, concentrated along Maplewood Avenue in the blocks surrounding the NJ Transit rail station. The district, listed on the National Register of Historic Places, is home to an eclectic mix of independently owned shops, galleries, restaurants, and cafes, including the beloved indie bookseller Words Bookstore, the French fine dining institution Lorena's, and Perch Home &amp; Co, a curated home goods shop with a cafe inside. The Maplewood Village Alliance keeps the district active through an annual calendar of events, including art walks, music festivals, sidewalk sales, and community celebrations."
+    },
+    {
+     "type": "card",
+     "href": "https://njahof.org/",
+     "title": "Bird Barn Kitchen",
+     "level": 3,
+     "html": "Barn Bird Kitchen at 147 Maplewood Avenue is a locally sourced fried-chicken specialist with a menu centered on fresh, thoughtfully prepared comfort food. Signature items include the chicken sando, chicken and sweet potato waffles, jumbo tenders, yaji fries, and cornbread pudding, with catering available for larger gatherings. The warm, welcoming atmosphere and consistent quality have made it one of the more talked-about spots along the Maplewood Avenue dining corridor."
+    },
+    {
+     "type": "card",
+     "href": "https://njaudubon.org/wp-content/wildlife/MeadowlandsTrails/Sites/tabid/443/Scope/site/Guide/MEADOWLNDS/Site/96/Default.html",
+     "title": "Cornbread Soul",
+     "level": 3,
+     "html": "Cornbread Soul brings farm-fresh soul food to Maplewood Ave with a menu rooted in homemade recipes and high-quality, naturally sourced ingredients. Fried chicken, catfish, and cornbread anchor a lineup that balances bold, familiar flavors with a commitment to freshness, setting it apart from more generic fast-casual options. The Maplewood location is one of several across New Jersey and New York, reflecting the brand's growing following across the region."
+    },
+    {
+     "type": "card",
+     "href": "https://www.americandream.com/",
+     "title": "Pallet Brewing Company",
+     "level": 3,
+     "html": "Pallet Brewing Company at 30 Newark Way is Maplewood's neighborhood craft brewery, with a rotating tap list that spans crisp lagers, hazy IPAs, fruity sours, and hard seltzers. The taproom is a community gathering point in the truest sense, hosting weekly trivia nights, jazz performances, and live music events throughout the year. Private event bookings are available for groups looking for a relaxed, locally rooted venue."
+    },
+    {
+     "type": "card",
+     "href": "https://bergencountynj.gov/bergen-county-department-of-parks/overpeck-county-park/",
+     "title": "Burgdorff Center for the Performing Arts",
+     "level": 3,
+     "html": "The Burgdorff Center for the Performing Arts sits steps from Maplewood Village in a 1925 building that has been part of the township's cultural life since it was deeded to Maplewood in 1988. The facility houses a 100-seat black box theater and a 1,600-square-foot community room, both available for performances, classes, and private events. It serves as the primary home for the Maplewood Strollers, one of New Jersey's longest-running community theater companies, and hosts a rotating calendar of productions and cultural programming throughout the year."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "maplewood-weed-delivery-faq",
+   "src": "bde-section-983-204",
+   "heading": "Maplewood Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L deliver in and around Maplewood, NJ?",
+       "a_html": "<p>Lady L delivers throughout Maplewood (ZIP code 07040), reaching customers across the township's residential neighborhoods, from the tree-lined streets of the Wyoming and Hilton areas to the homes near Memorial Park on Baker Street, the College Hill neighborhood, and the blocks along Valley Street and Prospect Street closer to the Springfield Avenue corridor.</p>\n<p>Our delivery coverage extends well beyond Maplewood, too, reaching communities across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like South Orange, Millburn, and Nutley to communities further out across the region, Lady L's drivers are on the road every day.</p>"
+      },
+      {
+       "q": "What hours is Maplewood weed delivery available?",
+       "a_html": "<p>Here's Lady L's delivery schedule for Maplewood, which falls within our Zone 2 coverage area:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Every order must be placed and confirmed before the last call time for that day.</p>\n<p>As part of Zone 2, a $75 order minimum applies to Maplewood deliveries, with free service on all qualifying orders.</p>"
+      },
+      {
+       "q": "How old do you need to be for cannabis delivery in Maplewood?",
+       "a_html": "<p>New Jersey's adult-use cannabis laws set the minimum at 21, and that applies to every Lady L delivery order without exception. Age is verified during account registration, and your driver will confirm your ID upon arrival before the handoff takes place.</p>"
+      },
+      {
+       "q": "What ID do I need for cannabis delivery?",
+       "a_html": "<p>A valid government-issued photo ID is required at two points in the process: uploaded to your Lady L account before your first order, and presented in person when your driver arrives. Driver's licenses, state-issued IDs, and passports all qualify, and out-of-state IDs are accepted.</p>"
+      },
+      {
+       "q": "Is a medical cannabis card needed to place a delivery order in Maplewood?",
+       "a_html": "<p>No, you don’t need a medical card to order from Lady L. We’re a fully adult-use operation, open to any customer 21 or older. A confirmed account and a valid ID are the only requirements to get started.</p>"
+      },
+      {
+       "q": "How much cannabis can be delivered in a single Maplewood order?",
+       "a_html": "<p>New Jersey sets the per-transaction limit at one ounce, or 28.35 grams, of usable cannabis. Here's how that breaks down across product types:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to a Maplewood cannabis delivery order?",
+       "a_html": "<p>New Jersey adult-use cannabis carries three charges: a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax, where the local municipality has authorized it. Every charge is broken out at checkout before your order is confirmed.</p>"
+      },
+      {
+       "q": "How does Lady L handle payment for Maplewood weed delivery?",
+       "a_html": "<p>Full payment must be submitted before your order is confirmed and a driver is dispatched. Lady L processes ACH payments and offers a debit option, but cash is not accepted for delivery. Set up your payment method through your Lady L account at registration, and call 201-595-0706 with any specific payment questions.</p>"
+      },
+      {
+       "q": "What if my delivery is taking longer than expected?",
+       "a_html": "<p>Most deliveries arrive within approximately one hour, but order volume, traffic, and distance can all affect timing on any given run. If things are taking longer than expected, reach out to our team directly. We keep tabs on every order and will give you a straight answer on where things stand.</p>"
+      },
+      {
+       "q": "Can I change or cancel my order after it’s confirmed?",
+       "a_html": "<p>Time matters here. Contact us as quickly as possible if anything needs to change, because once your driver is on the road, making modifications can be difficult and may not be possible. Reach us through the website or by calling 201-595-0706, and we’ll do our best to help.</p>"
+      },
+      {
+       "q": "Who needs to be available when my delivery arrives?",
+       "a_html": "<p>Someone 21 or older with a valid government-issued ID has to be there when the driver shows up. That's a firm requirement, not a suggestion. If no qualifying adult is available at the time of delivery, the driver can’t complete the handoff, so make sure you're reachable and ready during your estimated window.</p>"
+      },
+      {
+       "q": "Does Lady L offer any deals or discounts on Maplewood weed delivery?",
+       "a_html": "<p>Yes! And they're worth keeping an eye on. Our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>, so the best way to know what's currently available for delivery customers is to check the promotions section on the website or reach out to our team directly.</p>\n<p>Loyalty points stack up on every delivery order at the same rate as in-store purchases, turning every dollar spent into one point of progress toward store credit. A hundred points converts to $5, and those savings add up fast. Lady L also runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip my Lady L delivery driver?",
+       "a_html": "<p>Tipping is never required, but it's a meaningful way to recognize a job well done. Our drivers bring professionalism and discretion to every delivery, and a tip in the 15-20% range goes a long way toward acknowledging that consistent effort.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "maplewood-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-983-214",
+   "heading": "Maplewood Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Maplewood is a township that holds its local businesses to a high standard, and Lady L Cannabis is proud to meet it. From our West Side home base, we extend a delivery service built on careful product curation, trained and professional drivers, and a process that respects your time and your privacy to every Maplewood weed delivery order we fulfill. The standard is the same whether it's your first order or your fiftieth."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve<a href=\"https://ladyljerseycity.com/service/\"> Maplewood and the surrounding communities</a> with cannabis delivery that's consistent, discreet, and worth coming back for. We're here and ready when you need us."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

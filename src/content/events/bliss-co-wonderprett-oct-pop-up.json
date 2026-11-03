@@ -1,0 +1,99 @@
+{
+ "slug": "bliss-co-wonderprett-oct-pop-up",
+ "path": "/events/bliss-co-wonderprett-oct-pop-up/",
+ "url": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/",
+ "title": "Wonderbrett & Bliss co. Takeover | LADY L CANNABIS",
+ "description": "We’re turning up the vibes this Saturday at Lady L.",
+ "canonical": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Wonderbrett & Bliss co. Takeover",
+ "postId": "735",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/bliss-co-wonderprett-oct-pop-up/",
+        "name": "Wonderbrett &#038; Bliss co. Takeover"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Kind Tree & Legend Pop-Up",
+   "href": "https://ladyljerseycity.com/events/terrascend-pop-up-and-special-promotion/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Terpene Pop Up Bar",
+   "href": "https://ladyljerseycity.com/events/terpene-pop-up-bar/"
+  }
+ ],
+ "dateText": "Saturday, October 18, 2025",
+ "timeText": "3:00 PM - 5:00 PM",
+ "startISO": "2025-10-18",
+ "image": null,
+ "sections": [
+  {
+   "id": "wonderbrett-bliss-co-takeover",
+   "src": "bde-section-670-100",
+   "heading": "Wonderbrett & Bliss co. Takeover",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, October 18, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "3:00 PM - 5:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "We’re turning up the vibes this <strong>Saturday</strong> at Lady L."
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://blissco.life/\" target=\"_blank\"><strong>Bliss Co.</strong></a><strong> and </strong><a href=\"https://www.wonderbrett.com/newjersey\" target=\"_blank\"><strong>Wonderbrett</strong></a> are taking over the shop <strong>Saturday, October 18th from 3–5pm.<br></strong><br>✨ <strong>The Deal:</strong> The first 20 people who buy a <a href=\"https://shop.ladyljerseycity.com/menu/brands/bliss-co-597984/?order=price\" target=\"_blank\">Bliss Co</a>. or <a href=\"https://shop.ladyljerseycity.com/menu/brands/wonderbrett-597983/?order=price\" target=\"_blank\">Wonderbrett</a> 1/8 get a <strong>second select 1/8 (Grape Cream Cake or Juicy Fruit) for just $1.</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

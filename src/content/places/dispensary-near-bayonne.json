@@ -1,0 +1,500 @@
+{
+ "slug": "dispensary-near-bayonne",
+ "path": "/new-jersey/dispensary-near-bayonne/",
+ "url": "https://ladyljerseycity.com/new-jersey/dispensary-near-bayonne/",
+ "name": "Bayonne",
+ "title": "Bold Dispensary Near Bayonne, NJ | LADY L CANNABIS",
+ "description": "Looking for a dispensary near Bayonne? Lady L Cannabis is just 17 minutes away on Jersey City's West Side. Bayonne dispensary shoppers enjoy curated products and warm service with us!",
+ "canonical": "https://ladyljerseycity.com/new-jersey/dispensary-near-bayonne/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Dispensary Near Bayonne, NJ, Worth Every Mile",
+ "postId": "907",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-bayonne/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/",
+        "name": "New Jersey"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/new-jersey/dispensary-near-bayonne/",
+        "name": "Dispensary Near Bayonne, NJ"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "dispensary-near-bayonne-nj-worth-every-mile",
+   "src": "bde-section-907-100",
+   "heading": "Dispensary Near Bayonne, NJ, Worth Every Mile",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Looking for a dispensary near Bayonne? The best stop is less than 20 minutes north on Avenue C. Lady L Cannabis sits on Jersey City's West Side, a woman-owned cannabis microbusiness where the service feels personal, the products are handpicked, and every customer walks out with something worth coming back for. Whether you're brand new to cannabis or a regular who knows exactly what you want, our shop is the weed dispensary Bayonne residents trust."
+    },
+    {
+     "type": "button",
+     "text": "Order for Pickup",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "directions-from-bayonne-to-lady-l",
+   "src": "bde-section-907-107",
+   "heading": "Directions from Bayonne to Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Getting from Bayonne to Lady L is one of the easiest drives in Hudson County. The fastest route clocks in at about 17 minutes and covers 4.5 miles via Avenue C and John F. Kennedy Blvd."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Start by heading toward W 28th St.",
+      "Then, make a left onto W 48th St.",
+      "After that, take a right onto John F. Kennedy Blvd.",
+      "Next, turn left onto Lexington Ave and continue for about 0.2 miles.",
+      "Finally, turn left onto West Side Ave, and we will be on the right"
+     ]
+    },
+    {
+     "type": "button",
+     "text": "Get direction",
+     "href": "https://maps.app.goo.gl/LjMvWLcdw1xByY5C8"
+    },
+    {
+     "type": "icon-box",
+     "icon": "phone",
+     "title": "",
+     "html": "<a href=\"tel:+1 (201) 595-0706\">(201) 595-0706</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "mail",
+     "title": "",
+     "html": "<a href=\"mailto:hi@ladylretail.com\">hi@ladylretail.com</a>"
+    },
+    {
+     "type": "icon-box",
+     "icon": "pin",
+     "title": "",
+     "html": "<a href=\"https://maps.app.goo.gl/VnR5aaEyZddAmJEW9\">547 West Side Avenue, Jersey City, NJ 07304</a>"
+    },
+    {
+     "type": "hours",
+     "title": "Store Hours",
+     "rows": [
+      [
+       "Monday - Thursday",
+       "10am to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "10am to 10pm"
+      ],
+      [
+       "Sunday",
+       "11am to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Thursday 10am to 9pm",
+      "Friday - Saturday 10am to 10pm",
+      "Sunday - 11am to 8pm"
+     ]
+    },
+    {
+     "type": "hours",
+     "title": "Delivery Hours",
+     "rows": [
+      [
+       "Monday - Wednesday",
+       "2pm to 9pm"
+      ],
+      [
+       "Thursday",
+       "12pm to 9pm"
+      ],
+      [
+       "Friday - Saturday",
+       "12pm to 10pm"
+      ],
+      [
+       "Sunday",
+       "12pm to 8pm"
+      ]
+     ],
+     "lines": [
+      "Monday - Wednesday 2pm to 9pm",
+      "Thursday - 12pm to 9pm",
+      "Friday - Saturday 12pm to 10pm",
+      "Sunday 12pm to 8pm"
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "a-dispensary-near-bayonne-with-soul",
+   "src": "bde-section-907-135",
+   "heading": "A Dispensary Near Bayonne With Soul",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Bayonne and Jersey City's West Side share the same zip code energy. They're cut from the same Hudson County cloth. So when you make the short drive up, you won't feel far from home. What you'll feel is the difference."
+    },
+    {
+     "type": "p",
+     "html": "Lady L doesn’t look like an ordinary dispensary; it offers bold 80s design, warm lighting, and a team that actually greets you by name after your second visit. Founder Lili Hollandt built this place from scratch after two decades in advertising and media. She arrived in the U.S. in 1999 and has called Jersey City home ever since. That background shapes everything here, from the shelves to how our budtenders show up every single day."
+    },
+    {
+     "type": "p",
+     "html": "In 2025, the Local Girl audience named Lady L the Best Dispensary in Jersey City. That recognition came from real customers, not a marketing push. First-timers leave more informed than when they arrived. Regulars get fast, personalized service tailored to what they already love. Everyone walks out with something good."
+    },
+    {
+     "type": "p",
+     "html": "If you're making the drive from Bayonne, you've got options. Roll by after catching the skyline view at the 9/11 Memorial, or stop in after a walk through Stephen R. Gregg Park. We can’t wait to show you why Bayonne dispensary shoppers choose us!"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "whats-inside-products-worth-the-trip-from-bayonne",
+   "src": "bde-section-907-144",
+   "heading": "What's Inside: Products Worth the Trip from Bayonne",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every product decision starts with one question: Is this good enough for our customers? If the answer isn't a clear yes, it doesn't make the shelf. Freshness and quality come first, always."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Pre-Rolls<br>Grab one on the way out, and you're ready to go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Vapes<br>A discreet experience for customers who prefer something easy on the go."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "html": "Concentrates<br>For experienced consumers looking for something more."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "p",
+     "html": "Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "A precise, easy-to-dose option for customers who want control over their experience."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "alt": "2a19df96-cd4c-43b8-ac75-83bfacabd874",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/2a19df96-cd4c-43b8-ac75-83bfacabd874.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "p",
+     "html": "Topicals"
+    },
+    {
+     "type": "p",
+     "html": "A great entry point for wellness-focused shoppers exploring cannabis for the first time."
+    },
+    {
+     "type": "p",
+     "html": "Our menu spans products from $10 to $150, so there's a strong option for every budget."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "why-bayonne-dispensary-shoppers-choose-lady-l",
+   "src": "bde-section-907-181",
+   "heading": "Why Bayonne Dispensary Shoppers Choose Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Bayonne is a great city with many attractions, but it's missing one key ingredient: a cannabis dispensary with the unique personality and warmth of Lady L. This is precisely why many Bayonne dispensary shoppers are willing to make the short trip to find what they're looking for."
+    },
+    {
+     "type": "p",
+     "html": "Lady L was built with women at the center, and the doors are wide open to everyone. Founder Lili Hollandt sits on the West Side Partnership Board of Directors and shows up for this community in real, tangible ways every week. Community sponsorships, toy drives, food drives and local partnerships are just how this business operates."
+    },
+    {
+     "type": "p",
+     "html": "Our community VIP program, the <a href=\"https://ladyljerseycity.com/rewards/\">West Side Connection Discount</a>, gives back to the people who make the neighborhood what it is. You earn one point for every dollar spent, and every 100 points is worth $5 in store credit. Points apply to both in-store visits and delivery orders, so the rewards stack up fast. Rotating discounts for our <a href=\"https://ladyljerseycity.com/new-jersey/\">New Jersey community</a> are also a part of the regular mix."
+    },
+    {
+     "type": "button",
+     "text": "Learn More About Us",
+     "href": "https://ladyljerseycity.com/about-us/"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  },
+  {
+   "id": "a-day-worth-having-explore-bayonne-nj",
+   "src": "bde-section-907-190",
+   "heading": "A Day Worth Having: Explore Bayonne, NJ",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.bayonnenj.org/\">Bayonne</a> is one of Hudson County's most underrated spots. The waterfront views alone are worth the stop. Before you head over to our dispensary near Bayonne, or after you leave, here are a few local gems that make the day complete."
+    },
+    {
+     "type": "card",
+     "href": "http://www.hudsoncountynj.org/stephen-r-gregg-park-bayonne/",
+     "title": "Stephen R. Gregg Park",
+     "level": 3,
+     "html": "Stephen R. Gregg Park is Bayonne's green anchor along the Kill Van Kull waterfront. Trails wind through open land with views of Staten Island across the water. Locals run here, walk here, and take in sunsets that most of New Jersey doesn't know about. It's a great spot to clear your head before or after stopping in."
+    },
+    {
+     "type": "card",
+     "href": "http://www.thelittlebohobookshop.com/",
+     "title": "The Little Boho Bookshop",
+     "level": 3,
+     "html": "The Little Boho Bookshop is the kind of indie bookstore that earns a loyal following fast. Curated shelves, a welcoming atmosphere, and the kind of selection that makes you stay longer than you planned. Stop in before heading north to Lady L, and pick something up to read on the way back."
+    },
+    {
+     "type": "card",
+     "href": "http://www.911monument.com/",
+     "title": "The 9/11 Empty Sky Memorial",
+     "level": 3,
+     "html": "The Empty Sky Memorial stands at Liberty State Park and draws people from across the region for its powerful design and its view of Lower Manhattan. If you're starting your day in Bayonne, this stop puts everything in perspective. The drive from here to Lady L is a straight shot."
+    },
+    {
+     "type": "card",
+     "href": "https://www.manhattanbagel.com/",
+     "title": "Manhattan Bagel",
+     "level": 3,
+     "html": "Manhattan Bagel delivers the classic New Jersey bagel experience without any fuss. Fresh bagels, solid spreads, and the kind of breakfast that sets the right tone for the day. Grab one before the drive to Lady L, and you'll arrive in the best possible mood."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "cannabis-guide-for-bayonne-dispensary-shoppers",
+   "src": "bde-section-907-211",
+   "heading": "Cannabis Guide for Bayonne Dispensary Shoppers",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "alt": "03119f51a270ad502b972b1c699799170561feb4",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/03119f51a270ad502b972b1c699799170561feb4.webp",
+     "w": 1619,
+     "h": 1080
+    },
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What makes Lady L the best choice dispensary near Bayonne?",
+       "a_html": "<p>There's no other dispensary near Bayonne quite like Lady L. This is a woman-owned microbusiness where the founder is genuinely present, the budtenders know their stuff, and the space feels nothing like a typical cannabis shop. Lili Hollandt built Lady L from the ground up on Jersey City's West Side, and in 2025, the Local Girl audience named it the Best Dispensary in Jersey City. Bayonne dispensary shoppers who make the 17-minute drive tend to keep making it. The product selection is intentional, and the service is the kind you remember.</p>"
+      },
+      {
+       "q": "Where is Lady L Cannabis located?",
+       "a_html": "<p>Our shop is at 547 West Side Avenue, Jersey City, NJ 07304, on the West Side's main corridor between Clendenny Avenue and Lengixton Avenue. From Bayonne, take Avenue C north to John F. Kennedy Blvd, then turn onto Lexington Ave and left onto West Side Ave. The drive covers about 4.5 miles and takes roughly 17 minutes. Street parking is available on West Side Avenue and nearby side streets.</p>"
+      },
+      {
+       "q": "How old do I need to be to visit a dispensary near Bayonne?",
+       "a_html": "<p>You need to be 21 or older to shop at Lady L. Adult-use cannabis purchases require a valid, government-issued photo ID every single time. We accept all valid government-issued IDs, including those from other states. Expired and temporary IDs are never accepted.</p>"
+      },
+      {
+       "q": "Do I need to show ID to purchase cannabis?",
+       "a_html": "<p>Every time, no exceptions. Bring a valid government-issued photo ID, such as a driver's license or passport. Expired IDs and temporary IDs are not accepted, whether you're shopping in-store or placing a delivery order.</p>"
+      },
+      {
+       "q": "Do I need a medical card to shop at Lady L?",
+       "a_html": "<p>Not at all. Lady L is an adult-use dispensary. If you're 21 or older with a valid photo ID, you're ready to shop. No medical card, no extra paperwork required.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally buy near Bayonne, NJ?",
+       "a_html": "<p>Dispensaries are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession</strong> <strong>Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis purchases in New Jersey?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey are subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). All taxes are applied at checkout. Our team can walk you through the breakdown if you have questions.</p>"
+      },
+      {
+       "q": "What forms of payment do you accept at Lady L?",
+       "a_html": "<p>We accept cash, debit cards, pay by bank (ACH), pay by text (Apple/Google debit or credit), and Aeropay. All delivery orders require full payment (pay by bank) before the order is placed. An on-site ATM is available if needed.</p>"
+      },
+      {
+       "q": "Where can I legally consume cannabis near Bayonne?",
+       "a_html": "<p>New Jersey permits cannabis consumption in private residences. Public spaces, parks, vehicles, and federal property are all off-limits. You're responsible for knowing and following the rules wherever you consume. Lady L does not have on-site consumption space.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals and discounts for Bayonne dispensary shoppers?",
+       "a_html": "<p>We do. Our rotating promotions include first-time customer discounts, veteran and military discounts, senior discounts, birthday discounts, referral rewards, and industry discounts. Our community VIP program, the West Side Connection Discount, gives back to the people in our neighborhood. Through our loyalty program, you earn one point for every dollar spent. Every 100 points is worth $5 in store credit. Points apply to both in-store and delivery purchases. Check with our team for what's running when you arrive.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "ready-to-go-directions-to-our-dispensary-near-bayonne",
+   "src": "bde-section-907-222",
+   "heading": "Ready to Go? Directions to Our Dispensary Near Bayonne",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady L is easy to reach from Bayonne, however you're traveling. The route is short, the roads are familiar, and the trip is worth it every time."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/rectangle-3463786.webp",
+     "alt": "Rectangle 3463786",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/Rectangle-3463786.webp",
+     "w": 579,
+     "h": 676
+    },
+    {
+     "type": "p",
+     "html": "Biking from Bayonne"
+    },
+    {
+     "type": "p",
+     "html": "Both cycling routes from Bayonne are mostly flat, making the ride genuinely easy. You're looking at under 25 minutes either way."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via John F. Kennedy Blvd and West Side Ave (~22 min, 4.4 miles)</strong> — The fastest cycling route from Bayonne. Head north on JFK Blvd and follow it straight into the West Side. Turn onto West Side Ave, and we're on the right. Mostly flat the whole way.",
+      "<strong>Via Avenue C and Ocean Ave (~25 min, 4.8 miles)</strong> — A slightly longer ride that takes you up Avenue C and connects through Ocean Ave into Jersey City. All routes are mostly flat, so either option is comfortable regardless of your pace."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Driving from Bayonne"
+    },
+    {
+     "type": "p",
+     "html": "You've got three solid driving options, and all of them keep the trip under 20 minutes."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Via Avenue C and John F. Kennedy Blvd (~17 min, 4.5 miles)</strong> — This is the fastest route from Bayonne, and Google confirms it's the best option when traffic is running normally. Take Avenue C north, connect to John F. Kennedy Blvd, turn onto Lexington Ave, and then turn left onto West Side Ave. We're on the right.",
+      "<strong>Via John F. Kennedy Blvd (~18 min, 4.4 miles)</strong> — A slightly different surface street path that runs almost entirely along JFK Blvd. Some traffic, as usual, but still a reliable local route with no highway required.",
+      "<strong>Via Avenue C and NJ-440 N (~19 min, 5.4 miles)</strong> — The longest of the three options and a solid backup if local traffic is heavier than usual. Head north on Avenue C, pick up NJ-440 N, and follow signs toward Jersey City's West Side."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Taking Transit from Bayonne"
+    },
+    {
+     "type": "p",
+     "html": "The bus is a real option from Bayonne, and it gets you here without worrying about parking. The fastest transit route runs about 32 minutes."
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Bus 119 (~32 min)</strong> — Board at JFK Blvd at 3rd St in Bayonne, and the route brings you directly up toward Jersey City's West Side. From the stop, it's about a 5-minute walk to Lady L at 547 West Side Ave. This is the quickest transit option available.",
+      "<strong>Bus 10 (~40 min)</strong> — Another reliable NJ Transit option with multiple departure windows throughout the day. Check NJ Transit for current schedules and stop locations near you."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The West Side is waiting, and so is our team. Lady L isn't just the closest great dispensary near Bayonne, and it's the kind of shop that becomes part of your routine. Come in once, and you'll understand why regulars keep showing up."
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Bayonne"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "slug": "jersey-city-lgbtq-pride-festival",
+ "path": "/events/jersey-city-lgbtq-pride-festival/",
+ "url": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/",
+ "title": "Jersey City LGBTQ+ Pride Festival | LADY L CANNABIS",
+ "description": "We’re bringing the Lady L vibes to Jersey City Pride Festival on Saturday, August 23rd. We can’t wait to meet new friends and hopefully see you out there!",
+ "canonical": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Jersey City LGBTQ+ Pride Festival",
+ "postId": "758",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/jersey-city-lgbtq-pride-festival/",
+        "name": "Jersey City LGBTQ+ Pride Festival"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Grand Opening",
+   "href": "https://ladyljerseycity.com/events/grand-opening/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "WEST SIDE MORNING GLORY VOL. 1 | Coffee. Cannabis. Community. Before work.",
+   "href": "https://ladyljerseycity.com/events/west-side-morning-glory-vol-1-coffee-cannabis-community-before-work/"
+  }
+ ],
+ "dateText": "Saturday, August 23, 2025",
+ "timeText": "1:00 PM - 9:00 PM",
+ "startISO": "2025-08-23",
+ "image": null,
+ "sections": [
+  {
+   "id": "jersey-city-lgbtq-pride-festival",
+   "src": "bde-section-670-100",
+   "heading": "Jersey City LGBTQ+ Pride Festival",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, August 23, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "1:00 PM - 9:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Jersey City, NJ United States"
+    },
+    {
+     "type": "p",
+     "html": "We’re bringing the Lady L vibes to <a href=\"https://preview.convertkit-mail2.com/click/dpheh0hzhm/aHR0cHM6Ly93d3cuamVyc2V5Y2l0eXByaWRlLmNvbS8=\" target=\"_blank\"><strong>Jersey City Pride Festival</strong></a><strong> on Saturday, August 23rd.</strong> We can’t wait to meet new friends and hopefully see you out there!"
+    },
+    {
+     "type": "p",
+     "html": "Lady L was created for customers who aren’t always seen or represented in traditional cannabis spaces. That means we’ve built our shop to feel welcoming, affirming, and <em>comfortable for everyone</em>. Pride is the perfect time to celebrate that together."
+    },
+    {
+     "type": "p",
+     "html": "Swing by our booth to:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Meet the Lady L team</strong> &amp; chat with your West Side neighbors",
+      "<strong>Snag free swag &amp; merch</strong> (while it lasts!)",
+      "<a href=\"https://lab.alpineiq.com/join/c/4688/110028\" target=\"_blank\"><strong>Score exclusive specials</strong> for new loyalty members</a>",
+      "<strong>Send your friends &amp; Pride Fam</strong> our way for a warm welcome and extra perks"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Mark your calendar, grab your crew, and come celebrate Pride with us!"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

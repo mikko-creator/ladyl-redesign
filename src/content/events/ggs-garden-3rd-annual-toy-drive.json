@@ -1,0 +1,103 @@
+{
+ "slug": "ggs-garden-3rd-annual-toy-drive",
+ "path": "/events/ggs-garden-3rd-annual-toy-drive/",
+ "url": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/",
+ "title": "GG's Garden 3rd Annual Toy Drive | LADY L CANNABIS",
+ "description": "Lady L in collaboration with GG’s Garden will be collecting toys for families of Scores Reentry — an organization supporting individuals impacted by the",
+ "canonical": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "GG’s Garden 3rd Annual Toy Drive",
+ "postId": "697",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/",
+        "name": "GG&#8217;s Garden 3rd Annual Toy Drive"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Green Week",
+   "href": "https://ladyljerseycity.com/events/green-week/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Lady L’s Birthday Bash",
+   "href": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/"
+  }
+ ],
+ "dateText": "Thursday, November 20, 2025 8:00 AM -",
+ "timeText": "Thursday, December 18, 2025 9:00 PM",
+ "startISO": "2025-11-20",
+ "image": null,
+ "sections": [
+  {
+   "id": "ggs-garden-3rd-annual-toy-drive",
+   "src": "bde-section-670-100",
+   "heading": "GG’s Garden 3rd Annual Toy Drive",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Thursday, November 20, 2025 8:00 AM -",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "Thursday, December 18, 2025 9:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Lady L in collaboration with <a href=\"https://www.ggsgarden.co/\" target=\"_blank\">GG’s Garden</a> will be collecting toys for families of <a href=\"https://www.instagram.com/scoresreentry/?hl=en\" target=\"_blank\">Scores Reentry</a> — an organization supporting individuals impacted by the criminal justice system, poverty, or substance abuse."
+    },
+    {
+     "type": "p",
+     "html": "These donations directly benefit children whose families are rebuilding their lives during the holiday season. Lady L is a Platinum Sponsor."
+    },
+    {
+     "type": "p",
+     "html": "Bring in a toy donation into the shop between 11/20/25 and 12/16/2025."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

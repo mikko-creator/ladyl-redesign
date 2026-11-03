@@ -1,0 +1,489 @@
+{
+ "slug": "jersey-city-weed-delivery",
+ "path": "/service/jersey-city-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/jersey-city-weed-delivery/",
+ "name": "Jersey City",
+ "county": null,
+ "title": "Get Jersey City Weed Delivery Today | LADY L CANNABIS",
+ "description": "Jersey City weed delivery is faster, fresher & more personal with Lady L. Get cannabis delivery in Jersey City, NJ, from a woman-owned West Side microdispensary that knows its community.",
+ "canonical": "https://ladyljerseycity.com/service/jersey-city-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Jersey City Weed Delivery",
+ "postId": "492",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/jersey-city-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/jersey-city-weed-delivery/",
+        "name": "Jersey City Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-jersey-city-weed-delivery",
+   "src": "bde-section-492-100",
+   "heading": "Unique Jersey City Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Jersey City Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "Jersey City weed delivery doesn't get more personal than this. <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> is a woman-owned cannabis microdispensary rooted right here on West Side Avenue, and our delivery service brings that same warm, knowledgeable energy straight to your door. Whether you're in Bergen-Lafayette, Greenville, the Heights, Downtown JC, Bayonne, Newark, or anywhere in Hudson County, we've got you covered with a curated menu, professional drivers, and delivery built around your convenience. Skip the trip, keep the quality, and let us come to you."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-jersey-city-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-492-108",
+   "heading": "Our Jersey City Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every product on our Jersey City weed delivery menu is there because it earned its place. From budget-friendly options to top-shelf picks, the menu covers a wide range without ever sacrificing quality. Below is a quick look at what you'll find when you browse."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL Iconography Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is our top-selling category, and it shows. We stock classic strains alongside newer drops from brands like Yeti, Grown Rogue, Hamilton Farms, Tyson, Happy Farmer, Northlake Supply, and The Botanist. Whether you want something relaxing for the end of the day or a more uplifting option for a creative afternoon, the selection gives you real choices."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Pre-rolls are perfect for when you want a ready-to-go experience without any setup. We carry both classic and infused varieties from brands we trust. Prices are accessible, and quality is never compromised."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/b31ddef4-84ea-48f9-a7a0-05cd630f685a.webp",
+      "alt": "b31ddef4-84ea-48f9-a7a0-05cd630f685a",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/b31ddef4-84ea-48f9-a7a0-05cd630f685a.webp",
+      "w": 1500,
+      "h": 1500
+     },
+     "title": "Infused Pre-Rolls",
+     "level": 3,
+     "html": "Our edibles range covers gummies, chocolates, and other ingestible options across a variety of strengths, flavors, and textures. Sleep gummies are especially popular with our regulars. Browse the current menu for what's in stock, since availability rotates and freshness matters."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vape",
+     "level": 3,
+     "html": "Vapes are clean, convenient, and consistently in demand. We carry top cartridge brands and full-spectrum 1g and 2 g disposables for customers who want something discreet and easy to use. Check the live menu for the latest options."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures bring cannabis wellness into your everyday routine. Topicals work directly on the skin for targeted comfort. Tinctures offer a discreet, dose-friendly option that fits almost any lifestyle. Check the current menu for what's in stock."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrate",
+     "level": 3,
+     "html": "Flower is our top-selling category, and it shows. We stock classic strains alongside newer drops from brands like Yeti, Grown Rogue, Hamilton Farms, Tyson, Happy Farmer, Northlake Supply, and The Botanist. Whether you want something relaxing for the end of the day or a more uplifting option for a creative afternoon, the selection gives you real choices."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "For customers looking for a more concentrated, full-spectrum option, RSOs deliver a potent cannabis experience in a versatile format. Typically available in syringe form, RSOs can be used in various ways depending on your preference. Check the live menu to see current availability and product options."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-492-218",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Privacy matters. Our delivery service is built with that in mind from start to finish. Orders arrive in plain, unmarked packaging, and our drivers move through Jersey City with professionalism and care. There's nothing flashy about how we show up. Discreet is the word, and we mean it."
+    },
+    {
+     "type": "p",
+     "html": "Our drivers are courteous, trained, and committed to a smooth handoff every time. Every order goes through proper ID verification, and all drivers operate within New Jersey's legal framework for cannabis delivery."
+    },
+    {
+     "type": "p",
+     "html": "We use both in-house drivers and a trusted third-party service to keep delivery windows tight. Typical delivery time runs approximately one hour."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-jersey-city-works",
+   "src": "bde-section-492-227",
+   "heading": "How Cannabis Delivery in Jersey City Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Ordering cannabis delivery in Jersey City is simple. The whole process takes just a few minutes, and our team makes sure every step is clear before your order goes out the door."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Head to the delivery menu and browse what's available. The menu is updated regularly, so what you see reflects current stock. Add your favorites to the cart and review your order before checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment via ACH"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "Once your order is confirmed, a driver will head your way. Typical delivery time is about one hour. Your driver will contact you upon arrival and verify your valid government-issued ID before completing the handoff. That's it."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-492-309",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://visitnj.org/city/jersey-city\">Jersey City</a> is one of the most electric cities on the East Coast, and the West Side is its most grounded, most real corner. It’s diverse, bustling, ever-evolving, yet retains the special character that makes Jersey City known as Chill Town. Lady L delivery makes it easy to enjoy it all on your terms. Order before you go, or get something sent to you while you settle in for the evening."
+    },
+    {
+     "type": "card",
+     "href": "https://dep.nj.gov/parksandforests/state-park/liberty-state-park/",
+     "title": "Liberty State Park",
+     "level": 3,
+     "html": "A true urban escape, Liberty State Park stretches along the Hudson River with sweeping views of the Manhattan skyline, the Statue of Liberty, and Ellis Island. Whether you're biking the promenade, picnicking with skyline views, or catching a ferry to nearby landmarks, it’s a go-to for both quiet moments and iconic photo ops."
+    },
+    {
+     "type": "card",
+     "href": "https://www.hcnj.us/parks/lincoln-park/",
+     "title": "Lincoln Park",
+     "level": 3,
+     "html": "Lincoln Park offers a more tucked-away, neighborhood feel with over 270 acres of open space, trails, and recreational areas in Jersey City. It’s the kind of place where locals jog in the morning, families gather on weekends, and the city feels just a little slower."
+    },
+    {
+     "type": "card",
+     "href": "https://www.treehousejc.com",
+     "title": "Tree House Coffee Shop",
+     "level": 3,
+     "html": "Tree House Coffee Shop feels like stepping into a cozy, slightly whimsical hideout. The menu leans creative, making it more than just a caffeine stop; it’s a little neighborhood retreat."
+    },
+    {
+     "type": "card",
+     "href": "http://www.cosycuplibrary.com/",
+     "title": "Cosy Cup Library",
+     "level": 3,
+     "html": "Cosy Cup Library Café is part coffee shop, part quiet sanctuary. Whether you're reading, working, or just decompressing, it delivers exactly what the name promises: cozy."
+    },
+    {
+     "type": "card",
+     "href": "https://whiteeaglehalljc.com",
+     "title": "Liberty Science Center",
+     "level": 3,
+     "html": "Liberty Science Center is where curiosity runs wild. It’s great for anyone who wants to poke at the edges of science in a way that feels immersive rather than textbook."
+    },
+    {
+     "type": "card",
+     "href": "https://en.wikipedia.org/wiki/Exchange_Place,_Jersey_City",
+     "title": "Waterfront at Exchange Place",
+     "level": 3,
+     "html": "The Waterfront at Exchange Place is one of Jersey City’s most iconic viewpoints, offering uninterrupted views of Lower Manhattan across the Hudson River. It’s a favorite for sunset walks, skyline photos, and quiet moments by the water."
+    },
+    {
+     "type": "card",
+     "href": "https://www.thealpsjc.com",
+     "title": "The Alps",
+     "level": 3,
+     "html": "The Alps is a lively bar and lounge known for its elevated cocktails and upbeat atmosphere. Expect a crowd, good music, and a vibe that leans effortlessly cool."
+    },
+    {
+     "type": "card",
+     "href": "https://lp.trajiujitsu.com/?utm_source=google&utm_medium=gbp&utm_campaign=jersey_city",
+     "title": "TRA BJJ",
+     "level": 3,
+     "html": "TRA BJJ is a well-known Brazilian jiu-jitsu academy offering structured training for practitioners from beginners to advanced. With a focus on discipline, technique, and community, it’s more than just a gym."
+    },
+    {
+     "type": "card",
+     "href": "https://maxwell-alley.com",
+     "title": "Maxwell Alley",
+     "level": 3,
+     "html": "Maxwell Alley is a modern dining spot known for its creative small plates and vibrant atmosphere. Expect bold flavors, good drinks, and a space that feels both trendy and welcoming."
+    },
+    {
+     "type": "card",
+     "href": "https://maps.app.goo.gl/qALAB9yXnLBi2bSS7",
+     "title": "Thanh Huong Vietnamese Restaurant",
+     "level": 3,
+     "html": "Thanh Huong Vietnamese Restaurant is a hidden gem for comforting, flavorful Vietnamese cuisine. It’s a go-to for anyone craving something warm, fragrant, and deeply satisfying after a long day."
+    },
+    {
+     "type": "card",
+     "href": "https://www.njsymphony.org",
+     "title": "NJ Symphony",
+     "level": 3,
+     "html": "The New Jersey Symphony brings world-class orchestral performances to venues across the state. Known for blending classical repertoire with modern programming, it’s accessible to both seasoned listeners and symphony-curious audiences."
+    },
+    {
+     "type": "card",
+     "href": "https://www.thejuntojc.com",
+     "title": "The Junto (Attic Bar)",
+     "level": 3,
+     "html": "Tucked above the city, The Junto (often called the Attic Bar) delivers a stylish rooftop-style experience with craft cocktails and skyline views. It’s intimate but elevated, making it perfect for date nights or small gatherings."
+    },
+    {
+     "type": "card",
+     "href": "https://www.facebook.com/pages/New-Park-Tavern/120676404610430?_rdr",
+     "title": "New Park Tavern",
+     "level": 3,
+     "html": "A Jersey City classic, New Park Tavern is where old-school charm meets legendary comfort food. It’s the kind of spot where conversations flow easily, the drinks are strong, and the vibe feels authentically local."
+    },
+    {
+     "type": "card",
+     "href": "https://whiteeaglehalljc.com",
+     "title": "White Eagle Hall",
+     "level": 3,
+     "html": "A restored historic gem, White Eagle Hall blends old-world architecture with a modern live entertainment scene. With its soaring ceilings and layered history, it’s one of Jersey City’s standout venues for a night out."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "jersey-city-weed-delivery-faq",
+   "src": "bde-section-492-317",
+   "heading": "Jersey City Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L Cannabis deliver in Jersey City, NJ?",
+       "a_html": "<p>Lady L Jersey City weed delivery offers services in our primary ZIP codes, including 07097, 07302, 07304, 07305, 07306, 07307, 07310, and 07311.</p>\n<p>Beyond the city, we reach dozens of surrounding communities across Hudson, Essex, Bergen, Union, and Passaic counties. From Bayonne to Hoboken, Secaucus to Newark, and further out into the suburbs, our Zone 2 coverage covers a broad footprint.</p>"
+      },
+      {
+       "q": "What are Lady L's delivery hours in Jersey City?",
+       "a_html": "<p>Jersey City weed delivery runs Sunday from noon to 7:00 PM, Monday through Thursday from noon to 8:00 PM, and Friday and Saturday from noon to 9:00 PM. Those hours give you a solid window throughout the week and a later cutoff on weekends when it counts. All orders must be placed and confirmed before hours close.</p>"
+      },
+      {
+       "q": "How old do you have to be for weed delivery in Jersey City?",
+       "a_html": "<p>You must be 21 or older to place a delivery order. New Jersey's adult-use cannabis rules apply to every transaction we process. Age verification is part of account setup, and your driver will also verify your ID at the door before handing over your order.</p>"
+      },
+      {
+       "q": "What ID is accepted for cannabis delivery?",
+       "a_html": "<p>Any valid, government-issued photo ID works. That includes driver's licenses, state-issued IDs, and passports. Out-of-state IDs are accepted. Your ID needs to be uploaded to your Lady L account before you can place a delivery order, and you'll need the physical ID present when your driver arrives.</p>"
+      },
+      {
+       "q": "Do I need a medical cannabis card for delivery?",
+       "a_html": "<p>No medical card required. Lady L Cannabis operates as an adult-use dispensary. Any customer who is 21 or older can shop with us, and the same applies to delivery. Just a valid ID and a confirmed account are all you need.</p>"
+      },
+      {
+       "q": "How much cannabis can I buy in one delivery order?",
+       "a_html": "<p>We are allowed to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. This can be made up of any combination of the following:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, such as purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What taxes apply to cannabis delivery in Jersey City?",
+       "a_html": "<p>Adult-use cannabis purchases in New Jersey include a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). These apply to delivery orders the same as in-store purchases. All applicable taxes are shown at checkout before you confirm your order.</p>"
+      },
+      {
+       "q": "What payment methods are accepted for delivery?",
+       "a_html": "<p>Delivery orders require full payment to be submitted and captured before the order is placed and dispatched. If you have questions on how to pay for your delivery, please contact the store directly at 201-595-0706. Set up your ACH payment through your Lady L account when you create your profile. Cash is not accepted for delivery orders.</p>"
+      },
+      {
+       "q": "What happens if my delivery is late?",
+       "a_html": "<p>Typical delivery time is approximately one hour, though timing can vary based on order volume, traffic, and distance. If your delivery is running longer than expected, reach out to our team. We communicate proactively when delays come up and work to keep every order moving as efficiently as possible.</p>"
+      },
+      {
+       "q": "Can I cancel or modify my delivery order?",
+       "a_html": "<p>Contact us as quickly as possible if you need to make a change. Once an order is dispatched, modifications may not be possible, but our team will do everything we can to help. Reach us through the website or by phone at (201) 595-0706.</p>"
+      },
+      {
+       "q": "Do I need to be present when my delivery arrives?",
+       "a_html": "<p>Yes. An adult 21 or older must be present and available to show a valid government-issued ID upon the driver's arrival. If no one is available at the time of delivery, the order cannot be completed. Plan accordingly so you're available during your estimated delivery window.</p>"
+      },
+      {
+       "q": "Does Lady L offer deals on Jersey City weed delivery orders?",
+       "a_html": "<p>Yes, though <a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\">delivery deals differ from in-store promotions</a>. Loyalty points apply to delivery orders at the same rate as in-store, so every dollar spent earns one point. Every 100 points equals $5 in store credit.</p>\n<p>First-time customers, veterans and military members, seniors, and several other groups are eligible for discount programs. Deals rotate, so always check with our team or browse the promotions section on the website for what's currently active.</p>"
+      },
+      {
+       "q": "How much should I tip my delivery driver?",
+       "a_html": "<p>Tipping is not required, but it's always appreciated. Our drivers are professionals who take their work seriously and go out of their way to deliver a smooth, discreet experience. A tip of 15-20% is a meaningful way to say thank you for reliable service!</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "jersey-city-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-492-395",
+   "heading": "Jersey City Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Lady L Cannabis has been built from the ground up for this neighborhood and for the people who live here. We're proud to serve <a href=\"https://ladyljerseycity.com/service/\">Jersey City and the surrounding communities</a>."
+    },
+    {
+     "type": "p",
+     "html": "If you're ready to order, browse the menu and get started!"
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

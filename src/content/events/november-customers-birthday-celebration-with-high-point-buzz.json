@@ -1,0 +1,99 @@
+{
+ "slug": "november-customers-birthday-celebration-with-high-point-buzz",
+ "path": "/events/november-customers-birthday-celebration-with-high-point-buzz/",
+ "url": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/",
+ "title": "November Customers' BDay Celebration | LADY L CANNABIS",
+ "description": "Every month we celebrate our November Member Birthdays with High Point Buzz.",
+ "canonical": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "November Customers’ BDay Celebration",
+ "postId": "706",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/november-customers-birthday-celebration-with-high-point-buzz/",
+        "name": "November Customers&#8217; BDay Celebration"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Lady L’s Birthday Bash",
+   "href": "https://ladyljerseycity.com/events/lady-ls-birthday-bash/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "Karl’s Birthday Extravaganza",
+   "href": "https://ladyljerseycity.com/events/karls-birthday/"
+  }
+ ],
+ "dateText": "Saturday, November 15, 2025",
+ "timeText": "7:00 PM - 9:00 PM",
+ "startISO": "2025-11-15",
+ "image": null,
+ "sections": [
+  {
+   "id": "november-customers-bday-celebration",
+   "src": "bde-section-670-100",
+   "heading": "November Customers’ BDay Celebration",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Saturday, November 15, 2025",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "7:00 PM - 9:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Every month we celebrate our November Member Birthdays with <a href=\"https://highpointbuzz.com/\" target=\"_blank\">High Point Buzz</a>."
+    },
+    {
+     "type": "p",
+     "html": "If your birthday is in November, stop by the Lady L party bus. in collaboration with High Point Buzz right outside the shop!"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

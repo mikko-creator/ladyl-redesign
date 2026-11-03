@@ -1,0 +1,285 @@
+{
+ "slug": "jersey-city-420-discounts-day",
+ "path": "/jersey-city-420-discounts-day/",
+ "url": "https://ladyljerseycity.com/jersey-city-420-discounts-day/",
+ "title": "Best Jersey City 420 Discounts Around | LADY L CANNABIS",
+ "description": "Score the best Jersey City 420 discounts at Lady L Cannabis! Shop in-store, order pickup, or get delivery – because 420 day in Jersey City hits different when Lady L's involved. Get 420 dispensary deals now!",
+ "canonical": "https://ladyljerseycity.com/jersey-city-420-discounts-day/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "The Best Jersey City 420 Discounts are at Lady L",
+ "postId": "771",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/",
+        "name": "420 Deals"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#webpage",
+     "url": "https://ladyljerseycity.com/jersey-city-420-discounts-day/",
+     "name": "Best Jersey City 420 Discounts Around | LADY L CANNABIS",
+     "datePublished": "2026-04-21T08:45:41-06:00",
+     "dateModified": "2026-04-21T10:38:44-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Best Jersey City 420 Discounts Around | LADY L CANNABIS",
+     "datePublished": "2026-04-21T08:45:41-06:00",
+     "dateModified": "2026-04-21T10:38:44-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Score the best Jersey City 420 discounts at Lady L Cannabis! Shop in-store, order pickup, or get delivery – because 420 day in Jersey City hits different when Lady L&#039;s involved. Get 420 dispensary deals now!",
+     "name": "Best Jersey City 420 Discounts Around | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/jersey-city-420-discounts-day/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "the-best-jersey-city-420-discounts-are-at-lady-l",
+   "src": "bde-section-771-100",
+   "heading": "The Best Jersey City 420 Discounts are at Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "April 20 is the biggest cannabis holiday of the year, and <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> is ready to celebrate with you. Our shop on West Side Avenue brings you the best Jersey City 420 discounts in a space that feels nothing like a corporate chain. Whether you're stopping in, ordering pickup, or getting it delivered straight to your door, we've got something special lined up for every kind of customer. Come find out why 420 day in Jersey City is better at Lady L."
+    },
+    {
+     "type": "button",
+     "text": "shop 420 deals",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city?order=price&on_sale=true"
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "view-our-420-deals-calendar",
+   "src": "bde-section-771-110",
+   "heading": "View Our 420 Deals Calendar",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Our 420 lineup is coming together fast. Check back right here as we roll out <a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\">daily deals</a> and announcements leading up to April 20. The closer it gets, the more exciting it'll be, so don't wait too long to check in."
+    },
+    {
+     "type": "button",
+     "text": "view 420 deals",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city?order=price&on_sale=true"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "420 Deals"
+  },
+  {
+   "id": "lady-ls-420-deals-in-jersey-city-nj",
+   "src": "bde-section-771-115",
+   "heading": "Lady L's 420 Deals in Jersey City, NJ",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "West Side Avenue comes alive on 420, and Lady L is right in the middle of it. Our shop is a neighborhood staple, and April 20 brings out some of our biggest foot traffic of the year. If you want the best selection, plan ahead. Come early, browse the full menu online before you arrive, and take advantage of every deal we've put together for the occasion."
+    },
+    {
+     "type": "p",
+     "html": "Our Jersey City 420 discounts are designed with our community in mind. Expect a mix of offers across every category we carry, from flower to edibles to vapes."
+    },
+    {
+     "type": "p",
+     "html": "Here's a taste of the kinds of 420 day deals you can look forward to at Lady L:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Tiered discounts that reward bigger carts",
+      "Bundle pricing across top-selling categories",
+      "Daily rotating specials leading up to April 20",
+      "Loyalty point multipliers for rewards members",
+      "Vendor pop-ups featuring brands you already love",
+      "Online-only deals for pickup and delivery orders",
+      "Doorbusters for early arrivals in-store"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Deals rotate, and availability changes fast on 420, so we always recommend checking our deals page or calling ahead. Our budtenders are happy to walk you through what's live when you arrive."
+    },
+    {
+     "type": "button",
+     "text": "shop 420 specials",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city?order=price&on_sale=true"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Jersey City, NJ"
+  },
+  {
+   "id": "what-is-420",
+   "src": "bde-section-771-141",
+   "heading": "What Is 420?",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The story behind 420 is more grounded than the myths suggest. In 1971, five friends at San Rafael High School in California started using \"420\" as private code. They called themselves the Waldos, and their routine was simple: meet at 4:20 PM near a campus statue, then set out to find a rumored, abandoned cannabis grow near Point Reyes. They never found the grow, but the phrase stuck."
+    },
+    {
+     "type": "p",
+     "html": "From \"420 Louis\" to just \"420,\" the term spread quickly once the Waldos connected with the Grateful Dead's inner circle. It moved through the Deadhead community, crossed into broader cannabis culture, and eventually turned the date itself, April 20, into an unofficial global holiday. Today, 4/20 is a day for community gatherings, cannabis celebrations, and for places like Lady L, a chance to honor the culture and reward our customers."
+    },
+    {
+     "type": "button",
+     "text": "shop 420",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city?order=price&on_sale=true"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "the-significance-of-420-in-cannabis-culture",
+   "src": "bde-section-771-203",
+   "heading": "The Significance of 420 in Cannabis Culture",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "420 is more than a date on the calendar. For decades, it served as a rallying point for communities that fought hard to change the narrative around cannabis. The conversations that happened on April 20, across college campuses, at music festivals, and in living rooms, helped push legalization onto the national agenda. New Jersey's adult-use market is a direct product of that advocacy."
+    },
+    {
+     "type": "p",
+     "html": "Today, 420 is a celebration of how far the culture has come. It's a moment to gather, to educate, and to appreciate the community built around cannabis. For us at Lady L, it reinforces what we work toward every day: destigmatizing cannabis, building real relationships with our customers, and showing Jersey City's West Side what a thoughtful, community-rooted dispensary looks like. This day belongs to the people who showed up before legalization made it easy."
+    }
+   ],
+   "headingLevel": 3
+  },
+  {
+   "id": "jersey-city-420-discounts-faq",
+   "src": "bde-section-771-214",
+   "heading": "Jersey City 420 Discounts FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Do I need a valid ID to shop 420 deals in Jersey City?",
+       "a_html": "<p>Yes. You must be 21 or older to make any adult-use cannabis purchase at Lady L. Bring a valid, government-issued ID every time you visit. We accept all valid government-issued IDs, including out-of-state IDs. For delivery orders, a Lady L account with your ID uploaded is required before your order can be placed, and your ID will be verified upon arrival.</p>"
+      },
+      {
+       "q": "What are the legal purchase limits in New Jersey?",
+       "a_html": "<p>New Jersey allows dispensaries to sell up to the equivalent of 28.35 grams (1 ounce) of usable cannabis per transaction. That limit can be any combination of the following.</p>\n<ul><li>Dried flower/bud: 28.35 grams (1 ounce)</li><li>Concentrates/resin/oils: 4 grams (solid or liquid/vaporized oil)</li><li>Ingestible items (gummies/edibles): 1,000 mg of THC (roughly ten 100mg packages)</li><li>Maximum possession: up to 6 ounces of cannabis and cannabis products</li></ul>\n<p>You can mix and match across categories. The 1-ounce limit is generally treated as a daily limit across all dispensaries.</p>"
+      },
+      {
+       "q": "What taxes apply to adult-use cannabis in New Jersey?",
+       "a_html": "<p>Adult-use cannabis in New Jersey is subject to a 6.625% state sales tax, a 2% municipal transfer or user tax where applicable, and a $2.50 per ounce Social Equity Excise Fee (SEEF). All taxes are applied at checkout. No surprises.</p>"
+      },
+      {
+       "q": "Can I stack promotions on 420?",
+       "a_html": "<p>Promotion stacking depends on the specific deal. Our team is happy to walk you through what's combinable when you arrive or order online. The best way to make the most of your visit is to sign up for our loyalty program before you come in. Every dollar you spend earns one point, and 100 points gets you $5 in store credit.</p>"
+      },
+      {
+       "q": "Are 420 discounts available online?",
+       "a_html": "<p>Yes. Our online pickup and delivery orders are eligible for many of our seasonal deals. Browse our deals page to see what's available digitally before you order. Online-only offers may also run exclusively through our website on 420, so it's worth checking before you come in.</p>"
+      },
+      {
+       "q": "Do you offer delivery on 4/20?",
+       "a_html": "<p>Yes, we do. Lady L delivery runs Friday through Saturday from noon to 9:00 PM, so April 20 delivery is fully available. Orders have a $75 minimum, and delivery is free on qualifying orders.</p>\n<p>Estimated delivery time is approximately one hour, though demand may be higher on 420.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "celebrate-420-with-lady-l-cannabis",
+   "src": "bde-section-771-224",
+   "heading": "Celebrate 420 with Lady L Cannabis",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "420 only comes once a year, and this one's shaping up to be our best. Lady L Cannabis is your West Side home base for Jersey City 420 discounts that actually mean something, backed by a team that knows cannabis and cares about the community it serves. The deals are real, the vibe is warm, and the products are curated for you."
+    },
+    {
+     "type": "p",
+     "html": "Come celebrate 420 day in Jersey City with us. Shop in-store at 547 West Side Avenue, place a pickup order online before you arrive, or get delivery straight to your door. However you want to celebrate, Lady L's got you covered."
+    },
+    {
+     "type": "button",
+     "text": "shop 420 deals",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city?order=price&on_sale=true"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Celebrate 420"
+  }
+ ]
+}

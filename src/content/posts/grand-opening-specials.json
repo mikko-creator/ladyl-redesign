@@ -1,0 +1,241 @@
+{
+ "slug": "grand-opening-specials",
+ "path": "/blog/grand-opening-specials/",
+ "url": "https://ladyljerseycity.com/blog/grand-opening-specials/",
+ "title": "Grand Opening Specials — Lady L Cannabis Dispensary",
+ "description": "Join us for the Lady L Cannabis grand opening in Jersey City on Saturday, September 13 ! Celebrate with free empanadas, THC-infused mocktails, aura photography, shaved ice, and exclusive in-store cannabis specials. Discover your new favorite Jersey City dispensary and enjoy a day full of community, flavor, and fun.",
+ "canonical": "https://ladyljerseycity.com/blog/grand-opening-specials/",
+ "ogImage": "/assets/photos/ll/celebrationsale.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/03/CelebrationSale.webp",
+ "h1": "Grand Opening Specials",
+ "postId": "440",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/CelebrationSale.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/03/CelebrationSale.webp",
+     "width": "1200",
+     "height": "924",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/",
+        "name": "Grand Opening Specials"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#webpage",
+     "url": "https://ladyljerseycity.com/blog/grand-opening-specials/",
+     "name": "Grand Opening Specials — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:48:31-06:00",
+     "dateModified": "2026-06-08T07:39:51-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/CelebrationSale.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Grand Opening Specials — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:48:31-06:00",
+     "dateModified": "2026-06-08T07:39:51-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Join us for the Lady L Cannabis grand opening in Jersey City on Saturday, September 13 ! Celebrate with free empanadas, THC-infused mocktails, aura photography, shaved ice, and exclusive in-store cannabis specials. Discover your new favorite Jersey City dispensary and enjoy a day full of community, flavor, and fun.",
+     "name": "Grand Opening Specials — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/CelebrationSale.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/grand-opening-specials/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Your Weed Just Paid for Youth Summer Camp",
+   "href": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/"
+  },
+  {
+   "label": "Next Post",
+   "title": "1st Annual Costume Contest Results",
+   "href": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/"
+  }
+ ],
+ "dateText": "",
+ "date": "2026-03-30T03:48:31-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "WP REST featured_media",
+ "image": {
+  "src": "/assets/photos/ll/celebrationsale.webp",
+  "w": 1200,
+  "h": 924,
+  "alt": ""
+ },
+ "excerpt": "Celebrate with free empanadas, THC-infused mocktails, aura photography, shaved ice, and exclusive in-store cannabis specials. Learn more about the day’s event schedule here.",
+ "html": "<h4>Join us for the <strong>Lady L Cannabis grand opening in Jersey City</strong> on <strong>Saturday, September 13</strong>!</h4>\n<p>Celebrate with free empanadas, THC-infused mocktails, aura photography, shaved ice, and exclusive in-store cannabis specials. <a href=\"https://ladyljerseycity.com/events/grand-opening/\">Learn more about the day’s event schedule here</a>.</p>\n<p>Of course, what would a grand opening be without some unforgettable deals inside the shop?</p>\n<h2>In-Store Specials</h2>\n<h4><strong>Doorbusters</strong></h4>\n<ul><li><p>First 100 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> Kind Tree</a> Pre-roll</p>\n</li><li><p>First 40 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> WYLD</a> Edible</p>\n</li></ul>\n<h4><strong>Discounts on Shop Faves and New Drops</strong></h4>\n<ul><li><p>25% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Ozone\"> <strong>Ozone</strong></a> and<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Simply+Herb\"> <strong>Simply Herb</strong></a></p>\n</li><li><p>30% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> <strong>WYLD</strong></a> and <strong>Old Pal</strong></p>\n</li><li><p>$10 Off New Drops: <strong>Bliss Co.</strong> and <strong>Wonderbrett</strong></p>\n</li><li><p><strong>and</strong><a href=\"https://shop.ladyljerseycity.com/menu/?on_sale=true&amp;order=-inserted_at\"><strong>more</strong></a><strong>!</strong></p>\n</li></ul>\n<h4><strong>BOGO Specials to Stock Up On</strong></h4>\n<ul><li><p>BOGO<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> <strong>Kind Tree</strong></a><strong> 50% Off Grape Gilati</strong> Eighth</p>\n</li><li><p>3<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=North+Lake+Supply\"> <strong>North Lake Supply</strong></a> pre-rolls for $20</p>\n</li><li><p>BOGO <strong>$1</strong><a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Nimbus\"><strong>Nimbus Vapes</strong></a></p>\n</li></ul>\n<h4><strong>Spin The Wheel Deals</strong></h4>\n<p>Make a qualifying purchase of at least $30 for a chance at the following rewards:</p>\n<ul><li><p><strong>$1 Pre-roll / Pre-roll 5pk</strong></p>\n</li><li><p><strong>$5 Edible</strong></p>\n</li><li><p><strong>$10 Eighth or 1g Vape Cartridge</strong></p>\n</li><li><p><strong>Store Credit/Loyalty Points</strong></p>\n</li><li><p><a href=\"https://shop.ladyljerseycity.com/menu/products/accessories/lady-l-tote-blue-5603669/?order=-inserted_at\" target=\"_blank\"><strong>Lady L Tote Bag</strong></a></p>\n</li><li><p><strong>Surprise Gifts</strong></p>\n</li></ul>",
+ "sections": [
+  {
+   "id": "grand-opening-specials",
+   "src": "bde-section-428-104",
+   "heading": "Grand Opening Specials",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "join-us-for-the-lady-l-cannabis-grand-opening-in-jersey-city",
+   "src": "bde-section-428-107",
+   "heading": "Join us for the Lady L Cannabis grand opening in Jersey City on Saturday, September 13 !",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Celebrate with free empanadas, THC-infused mocktails, aura photography, shaved ice, and exclusive in-store cannabis specials. <a href=\"https://ladyljerseycity.com/events/grand-opening/\">Learn more about the day’s event schedule here</a>."
+    },
+    {
+     "type": "p",
+     "html": "Of course, what would a grand opening be without some unforgettable deals inside the shop?"
+    },
+    {
+     "type": "h2",
+     "text": "In-Store Specials"
+    },
+    {
+     "type": "h4",
+     "text": "Doorbusters"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "First 100 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> Kind Tree</a> Pre-roll",
+      "First 40 customers get a<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> WYLD</a> Edible"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Discounts on Shop Faves and New Drops"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "25% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Ozone\"> <strong>Ozone</strong></a> and<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Simply+Herb\"> <strong>Simply Herb</strong></a>",
+      "30% Off<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=WYLD\"> <strong>WYLD</strong></a> and <strong>Old Pal</strong>",
+      "$10 Off New Drops: <strong>Bliss Co.</strong> and <strong>Wonderbrett</strong>",
+      "<strong>and</strong><a href=\"https://shop.ladyljerseycity.com/menu/?on_sale=true&amp;order=-inserted_at\"> <strong>more</strong></a><strong>!</strong>"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "BOGO Specials to Stock Up On"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "BOGO<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Kind+Tree\"> <strong>Kind Tree</strong></a><strong> 50% Off Grape Gilati</strong> Eighth",
+      "3<a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=North+Lake+Supply\"> <strong>North Lake Supply</strong></a> pre-rolls for $20",
+      "BOGO <strong>$1</strong><a href=\"https://shop.ladyljerseycity.com/menu/?order=-inserted_at&amp;brand=Nimbus\"> <strong>Nimbus Vapes</strong></a>"
+     ]
+    },
+    {
+     "type": "h4",
+     "text": "Spin The Wheel Deals"
+    },
+    {
+     "type": "p",
+     "html": "Make a qualifying purchase of at least $30 for a chance at the following rewards:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>$1 Pre-roll / Pre-roll 5pk</strong>",
+      "<strong>$5 Edible</strong>",
+      "<strong>$10 Eighth or 1g Vape Cartridge</strong>",
+      "<strong>Store Credit/Loyalty Points</strong>",
+      "<a href=\"https://shop.ladyljerseycity.com/menu/products/accessories/lady-l-tote-blue-5603669/?order=-inserted_at\" target=\"_blank\"><strong>Lady L Tote Bag</strong></a>",
+      "<strong>Surprise Gifts</strong>"
+     ]
+    }
+   ],
+   "headingLevel": 4
+  }
+ ]
+}

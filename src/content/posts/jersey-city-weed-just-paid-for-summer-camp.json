@@ -1,0 +1,238 @@
+{
+ "slug": "jersey-city-weed-just-paid-for-summer-camp",
+ "path": "/blog/jersey-city-weed-just-paid-for-summer-camp/",
+ "url": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/",
+ "title": "Your Weed Just Paid for Youth Summer Camp — Lady L Cannabis Dispensary",
+ "description": "Every time you shop legally, like you would do at Lady L Cannabis, you’re doing more than picking up your favorite flower or gummies—you’re investing in",
+ "canonical": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/",
+ "ogImage": "/assets/photos/ll/lady-l-blog-summer-youth-program.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-blog-summer-youth-program.webp",
+ "h1": "Your Weed Just Paid for Youth Summer Camp",
+ "postId": "435",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-blog-summer-youth-program.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-blog-summer-youth-program.webp",
+     "width": "1500",
+     "height": "1500",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/",
+        "name": "Your Weed Just Paid for Youth Summer Camp"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#webpage",
+     "url": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/",
+     "name": "Your Weed Just Paid for Youth Summer Camp — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:47:40-06:00",
+     "dateModified": "2026-05-04T13:02:16-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-blog-summer-youth-program.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Your Weed Just Paid for Youth Summer Camp — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:47:40-06:00",
+     "dateModified": "2026-05-04T13:02:16-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Every time you shop legally, like you would do at Lady L Cannabis, you’re doing more than picking up your favorite flower or gummies—you’re investing in",
+     "name": "Your Weed Just Paid for Youth Summer Camp — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/lady-l-blog-summer-youth-program.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Why We Love Wana",
+   "href": "https://ladyljerseycity.com/blog/why-we-love-wana/"
+  },
+  {
+   "label": "Next Post",
+   "title": "Grand Opening Specials",
+   "href": "https://ladyljerseycity.com/blog/grand-opening-specials/"
+  }
+ ],
+ "dateText": "",
+ "date": "2026-03-30T03:47:40-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "WP REST featured_media",
+ "image": {
+  "src": "/assets/photos/ll/lady-l-blog-summer-youth-program.webp",
+  "w": 1500,
+  "h": 1500,
+  "alt": ""
+ },
+ "excerpt": "Every time you shop legally, like you would do at Lady L Cannabis, you’re doing more than picking up your favorite flower or gummies—you’re investing in Jersey City.",
+ "html": "<p>Every time you shop legally, like you would do at Lady L Cannabis, you’re doing more than picking up your favorite flower or gummies—you’re investing in Jersey City.</p>\n<p>In fact, this summer alone, nearly half a million in cannabis tax revenue went straight to youth programs in our community.</p>\n<h3><strong>Why shopping legal Matters</strong></h3>\n<p>The City recently distributed <a href=\"https://jcitytimes.com/jersey-city-distributes-nearly-500k-in-cannabis-tax-revenue-to-youth-summer-programs/\" target=\"_blank\">$475,000 in cannabis tax revenue to support 28 youth summer programs</a> across Jersey City neighborhoods. These programs give kids safe spaces, educational opportunities, and activities that keep our community thriving.</p>\n<p>This is the power of buying local and legal. When you shop at licensed dispensaries like Lady L, your dollars don’t just stop at the counter—they go back into the city you call home.</p>\n<h3><strong>The Flip Side: Where Does Your Money Go When You Shop Illicit?</strong></h3>\n<p>Unlicensed sellers don’t reinvest in schools, parks, or community programs. That money leaves the neighborhood and, often, supports operations with zero transparency or accountability.</p>\n<p>Buying from a licensed dispensary ensures your purchase contributes to <strong>real, positive change</strong>—like giving kids a summer full of possibilities instead of empty streets.</p>\n<h3><strong>More Than a Transaction: Safety + Community Impact</strong></h3>\n<p>Shopping legal means:</p>\n<p>✔ <strong>Tested Products</strong> – Every item on our shelves meets strict NJ standards for safety and quality.</p>\n<p>✔ <strong>Clear Labeling</strong> – Accurate THC/CBD content, dosage guidance, and terpene profiles.</p>\n<p>✔ <strong>Community Investment</strong> – Your purchase is part of a cycle that funds local programs and builds a stronger Jersey City.</p>\n<h3><strong>The Bottom Line</strong></h3>\n<p>Cannabis can do more than relax you—it can uplift an entire community. When you choose Lady L Cannabis, you’re choosing <strong>safe products, trusted guidance, and real impact where it counts.</strong></p>\n<p><strong>Shop local. Shop legal. Shop with purpose.</strong></p>\n<p><strong>Source:</strong> <a href=\"https://jcitytimes.com/jersey-city-distributes-nearly-500k-in-cannabis-tax-revenue-to-youth-summer-programs/\" target=\"_new\">Jersey City Distributes Nearly $500K in Cannabis Tax Revenue to Youth Summer Programs</a></p>",
+ "sections": [
+  {
+   "id": "your-weed-just-paid-for-youth-summer-camp",
+   "src": "bde-section-428-104",
+   "heading": "Your Weed Just Paid for Youth Summer Camp",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "why-shopping-legal-matters",
+   "src": "bde-section-428-107",
+   "heading": "Why shopping legal Matters",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every time you shop legally, like you would do at Lady L Cannabis, you’re doing more than picking up your favorite flower or gummies—you’re investing in Jersey City."
+    },
+    {
+     "type": "p",
+     "html": "In fact, this summer alone, nearly half a million in cannabis tax revenue went straight to youth programs in our community."
+    },
+    {
+     "type": "p",
+     "html": "The City recently distributed <a href=\"https://jcitytimes.com/jersey-city-distributes-nearly-500k-in-cannabis-tax-revenue-to-youth-summer-programs/\" target=\"_blank\">$475,000 in cannabis tax revenue to support 28 youth summer programs</a> across Jersey City neighborhoods. These programs give kids safe spaces, educational opportunities, and activities that keep our community thriving."
+    },
+    {
+     "type": "p",
+     "html": "This is the power of buying local and legal. When you shop at licensed dispensaries like Lady L, your dollars don’t just stop at the counter—they go back into the city you call home."
+    },
+    {
+     "type": "h3",
+     "text": "The Flip Side: Where Does Your Money Go When You Shop Illicit?"
+    },
+    {
+     "type": "p",
+     "html": "Unlicensed sellers don’t reinvest in schools, parks, or community programs. That money leaves the neighborhood and, often, supports operations with zero transparency or accountability."
+    },
+    {
+     "type": "p",
+     "html": "Buying from a licensed dispensary ensures your purchase contributes to <strong>real, positive change</strong>—like giving kids a summer full of possibilities instead of empty streets."
+    },
+    {
+     "type": "h3",
+     "text": "More Than a Transaction: Safety + Community Impact"
+    },
+    {
+     "type": "p",
+     "html": "Shopping legal means:"
+    },
+    {
+     "type": "p",
+     "html": "✔ <strong>Tested Products</strong> – Every item on our shelves meets strict NJ standards for safety and quality."
+    },
+    {
+     "type": "p",
+     "html": "✔ <strong>Clear Labeling</strong> – Accurate THC/CBD content, dosage guidance, and terpene profiles."
+    },
+    {
+     "type": "p",
+     "html": "✔ <strong>Community Investment</strong> – Your purchase is part of a cycle that funds local programs and builds a stronger Jersey City."
+    },
+    {
+     "type": "h3",
+     "text": "The Bottom Line"
+    },
+    {
+     "type": "p",
+     "html": "Cannabis can do more than relax you—it can uplift an entire community. When you choose Lady L Cannabis, you’re choosing <strong>safe products, trusted guidance, and real impact where it counts.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Shop local. Shop legal. Shop with purpose.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Source:</strong> <a href=\"https://jcitytimes.com/jersey-city-distributes-nearly-500k-in-cannabis-tax-revenue-to-youth-summer-programs/\" target=\"_new\">Jersey City Distributes Nearly $500K in Cannabis Tax Revenue to Youth Summer Programs</a>"
+    }
+   ],
+   "headingLevel": 3
+  }
+ ]
+}

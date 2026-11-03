@@ -1,0 +1,100 @@
+{
+ "slug": "green-week",
+ "path": "/events/green-week/",
+ "url": "https://ladyljerseycity.com/events/green-week/",
+ "title": "Green Week | LADY L CANNABIS",
+ "description": "This year, we’re showing major appreciation to our Lady L community with daily deals, special promotions, and exclusive events, all generously supported by",
+ "canonical": "https://ladyljerseycity.com/events/green-week/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Green Week",
+ "postId": "694",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/green-week/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/green-week/",
+        "name": "Green Week"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "3 Acres Holiday Night Market",
+   "href": "https://ladyljerseycity.com/events/3-acres-holiday-night-market/"
+  },
+  {
+   "label": "Previous Event",
+   "title": "GG’s Garden 3rd Annual Toy Drive",
+   "href": "https://ladyljerseycity.com/events/ggs-garden-3rd-annual-toy-drive/"
+  }
+ ],
+ "dateText": "Friday, November 21, 202510:00 AM -",
+ "timeText": "Friday, November 28, 202510:00 PM",
+ "startISO": "2025-11-21",
+ "image": null,
+ "sections": [
+  {
+   "id": "green-week",
+   "src": "bde-section-670-100",
+   "heading": "Green Week",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Friday, November 21, 202510:00 AM -",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "Friday, November 28, 202510:00 PM",
+     "role": "time"
+    },
+    {
+     "type": "h4",
+     "text": "We’re gearing up for one of our biggest celebrations of the year — Green Week , running from November 21 to November 28 !",
+     "accent": "November 21 to November 28"
+    },
+    {
+     "type": "p",
+     "html": "This year, we’re showing major appreciation to our Lady L community with <strong>daily deals, special promotions, and exclusive events</strong>, all generously supported by our amazing partners: <a href=\"https://shop.ladyljerseycity.com/menu/brands/bliss-co-597984/?order=price\" target=\"_blank\"><strong>Bliss Co</strong></a><strong>, </strong><a href=\"https://shop.ladyljerseycity.com/menu/brands/grown-rogue-638463/?order=price\" target=\"_blank\"><strong>Grown Rogue</strong></a><strong>, </strong><a href=\"https://shop.ladyljerseycity.com/menu/brands/fresh-633892/\" target=\"_blank\"><strong>Fresh Grow</strong></a><strong>, </strong><a href=\"https://shop.ladyljerseycity.com/menu/brands/lowell-546583/?order=price\" target=\"_blank\"><strong>Lowell</strong></a><strong>, </strong><a href=\"https://shop.ladyljerseycity.com/menu/brands/kind-tree-546581/?order=price\" target=\"_blank\"><strong>Kind Tree</strong></a><strong>, Wyld, and more.</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

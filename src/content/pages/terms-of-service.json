@@ -1,0 +1,489 @@
+{
+ "slug": "terms-of-service",
+ "path": "/terms-of-service/",
+ "url": "https://ladyljerseycity.com/terms-of-service/",
+ "title": "Terms of Service — Lady L Cannabis Dispensary",
+ "description": "Review Lady L Cannabis's Terms of Service covering age verification, user conduct, and legal agreements. Know your rights before using our site.",
+ "canonical": "https://ladyljerseycity.com/terms-of-service/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Terms of Service",
+ "postId": "324",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/terms-of-service/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/terms-of-service/",
+        "name": "Terms Of Service"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/terms-of-service/#webpage",
+     "url": "https://ladyljerseycity.com/terms-of-service/",
+     "name": "Terms of Service — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-29T04:16:47-06:00",
+     "dateModified": "2026-03-29T04:30:19-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/terms-of-service/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Terms of Service — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-29T04:16:47-06:00",
+     "dateModified": "2026-03-29T04:30:19-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Review Lady L Cannabis&#039;s Terms of Service covering age verification, user conduct, and legal agreements. Know your rights before using our site.",
+     "name": "Terms of Service — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/terms-of-service/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/terms-of-service/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/terms-of-service/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "terms-of-service",
+   "src": "bde-section-324-100",
+   "heading": "Terms of Service",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Welcome to www.ladyljerseycity.com (the “Site”), a website operated by Lady L Cannabis (“Company,” “us,” “our,” and “we”). We provide the Site and the services provided through the Site (the Site and services will be collectively referred to as the “Services”)."
+    },
+    {
+     "type": "p",
+     "html": "These Terms of Use (“Agreement”) set forth the legally binding terms for your use of the Services. By accessing or using the Services, you are accepting this Agreement and you represent and warrant that you have the right, authority, and capacity to enter into this Agreement. If you do not agree with all of the provisions of this Agreement, do not access and/or use the Services. You may not access or use the Services or accept the Agreement if you are not at least 18 years old."
+    },
+    {
+     "type": "h4",
+     "text": "Privacy Policy"
+    },
+    {
+     "type": "p",
+     "html": "The Company respects the privacy of its Service users. Please refer to our Privacy Policy, linked in the footer of our website, which explains how we collect, use, and disclose information that pertains to your privacy. When you access or use the Service, you signify your agreement to this Privacy Policy."
+    },
+    {
+     "type": "h4",
+     "text": "Age Verification"
+    },
+    {
+     "type": "p",
+     "html": "Our services are intended for adults of legal age to purchase cannabis products in the jurisdiction where the transaction occurs. You must be 21 years of age or older (or the minimum age required by your local laws) to access this website or make a purchase."
+    },
+    {
+     "type": "p",
+     "html": "By using our site, placing an order, or accepting a delivery, you affirm that you meet the minimum age requirement. We require valid government-issued photo identification to verify your age at the time of purchase or delivery. We reserve the right to refuse service, cancel orders, or deny access if we are unable to verify your age or identity."
+    },
+    {
+     "type": "p",
+     "html": "Providing false information or attempting to bypass our age verification process is strictly prohibited and may result in legal consequences."
+    },
+    {
+     "type": "h4",
+     "text": "Accounts"
+    },
+    {
+     "type": "p",
+     "html": "Account Creation. In order to use certain features of the Services, you may need to register for an account with us (“your Account”) and provide certain information about yourself as prompted by the registration form. You represent and warrant that: (a) all required registration information you submit is truthful and accurate; (b) you will maintain the accuracy of such information. You may delete your Account at any time, for any reason, by following the instructions on the Site. We may suspend or terminate your Account in accordance with the Terms and Termination."
+    },
+    {
+     "type": "p",
+     "html": "Account Responsibilities. You are responsible for maintaining the confidentiality of your Account login information and are fully responsible for all activities that occur under your Account. You agree to immediately notify us of any unauthorized use, or suspected unauthorized use, of your Account or any other breach of security. We cannot and will not be liable for any loss or damage arising from your failure to comply with the above requirements."
+    },
+    {
+     "type": "h4",
+     "text": "Returns & Refunds"
+    },
+    {
+     "type": "p",
+     "html": "All sales are considered final unless otherwise stated. Due to the nature of our products and compliance with state regulations, we do not accept returns or exchanges on cannabis products. If you receive an incorrect or damaged item, please contact us within 24 hours of purchase, and we’ll do our best to make it right."
+    },
+    {
+     "type": "p",
+     "html": "For eligible non-cannabis items (such as merchandise), returns may be accepted within 7 days of purchase, provided the item is unused, in original packaging, and accompanied by proof of purchase. Refunds, if applicable, will be issued to the original payment method."
+    },
+    {
+     "type": "h4",
+     "text": "User Conduct"
+    },
+    {
+     "type": "p",
+     "html": "By using our site, you agree not to engage in any unlawful, abusive, or harmful behavior, including but not limited to:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Attempting to access restricted areas of the site",
+      "Using false identification or impersonating another individual",
+      "Tampering with pricing, content, or product listings",
+      "Violating any applicable local, state, or federal regulations"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "We reserve the right to suspend or terminate access to our services if we believe your behavior violates these terms or compromises the safety or experience of others."
+    },
+    {
+     "type": "h4",
+     "text": "Limitation of Liability"
+    },
+    {
+     "type": "p",
+     "html": "To the fullest extent permitted by law, we shall not be liable for any direct, indirect, incidental, punitive, or consequential damages arising from your use of our site or products, including but not limited to loss of profits, data, or goodwill."
+    },
+    {
+     "type": "p",
+     "html": "All products are offered “as is” and “as available,” without warranties of any kind, either express or implied. You use our services at your own risk."
+    },
+    {
+     "type": "h4",
+     "text": "Rights and Licenses"
+    },
+    {
+     "type": "p",
+     "html": "License to Use Site. We grant you a non-transferable, non-exclusive, right to access and use the Services for your personal use."
+    },
+    {
+     "type": "p",
+     "html": "Certain Restrictions. The rights granted to you in this Agreement are subject to the following restrictions: (a) you will not license, sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit the Services; (b) you will not modify, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Services; (c) you will not access the Services in order to build a similar or competitive service; and (d) except as expressly stated in these terms, no part of the Services may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means. Any future release, update, or other addition to functionality of the Services will be subject to the terms of this Agreement. All copyright and other proprietary notices on any Services content must be retained on all copies."
+    },
+    {
+     "type": "p",
+     "html": "Modification. We reserve the right, at any time, to modify, suspend, or discontinue the Services with or without notice. You agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuance of the Services, except and if otherwise expressly set forth in these Terms."
+    },
+    {
+     "type": "p",
+     "html": "No Support or Maintenance. You acknowledge and agree that we will have no obligation to provide you with any support or maintenance in connection with the Services."
+    },
+    {
+     "type": "p",
+     "html": "Ownership of the Services. Excluding your User Content (defined below), you acknowledge that all the intellectual property rights, including copyrights, patents, trademarks, and trade secrets, in the Services, including the Site, are owned by us or our licensors. The provision of the Services does not transfer to you or any third party any rights, title or interest in or to the intellectual property rights. We reserve all rights not granted in this Agreement."
+    },
+    {
+     "type": "h4",
+     "text": "Accuracy of Information, Products, and Pricing"
+    },
+    {
+     "type": "p",
+     "html": "We do our best to ensure that all product descriptions, images, pricing, availability, and other information displayed on our site are accurate and up-to-date. However, mistakes can happen. We reserve the right to correct any errors, inaccuracies, or omissions at any time—whether or not an order has been placed—without prior notice."
+    },
+    {
+     "type": "p",
+     "html": "All product prices are listed in USD and are subject to change without notice. Product availability is not guaranteed and may vary based on demand, location, and inventory. We do not warrant that the quality of any products, services, or other materials purchased or obtained by you will meet your expectations."
+    },
+    {
+     "type": "h4",
+     "text": "Orders and Deliveries"
+    },
+    {
+     "type": "p",
+     "html": "Placing an order through our website constitutes an offer to purchase. Orders are subject to acceptance and availability. We reserve the right to cancel or refuse any order at our discretion, including but not limited to suspected fraud, supply limitations, or failure to meet eligibility criteria (such as age verification)."
+    },
+    {
+     "type": "p",
+     "html": "Deliveries are subject to local laws and regulations, including compliance with age and ID verification requirements at the time of delivery. We aim to fulfill all deliveries promptly, but delays may occur due to high demand, weather conditions, or third-party service interruptions. We are not liable for delivery delays outside our control."
+    },
+    {
+     "type": "h4",
+     "text": "Discounts and Special Offers"
+    },
+    {
+     "type": "p",
+     "html": "From time to time, we may offer promotions, discount codes, or special offers to our customers. These offers are subject to specific terms and conditions, including expiration dates, usage limits, and product exclusions. Offers may not be combined unless explicitly stated."
+    },
+    {
+     "type": "p",
+     "html": "We reserve the right to modify or cancel any promotion at any time without notice. If a promotional offer is used in violation of its terms, we may refuse or cancel the applicable order or adjust the discount accordingly."
+    },
+    {
+     "type": "h4",
+     "text": "User Content"
+    },
+    {
+     "type": "p",
+     "html": "User Content. “User Content” means any and all information and content that a user submits to or posts on: (a) the Services and (b) on social networking sites where we have a page or presence. You will own your User Content, with the understanding that you agree that we may use and reproduce the User Content you make available on our social networking sites and on the Services. You are solely responsible for the User Content that you post, upload, link to or otherwise make available via the Service. We reserve the right to remove any User Content from the Service at our discretion."
+    },
+    {
+     "type": "p",
+     "html": "The following rules pertain to User Content. By transmitting and submitting any User Content while using the Service, you agree as follows:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "You are solely responsible for your account and the activity that occurs while signed in to or while using your account;",
+      "You will not submit content that is copyrighted or subject to third party proprietary rights, including privacy, publicity, trade secret, etc., unless you are the owner of such rights or have the appropriate permission from their rightful owner to specifically submit such content;",
+      "You will abide by our Acceptable Use Policy below; and",
+      "You affirm we have the right to determine whether any of your User Content submissions are appropriate and comply with these Terms of Use, remove any and/or all of your submissions, and terminate your account with or without prior notice."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "You understand and agree that any liability, loss or damage that occurs as a result of the use of any User Content that you make available or access through your use of the Service is solely your responsibility. We are not responsible for any public display or misuse of your User Content. We do not, and cannot, pre-screen or monitor all User Content. However, at our discretion, we, or technology we employ, may monitor and/or record your interactions with the Service."
+    },
+    {
+     "type": "p",
+     "html": "License. You grant, and you represent and warrant that you have the right to grant, to us an irrevocable, non-exclusive, royalty-free and fully paid, worldwide license to reproduce, distribute, publicly display and perform, prepare derivative works of, incorporate into other works, and otherwise use your User Content, and to grant sublicenses of the foregoing, solely for the purposes of including your User Content in the Site and Services. You agree to irrevocably waive (and cause to be waived) any claims and assertions of moral rights or attribution with respect to your User Content."
+    },
+    {
+     "type": "p",
+     "html": "Acceptable Use Policy. Your permission to use the Services is conditioned upon the following Use Restrictions and Conduct Restrictions: You agree that you will not under any circumstances:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "post any information that is abusive, threatening, obscene, defamatory, libelous, or racially, sexually, religiously, or otherwise objectionable and offensive;",
+      "use the service for any unlawful purpose or for the promotion of illegal activities;",
+      "attempt to, or harass, abuse or harm another person or group;",
+      "use another user’s account without permission;",
+      "provide false or inaccurate information when registering an account;",
+      "interfere or attempt to interfere with the proper functioning of the Service;",
+      "make any automated use of the system, or take any action that we deem to impose or to potentially impose an unreasonable or disproportionately large load on our servers or network infrastructure;",
+      "use the Site or any of its contents to advertise or solicit, for any commercial purpose or to compete, directly or indirectly, with our Service;",
+      "bypass any robot exclusion headers or other measures we take to restrict access to the Service or use any software, technology, or device to scrape, spider, or crawl the Service or harvest or manipulate data; or",
+      "publish or link to malicious content intended to damage or disrupt another user’s browser or computer."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Feedback. If you provide us any feedback, comments, or suggestions regarding the Services or purchased items (“Feedback”), you assign to us all rights in the Feedback and agree that we will have the right to use the Feedback and related information in any manner we deem appropriate. We will treat any Feedback you provide to us as non-confidential and nonproprietary. We will be entitled to use, reproduce, disclose, publish and distribute any material you submit for any purpose whatsoever, without restriction and without compensating you in any way. You agree that you will not submit to us any information or ideas that you consider to be confidential or proprietary."
+    },
+    {
+     "type": "p",
+     "html": "Indemnity. You agree to indemnify and hold us (and our officers, employees, and agents) harmless, including costs and attorney's’ fees, from any claim or demand made by any third party due to or arising out of (a) your use of the Services, (b) your User Content, (c) your violation of this Agreement; or (d) your violation of applicable laws or regulations. We reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us and you agree to cooperate with our defense of these claims. You agree not to settle any matter without our prior written consent. We will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it."
+    },
+    {
+     "type": "h3",
+     "text": "Links to Other Sites and/or Materials"
+    },
+    {
+     "type": "p",
+     "html": "Third Party Sites, Ads and Ad Networks. As part of the Service, we may provide you with convenient links to third party website(s) (“Third-Party Sites”) as well as content or items belonging to or originating from third parties (the “Third Party Applications, Software or Content”). Users may also include links to their website or other Third-Party Sites on their listings. These links are provided as a courtesy to Service subscribers. We have no control over Third Party Sites and Third-Party Applications, Software or Content or the promotions, materials, information, goods or services available on these Third-Party Sites or Third-Party Applications, Software or Content. If you decide to leave the Site and access the Third-Party Sites or to use or install any Third-Party Applications, Software or Content, you do so at your own risk and you should be aware that our terms and policies no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any site to which you navigate from the Site or relating to any applications you use or install from the site."
+    },
+    {
+     "type": "p",
+     "html": "Links to Our Site. You are permitted to link to our Site for noncommercial purposes, provided that you do so in a way that is fair and legal and does not damage our reputation. You may not link to our Site in such a way as to suggest any form of association, approval, or endorsement on our part without our express written consent. You may not deep-link to any page of this site for any purpose whatsoever unless the link is expressly authorized in writing by us. We reserve the right to withdraw permission for any link."
+    },
+    {
+     "type": "p",
+     "html": "Release. You release and forever discharge us (and our officers, employees, agents, successors, and assigns) from, and waive and relinquish, each and every past, present and future dispute, claim, controversy, demand, right, obligation, liability, action and cause of action of every kind and nature (including personal injury, death, and property damage), that has arisen or arises directly or indirectly out of, or relates directly or indirectly to, any interactions with, or act or omission of, other Service users or Third Party Sites &amp; Ads. IF YOU ARE A CALIFORNIA RESIDENT, YOU WAIVE CALIFORNIA CIVIL CODE SECTION 1542 IN CONNECTION WITH THE FOREGOING, WHICH STATES: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS OR HER SETTLEMENT WITH THE DEBTOR.”"
+    },
+    {
+     "type": "h3",
+     "text": "Disclaimers"
+    },
+    {
+     "type": "p",
+     "html": "THE SERVICES, INCLUDING THE SITE, ARE PROVIDED “AS-IS” AND “AS AVAILABLE” AND WE EXPRESSLY DISCLAIM ANY WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, ACCURACY, OR NON-INFRINGEMENT. WE MAKE NO WARRANTY THAT THE SERVICES: (a) WILL MEET YOUR REQUIREMENTS; (b) WILL BE AVAILABLE ON AN UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE BASIS; (c) WILL BE ACCURATE, RELIABLE, FREE OF VIRUSES OR OTHER HARMFUL CODE, COMPLETE, LEGAL, OR SAFE OR (d) THAT THE SERVICES WILL BE TO YOUR SATISFACTION."
+    },
+    {
+     "type": "p",
+     "html": "SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU."
+    },
+    {
+     "type": "h4",
+     "text": "Limitation on Liability"
+    },
+    {
+     "type": "p",
+     "html": "IN NO EVENT WILL WE BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFIT OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES ARISING FROM OR RELATING TO THIS AGREEMENT OR YOUR USE OF, OR INABILITY TO USE, THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. ACCESS TO, AND USE OF, THE SERVICES ARE AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA RESULTING THEREFROM."
+    },
+    {
+     "type": "p",
+     "html": "IN NO EVENT WILL OUR TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT (INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE), OR OTHERWISE EXCEED THE AMOUNTS YOU’VE PAID US IN THE PRIOR 12 MONTHS (IF ANY). THE EXISTENCE OF MORE THAN ONE CLAIM WILL NOT ENLARGE THIS LIMIT."
+    },
+    {
+     "type": "p",
+     "html": "SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU."
+    },
+    {
+     "type": "h4",
+     "text": "Term and Termination"
+    },
+    {
+     "type": "p",
+     "html": "This Agreement will remain in full force and effect while you use the Services. We may (a) suspend your rights to use the Site and/or Services (including your Account) or (b) terminate this Agreement, at any time for any reason at our sole discretion, including for any use of the Services in violation of this Agreement. Upon termination of this Agreement, your Account and right to access and use the Services will terminate immediately. You understand that any termination of your Account involves deletion of your User Content from our live databases. We will not have any liability whatsoever to you for any termination of this Agreement, including for termination of your Account or deletion of your User Content. Upon termination of this Agreement, all of the provisions will terminate except those that by their nature should survive."
+    },
+    {
+     "type": "h4",
+     "text": "Copyright Policy"
+    },
+    {
+     "type": "p",
+     "html": "We respect the intellectual property of others and ask that users of our Site and Services do the same. In connection with our Site and Services and in accordance with the Digital Millennium Copyright Act (“DMCA”), we have adopted and implemented a policy respecting copyright laws that provide for the removal of any infringing materials and for the termination, in appropriate circumstances, of users of our online Services who are repeat infringers of intellectual property rights, including copyrights. If you believe that one of our users is, through the use of our Services, unlawfully infringing the copyright(s) in a work, and wish to have the allegedly infringing material removed, the following information in the form of a written notification (pursuant to 17 U.S.C. § 512(c)) must be provided to our designated Copyright Agent:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "your physical or electronic signature;",
+      "identification of the copyrighted work(s) that you claim to have been infringed;",
+      "identification of the material on our Services that you claim is infringing and that you request us to remove;",
+      "sufficient information to permit us to locate such material;",
+      "your address, telephone number, and email address;",
+      "a statement that you have a good faith belief that use of the objectionable material is not authorized by the copyright owner, its agent, or under the law; and",
+      "a statement that the information in the notification is accurate, and under penalty of perjury, that you are either the owner of the copyright that has allegedly been infringed or that you are authorized to act on behalf of the copyright owner."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Please note that, pursuant to 17 U.S.C. § 512(f), any misrepresentation of material fact (falsities) in a written notification automatically subjects the complaining party to liability for any damages, costs and attorney’s fees incurred by us in connection with the written notification and allegation of copyright infringement."
+    },
+    {
+     "type": "p",
+     "html": "Our designated Copyright Agent is:"
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis LLC"
+    },
+    {
+     "type": "p",
+     "html": "Attn: Privacy Officer"
+    },
+    {
+     "type": "p",
+     "html": "Email: <a href=\"mailto:eric@ladylretail.com\">eric@ladylretail.com</a>"
+    },
+    {
+     "type": "h4",
+     "text": "Legal Disputes"
+    },
+    {
+     "type": "p",
+     "html": "PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR RIGHTS AND WILL HAVE A SUBSTANTIAL IMPACT ON HOW ANY CLAIMS YOU HAVE AGAINST US WILL BE RESOLVED."
+    },
+    {
+     "type": "p",
+     "html": "You agree that any claim or dispute at law or equity that has arisen or may arise between you and us relating in any way to or arising out of this or previous versions of our Terms of Service Agreement, your use of or access to the Services, or any products or services sold or purchased through the Services, will be resolved in accordance with the provisions set forth in this Legal Disputes Section."
+    },
+    {
+     "type": "p",
+     "html": "Choice of Law. This Agreement is made under and will be governed by and construed in accordance with the laws of the State of New Jersey, without giving effect to any principles that provide for the application of the law of another jurisdiction."
+    },
+    {
+     "type": "p",
+     "html": "Claim Limitations. You agree that any cause of action arising out of or related to the Services must commence within one (1) year after the cause of action accrues. Otherwise, such cause of action is permanently barred."
+    },
+    {
+     "type": "p",
+     "html": "You agree that any and all disputes or claims that have arisen or may arise between you and us relating in any way to or arising out of this or previous versions of the Terms of Service Agreement, your use of or access to our Services, or any products or services sold, offered, or purchased through our Services will be resolved exclusively through final and binding arbitration, rather than in court. Alternatively, you may assert your claims in small claims court in Hudson County, New Jersey, if your claims qualify and so long as the matter remains in such court and advances only on an individual (non-class, non-representative) basis. The Federal Arbitration Act governs the interpretation and enforcement of this Agreement to Arbitrate."
+    },
+    {
+     "type": "p",
+     "html": "The arbitration will be conducted by JAMS Arbitration (\"JAMS\") under its applicable rules and procedures, as modified by this Agreement to Arbitrate. The arbitration will be conducted before one commercial arbitrator with substantial experience in resolving commercial contract disputes."
+    },
+    {
+     "type": "p",
+     "html": "Your rights will be determined by a neutral arbitrator and not a judge or jury. You understand that arbitration procedures can be more limited than rules applicable in court. Arbitrator decisions are as enforceable as any court order and are subject to very limited review in court."
+    },
+    {
+     "type": "p",
+     "html": "You and we must abide by the following rules: (a) ANY CLAIMS BROUGHT BY YOU OR US MUST BE BROUGHT IN THE PARTIES’ INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING; (b) THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON’S CLAIMS, MAY NOT OTHERWISE PRESIDE OVER ANY FORM OF A REPRESENTATIVE OR CLASS PROCEEDING, AND MAY NOT AWARD CLASS-WIDE RELIEF, (c) the arbitrator will honor claims of privilege and privacy recognized at law; (d) the arbitration will be confidential, and neither you nor we may disclose the existence, content or results of any arbitration, except as may be required by law or for purposes of enforcement of the arbitration award; (e) the arbitrator may award any individual relief or individual remedies that are permitted by applicable law; and (f) each side pays its own attorneys’ fees and expenses unless there is a statutory provision that requires the prevailing party to be paid its fees and litigation expenses, and then in such instance, the fees and costs awarded will be determined by the applicable law."
+    },
+    {
+     "type": "p",
+     "html": "With the exception of subparts (a) and (b) in the paragraph above (prohibiting arbitration on a class or collective basis), if any part of this arbitration provision is deemed to be invalid, unenforceable or illegal, or otherwise conflicts with the Rules and Procedures, then the balance of this arbitration provision will remain in effect and will be construed in accordance with its terms as if the invalid, unenforceable, illegal or conflicting provision were not contained herein. If, however, either subpart (a) or (b) is found to be invalid, unenforceable or illegal, then the entirety of this arbitration provision will be null and void, and neither you nor we will be entitled to arbitration. If for any reason a claim proceeds in court rather than in arbitration, the dispute will be exclusively brought in state or federal court in the county and state referenced above."
+    },
+    {
+     "type": "h3",
+     "text": "General"
+    },
+    {
+     "type": "p",
+     "html": "Changes to Agreement. This Agreement is subject to occasional revision, and if we make any substantial changes, we may notify you by sending you an email to the last email address you provided to us (if any) and/or by prominently posting notice of the changes on our Site. Any significant changes to this Agreement will be effective 30 days after posting such notice. You are responsible for providing us with your most current email address. In the event that the last email address that you have provided us is not valid, or for any reason is not capable of delivering to you the notice described above, our dispatch of the email containing such notice will nonetheless constitute effective notice of the changes described in the notice. Continued use of our Site or Services following notice of such changes will indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes."
+    },
+    {
+     "type": "p",
+     "html": "Copyright/Trademark Information. Copyright © 2025 Lady L Cannabis. All rights reserved. All trademarks, logos and service marks (“Marks”) displayed on the Site are our property or the property of other third parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks."
+    },
+    {
+     "type": "p",
+     "html": "Contact Information:"
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis LLC"
+    },
+    {
+     "type": "p",
+     "html": "Email: <a href=\"mailto:eric@ladylretail.com\">eric@ladylretail.com</a>"
+    },
+    {
+     "type": "h3",
+     "text": "Last Updated"
+    },
+    {
+     "type": "p",
+     "html": "This Agreement was last updated on March 29, 2025."
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

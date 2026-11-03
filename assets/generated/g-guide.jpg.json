@@ -1,0 +1,29 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-guide",
+  "file": "assets/generated/g-guide.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Top-down still-life photograph of an open notebook with thick cream paper on a deep violet velvet surface. On the left page lies a single pressed dried cannabis fan leaf; the right page holds only delicate graphite line drawings of leaves and small flowers, with no handwriting and no words anywhere. A slim brass fountain pen lies across the lower corner and a lavender silk ribbon bookmark trails from the spine. Soft warm light, calm and minimal, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4"
+  },
+  "seed": 3547931528,
+  "requestId": "01a1a2bc-db8d-75e2-b0f3-f80fe091cef0",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "fd4cd2de9125597486e2656f9faf4a78f388d736d1d79097c7c185e5550c53db",
+  "raw": "tmp/img/raw/g-guide.1793731659464.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-03T18:47:41.507Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 1. Open notebook, pressed golden cannabis leaf, blank right page (no sketches drawn, no writing), lavender pen and ribbon; cropped to 4:5",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  },
+  "postEdit": "cropped 1792x2368 -> 1792x2240 (4:5) by removing the top 128 px of plain violet satin; re-encoded JPEG q93"
+}

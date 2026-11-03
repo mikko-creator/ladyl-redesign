@@ -1,0 +1,109 @@
+{
+  "about": "The adopted information architecture (top link bar, seven-item main bar with dropdown groups, Order CTA, hub-and-child URL patterns, inner-page layout of alternating content sections, the local areas band and the newsletter band above every footer, footer layout, Yes/No age gate) mapped onto Lady L. Labels are Lady L's own where Lady L names the thing, neutral otherwise. Lady L's existing URLs are kept; new pages follow the adopted patterns under Lady L's own parents.",
+  "topbar": {
+    "links": [
+      { "label": "Deals", "href": "/jersey-city-weed-deals/" },
+      { "label": "Rewards", "href": "/rewards/" },
+      { "label": "Contact", "href": "/contact-us/" },
+      { "label": "Shop", "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" }
+    ],
+    "services": [
+      { "label": "Order for Delivery", "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city", "icon": "truck", "info": "/service/" },
+      { "label": "Order for Pickup", "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city", "icon": "bag", "info": "/in-store-pickup/" }
+    ],
+    "note": "services = Lady L's own button labels (home hero); info = the in-site page about that service"
+  },
+  "cta": { "label": "Order Now", "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Deals", "href": "/jersey-city-weed-deals/" },
+    {
+      "label": "About Us", "href": "/about-us/",
+      "feature": { "photo": "/assets/photos/ll/img_4198-scaled.webp", "title": "Visit the West Side shop", "href": "/about-us/" },
+      "children": [
+        { "label": "About Us", "href": "/about-us/" },
+        { "label": "Blog", "href": "/blog/" },
+        { "label": "Reviews", "href": "/about-us/reviews/" },
+        { "label": "FAQs", "href": "/faq/" },
+        { "label": "Rewards", "href": "/rewards/" },
+        { "label": "Refer A Friend", "href": "/refer-a-friend/" },
+        { "label": "Community", "href": "/community/" },
+        { "label": "Events", "href": "/events/" }
+      ]
+    },
+    {
+      "label": "Products", "href": "/products/",
+      "children": [
+        { "label": "Flower", "href": "/products/flower/", "gimg": "g-flower", "menu": "flower" },
+        { "label": "Pre-Rolls", "href": "/products/pre-rolls/", "gimg": "g-prerolls", "menu": "pre-rolls" },
+        { "label": "Infused Pre-Rolls", "href": "/products/infused-pre-rolls/", "gimg": "g-infused", "menu": "infused-pre-rolls" },
+        { "label": "Vapes", "href": "/products/vapes/", "gimg": "g-vapes", "menu": "vapes" },
+        { "label": "Edibles", "href": "/products/edibles/", "gimg": "g-edibles", "menu": "edibles" },
+        { "label": "Tinctures", "href": "/products/tinctures/", "gimg": "g-tinctures", "menu": "tinctures" },
+        { "label": "Concentrates", "href": "/products/concentrates/", "gimg": "g-concentrates", "menu": "concentrates" },
+        { "label": "Accessories", "href": "/products/accessories/", "gimg": "g-accessories", "menu": "accessories" }
+      ]
+    },
+    {
+      "label": "Neighborhoods", "href": "/new-jersey/",
+      "children": [
+        { "label": "Lincoln Park", "href": "/new-jersey/dispensary-near-lincoln-park/" },
+        { "label": "Hoboken", "href": "/new-jersey/dispensary-near-hoboken/" },
+        { "label": "Statue of Liberty", "href": "/new-jersey/dispensary-near-statue-of-liberty/" },
+        { "label": "North Bergen", "href": "/new-jersey/dispensary-near-north-bergen/" },
+        { "label": "Newark International Airport", "href": "/new-jersey/dispensary-near-newark-international-airport/" },
+        { "label": "Bayonne", "href": "/new-jersey/dispensary-near-bayonne/" },
+        { "label": "Kearny", "href": "/new-jersey/dispensary-near-kearny/" },
+        { "label": "New Jersey Areas We Serve", "href": "/new-jersey/" }
+      ]
+    },
+    {
+      "label": "Education", "href": "/education/",
+      "feature": { "gimg": "g-guide", "title": "The Lady L Cannabis Guide", "href": "/cannabis-guide/" },
+      "children": [
+        { "label": "Cannabis 101", "href": "/education/cannabis-101/" },
+        { "label": "Recreational Cannabis", "href": "/education/recreational-cannabis/" },
+        { "label": "Medical Cannabis", "href": "/education/medical-cannabis/" },
+        { "label": "Cannabis Guide", "href": "/cannabis-guide/" },
+        { "label": "What Is THC?", "href": "/blog/what-is-thc/" },
+        { "label": "Cannabis Trichomes", "href": "/blog/what-are-cannabis-trichomes/" },
+        { "label": "How to Dose Edibles", "href": "/blog/how-to-dose-edibles/" },
+        { "label": "Cannabis Glossary", "href": "/blog/cannabis-glossary/" },
+        { "label": "Cannabis for Beginners", "href": "/blog/cannabis-for-beginners-a-warm-no-pressure-guide-to-your-first-time/" }
+      ]
+    },
+    {
+      "label": "Services", "href": "/service/",
+      "children": [
+        { "label": "In-Store Pickup", "href": "/in-store-pickup/", "icon": "bag" },
+        { "label": "Weed Delivery", "href": "/service/", "icon": "truck" },
+        { "label": "Weed Delivery Areas We Serve", "href": "/service/#areas", "icon": "pin" },
+        { "label": "Contact Us", "href": "/contact-us/", "icon": "phone" }
+      ]
+    }
+  ],
+  "prefooter": {
+    "areas": { "heading": "New Jersey Areas We Serve", "note": "the adopted local-areas band: Lady L's /new-jersey/ pages and every /service/ delivery town, as links (Lady L's own footer labels: 'New Jersey Areas We Serve', 'Weed Delivery Areas We Serve')" },
+    "newsletter": { "heading": "get the latest updates - sign up", "fields": ["Full Name", "Email", "Phone Number"], "consent": "I agree to the privacy policy.", "button": "Unlock Deals", "note": "Lady L's own sign-up form words (home); heading shown as 'Get the latest updates' + 'Sign up' (dash removed, words kept)" }
+  },
+  "footer": {
+    "columns": [
+      { "title": "Order", "links": [
+        { "label": "Flower", "href": "/products/flower/" }, { "label": "Pre-Rolls", "href": "/products/pre-rolls/" }, { "label": "Infused Pre-Rolls", "href": "/products/infused-pre-rolls/" }, { "label": "Vapes", "href": "/products/vapes/" }, { "label": "Edibles", "href": "/products/edibles/" }, { "label": "Tinctures", "href": "/products/tinctures/" }, { "label": "Concentrates", "href": "/products/concentrates/" }, { "label": "Accessories", "href": "/products/accessories/" } ] },
+      { "title": "Quick Links", "links": [
+        { "label": "Blog", "href": "/blog/" }, { "label": "Community", "href": "/community/" }, { "label": "Faqs", "href": "/faq/" }, { "label": "Refer A Friend", "href": "/refer-a-friend/" }, { "label": "Contact Us", "href": "/contact-us/" }, { "label": "Cannabis Guide", "href": "/cannabis-guide/" } ] },
+      { "title": "Shop", "links": [
+        { "label": "Shop Pickup", "href": "/in-store-pickup/" }, { "label": "Shop Delivery", "href": "/service/" }, { "label": "Shop 420 Deals", "href": "/jersey-city-420-discounts-day/" }, { "label": "New Jersey Areas We Serve", "href": "/new-jersey/" }, { "label": "Weed Delivery Areas We Serve", "href": "/service/" } ] }
+    ],
+    "getInTouch": "Get in touch",
+    "loyalty": { "label": "Sign Up For Loyalty", "line": "Receive weekly offer, exclusive deal, and massive discounts from Lady L." },
+    "legal": [ { "label": "Terms of Service", "href": "/terms-of-service/" }, { "label": "Privacy Policy", "href": "/privacy-policy/" }, { "label": "Accessibility", "href": "/accessibility/" }, { "label": "Sitemap", "href": "/sitemap/" } ]
+  },
+  "pages": {
+    "HOME": ["/"],
+    "SHOP": ["/products/", "/products/<8 categories>/", "/jersey-city-weed-deals/", "/jersey-city-420-discounts-day/", "/rewards/", "/refer-a-friend/"],
+    "SERVICES": ["/service/", "/service/<45 towns>/", "/in-store-pickup/", "/new-jersey/", "/new-jersey/<7 areas>/"],
+    "LEARN": ["/blog/", "/blog/<16 posts>/", "/education/", "/education/<3 guides>/", "/cannabis-guide/"],
+    "PAGES": ["/about-us/", "/about-us/reviews/", "/faq/", "/community/", "/events/", "/events/<25 events>/", "/contact-us/", "/privacy-policy/", "/terms-of-service/", "/accessibility/", "/sitemap/", "/404.html"]
+  }
+}

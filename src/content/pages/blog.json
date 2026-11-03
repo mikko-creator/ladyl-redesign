@@ -1,0 +1,229 @@
+{
+ "slug": "blog",
+ "path": "/blog/",
+ "url": "https://ladyljerseycity.com/blog/",
+ "title": "Blog — Lady L Cannabis Dispensary",
+ "description": "Stay informed with the Lady L Cannabis blog. Explore marijuana news, guide articles, cannabis education, product reviews, and more.",
+ "canonical": "https://ladyljerseycity.com/blog/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Our Blog",
+ "postId": "406",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/",
+        "name": "Blog"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/#webpage",
+     "url": "https://ladyljerseycity.com/blog/",
+     "name": "Blog — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-29T11:48:02-06:00",
+     "dateModified": "2026-03-29T12:55:55-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Blog — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-29T11:48:02-06:00",
+     "dateModified": "2026-03-29T12:55:55-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Stay informed with the Lady L Cannabis blog. Explore marijuana news, guide articles, cannabis education, product reviews, and more.",
+     "name": "Blog — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/blog/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "our-blog",
+   "src": "bde-section-406-100",
+   "heading": "Our Blog",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-406-109",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "loop",
+     "of": "posts",
+     "items": [
+      {
+       "href": "https://ladyljerseycity.com/blog/%e2%99%8f-scorpio-season-is-upon-us-mystery-transformation-a-little-lady-l-magic/",
+       "img": {
+        "src": "/assets/photos/ll/scorpio-season_-cosmic-scorpion-poster.webp",
+        "alt": "Scorpio Season_ Cosmic Scorpion Poster",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/Scorpio-Season_-Cosmic-Scorpion-Poster.webp",
+        "w": 1254,
+        "h": 1254
+       },
+       "title": "♏ Scorpio Season Is Upon Us: Mystery, Transformation & a Little Lady L Magic",
+       "dateText": "October 24th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/cannabis-friendly-events-activities-jersey-city/",
+       "img": {
+        "src": "/assets/photos/ll/best-things-to-do-in-jersey-city-waterfront.webp",
+        "alt": "Jersey City waterfront promenade with cyclists, pedestrians, the Colgate Clock, and the Lower Manhattan skyline at sunset",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/best-things-to-do-in-jersey-city-waterfront.webp",
+        "w": 1672,
+        "h": 941
+       },
+       "title": "The Best Things to Do in Jersey City",
+       "dateText": "October 12th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/what-are-cannabis-trichomes/",
+       "img": {
+        "src": "/assets/photos/ll/cannabis-trichomes-101-frosty-factories-powering-every-strain.webp",
+        "alt": "Close-up of a frosty cannabis flower densely coated in sparkling trichomes, with a magnifying glass blurred in the background.",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-trichomes-101-frosty-factories-powering-every-strain.webp",
+        "w": 1448,
+        "h": 1086
+       },
+       "title": "Cannabis Trichomes 101: The Frosty Factories Powering Every Strain",
+       "dateText": "October 12th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/what-is-thc/",
+       "img": {
+        "src": "/assets/photos/ll/what-is-thc-tetrahydrocannabinol-guide.webp",
+        "alt": "Open notebook explaining THC with a molecular diagram, cannabis flower, and cannabis leaves",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/what-is-thc-tetrahydrocannabinol-guide.webp",
+        "w": 1536,
+        "h": 1024
+       },
+       "title": "What Is THC? A Guide to Cannabis’ Most Talked-About Compound",
+       "dateText": "October 12th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/how-to-dose-edibles/",
+       "img": {
+        "src": "/assets/photos/ll/cannabis-edibles-dosing-chocolate-gummies.webp",
+        "alt": "Cannabis gummies and chocolate edibles arranged beside a timer, water, cannabis flower, and notebook",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-edibles-dosing-chocolate-gummies.webp",
+        "w": 1672,
+        "h": 941
+       },
+       "title": "How to Dose Edibles: A Beginner-to-Pro Guide to Getting It Right",
+       "dateText": "October 12th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/cannabis-glossary/",
+       "img": {
+        "src": "/assets/photos/ll/cannabis-glossary-jersey-city-dispensary-terms.webp",
+        "alt": "Illustrated cannabis glossary index cards marked A–Z, surrounded by a cannabis flower bud, pre-roll, gummy, and tincture bottle icons",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/cannabis-glossary-jersey-city-dispensary-terms.webp",
+        "w": 2400,
+        "h": 1260
+       },
+       "title": "Your Cannabis Glossary: The Terms Every Jersey City Shopper Should Know",
+       "dateText": "October 12th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/give-back-all-year-lady-l-school-supply-donation-drive/",
+       "img": {
+        "src": "/assets/photos/ll/ladyl_school_supply_blog_cover.webp",
+        "alt": "Backpacks, notebooks, pencils and classroom supplies supporting Lady L's year-round Jersey City donation drive.",
+        "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/10/LadyL_School_Supply_Blog_Cover.webp",
+        "w": 1086,
+        "h": 724
+       },
+       "title": "Year-Round School Supply Donations in Jersey City | Lady L",
+       "dateText": "October 10th, 2026",
+       "more": "Read More"
+      },
+      {
+       "href": "https://ladyljerseycity.com/blog/lady-l-joins-west-side-jersey-city-to-celebrate-bowl-burger-bistros-1st-birthday/",
+       "title": "Lady L Joins West Side Jersey City to Celebrate Bowl Burger Bistro’s 1st Birthday",
+       "dateText": "August 17th, 2026",
+       "more": "Read More"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

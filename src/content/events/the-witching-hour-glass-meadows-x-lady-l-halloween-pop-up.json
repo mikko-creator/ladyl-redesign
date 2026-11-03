@@ -1,0 +1,162 @@
+{
+ "slug": "the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up",
+ "path": "/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/",
+ "url": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/",
+ "title": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up | LADY L CANNABIS",
+ "description": "Lady L welcomes Glass Meadows for a special Halloween pop-up featuring the highly anticipated return of @climatewitch, back by popular demand for an evening",
+ "canonical": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/",
+ "ogImage": "/assets/photos/ll/the-witching-hour_-neon-halloween-pop-up.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/10/The-Witching-Hour_-Neon-Halloween-Pop-Up.webp",
+ "h1": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up",
+ "postId": "1214",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/events/the-witching-hour-glass-meadows-x-lady-l-halloween-pop-up/",
+        "name": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Next Event",
+   "title": "Give Back All Year: Lady L School Supply Donation Drive",
+   "href": "https://ladyljerseycity.com/events/give-back-all-year-lady-l-school-supply-donation-drive/"
+  }
+ ],
+ "dateText": "Friday, October 30, 2026",
+ "timeText": "6-8PM",
+ "startISO": "2026-10-30",
+ "image": null,
+ "sections": [
+  {
+   "id": "the-witching-hour-glass-meadows-lady-l-halloween-pop-up",
+   "src": "bde-section-670-100",
+   "heading": "The Witching Hour: Glass Meadows × Lady L Halloween Pop-Up",
+   "blocks": [
+    {
+     "type": "icon-box",
+     "icon": "arrow",
+     "title": "",
+     "html": "<a href=\"https://ladyljerseycity.com/events/\">Back to All Events</a>"
+    },
+    {
+     "type": "p",
+     "html": "Friday, October 30, 2026",
+     "role": "date"
+    },
+    {
+     "type": "p",
+     "html": "6-8PM",
+     "role": "time"
+    },
+    {
+     "type": "p",
+     "html": "Lady L Cannabis, Jersey City, NJ"
+    },
+    {
+     "type": "p",
+     "html": "Something magical is brewing on the West Side!"
+    },
+    {
+     "type": "p",
+     "html": "Lady L welcomes Glass Meadows for a special Halloween pop-up featuring the highly anticipated return of @climatewitch, back by popular demand for an evening of tarot readings, cosmic curiosity, and Halloween fun."
+    },
+    {
+     "type": "h3",
+     "text": "What’s Happening?"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Tarot with @climatewitch</strong>"
+    },
+    {
+     "type": "p",
+     "html": "The cards are calling! Our favorite climate witch returns to Lady L for another evening of mystical insights and playful predictions. Readings are subject to availability."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Halloween Costume Contest</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Come dressed to impress! Whether your Halloween personality is spooky, glamorous, mysterious, or wonderfully bizarre, bring your best look and join the fun."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Glass Meadows Pop-Up</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Meet Glass Meadows at Lady L for a special Halloween appearance and learn more about the featured brand."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Community, Costumes &amp; Cosmic Energy</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Celebrate Halloween with your West Side neighbors and the Lady L community."
+    },
+    {
+     "type": "h3",
+     "text": "Event Details"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Date:</strong> Friday, October 30, 2026"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Time:</strong> 6:00–8:00 PM"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Venue:</strong> Lady L Cannabis, Jersey City, New Jersey"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Age requirement:</strong> 21+ only. Valid government-issued ID required."
+    },
+    {
+     "type": "p",
+     "html": "Event activities and readings are subject to availability."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Visit ladyjerseycity.com for updates.</strong>"
+    }
+   ],
+   "headingLevel": 1
+  }
+ ]
+}

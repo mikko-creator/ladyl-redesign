@@ -1,0 +1,8 @@
+/* fix.css - main-session integration fixes after the lanes (loaded last). */
+
+/* 1. The inner hero's art overhung the next band by overhang + clamp(52px, 6vw, 92px) and painted over that band's
+      first text: 13 of 21 sampled pages at 390 (11 to 48 px) and 7 of 16 at 1280 (25 to 73 px: post bodies, the
+      delivery hours card, pickup steps), because several lanes' first sections do not carry the extra top padding
+      (tmp/main/hero-overlap.mjs, control fires). Keep a real protrusion (the art still crosses the seam by
+      --overhang) without covering text. */
+main .page-hero .page-hero__art { margin-bottom: calc(-1 * var(--overhang)); }

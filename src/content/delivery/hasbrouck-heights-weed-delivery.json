@@ -1,0 +1,433 @@
+{
+ "slug": "hasbrouck-heights-weed-delivery",
+ "path": "/service/hasbrouck-heights-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/hasbrouck-heights-weed-delivery/",
+ "name": "Hasbrouck Heights",
+ "county": "Bergen",
+ "title": "Reliable Hasbrouck Heights Weed Delivery | LADY L CANNABIS",
+ "description": "Get fast, discreet Hasbrouck Heights weed delivery through Lady L Cannabis. Get reliable cannabis delivery in Hasbrouck Heights, NJ, from a woman-owned West Side microdispensary built on community.",
+ "canonical": "https://ladyljerseycity.com/service/hasbrouck-heights-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Hasbrouck Heights Weed Delivery",
+ "postId": "1000",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/hasbrouck-heights-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/hasbrouck-heights-weed-delivery/",
+        "name": "Hasbrouck Heights Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-hasbrouck-heights-weed-delivery",
+   "src": "bde-section-1000-100",
+   "heading": "Unique Hasbrouck Heights Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Hasbrouck Heights Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "Some things about <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> are easy to explain: a curated menu, competitive pricing across a range of budgets, and a delivery operation that covers a wide stretch of northern New Jersey with consistent professionalism. Others are harder to put into words, like the warmth of walking into a place where the staff actually knows cannabis and genuinely enjoys sharing that knowledge. All of those things show up in every Hasbrouck Heights weed delivery order we send out. Just 10 miles from Midtown Manhattan, Hasbrouck Heights brings a distinct small-town energy to Bergen County, and our delivery service is built to match it. Place your order, then relax and we'll take it from there."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-hasbrouck-heights-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-1000-109",
+   "heading": "Our Hasbrouck Heights Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every product on the Lady L delivery menu has earned its spot. The selection is intentional, not inflated, covering a range of formats, price points, and preferences without padding it out with products that don't hold up to scrutiny. Here's what's available when you browse:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is the most in-demand category on the menu by a wide margin, and the lineup reflects that priority. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer anchor the selection, with a range that runs from solid everyday value to top-tier options for customers who want the best available. Stock rotates, so checking back often pays off."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "When you want something ready without any of the setup, pre-rolls are the answer. We carry classic and infused varieties from brands that clear our quality bar, at prices that make them worth adding to any order without overthinking it."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "Not everyone wants the same thing from an edible, and our selection reflects that. Gummies, chocolates, and other ingestible formats span a wide range of strengths, flavors, and onset profiles. Sleep gummies are among the most reordered items we carry. Check the live menu for what's in stock as availability shifts regularly."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes offer something the other categories can't quite replicate: portability without compromise. We stock top cartridge brands and full-spectrum 1g and 2g disposables for customers who want a clean, low-profile experience they can count on. Browse the live menu for current options."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures serve a different purpose than every other product on this list. Topicals work on contact for localized comfort, while tinctures offer a measured, adaptable approach to dosing that fits into daily life without disruption. Check the current menu for availability."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates draw a specific kind of customer, and those customers tend to know exactly what they want. We take the category seriously, with solventless and live-resin options regularly appearing on the menu. Worth checking often if this is your preferred format."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs are a concentrated, full-spectrum format that experienced customers often return to for the versatility they offer. Typically available in syringe form, they can be used in multiple ways depending on personal preference. Check the live menu for current availability."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-1000-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every Hasbrouck Heights weed delivery from Lady L is quiet, professional, and completely on the level. Orders go out in plain, unmarked packaging, and our drivers cover Bergen County routes with the kind of steady, unassuming professionalism that makes the whole experience feel routine in the best possible way."
+    },
+    {
+     "type": "p",
+     "html": "Every handoff includes proper ID verification, and every driver operates fully within New Jersey's legal framework for cannabis delivery. Trained and courteous, our team holds the same standard on every stop."
+    },
+    {
+     "type": "p",
+     "html": "Lady L combines in-house drivers with a trusted third-party service to keep delivery windows reliable and the schedule tight. Typical delivery time runs approximately one hour from order confirmation to your door."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-hasbrouck-heights-works",
+   "src": "bde-section-1000-150",
+   "heading": "How Cannabis Delivery in Hasbrouck Heights Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Placing a Hasbrouck Heights weed delivery order with Lady L is a short, simple process. Here's what to expect from start to finish."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Once you’ve completed account setup, head to the delivery menu and take your time exploring what's available. The menu reflects real-time stock, so what you see is what you can actually get. Make your selections, review the cart, and move to checkout whenever you're ready."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "A driver heads out with your Hasbrouck Heights weed delivery order once it’s confirmed. Most deliveries take about an hour. Upon arrival, your driver will verify your valid government-issued ID before the handoff."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-1000-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://hasbrouck-heightsnj.org/\">Hasbrouck Heights</a> makes the most of its 1.5 square miles. The Boulevard draws people in with a walkable stretch of local spots that gives the borough its main-street character, and the surrounding neighborhoods add a quieter, tree-lined residential texture that makes it easy to understand why people stay. With the weed delivery Hasbrouck Heights residents can count on from Lady L, your plans stay on track, whether you're heading out to one of your favorite local spots or settling in for a while."
+    },
+    {
+     "type": "card",
+     "href": "https://heightsbarandgrill.com/",
+     "title": "The Heights Bar & Grill",
+     "level": 3,
+     "html": "Heights Bar &amp; Grill on The Boulevard is a neighborhood pub with real personality. The menu balances classic bar staples with more distinctive plates, including bourbon-braised ginger-garlic ribs, short-rib empanadas, and Maryland-style crab cakes, alongside an ever-rotating selection of craft beers, IPAs, lagers, and stouts. Sunday brunch rounds out the week with its own dedicated menu, making it a spot worth returning to more than once."
+    },
+    {
+     "type": "card",
+     "href": "https://ralphsices.com/",
+     "title": "Ralph's Famous Italian Ices & Ice Cream",
+     "level": 3,
+     "html": "Ralph's Famous Italian Ices has been a neighborhood institution since 1928, when an Italian immigrant named Ralph began making lemon and orange ices by hand in his Staten Island garage. Now led by the third generation of the same family, the brand has expanded across the region while staying true to its original philosophy: premium ingredients, small batches, and zero shortcuts. The Hasbrouck Heights location offers more than 150 flavors across water ices, sherbet, ice cream, sundaes, and specialty drinks."
+    },
+    {
+     "type": "card",
+     "href": "https://www.mapquest.com/us/new-jersey/woodland-park-265771507",
+     "title": "Woodland Park",
+     "level": 3,
+     "html": "Woodland Park on Cleveland Avenue is Hasbrouck Heights' largest public green space, with a soccer field, basketball courts, open lawns, a picnic gazebo, shaded seating, and walking paths that wind along the edge of what was once the site of the Curtiss-Wright WWII aircraft manufacturing plant. The park is dog-friendly, wheelchair accessible, and open to the public without charge from sunrise to sunset. It's a well-used and well-maintained community anchor that draws residents year-round."
+    },
+    {
+     "type": "card",
+     "href": "https://ivyinn.com/",
+     "title": "Ivy Inn Restaurant & Bar",
+     "level": 3,
+     "html": "The Ivy Inn at 268 Terrace Avenue is a fine dining destination with a warm, prohibition-era atmosphere that sets it apart from the borough's more casual options. The menu features classic American cuisine prepared with care and precision, with brunch, lunch, and dinner service throughout the week. Private dining rooms and customized event menus make it a go-to for special occasions and gatherings that call for something more elevated."
+    },
+    {
+     "type": "card",
+     "href": "https://www.hasbrouckheightschamberofcommerce.com/",
+     "title": "The Boulevard",
+     "level": 3,
+     "html": "The Boulevard is the commercial heart of Hasbrouck Heights, a walkable main street corridor lined with locally owned shops, professional offices, and diverse dining options that give the borough its distinct neighborhood character. The Hasbrouck Heights Regional Chamber of Commerce keeps the district active through signature events, including the Boulevard Stroll, Street Fair, Taste of Hasbrouck Heights, Holiday Fest, and the annual Holiday Parade. It's the kind of main street that feels genuinely local rather than assembled for appearances."
+    },
+    {
+     "type": "card",
+     "href": "https://hasbrouckheightslibrary.org/",
+     "title": "Hasbrouck Heights Public Library",
+     "level": 3,
+     "html": "The Hasbrouck Heights Free Public Library at 320 Boulevard is more than a place to borrow books. The library offers an extensive digital library accessible around the clock, adult programming including book clubs, technology classes, and ESL conversation circles, museum pass lending, mobile hotspots, notary services, and wireless printing. It's a quietly essential part of the borough's civic life, and one of the more full-featured public libraries in the area for its size."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "hasbrouck-heights-weed-delivery-faq",
+   "src": "bde-section-1000-204",
+   "heading": "Hasbrouck Heights Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Where does Lady L Cannabis deliver in Hasbrouck Heights?",
+       "a_html": "<p>As part of our Zone 2 service area, Lady L offers weed delivery Hasbrouck Heights residents can receive throughout ZIP code 07604. Our drivers head out from West Side Avenue and reach customers across the borough, bringing a curated product lineup and professional service to every stop.</p>\n<p>Beyond Hasbrouck Heights, our delivery footprint extends across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like Wood-Ridge, Lodi, and Hackensack to communities further out across the region, the coverage area is broad and continues to grow.</p>"
+      },
+      {
+       "q": "When is Lady L's Hasbrouck Heights weed delivery available?",
+       "a_html": "<p>Our Zone 2 weed delivery hours are as follows:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Orders need to be placed and confirmed before the last call time for that day.</p>\n<p>A $75 order minimum applies, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "What's the minimum age for cannabis delivery in Hasbrouck Heights?",
+       "a_html": "<p>In New Jersey, the minimum age for purchasing adult-use cannabis is 21, and every Lady L delivery order follows that rule without exception. Age is verified when you register your account, and your driver will check your ID in person before completing the handoff.</p>"
+      },
+      {
+       "q": "Which forms of ID do you accept for delivery?",
+       "a_html": "<p>Lady L accepts any valid government-issued photo ID, including both New Jersey and out-of-state driver's licenses, state-issued IDs, and passports. Your ID needs to be uploaded to your Lady L account before your first order, and you'll need the physical ID ready when your driver arrives.</p>"
+      },
+      {
+       "q": "Do I need to have a medical cannabis card to place a delivery order?",
+       "a_html": "<p>Not at all. Lady L is an adult-use cannabis microdispensary, which means any customer 21 or older can order with nothing more than a valid ID and a confirmed account.</p>"
+      },
+      {
+       "q": "What are the purchase limits for a Hasbrouck Heights weed delivery?",
+       "a_html": "<p>New Jersey law caps each transaction at the equivalent of 28.35 grams, or one ounce, of usable cannabis. Here's how that breaks down across product types:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What are the taxes on a Hasbrouck Heights cannabis delivery order?",
+       "a_html": "<p>New Jersey adult-use cannabis carries a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax, where applicable. Every charge is itemized at checkout before you confirm, so there are no surprises on the back end.</p>"
+      },
+      {
+       "q": "How does payment work for Lady L Cannabis delivery orders?",
+       "a_html": "<p>We collect payment in full before your order is confirmed and a driver is dispatched. Lady L accepts ACH payment and also offers a debit option for delivery customers. Cash is not accepted for delivery orders. Set up your payment method in your Lady L account at registration, and call 201-595-0706 with any specific questions.</p>"
+      },
+      {
+       "q": "What if my Hasbrouck Heights delivery takes longer than expected?",
+       "a_html": "<p>Typical delivery time is approximately one hour, though order volume, traffic, and distance can all affect that estimate on any given run. If things are running longer than expected, reach out to our team directly. We stay on top of delays and keep customers informed when timing shifts.</p>"
+      },
+      {
+       "q": "Can I make changes to my order after submitting it?",
+       "a_html": "<p>If something needs to change, contact us as soon as possible. Once we’ve dispatched your driver, modifications may not be possible, but our team will do everything we can to help. Reach out to us by phone at 201-595-0706 or through the website.</p>"
+      },
+      {
+       "q": "Who needs to be home when my delivery arrives?",
+       "a_html": "<p>An adult 21 or older with a valid government-issued ID must be present and available when the driver arrives. The handoff can’t be completed without someone meeting that requirement at the door, so make sure you're available during your estimated delivery window.</p>"
+      },
+      {
+       "q": "Are there deals available for Hasbrouck Heights weed delivery customers?",
+       "a_html": "<p>Absolutely. Our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>, so it pays to check with our team or browse the promotions section on the website before to see what's currently running for delivery customers.</p>\n<p>Loyalty points, though, work the same way for delivery as they do in-store: a dollar spent on Hasbrouck Heights weed delivery is a point earned, and every 100 points converts to $5 in store credit. On top of that, Lady L runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Should I tip the driver?",
+       "a_html": "<p>There's no obligation, but our drivers earn it. Every delivery is handled with discretion, attention to detail, and genuine professionalism from start to finish. If your experience was smooth, a tip somewhere in the 15-20% range is a solid way to acknowledge the effort that went into it.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "hasbrouck-heights-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-1000-214",
+   "heading": "Hasbrouck Heights Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Ten miles from Midtown and a world away from the noise, Hasbrouck Heights has the kind of small-town character that's genuinely hard to find this close to the city. Lady L Cannabis is proud to be part of that picture. From our home base on Jersey City's West Side, we extend a delivery service built on real expertise, a carefully curated product lineup, and drivers who take their work seriously to every Hasbrouck Heights weed delivery order we send out."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve<a href=\"https://ladyljerseycity.com/service/\"> Hasbrouck Heights and the surrounding communities</a> with delivery that's discreet, dependable, and worth coming back for. Place your order today."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

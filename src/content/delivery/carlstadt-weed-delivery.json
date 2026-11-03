@@ -1,0 +1,429 @@
+{
+ "slug": "carlstadt-weed-delivery",
+ "path": "/service/carlstadt-weed-delivery/",
+ "url": "https://ladyljerseycity.com/service/carlstadt-weed-delivery/",
+ "name": "Carlstadt",
+ "county": "Bergen",
+ "title": "Reliable Carlstadt Weed Delivery | LADY L CANNABIS",
+ "description": "Trust Lady L for fast, discreet Carlstadt weed delivery straight to your door. Get cannabis delivery in Carlstadt, NJ, from a woman-owned West Side microdispensary rooted in community.",
+ "canonical": "https://ladyljerseycity.com/service/carlstadt-weed-delivery/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Unique Carlstadt Weed Delivery",
+ "postId": "989",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/service/carlstadt-weed-delivery/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/",
+        "name": "Services"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/service/carlstadt-weed-delivery/",
+        "name": "Carlstadt Weed Delivery"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "unique-carlstadt-weed-delivery",
+   "src": "bde-section-989-100",
+   "heading": "Unique Carlstadt Weed Delivery",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Real Carlstadt Weed Delivery From the West Side"
+    },
+    {
+     "type": "button",
+     "text": "Order Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    },
+    {
+     "type": "button",
+     "text": "view deals",
+     "href": "https://ladyljerseycity.com/jersey-city-weed-deals/"
+    },
+    {
+     "type": "p",
+     "html": "What Lili Hollandt built on Jersey City's West Side wasn't just a cannabis microdispensary. <a href=\"https://ladyljerseycity.com/\">Lady L Cannabis</a> was a proof of concept: that a small, independent, woman-owned operation could out-care, out-curate, and out-serve anything a larger corporate chain might offer. The result is a delivery service that customers across Bergen County and beyond have come to rely on for exactly those reasons. Our Carlstadt weed delivery program extends that same proof to a borough in the heart of the Meadowlands, with easy access to some of the region's most notable entertainment and dining destinations. Place your order for weed delivery Carlstadt can trust and count on, and we’ll handle the rest."
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "our-carlstadt-cannabis-delivery-menu-travels-well",
+   "src": "bde-section-989-109",
+   "heading": "Our Carlstadt Cannabis Delivery Menu Travels Well",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "The Lady L menu is built around a straightforward idea: carry only what's worth carrying. As a result, every product earns its place in the lineup through quality, freshness, and consistent customer demand. Here's what you'll find when you browse:"
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_bud.webp",
+      "alt": "LadyL_Iconography_Bud",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Bud.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Flower",
+     "level": 3,
+     "html": "Flower is at the center of everything on the Lady L menu, and the selection reflects that. Brands like Rythm, Kind Tree, Good Green, Legend, and Happy Farmer span a range from reliable everyday picks to premium, top-shelf options for customers who want the best the menu has to offer. Stock rotates, so there's always something fresh and new worth checking out."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_preroll.webp",
+      "alt": "LadyL_Iconography_Preroll",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Preroll.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Pre-Rolls",
+     "level": 3,
+     "html": "Pre-rolls offer a ready-to-go experience without any of the prep work. We carry both classic and infused varieties from brands that meet our quality bar, with pricing that makes adding one to any order a simple decision, not a second thought."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_gummies.webp",
+      "alt": "LadyL_Iconography_Gummies",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Gummies.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Edibles",
+     "level": 3,
+     "html": "The Lady L edibles section gives customers real latitude. Gummies, chocolates, and other ingestible formats come in a wide range of strengths, onset profiles, and flavors, making it one of the more personal categories on the menu. Availability shifts regularly, so the live menu is always the most reliable source of what's in stock."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_vape.webp",
+      "alt": "LadyL_Iconography_Vape",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Vape.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Vapes",
+     "level": 3,
+     "html": "Vapes occupy a distinct space on the delivery menu: clean, portable, and designed for customers who want a consistent, low-profile experience every time. We carry top cartridge brands and full-spectrum 1g and 2g disposables."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/image-1914.webp",
+     "alt": "image 1914",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/image-1914.webp",
+     "w": 135,
+     "h": 205
+    },
+    {
+     "type": "h3",
+     "text": "Topicals & Tinctures"
+    },
+    {
+     "type": "p",
+     "html": "Topicals and tinctures serve a purpose that nothing else on the menu quite covers. Topicals work at the point of contact on the skin for targeted comfort, while tinctures bring a measured, adaptable dosing approach that fits naturally into daily routines."
+    },
+    {
+     "type": "card",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates",
+     "img": {
+      "src": "/assets/photos/ll/ladyl_iconography_concentrate.webp",
+      "alt": "LadyL_Iconography_Concentrate",
+      "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_Concentrate.webp",
+      "w": 300,
+      "h": 300
+     },
+     "title": "Concentrates",
+     "level": 3,
+     "html": "Concentrates tend to attract customers who know exactly what they want, and Lady L takes that seriously. Solventless and live resin options regularly appear on the delivery menu. If potency and purity drive your decisions, this is the category to keep an eye on."
+    },
+    {
+     "type": "h3",
+     "text": "RSOs"
+    },
+    {
+     "type": "p",
+     "html": "RSOs deliver a full-spectrum, concentrated cannabis experience that experienced consumers return to for the versatility and range of applications they provide. Typically available in syringe form, they can be used in multiple ways depending on personal preference. Check the live menu for current availability."
+    },
+    {
+     "type": "button",
+     "text": "order NOW",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "low-key-delivery-high-key-professional",
+   "src": "bde-section-989-141",
+   "heading": "Low-Key Delivery. High-Key Professional.",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Every Carlstadt weed delivery order from Lady L is handled with the same care and discretion that has earned the service a strong following across Bergen County and beyond. Orders go out in plain, unmarked packaging, and our drivers approach every stop with a steady, unassuming professionalism that makes the whole process feel completely unremarkable. That's exactly how it should be."
+    },
+    {
+     "type": "p",
+     "html": "ID verification is built into every handoff, and all drivers operate fully within New Jersey's legal framework for cannabis delivery. Trained, courteous, and focused on a clean exchange every time."
+    },
+    {
+     "type": "p",
+     "html": "Typical delivery time runs approximately one hour. To keep every weed delivery Carlstadt customers rely on running on schedule, Lady L operates through a combination of in-house drivers and a trusted third-party service, maintaining tight windows and consistent timing across the full coverage area."
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Professional."
+  },
+  {
+   "id": "how-cannabis-delivery-in-carlstadt-works",
+   "src": "bde-section-989-150",
+   "heading": "How Cannabis Delivery in Carlstadt Works",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Placing a Carlstadt weed delivery order with Lady L is a clear, well-defined process that takes just a few minutes from start to finish. Here's what to expect at every step."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Set Up Your Lady L Account"
+    },
+    {
+     "type": "p",
+     "html": "Before placing your first delivery order, you'll need to create an account through our online ordering platform by uploading your current government-issued photo ID, verifying your delivery address, and adding your mobile phone number. Having accurate information on file allows our team to process your order quickly and contact you if we need assistance locating your address."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Browse the Menu and Add to Cart"
+    },
+    {
+     "type": "p",
+     "html": "Pull up the delivery menu and browse what's currently in stock. Every item reflects real-time availability, so what you see is what you can actually get. Take your time, make your selections, and give your cart a final look before heading to checkout."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Submit Payment"
+    },
+    {
+     "type": "p",
+     "html": "Once you've selected your products, choose your preferred payment method — either <em>Pay by Bank </em>or <em>Pay by Text</em>. To avoid any delays, please ensure payment is completed before checking out, as only fully paid orders are eligible for delivery dispatch."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_shoppingcart.webp",
+     "alt": "LadyL_Iconography_ShoppingCart",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/LadyL_Iconography_ShoppingCart.webp",
+     "w": 1500,
+     "h": 1500
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Expect Your Driver in About an Hour"
+    },
+    {
+     "type": "p",
+     "html": "After your order is confirmed, a driver heads out. Most deliveries arrive in approximately one hour. Your driver will contact you upon arrival and verify your valid government-issued ID before the handoff is complete."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "before-or-after-your-delivery-order",
+   "src": "bde-section-989-175",
+   "heading": "Before or After Your Delivery Order",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://www.carlstadtnj.us/\">Carlstadt</a> makes the most of its location. The borough sits right next to the Meadowlands sports and entertainment complex, putting residents within easy reach of MetLife Stadium and major concert venues, while the local dining and craft beer scene gives the community its own distinct identity right at home. Getting the weed delivery Carlstadt customers can count on from Lady L means your plans stay in place, whether you're heading out to one of the borough's standout spots or settling in at home."
+    },
+    {
+     "type": "card",
+     "href": "https://bolerosnort.com/",
+     "title": "Bolera Snort Brewery",
+     "level": 3,
+     "html": "At 316 20th Street, Bolero Snort has been crafting hoof-inspired ales and lagers in Carlstadt since 2013, opening its own production facility and tasting room in 2020 after years of contract brewing across the tristate area. The taproom pours a rotating selection of classic and experimental styles, from crisp lagers to bold IPAs and creative sour ales, with a beer garden, food truck partnerships, and private event space rounding out the experience. Its location just a short walk from MetLife Stadium, has made it a natural gathering spot for pre- and post-event crowds."
+    },
+    {
+     "type": "card",
+     "href": "https://visitingamuseum.com/2018/03/28/carlstadt-historical-firehouse-museum-division-avenue-sixth-street-carlstadt-nj-07072/",
+     "title": "Carlstadt Historical Society Firehouse Museum",
+     "level": 3,
+     "html": "Housed in the borough's 1919 firehouse at Division and Sixth, the Carlstadt Historical Society museum preserves the community's story across two floors of exhibits. The ground floor covers WWI and WWII memorabilia from local residents, police and fire department artifacts, and a collection of bottles manufactured by Carlstadt's once-thriving glass industry. The upper floor is dedicated to the borough's school history, with class photos, graduation pennants from what is recognized as the oldest continuous school picnic in the United States, and donated items from former businesses that once lined the town's streets."
+    },
+    {
+     "type": "card",
+     "href": "https://www.njsea.com/parks-and-trails/#boats",
+     "title": "River Barge Park",
+     "level": 3,
+     "html": "River Barge Park is a 5.5-acre waterfront park on the Hackensack River managed by the New Jersey Sports and Exposition Authority. The park offers a boat ramp, paddling and fishing dock, a scenic promenade lined with native plantings, picnic tables, and catch-and-release fishing. The site has a layered history, having served as a WWII seaplane training base in the 1940s before becoming a popular local restaurant, known as the Barge Club, in the ‘70s and ‘80s. Nautical artifacts from that era are displayed throughout the park today."
+    },
+    {
+     "type": "card",
+     "href": "https://reddsrestaurant.com/",
+     "title": "Redd's Restaurant & Biergarten",
+     "level": 3,
+     "html": "Redd's at 317 Washington Avenue is a casual bar and restaurant with an outdoor biergarten built around long communal tables, an extensive global beer selection, and 35-plus flat screens for sports viewing. The venue serves as a natural hub on event days at nearby MetLife Stadium, offering shuttle service to and from the complex for major events. A second-level banquet facility accommodates private gatherings from 30 to 200 guests, making it one of the more versatile event spaces in the area."
+    },
+    {
+     "type": "card",
+     "href": "https://fortalezarestaurants.com/",
+     "title": "La Fortaleza",
+     "level": 3,
+     "html": "La Fortaleza brings authentic Mexican cuisine to Carlstadt as part of a multi-location operation spanning several communities across New Jersey and New York. The menu centers on traditional recipes and fresh ingredients, with tacos, enchiladas, burritos, and margaritas anchoring a lineup that has earned La Fortaleza a loyal following across the region. The Carlstadt location brings that same commitment to flavor and authenticity to the heart of the borough."
+    },
+    {
+     "type": "card",
+     "href": "https://www.ilvillaggio.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+     "title": "Il Villaggio",
+     "level": 3,
+     "html": "Il Villaggio at 651 Route 17 North has been serving traditional Italian cuisine in Carlstadt for nearly four decades, earning a reputation as one of the most authentic Italian dining experiences in the region. Professional chefs work exclusively with fresh ingredients, rotating daily specials alongside a full menu of classic dishes prepared with consistency and care. An intimate yet spacious dining room and a dedicated banquet operation make it equally suited to a quiet dinner and a large private celebration."
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "carlstadt-weed-delivery-faq",
+   "src": "bde-section-989-204",
+   "heading": "Carlstadt Weed Delivery FAQ",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What areas does Lady L Cannabis serve in Carlstadt?",
+       "a_html": "<p>As part of our Zone 2 service area, Carlstadt (ZIP code 07072) is fully within Lady L's delivery territory. Our drivers reach customers throughout the borough, from the residential streets along Madison Street and Washington Avenue to the neighborhoods closer to the Hackensack River waterfront and the commercial corridors along Route 17.</p>\n<p>Our delivery footprint extends well beyond Carlstadt's borders, reaching communities across Hudson, Essex, Bergen, Union, and Passaic counties. From neighboring towns like East Rutherford, Rutherford, and Wood-Ridge to communities further out across the region, Lady L covers a broad stretch of northern New Jersey.</p>"
+      },
+      {
+       "q": "What hours is Carlstadt weed delivery available from Lady L?",
+       "a_html": "<p>Lady L's delivery schedule for Carlstadt runs as follows:</p>\n<p><strong>Store Hours</strong></p>\n<ul><li>Monday - Thursday 10am to 9pm</li><li>Friday - Saturday 10am to 10pm</li><li>Sunday - 11am to 8pm</li></ul>\n<p><strong>Delivery Hours</strong></p>\n<ul><li>Monday - Wednesday 2pm to 9pm</li><li>Thursday - 12pm to 9pm</li><li>Friday - Saturday 12pm to 10pm</li><li>Sunday 12pm to 8pm</li></ul>\n<p>Every order must be placed and confirmed before the last call time for that day.</p>\n<p>A $75 order minimum applies, with free delivery on all qualifying orders.</p>"
+      },
+      {
+       "q": "How old do you have to be to place a cannabis delivery order?",
+       "a_html": "<p>Per New Jersey's adult-use cannabis laws, the minimum age is 21, and that applies to every order Lady L processes without exception. Age is verified during account registration, and your driver will confirm your ID upon arrival before completing the handoff.</p>"
+      },
+      {
+       "q": "What ID does Lady L require for cannabis delivery?",
+       "a_html": "<p>A valid government-issued photo ID is required twice, first uploaded to your Lady L account before your first order, and then presented in person when your driver arrives. Driver's licenses, state-issued IDs, and passports all qualify. Unexpired out-of-state IDs are accepted without issue.</p>"
+      },
+      {
+       "q": "Is a medical cannabis card needed to receive Lady L's Carlstadt weed delivery?",
+       "a_html": "<p>No medical card is required. Lady L is a fully adult-use operation, open to any customer 21 or older with a valid ID and a confirmed account. No referral, no card, and no special status needed.</p>"
+      },
+      {
+       "q": "What are the per-order purchase limits for cannabis delivery in Carlstadt?",
+       "a_html": "<p>New Jersey sets the per-transaction limit at the equivalent of one ounce, or 28.35 grams, of usable cannabis. Here's how that breaks down by product type:</p>\n<ul><li><strong>Dried Flower/Bud</strong>: 28.35 grams (1 ounce).</li><li><strong>Concentrates/Resin/Oils</strong>: 4 grams (solid or liquid/vaporized oil).</li><li><strong>Ingestible Items (Gummies/Edibles)</strong>: 1,000 mg of THC (roughly ten 100mg packages).</li><li><strong>Maximum Possession Limit</strong>: Up to 6 ounces of cannabis and cannabis products.</li><li><strong>Mixing Products</strong>: You can mix and match, for example, by purchasing 1/2 ounce of flower and 2 grams of concentrates.</li><li><strong>Daily Limits</strong>: The 1-ounce limit is generally considered a daily limit across all dispensaries.</li></ul>"
+      },
+      {
+       "q": "What will the taxes be on my Carlstadt cannabis delivery order?",
+       "a_html": "<p>Three charges apply to adult-use cannabis in New Jersey: a 6.625% state sales tax, a $2.50-per-ounce Social Equity Excise Fee (SEEF), and a 2% municipal transfer or user tax, where the local municipality has authorized it. Every charge is itemized at checkout before you confirm, so there are no surprises.</p>"
+      },
+      {
+       "q": "How does payment work for weed delivery Carlstadt residents order from Lady L?",
+       "a_html": "<p>We collect payment in full before your order is placed and we send a driver your way. Lady L accepts ACH payment and a debit option for delivery customers. Cash is not accepted for delivery orders. Set up your payment method through your Lady L account at registration, and call 201-595-0706 with any specific payment questions.</p>"
+      },
+      {
+       "q": "What should I do if my delivery is running behind schedule?",
+       "a_html": "<p>One hour is the typical window, but order volume, distance, and road conditions can all affect timing on any given day. If your order is taking longer than expected, reach out to our team directly, and we'll give you a straight answer on where things stand.</p>"
+      },
+      {
+       "q": "Can I make changes to my order or cancel it once it's been submitted?",
+       "a_html": "<p>The sooner you contact us, the better. Once a driver is dispatched, making changes to an order may not be possible. Call us at 201-595-0706 or reach out through the website, and our team will do whatever we can to help.</p>"
+      },
+      {
+       "q": "Does Lady L offer Carlstadt weed delivery deals or discounts?",
+       "a_html": "<p>Yep! Lady L does offer deals, although our rotating<a href=\"https://ladyljerseycity.com/jersey-city-weed-deals/\"> delivery deals differ from in-store promotions</a>. Checking with our team or keeping an eye on the promotions section of the website is the best way to stay up to date on what's available to delivery customers.</p>\n<p>Every delivery order also earns loyalty points at the same rate as in-store purchases. A dollar spent is a point earned, and once you hit 100 points, that converts to $5 in store credit that can be applied to future orders. On top of that, Lady L runs dedicated discount programs for specific groups, including first-time customers, veterans and military members, seniors, and several others.</p>"
+      },
+      {
+       "q": "Is tipping the delivery drivers expected?",
+       "a_html": "<p>Tipping is always optional, but our drivers consistently bring care, discretion, and professionalism to every delivery. If your experience hit the mark from start to finish, a tip in the 15-20% range is a meaningful way to acknowledge that.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "carlstadt-weed-delivery-done-right-by-lady-l",
+   "src": "bde-section-989-214",
+   "heading": "Carlstadt Weed Delivery, Done Right by Lady L",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Carlstadt sits at the center of one of the most connected stretches of northern New Jersey, and Lady L Cannabis is proud to be part of the picture. Built from the ground up as a woman-owned West Side microdispensary focused on quality, care, and genuine community connection, our Carlstadt weed delivery service brings that same foundation to every order we fulfill. A curated product lineup and trained, professional drivers are just the beginning of what sets us apart."
+    },
+    {
+     "type": "p",
+     "html": "Lady L is proud to serve<a href=\"https://ladyljerseycity.com/service/\"> Carlstadt and the surrounding communities</a> with cannabis delivery that's consistent, discreet, and built to last. We're here when you need us!"
+    },
+    {
+     "type": "button",
+     "text": "Order for Delivery",
+     "href": "https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city"
+    }
+   ],
+   "headingLevel": 2,
+   "headingAccent": "Lady L"
+  }
+ ]
+}

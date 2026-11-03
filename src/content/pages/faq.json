@@ -1,0 +1,202 @@
+{
+ "slug": "faq",
+ "path": "/faq/",
+ "url": "https://ladyljerseycity.com/faq/",
+ "title": "Frequently Asked Questions | Find Answers Here | LADY L CANNABIS",
+ "description": "Explore detailed answers to common questions about Lady L Cannabis, including our products, loyalty program, and safe usage guidelines.",
+ "canonical": "https://ladyljerseycity.com/faq/",
+ "ogImage": "",
+ "ogImageSrc": "",
+ "h1": "Frequently Asked Questions",
+ "postId": "543",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/faq/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/faq/",
+        "name": "FAQs"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/faq/#webpage",
+     "url": "https://ladyljerseycity.com/faq/",
+     "name": "Frequently Asked Questions | Find Answers Here | LADY L CANNABIS",
+     "datePublished": "2026-04-16T01:10:46-06:00",
+     "dateModified": "2026-04-16T02:40:17-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/faq/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "Article",
+     "headline": "Frequently Asked Questions | Find Answers Here | LADY L CANNABIS",
+     "datePublished": "2026-04-16T01:10:46-06:00",
+     "dateModified": "2026-04-16T02:40:17-06:00",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Explore detailed answers to common questions about Lady L Cannabis, including our products, loyalty program, and safe usage guidelines.",
+     "name": "Frequently Asked Questions | Find Answers Here | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/faq/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/faq/#webpage"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/faq/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "frequently-asked-questions",
+   "src": "bde-section-543-100",
+   "heading": "Frequently Asked Questions",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_iconography_faq.webp",
+     "alt": "LadyL_Iconography_FAQ",
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/04/LadyL_Iconography_FAQ.webp",
+     "w": 500,
+     "h": 500
+    }
+   ],
+   "headingLevel": 1
+  },
+  {
+   "id": "before-you-visit",
+   "src": "bde-section-543-110",
+   "heading": "before you visit",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "What do I need to bring with me to shop at the store?",
+       "a_html": "<p>You’ll need to bring a photo ID to verify that you are over 21+.</p>"
+      },
+      {
+       "q": "Can I place an order for pickup?",
+       "a_html": "<p>Yes, we absolutely recommend you browse our menu and place an order before coming by.</p>"
+      },
+      {
+       "q": "Do you accept cash or cards?",
+       "a_html": "<p>We accept cash and debit card only. Debit card transactions are processed using “cashless atm” wherein our POS debit will take an amount higher than your receipt total and give you the difference back in cash.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally purchase at one time?",
+       "a_html": "<p>Adults aged 21 and over can purchase up to the equivalent of <strong>1 ounce (28.35 grams)</strong> of usable cannabis per transaction. This includes:</p>\n<ul><li><p><strong>28.35 grams (1 ounce)</strong> of dried flower</p>\n</li><li><p><strong>4 grams</strong> of cannabis concentrates</p>\n</li><li><p><strong>4 grams</strong> of oil formularized for vape cartridges</p>\n</li><li><p><strong>1,000 mg</strong> of ingestible cannabis-infused products (edibles)</p>\n</li></ul>\n<p>Consumers may purchase combinations of these products, provided the total does not exceed the equivalent of 1 ounce per transaction.</p>"
+      },
+      {
+       "q": "Is there parking at the store?",
+       "a_html": "<p>No, but there are metered spots right in front of the shop on West Side Ave.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "shopping",
+   "src": "bde-section-543-119",
+   "heading": "Shopping",
+   "blocks": [
+    {
+     "type": "faq",
+     "items": [
+      {
+       "q": "Can I ask budtenders for recommendations?",
+       "a_html": "<p>Yes, please do. Our experienced retail staff is ready to point you to a product just right for you.</p>"
+      },
+      {
+       "q": "How much cannabis can I legally purchase at one time?",
+       "a_html": "<p>Adults aged 21 and over can purchase up to the equivalent of <strong>1 ounce (28.35 grams)</strong> of usable cannabis per transaction. This includes:</p>\n<ul><li><p><strong>28.35 grams (1 ounce)</strong> of dried flower</p>\n</li><li><p><strong>4 grams</strong> of cannabis concentrates</p>\n</li><li><p><strong>4 grams</strong> of oil formularized for vape cartridges</p>\n</li><li><p><strong>1,000 mg</strong> of ingestible cannabis-infused products (edibles)</p>\n</li></ul>\n<p>Consumers may purchase combinations of these products, provided the total does not exceed the equivalent of 1 ounce per transaction.</p>"
+      },
+      {
+       "q": "Do you accept cash or cards?",
+       "a_html": "<p>We accept cash and debit card only. Debit card transactions are processed using “cashless atm” wherein our POS debit will take an amount higher than your receipt total and give you the difference back in cash. There is a $3.50 ATM fee.</p>"
+      },
+      {
+       "q": "What is a cashless ATM transaction?",
+       "a_html": "<p>A cashless ATM is a workaround many dispensaries use because traditional credit card networks like Visa and Mastercard don’t allow cannabis transactions.</p>\n<p>Cannabis is still federally illegal, so banks and credit card companies won’t process payments the way they would at a grocery store or gas station.</p>\n<p>Instead, when you pay with your debit card at a dispensary, the system runs it like an ATM withdrawal. You’re basically \"withdrawing\" cash that goes straight to the dispensary. The total is often rounded to the nearest $5 or $10, and you might get small change back. There is also a $3.50 ATM fee.</p>\n<p>It’s not ideal—but until federal laws change, it’s one of the few digital payment options available.</p>"
+      }
+     ]
+    }
+   ],
+   "headingLevel": 2
+  },
+  {
+   "id": "coming-soon",
+   "src": "bde-section-543-123",
+   "heading": "Coming Soon!",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Coming Soon!"
+    }
+   ],
+   "headingLevel": 2
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-accessories",
+  "file": "assets/generated/g-accessories.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Still-life photograph of exactly three objects arranged apart on deep violet velvet: a small clear glass spoon pipe with a round bowl, a squat round polished brass herb grinder (a short knurled cylinder with a lid), and a small shallow rectangular brass tray with a plain smooth floor and a raised border of repeating Art Deco fan shapes. All three are plain polished metal or clear glass, completely unmarked, with no engraving of words, no script and no lettering anywhere. Two cannabis fan leaves beside them. Centred subject with generous space around it, soft warm light, shallow depth of field, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 4085194832,
+  "requestId": "01a1a2cd-ca34-7bd0-9b8a-ba1c677a1c65",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "c31bb087fb68cb438e37b4a98492cf4748aadc1ce8cfd8c32217fb3c4e98975b",
+  "raw": "tmp/img/raw/g-accessories.1793732768730.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-03T19:06:10.752Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed at full size 2026-11-04: attempt 3. Clear glass spoon pipe, two brass grinders, brass tray with Deco fan motifs, cannabis leaf; no lettering",
+    "at": "2026-11-03T19:11:20.821778+00:00"
+  }
+}

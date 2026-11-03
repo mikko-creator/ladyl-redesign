@@ -1,0 +1,248 @@
+{
+ "slug": "250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them",
+ "path": "/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/",
+ "url": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/",
+ "title": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them. | LADY L CANNABIS",
+ "description": "This year, America turns 250.",
+ "canonical": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/",
+ "ogImage": "/assets/photos/ll/ladyl_july4_template_fireworks_v1-819x1024.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Fireworks_V1-819x1024.webp",
+ "h1": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them.",
+ "postId": "1080",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Fireworks_V1-scaled.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Fireworks_V1-scaled.webp",
+     "width": "2048",
+     "height": "2560",
+     "caption": "250YearsofAmerica",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/",
+        "name": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#webpage",
+     "url": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/",
+     "name": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them. | LADY L CANNABIS",
+     "datePublished": "2026-07-27T10:30:22-06:00",
+     "dateModified": "2026-07-27T10:35:21-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Fireworks_V1-scaled.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them. | LADY L CANNABIS",
+     "datePublished": "2026-07-27T10:30:22-06:00",
+     "dateModified": "2026-07-27T10:35:21-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "This year, America turns 250.",
+     "name": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them. | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Fireworks_V1-scaled.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "1st Annual Costume Contest Results",
+   "href": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/"
+  },
+  {
+   "label": "Next Post",
+   "title": "Dance before deadlines. JC’s first daybreaker is here.",
+   "href": "https://ladyljerseycity.com/blog/dance-before-deadlines-jcs-first-daybreaker-is-here/"
+  }
+ ],
+ "dateText": "",
+ "date": "2026-07-27T10:30:22-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "WP REST featured_media",
+ "image": {
+  "src": "/assets/photos/ll/ladyl_july4_template_fireworks_v1-scaled.webp",
+  "w": 2048,
+  "h": 2560,
+  "alt": "250YearsofAmerica"
+ },
+ "excerpt": "",
+ "html": "<p><img src=\"/assets/photos/ll/ladyl_july4_template_heart_v1-scaled.webp\" alt=\"LadyL July4 Template Heart V1\" width=\"2048\" height=\"2560\"></p>\n<p>This year, America turns 250.</p>\n<p>It’s a milestone worth marking, and, if we’re honest, a milestone worth sitting with. Because for as long as this country has existed, cannabis has occupied a strange and painful place in it: sacred to some, criminalized for others, and enforced along lines that were never actually about the plant.</p>\n<p>For decades, the War on Drugs fell hardest on Black and Brown communities. Arrest rates, sentencing, and lost opportunity were never distributed evenly-even when usage rates were. Women, especially women of color, carried their own version of this weight: as caregivers navigating a system that punished them for a plant now sold legally down the street, as entrepreneurs shut out of an industry built partly on their communities’ backs, as mothers who lost time, custody, and opportunity over something now stocked on dispensary shelves.</p>\n<p>Legal cannabis in New Jersey exists, in part, because people fought to make the industry repair some of what it once destroyed. That’s not a footnote. That’s the whole point of social equity licensing, of reinvestment funds, of the word “equity” being written into the law at all.</p>\n<p>We haven’t forgotten that. We won’t.</p>\n<p><strong>Lady L was built on that responsibility, not just to sell cannabis, but to stand for something bigger.</strong></p>\n<p>We are a woman-owned, independently operated dispensary in Jersey City, and we take that identity seriously. Not as a marketing angle, but as a standard we hold ourselves to. That means:</p>\n<ul><li>Showing up for the Jersey City community beyond our storefront-through events, partnerships, and everyday presence</li><li>Supporting minority-owned and women-owned vendors and collaborators wherever we can</li><li>Being transparent about who we are and how we operate</li><li>Treating our staff, our customers, and our neighbors with the respect this industry’s history demands we take seriously</li><li>Continuing to learn, and continuing to be corrected when we get it wrong</li></ul>\n<p>None of that makes up for 250 years. Nothing could. But it’s the part we can actually do something about-today, in this city, with the people around us.</p>\n<p><strong>A milestone is only worth celebrating if it comes with honesty.</strong></p>\n<p>So this year, alongside the fireworks and the flags, we’re choosing to also hold the harder truth: that freedom in this country has never been distributed equally, and that cannabis legalization, as much progress as it represents, is not the finish line. It’s a checkpoint.</p>\n<p><strong>We believe in a kinder, wiser, softer future.</strong> Not as a slogan, but as a direction we’re actively walking toward-one delivery, one event, one relationship, one accountable decision at a time.</p>\n<p>Thank you for building that future with us.</p>\n<p>With gratitude and resolve,</p>\n<p><strong>The Lady L Team</strong></p>",
+ "sections": [
+  {
+   "id": "250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap",
+   "src": "bde-section-428-104",
+   "heading": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them.",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "s2",
+   "src": "bde-section-428-107",
+   "heading": "",
+   "blocks": [
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/ladyl_july4_template_heart_v1-scaled.webp",
+     "alt": "LadyL July4 Template Heart V1",
+     "w": 2048,
+     "h": 2560,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/07/LadyL_July4_Template_Heart_V1-scaled.webp"
+    },
+    {
+     "type": "p",
+     "html": "This year, America turns 250."
+    },
+    {
+     "type": "p",
+     "html": "It’s a milestone worth marking, and, if we’re honest, a milestone worth sitting with. Because for as long as this country has existed, cannabis has occupied a strange and painful place in it: sacred to some, criminalized for others, and enforced along lines that were never actually about the plant."
+    },
+    {
+     "type": "p",
+     "html": "For decades, the War on Drugs fell hardest on Black and Brown communities. Arrest rates, sentencing, and lost opportunity were never distributed evenly-even when usage rates were. Women, especially women of color, carried their own version of this weight: as caregivers navigating a system that punished them for a plant now sold legally down the street, as entrepreneurs shut out of an industry built partly on their communities’ backs, as mothers who lost time, custody, and opportunity over something now stocked on dispensary shelves."
+    },
+    {
+     "type": "p",
+     "html": "Legal cannabis in New Jersey exists, in part, because people fought to make the industry repair some of what it once destroyed. That’s not a footnote. That’s the whole point of social equity licensing, of reinvestment funds, of the word “equity” being written into the law at all."
+    },
+    {
+     "type": "p",
+     "html": "We haven’t forgotten that. We won’t."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Lady L was built on that responsibility, not just to sell cannabis, but to stand for something bigger.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "We are a woman-owned, independently operated dispensary in Jersey City, and we take that identity seriously. Not as a marketing angle, but as a standard we hold ourselves to. That means:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "Showing up for the Jersey City community beyond our storefront-through events, partnerships, and everyday presence",
+      "Supporting minority-owned and women-owned vendors and collaborators wherever we can",
+      "Being transparent about who we are and how we operate",
+      "Treating our staff, our customers, and our neighbors with the respect this industry’s history demands we take seriously",
+      "Continuing to learn, and continuing to be corrected when we get it wrong"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "None of that makes up for 250 years. Nothing could. But it’s the part we can actually do something about-today, in this city, with the people around us."
+    },
+    {
+     "type": "p",
+     "html": "<strong>A milestone is only worth celebrating if it comes with honesty.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "So this year, alongside the fireworks and the flags, we’re choosing to also hold the harder truth: that freedom in this country has never been distributed equally, and that cannabis legalization, as much progress as it represents, is not the finish line. It’s a checkpoint."
+    },
+    {
+     "type": "p",
+     "html": "<strong>We believe in a kinder, wiser, softer future.</strong> Not as a slogan, but as a direction we’re actively walking toward-one delivery, one event, one relationship, one accountable decision at a time."
+    },
+    {
+     "type": "p",
+     "html": "Thank you for building that future with us."
+    },
+    {
+     "type": "p",
+     "html": "With gratitude and resolve,"
+    },
+    {
+     "type": "p",
+     "html": "<strong>The Lady L Team</strong>"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "slug": "1st-annual-costume-contest-results",
+ "path": "/blog/1st-annual-costume-contest-results/",
+ "url": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/",
+ "title": "1st Annual Costume Contest Results | LADY L CANNABIS",
+ "description": "Halloween at Lady L was one for the books — big thanks to everyone who stopped by in costume, grabbed some goodies, and showed out with serious creativity.",
+ "canonical": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/",
+ "ogImage": "/assets/photos/ll/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp",
+ "h1": "1st Annual Costume Contest Results",
+ "postId": "445",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp",
+     "width": "1500",
+     "height": "2000",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/",
+        "name": "1st Annual Costume Contest Results"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#webpage",
+     "url": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/",
+     "name": "1st Annual Costume Contest Results | LADY L CANNABIS",
+     "datePublished": "2026-03-30T03:50:35-06:00",
+     "dateModified": "2026-05-04T13:02:15-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "1st Annual Costume Contest Results | LADY L CANNABIS",
+     "datePublished": "2026-03-30T03:50:35-06:00",
+     "dateModified": "2026-05-04T13:02:15-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "Halloween at Lady L was one for the books — big thanks to everyone who stopped by in costume, grabbed some goodies, and showed out with serious creativity.",
+     "name": "1st Annual Costume Contest Results | LADY L CANNABIS",
+     "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/1st-annual-costume-contest-results/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Grand Opening Specials",
+   "href": "https://ladyljerseycity.com/blog/grand-opening-specials/"
+  },
+  {
+   "label": "Next Post",
+   "title": "250 Years of America. 5 Years of Legal Cannabis in NJ. The Gap Between Them.",
+   "href": "https://ladyljerseycity.com/blog/250-years-of-america-5-years-of-legal-cannabis-in-nj-the-gap-between-them/"
+  }
+ ],
+ "dateText": "",
+ "date": "2026-03-30T03:50:35-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "WP REST featured_media",
+ "image": {
+  "src": "/assets/photos/ll/be14c96f-6cb9-4250-ae2d-3eeefbfafe84.webp",
+  "w": 1500,
+  "h": 2000,
+  "alt": ""
+ },
+ "excerpt": "Halloween at Lady L was one for the books — big thanks to everyone who stopped by in costume, grabbed some goodies, and showed out with serious creativity. You made the shop come alive (and a little spooky 👻).",
+ "html": "<h3>🎃 Halloween Costume Contest Winners Are In!</h3>\n<p>Halloween at Lady L was one for the books — big thanks to everyone who stopped by in costume, grabbed some goodies, and showed out with serious creativity. You made the shop come alive (and a little spooky 👻).</p>\n<p>After plenty of laughs and tough deliberation from the Lady L crew, we’ve got our winners:</p>\n<p><img src=\"/assets/photos/ll/be14c96f-6cb9-4250-ae2d-3eeefbfafe84-1.webp\" alt=\"Man wearing a cannabis leaf Halloween costume inside Lady L Cannabis store\" width=\"300\" height=\"400\"> <img src=\"/assets/photos/ll/85793790-6d79-4d77-8776-00bd83f9dd8f.webp\" alt=\"Person in a Gumby Halloween costume inside Lady L Cannabis store\" width=\"300\" height=\"533\"></p>\n<p>🥉 <strong>Third Place (shared):</strong> Gumby and Weed Leaf — grabbed a <strong>$1 eighth</strong> for pure Halloween spirit and keeping things green.</p>\n<p><img src=\"/assets/photos/ll/c5a6636e-eda1-4f5e-a3db-0e9d8c77ecc2.webp\" alt=\"Person in a masked axe wielder Halloween costume inside Lady L Cannabis store\" width=\"300\" height=\"533\"></p>\n<p>🥈 <strong>Second Place:</strong> Masked Cannabis Axe Wielding — scored a <strong>$1 half-ounce</strong> for keeping it cleaver.</p>\n<p><img src=\"/assets/photos/ll/f3d43f72-99bc-4000-8840-56cf9359d35e.webp\" alt=\"Woman in a witch Halloween costume inside Lady L Cannabis store\" width=\"300\" height=\"533\"></p>\n<p>🥇 <strong>First Place:</strong> Classic Weed Loving Witch — took home a <strong>$1 ounce</strong> for going all out as the crowd favorite.</p>\n<p><p>You can check out the top costumes on <a href=\"https://www.instagram.com/stories/archive/17930973104999553/\" target=\"_blank\">our Instagram</a> and help us show these legends some love.</p>\n<p>Huge thanks again to everyone who joined in, grabbed a treat (or a trick), and made the day a blast. Keep your eyes out for our next in-store event — and maybe start brainstorming your costume ideas for next year… we’ll be ready.</p>\n<p>🖤</p>\n</p>",
+ "sections": [
+  {
+   "id": "1st-annual-costume-contest-results",
+   "src": "bde-section-428-104",
+   "heading": "1st Annual Costume Contest Results",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "halloween-costume-contest-winners-are-in",
+   "src": "bde-section-428-107",
+   "heading": "🎃 Halloween Costume Contest Winners Are In!",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "Halloween at Lady L was one for the books — big thanks to everyone who stopped by in costume, grabbed some goodies, and showed out with serious creativity. You made the shop come alive (and a little spooky 👻)."
+    },
+    {
+     "type": "p",
+     "html": "After plenty of laughs and tough deliberation from the Lady L crew, we’ve got our winners:"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/be14c96f-6cb9-4250-ae2d-3eeefbfafe84-1.webp",
+     "alt": "Man wearing a cannabis leaf Halloween costume inside Lady L Cannabis store",
+     "w": 300,
+     "h": 400,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/be14c96f-6cb9-4250-ae2d-3eeefbfafe84-1.webp"
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/85793790-6d79-4d77-8776-00bd83f9dd8f.webp",
+     "alt": "Person in a Gumby Halloween costume inside Lady L Cannabis store",
+     "w": 300,
+     "h": 533,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/85793790-6d79-4d77-8776-00bd83f9dd8f.webp"
+    },
+    {
+     "type": "p",
+     "html": "🥉 <strong>Third Place (shared):</strong> Gumby and Weed Leaf — grabbed a <strong>$1 eighth</strong> for pure Halloween spirit and keeping things green."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/c5a6636e-eda1-4f5e-a3db-0e9d8c77ecc2.webp",
+     "alt": "Person in a masked axe wielder Halloween costume inside Lady L Cannabis store",
+     "w": 300,
+     "h": 533,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/c5a6636e-eda1-4f5e-a3db-0e9d8c77ecc2.webp"
+    },
+    {
+     "type": "p",
+     "html": "🥈 <strong>Second Place:</strong> Masked Cannabis Axe Wielding — scored a <strong>$1 half-ounce</strong> for keeping it cleaver."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/f3d43f72-99bc-4000-8840-56cf9359d35e.webp",
+     "alt": "Woman in a witch Halloween costume inside Lady L Cannabis store",
+     "w": 300,
+     "h": 533,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/f3d43f72-99bc-4000-8840-56cf9359d35e.webp"
+    },
+    {
+     "type": "p",
+     "html": "🥇 <strong>First Place:</strong> Classic Weed Loving Witch — took home a <strong>$1 ounce</strong> for going all out as the crowd favorite."
+    },
+    {
+     "type": "p",
+     "html": "You can check out the top costumes on <a href=\"https://www.instagram.com/stories/archive/17930973104999553/\" target=\"_blank\">our Instagram</a> and help us show these legends some love."
+    },
+    {
+     "type": "p",
+     "html": "Huge thanks again to everyone who joined in, grabbed a treat (or a trick), and made the day a blast. Keep your eyes out for our next in-store event — and maybe start brainstorming your costume ideas for next year… we’ll be ready."
+    },
+    {
+     "type": "p",
+     "html": "🖤"
+    }
+   ],
+   "headingLevel": 3
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+{
+ "slug": "why-we-love-wana",
+ "path": "/blog/why-we-love-wana/",
+ "url": "https://ladyljerseycity.com/blog/why-we-love-wana/",
+ "title": "Why We Love Wana — Lady L Cannabis Dispensary",
+ "description": "At Lady L, we’re always on the lookout for brands that not only offer a quality product, but also align with our values—like care, community, and conscious",
+ "canonical": "https://ladyljerseycity.com/blog/why-we-love-wana/",
+ "ogImage": "/assets/photos/ll/lady-lblogwanashowcase.webp",
+ "ogImageSrc": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp",
+ "h1": "Why We Love Wana",
+ "postId": "431",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://ladyljerseycity.com/#person",
+     "name": "LadyLCannabis"
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://ladyljerseycity.com/#website",
+     "url": "https://ladyljerseycity.com",
+     "name": "LadyLCannabis",
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp",
+     "url": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp",
+     "width": "2000",
+     "height": "1000",
+     "caption": "Wana cannabis edible gummy canisters in multiple flavors on purple background",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://ladyljerseycity.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://ladyljerseycity.com/category/blog/",
+        "name": "Blog"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/",
+        "name": "Why We Love Wana"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#webpage",
+     "url": "https://ladyljerseycity.com/blog/why-we-love-wana/",
+     "name": "Why We Love Wana — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:45:57-06:00",
+     "dateModified": "2026-06-08T07:40:48-06:00",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "name": "LadyLCannabis",
+     "url": "https://ladyljerseycity.com/author/ladylcannabis/",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "url": "https://secure.gravatar.com/avatar/71322867c9ebe67dbc76f4c92e5608c4c901aa25411aae7fcd74aa3546328a53?s=96&amp;d=mm&amp;r=g",
+      "caption": "LadyLCannabis",
+      "inLanguage": "en-US"
+     }
+    },
+    {
+     "@type": "BlogPosting",
+     "headline": "Why We Love Wana — Lady L Cannabis Dispensary",
+     "datePublished": "2026-03-30T03:45:57-06:00",
+     "dateModified": "2026-06-08T07:40:48-06:00",
+     "articleSection": "Blog",
+     "author": {
+      "@id": "https://ladyljerseycity.com/author/ladylcannabis/",
+      "name": "LadyLCannabis"
+     },
+     "publisher": {
+      "@id": "https://ladyljerseycity.com/#person"
+     },
+     "description": "At Lady L, we’re always on the lookout for brands that not only offer a quality product, but also align with our values—like care, community, and conscious",
+     "name": "Why We Love Wana — Lady L Cannabis Dispensary",
+     "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#richSnippet",
+     "isPartOf": {
+      "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#webpage"
+     },
+     "image": {
+      "@id": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://ladyljerseycity.com/blog/why-we-love-wana/#webpage"
+     }
+    }
+   ]
+  }
+ ],
+ "adjacent": [
+  {
+   "label": "Previous Post",
+   "title": "Reclaiming Rest: Sleep Is a Power Move",
+   "href": "https://ladyljerseycity.com/blog/reclaiming-rest-sleep-is-a-power-move/"
+  },
+  {
+   "label": "Next Post",
+   "title": "Your Weed Just Paid for Youth Summer Camp",
+   "href": "https://ladyljerseycity.com/blog/jersey-city-weed-just-paid-for-summer-camp/"
+  }
+ ],
+ "dateText": "",
+ "date": "2026-03-30T03:45:57-06:00",
+ "dateSource": "JSON-LD datePublished",
+ "imageSource": "WP REST featured_media",
+ "image": {
+  "src": "/assets/photos/ll/lady-lblogwanashowcase.webp",
+  "w": 2000,
+  "h": 1000,
+  "alt": "Wana cannabis edible gummy canisters in multiple flavors on purple background"
+ },
+ "excerpt": "At Lady L, we’re always on the lookout for brands that not only offer a quality product, but also align with our values—like care, community, and conscious cannabis. That’s why we’re so proud to carry Wana, one of the most trusted and innovative names in edibles.",
+ "html": "<h3><strong>Gummies That Go Beyond the High</strong></h3>\n<p><a href=\"https://g.co/kgs/TSEYo41\" target=\"_blank\">At Lady L</a>, we’re always on the lookout for brands that not only offer a quality product, but also align with our values—like care, community, and conscious cannabis. That’s why we’re so proud to carry <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\"><strong>Wana</strong></a>, one of the most trusted and innovative names in edibles.</p>\n<p>Whether you’re brand new to cannabis or a seasoned enthusiast, <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummies</a> offer something special: <strong>predictable, delicious, plant-powered relief</strong>. Their motto says it all: <em>Enhance your life.</em> And we couldn’t agree more.</p>\n<h4><strong>Science-Backed. Plant-Based. Purpose-Driven.</strong></h4>\n<p>Wana isn’t just here to get you high—they’re here to help you feel better. Their gummies are:</p>\n<ul><li><p><strong>Consistently dosed</strong> so you know exactly what to expect</p>\n</li><li><p><strong>Vegan and gluten-free</strong> with all-natural ingredients</p>\n</li><li><p><strong>Crafted with cannabinoids that fit your lifestyle</strong>, including THC, CBD, CBN, and cutting-edge options like THCV and CBC</p>\n</li></ul>\n<p>From sleep support to mood boosts, Wana offers formulations that make wellness feel easy, accessible, and joyful.</p>\n<p><img src=\"/assets/photos/ll/lady-lblogwanashowcase.webp\" alt=\"Wana cannabis edible gummy canisters in multiple flavors on purple background\" width=\"2000\" height=\"1000\"></p>\n<h4><strong>Why It’s a Fit for Our Community</strong></h4>\n<p><a href=\"https://ladyljerseycity.com/about-us/\">Lady L was built for folks who want to feel at home in a dispensary</a>—who want to explore cannabis at their own pace, without pressure or pretense. Wana gets that. Their gummies are:</p>\n<ul><li><p><strong>Discreet</strong> for everyday use</p>\n</li><li><p><strong>Great-tasting</strong> with real fruit flavors</p>\n</li><li><p><strong>Designed for real life</strong>, whether that’s winding down after work, managing stress, or just enjoying a moment to yourself</p>\n</li></ul>\n<p>And for our core customers—especially women, caregivers, professionals, and folks using cannabis for sleep or relaxation—Wana’s approachable and thoughtful vibe is right on point.</p>\n<h4><strong>Start Low, Feel Good</strong></h4>\n<p>Not sure where to begin? Ask our budtenders to recommend a <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummy</a> that matches your needs. Whether you’re seeking <strong>deep rest</strong>, <strong>daytime focus</strong>, or a <strong>gentle mood lift</strong>, there’s a Wana product for you.</p>\n<p>We’ll help you follow the golden rule of edibles: <em>Start low, go slow.</em></p>\n<h4><strong>Come Taste the Hype</strong></h4>\n<p>We carry a curated selection of <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummies on our menu</a>—and we’re always updating it based on your feedback. If you’ve been curious about edibles but didn’t know where to start, this is a great entry point.</p>\n<p><a href=\"https://g.co/kgs/TSEYo41\" target=\"_blank\">Come by Lady L</a> and see why Wana is one of the most loved edible brands in the country. We think it’s the perfect match for our customers—and for the kind of cannabis culture we’re proud to build here in Jersey City.</p>",
+ "sections": [
+  {
+   "id": "why-we-love-wana",
+   "src": "bde-section-428-104",
+   "heading": "Why We Love Wana",
+   "blocks": [],
+   "headingLevel": 1
+  },
+  {
+   "id": "gummies-that-go-beyond-the-high",
+   "src": "bde-section-428-107",
+   "heading": "Gummies That Go Beyond the High",
+   "blocks": [
+    {
+     "type": "p",
+     "html": "<a href=\"https://g.co/kgs/TSEYo41\" target=\"_blank\">At Lady L</a>, we’re always on the lookout for brands that not only offer a quality product, but also align with our values—like care, community, and conscious cannabis. That’s why we’re so proud to carry <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\"><strong>Wana</strong></a>, one of the most trusted and innovative names in edibles."
+    },
+    {
+     "type": "p",
+     "html": "Whether you’re brand new to cannabis or a seasoned enthusiast, <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummies</a> offer something special: <strong>predictable, delicious, plant-powered relief</strong>. Their motto says it all: <em>Enhance your life.</em> And we couldn’t agree more."
+    },
+    {
+     "type": "h4",
+     "text": "Science-Backed. Plant-Based. Purpose-Driven."
+    },
+    {
+     "type": "p",
+     "html": "Wana isn’t just here to get you high—they’re here to help you feel better. Their gummies are:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Consistently dosed</strong> so you know exactly what to expect",
+      "<strong>Vegan and gluten-free</strong> with all-natural ingredients",
+      "<strong>Crafted with cannabinoids that fit your lifestyle</strong>, including THC, CBD, CBN, and cutting-edge options like THCV and CBC"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "From sleep support to mood boosts, Wana offers formulations that make wellness feel easy, accessible, and joyful."
+    },
+    {
+     "type": "img",
+     "src": "/assets/photos/ll/lady-lblogwanashowcase.webp",
+     "alt": "Wana cannabis edible gummy canisters in multiple flavors on purple background",
+     "w": 2000,
+     "h": 1000,
+     "orig": "https://ladyljerseycity.com/wp-content/uploads/2026/03/Lady-LBlogwanaShowcase.webp"
+    },
+    {
+     "type": "h4",
+     "text": "Why It’s a Fit for Our Community"
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://ladyljerseycity.com/about-us/\">Lady L was built for folks who want to feel at home in a dispensary</a>—who want to explore cannabis at their own pace, without pressure or pretense. Wana gets that. Their gummies are:"
+    },
+    {
+     "type": "ul",
+     "items": [
+      "<strong>Discreet</strong> for everyday use",
+      "<strong>Great-tasting</strong> with real fruit flavors",
+      "<strong>Designed for real life</strong>, whether that’s winding down after work, managing stress, or just enjoying a moment to yourself"
+     ]
+    },
+    {
+     "type": "p",
+     "html": "And for our core customers—especially women, caregivers, professionals, and folks using cannabis for sleep or relaxation—Wana’s approachable and thoughtful vibe is right on point."
+    },
+    {
+     "type": "h4",
+     "text": "Start Low, Feel Good"
+    },
+    {
+     "type": "p",
+     "html": "Not sure where to begin? Ask our budtenders to recommend a <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummy</a> that matches your needs. Whether you’re seeking <strong>deep rest</strong>, <strong>daytime focus</strong>, or a <strong>gentle mood lift</strong>, there’s a Wana product for you."
+    },
+    {
+     "type": "p",
+     "html": "We’ll help you follow the golden rule of edibles: <em>Start low, go slow.</em>"
+    },
+    {
+     "type": "h4",
+     "text": "Come Taste the Hype"
+    },
+    {
+     "type": "p",
+     "html": "We carry a curated selection of <a href=\"https://shop.ladyljerseycity.com/menu/categories/edible/?brand=Wana+Edibles\" target=\"_blank\">Wana gummies on our menu</a>—and we’re always updating it based on your feedback. If you’ve been curious about edibles but didn’t know where to start, this is a great entry point."
+    },
+    {
+     "type": "p",
+     "html": "<a href=\"https://g.co/kgs/TSEYo41\" target=\"_blank\">Come by Lady L</a> and see why Wana is one of the most loved edible brands in the country. We think it’s the perfect match for our customers—and for the kind of cannabis culture we’re proud to build here in Jersey City."
+    }
+   ],
+   "headingLevel": 3
+  }
+ ]
+}

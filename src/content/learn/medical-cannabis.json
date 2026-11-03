@@ -1,0 +1,198 @@
+{
+  "slug": "medical-cannabis",
+  "path": "/education/medical-cannabis/",
+  "title": "Medical Cannabis in New Jersey: How the State Program Works",
+  "seoTitle": "Medical Cannabis in New Jersey: How the State Program Works | LADY L CANNABIS",
+  "description": "A plain overview of New Jersey's Medicinal Cannabis Program: registering, caregivers and ATCs, with official links. Lady L is an adult-use dispensary.",
+  "date": "2026-11-04",
+  "group": "new-jersey",
+  "order": 3,
+  "readMinutes": 6,
+  "kicker": "New Jersey law",
+  "lede": "New Jersey runs a separate program for registered medical patients, with its own registration, ID cards and caregivers. Here is a plain-language overview with official links. One thing up front: Lady L Cannabis is an adult-use dispensary.",
+  "sections": [
+    {
+      "heading": "First, about Lady L",
+      "blocks": [
+        {
+          "type": "callout",
+          "html": "<strong>From <a href=\"/\">Lady L's FAQ</a>:</strong> “No medical card is required. Lady L Cannabis operates as an adult-use dispensary, so any customer 21 or older can walk in and make a purchase.”"
+        },
+        {
+          "type": "p",
+          "html": "This page explains the state's medical program for anyone who wants to understand it. It is general information about New Jersey, not a description of anything Lady L offers."
+        }
+      ]
+    },
+    {
+      "heading": "What the program is",
+      "blocks": [
+        {
+          "type": "facts",
+          "ids": [
+            "mcp-what-it-is",
+            "mcp-laws",
+            "mcp-not-insured",
+            "mcp-privacy"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Who can register",
+      "blocks": [
+        {
+          "type": "facts",
+          "ids": [
+            "elig-requirements",
+            "elig-bona-fide",
+            "elig-adults-and-minors",
+            "elig-out-of-state"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "The state decides which diagnoses qualify and publishes the current list on its <a href=\"https://www.nj.gov/cannabis/medicinalcannabis/\">Medicinal Cannabis Program page</a>. Whether the program fits you is a conversation for you and a registered healthcare practitioner."
+        }
+      ]
+    },
+    {
+      "heading": "How registration works",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The state's steps, in order:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "steps-find-provider",
+            "steps-authorization",
+            "steps-portal-account",
+            "steps-complete-registration",
+            "steps-residency-proof"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "A few more things worth knowing:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "steps-online-only",
+            "steps-no-expedite",
+            "steps-renewal",
+            "fee-id-card",
+            "fee-card-validity"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Caregivers",
+      "blocks": [
+        {
+          "type": "facts",
+          "ids": [
+            "cg-up-to-two",
+            "cg-registration",
+            "cg-qualify",
+            "cg-background-check",
+            "cg-driver-not-needed"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Alternative treatment centers",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "You'll see the term <em>Alternative Treatment Center</em>, or ATC, throughout the state's materials. Here is how buying works inside the program:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "steps-buy-during-review",
+            "medbuy-id-required",
+            "medbuy-priority",
+            "medbuy-tax"
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "<strong>Shopping at Lady L?</strong> <a href=\"/\">Lady L's FAQ</a> puts it simply: “You don't need a medical cannabis card to shop with us.”"
+        }
+      ]
+    },
+    {
+      "heading": "Rules that still apply",
+      "blocks": [
+        {
+          "type": "facts",
+          "ids": [
+            "drive-illegal",
+            "drive-medical-too",
+            "drive-medical-operate",
+            "transport-medical-state-lines",
+            "grow-medical-not-allowed"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Where to ask",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "For registration questions, the program's Patient Services Unit is the place to start:"
+        },
+        {
+          "type": "facts",
+          "ids": [
+            "mcp-patient-services"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "For adult-use shopping questions, <a href=\"/faq/\">Lady L's FAQ</a> and our guide to <a href=\"/education/recreational-cannabis/\">recreational cannabis in New Jersey</a> are a good next stop."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Medicinal Cannabis Program (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/"
+    },
+    {
+      "label": "New Patient Registration (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/patient-registration/"
+    },
+    {
+      "label": "Patient FAQs (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/patient-faqs/"
+    },
+    {
+      "label": "Caregivers (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/caregivers/"
+    },
+    {
+      "label": "Existing Patients (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/medicinalcannabis/patients/"
+    },
+    {
+      "label": "General Information: Legal Cannabis in New Jersey (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/resources/faqs/general/"
+    },
+    {
+      "label": "Don't Drive High (New Jersey Cannabis Regulatory Commission)",
+      "url": "https://www.nj.gov/cannabis/adult-personal/dont-drive-high/"
+    },
+    {
+      "label": "Lady L Cannabis: home page FAQ",
+      "url": "/"
+    }
+  ]
+}
