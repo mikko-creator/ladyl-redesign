@@ -1,30 +1,28 @@
 {
- "tool": "tools/fal-gen.mjs",
- "slot": "g-infused",
- "file": "assets/generated/g-infused.jpg",
- "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
- "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
- "model": "fal-ai/flux-pro/v1.1-ultra",
- "prompt": "Overhead still-life photograph of two thick hand-rolled cannabis cone joints lying side by side, packed full, their narrow ends twisted shut into small paper twists, no filters, the paper fully coated in a glittering crust of golden-amber kief, beside a small brass Art Deco dish holding a few cured green cannabis buds and a little mound of golden kief, on a polished lavender terrazzo slab with coral and cream stone flecks. Clean modern editorial photograph, bohemian Art Deco parlor mood, soft warm light, shallow depth of field. No people, no hands, no text, no letters, no labels, no logos, no cigarettes, nothing candy-like.",
- "input": {
-  "output_format": "jpeg",
-  "safety_tolerance": "5",
-  "aspect_ratio": "3:2"
- },
- "seed": 1190545467,
- "requestId": "01a1a2e2-6bdf-7b43-9c31-c4145f0f4ea4",
- "cutout": null,
- "width": 2496,
- "height": 1664,
- "sha256": "d71609b2f7b55675674a0f992967ffdefe4618b800d24b1e22f85b52a8827667",
- "raw": "tmp/img/raw/g-infused.1793732082070.jpg",
- "attempt": 4,
- "generatedAt": "2026-11-03T18:54:43.904Z",
- "review": {
-  "verdict": "ACCEPT",
-  "note": "two kief-coated cone pre-rolls, cured buds and kief in brass dishes; no text, no people"
- },
- "id": "g-infused",
- "replacedBy": "main session",
- "alt": "Two cone pre-rolls with kief-coated tips beside brass dishes of cured cannabis buds and golden kief on lavender terrazzo."
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-infused",
+  "file": "assets/generated/g-infused.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Pop-art studio product photograph of two plump plain white cone-shaped cannabis pre-rolls, tightly packed with ground green cannabis flower, the wide ends twisted shut, the outer paper of each coated in a fine sparkling dusting of golden-amber kief so they look sugared with gold, lying side by side with a small mound of golden kief beside them, directly on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame, with one small flat cut-paper circle in coral pink just behind them, seen from above at a slight angle. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty lavender margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2"
+  },
+  "seed": 3563015794,
+  "requestId": "01a1a3fc-a9ce-74e3-a812-7141808dbf80",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "311fe5728109ec68f038c4e03c7fb33349ad351c1c1e6c65c7a6bdcf0c5c0782",
+  "raw": "tmp/img/raw/g-infused.1793752615865.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-04T00:36:57.420Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1. Two paper cones filled with ground flower and a kief mound on lilac with a coral circle, hard shadow; no text; the kief coating on the paper did not render (alt says so)",
+    "at": "2026-11-04T00:49:31.231Z"
+  }
 }

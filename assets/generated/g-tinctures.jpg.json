@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Still-life photograph of three small plain amber glass dropper bottles with black rubber bulbs and brass collars, completely bare glass with no labels, no markings and no print, standing among fresh serrated cannabis leaves, dried lavender and small chamomile flowers on a cream marble ledge, a soft lavender plaster wall behind. Centred subject with generous space around it, soft warm light, shallow depth of field, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art studio product photograph of three small plain amber glass dropper bottles with black rubber bulbs and plain black collars, completely bare glass with no labels, no markings and no print, standing in a neat row in the exact centre of the frame on one single flat, seamless, evenly coloured saturated sunflower-yellow paper sweep: the floor and the wall behind are the same one yellow, with no other colour panels. One fresh serrated green cannabis fan leaf lies flat on the floor in front of the bottles, and one small flat cut-paper circle in deep periwinkle blue-violet leans on the yellow wall directly behind them. Hard direct flash light from the upper left with one crisp, hard-edged shadow cast on the yellow wall, saturated, clean and graphic. The whole group is centred and fits inside the middle third of the frame, with wide empty yellow margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 66532147,
-  "requestId": "01a1a2bc-b23e-7c80-95ba-bb32a34b6146",
+  "seed": 3892492843,
+  "requestId": "01a1a405-51d9-7542-8936-95df0c6e13df",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "582b0aa68bde0aa10cfdbc3701fa4afa68f7bc6e71de0066a701c010e82570e0",
-  "raw": "tmp/img/raw/g-tinctures.1793731645073.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-03T18:47:26.380Z",
+  "sha256": "4d5866df12a7d613a18f78addb81c100ed27c81b8b889d23847e04047be665bb",
+  "raw": "tmp/img/raw/g-tinctures.1793753181511.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-04T00:46:23.183Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 1. Two (not three) plain amber dropper bottles, no labels, lavender and chamomile, serrated leaves, cream marble ledge",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 3. Three bare amber dropper bottles centred, cannabis leaf, coral and sky circles, hard shadows; no labels or text. The ground is a yellow floor with a lilac wall (FLUX colour-blocked it in all three attempts); attempts 1 (two bottles, soft stock look) and 2 (two bottles, pink panel) archived",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

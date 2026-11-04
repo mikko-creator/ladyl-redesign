@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Still-life photograph of exactly three objects arranged apart on deep violet velvet: a small clear glass spoon pipe with a round bowl, a squat round polished brass herb grinder (a short knurled cylinder with a lid), and a small shallow rectangular brass tray with a plain smooth floor and a raised border of repeating Art Deco fan shapes. All three are plain polished metal or clear glass, completely unmarked, with no engraving of words, no script and no lettering anywhere. Two cannabis fan leaves beside them. Centred subject with generous space around it, soft warm light, shallow depth of field, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art studio flat lay product photograph, straight down from above, on a flat, seamless, evenly coloured soft coral-pink paper backdrop that fills the whole frame with no wall, no corner and no horizon. Exactly three objects arranged apart in a neat loose row: a small hand-blown clear glass spoon pipe (a short glass stem with a round open bowl at one end), a squat round herb grinder in matte pale sky-blue anodised aluminium (a short knurled cylinder with its lid on), and a small flat rectangular rolling tray in plain glossy sunflower-yellow enamel with a smooth empty floor and a low raised rim. All three are completely plain and unmarked, with no engraving, no pattern, no script and no lettering anywhere. Hard direct flash light from the upper left with one crisp, hard-edged shadow beside each object, saturated, clean and graphic. The group is centred and fits inside the middle half of the frame, with wide empty coral margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 4085194832,
-  "requestId": "01a1a2cd-ca34-7bd0-9b8a-ba1c677a1c65",
+  "seed": 3969737683,
+  "requestId": "01a1a402-10bf-7152-b0a5-696c03155b7e",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "c31bb087fb68cb438e37b4a98492cf4748aadc1ce8cfd8c32217fb3c4e98975b",
-  "raw": "tmp/img/raw/g-accessories.1793732768730.jpg",
-  "attempt": 3,
-  "generatedAt": "2026-11-03T19:06:10.752Z",
+  "sha256": "90c266c26a4fc6d022fd3d95a21aa8ac1a0bc7ccfa00642e29970bf6995488cf",
+  "raw": "tmp/img/raw/g-accessories.1793752971672.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-04T00:42:53.321Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 3. Clear glass spoon pipe, two brass grinders, brass tray with Deco fan motifs, cannabis leaf; no lettering",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 2. Top-down on one seamless coral ground: glass spoon pipe, yellow enamel tray, sky-blue grinder; unmarked; hard shadows. Attempt 1 (archived) had a two-tone corner set and an extra dish",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

@@ -1,4 +1,4 @@
-// learn.mjs - LEARN lane ("Lavender Parlor"): /blog/ (Lady L's blog page words + the post hub), every /blog/<slug>/
+// learn.mjs - LEARN lane ("Paste Up Pop", revision 1): /blog/ (Lady L's blog page words + the post hub), every /blog/<slug>/
 // post (article template), /education/ (NEW hub), /education/<slug>/ for every ctx.learn guide, /cannabis-guide/
 // (Lady L's guide, every word, its form as demoForm()). Lane classes are prefixed n-; FOUNDATION's component classes
 // (.page-hero, .arch, .acard, .glass, .btn, .kicker, .prose, .band...) are used as is. No cross-lane imports.
@@ -80,13 +80,20 @@ function prose(html) {
 }
 
 // ---------- small pieces ----------
-const arch = (inner, mod = '') => `<figure class="arch n-arch${mod ? ' ' + mod : ''}"><span class="arch__img">${inner}</span></figure>`;
+// a photo CLIPPING: paper border, ink outline, slight tilt, a tape strip (all decoration, aria-hidden)
+const tape = (mod = 'top') => `<span class="tape tape--${mod} n-tape n-tape--${mod}" aria-hidden="true"></span>`;
+const dots = (mod, cls) => `<span class="dots dots--${mod} n-dots ${cls}" aria-hidden="true"></span>`;
+const arch = (inner, mod = '') => `<figure class="clipping n-clip${mod ? ' ' + mod : ''}">${tape('top')}<span class="n-clip__img">${inner}</span></figure>`;
+// tile fills rotating through the brand colours (bento)
+const FILLS = ['sky', 'paper', 'coral', 'sun', 'paper', 'lav'];
+const fillOf = (i) => FILLS[i % FILLS.length];
 
-function hero({ crumbs, kicker, title, meta = '', lede = '', ctas = '', art = '', mod = '' }) {
+function hero({ crumbs, kicker, title, meta = '', lede = '', ctas = '', art = '', mod = '', fill = 'sun' }) {
   return `<section class="page-hero n-hero${mod ? ' ' + mod : ''}" data-sunburst aria-labelledby="n-title">
-<div class="band__clip n-hero__clip" aria-hidden="true"><span class="n-hero__glow"></span><span class="grain"></span></div>
-<div class="wrap page-hero__inner n-hero__inner">
-<div class="page-hero__text n-hero__text">
+<div class="band__clip n-hero__clip" aria-hidden="true"><span class="grain"></span></div>
+<div class="wrap page-hero__inner n-hero__inner${art ? '' : ' n-hero__inner--solo'}">
+<div class="page-hero__text bento-tile fill-deep n-hero__text">
+${dots('sun', 'n-hero__dots')}
 ${crumbsHtml(crumbs)}
 ${kicker ? `<p class="kicker n-hero__kicker">${kicker}</p>` : ''}
 <h1 class="display n-hero__title" id="n-title">${title}</h1>
@@ -94,7 +101,7 @@ ${meta ? `<p class="n-meta n-hero__meta">${meta}</p>` : ''}
 ${lede ? `<p class="page-hero__lede lede n-hero__lede">${lede}</p>` : ''}
 ${ctas ? `<div class="btn-row n-hero__ctas">${ctas}</div>` : ''}
 </div>
-${art ? `<div class="page-hero__art n-hero__art" data-tilt>${art}</div>` : ''}
+${art ? `<div class="page-hero__art bento-tile fill-${fill} n-hero__art n-hero__art--${fill}"><span class="sunburst burst n-burst" aria-hidden="true"></span>${dots('ink', 'n-hero__artdots')}<div class="n-hero__frame" data-tilt="3">${art}</div></div>` : ''}
 </div>
 </section>`;
 }
@@ -127,8 +134,8 @@ function metaOf(it) {
   return `<time datetime="${escA(ymd(it.date))}">${esc(it.dateText)}</time>`;
 }
 function card(it, { i = 0, h = 'h3', sizes = CARD_SIZES, excerpt = true } = {}) {
-  return `<li class="n-grid__item" data-reveal style="--i:${i % 6}"><a class="acard n-card${it.kind === 'guide' ? ' n-card--guide' : ''}"${linkAttrs(it.link)}>
-<span class="acard__media n-card__media">${media(it.ph, it.gen, { sizes, alt: '' })}</span>
+  return `<li class="n-grid__item" data-reveal style="--i:${i % 6}"><a class="acard bento-tile fill-${fillOf(i)} n-card n-fill--${fillOf(i)}${it.kind === 'guide' ? ' n-card--guide' : ''}"${linkAttrs(it.link)}>
+<span class="n-card__clip${i % 2 ? ' n-card__clip--r' : ''}">${tape(i % 2 ? 'tr' : 'tl')}<span class="acard__media n-card__media">${media(it.ph, it.gen, { sizes, alt: '' })}</span></span>
 <span class="acard__body n-card__body">
 <span class="acard__meta n-card__meta">${metaOf(it)}</span>
 <${h} class="acard__title n-card__title">${esc(it.title)}</${h}>
@@ -137,7 +144,9 @@ ${excerpt && it.excerpt ? `<span class="n-card__excerpt">${esc(it.excerpt)}</spa
 </span>
 </a></li>`;
 }
-const grid = (items, opts = {}) => `<ul class="n-grid${opts.cols ? ' n-grid--' + opts.cols : ''}${opts.swipe === false ? '' : ' n-grid--swipe'}" role="list">${items.map((it, i) => card(it, { i, ...opts })).join('\n')}</ul>`;
+// a bento: the item count picks the span pattern in learn.css (n-bento--1..5, n-bento--n for 6 or more)
+const bentoCls = (n) => `n-bento n-bento--${n >= 6 ? 'n' : n}`;
+const grid = (items, opts = {}) => `<ul class="n-grid ${bentoCls(items.length)}${opts.swipe === false ? '' : ' n-grid--swipe'}" role="list">${items.map((it, i) => card(it, { i, ...opts })).join('\n')}</ul>`;
 
 // ---------- the shop band closing every post: Lady L's own service labels, both to the live menu ----------
 function shopBand(ctx) {
@@ -148,14 +157,14 @@ function shopBand(ctx) {
   return `<section class="band band--sun n-shop" data-sunburst aria-labelledby="n-shop-title">
 <div class="band__clip" aria-hidden="true"><span class="n-shop__glow"></span><span class="grain"></span></div>
 <div class="wrap n-shop__wrap">
-<div class="glass n-shop__box" data-reveal data-spot>
+<div class="glass bento-tile fill-dark n-shop__box" data-reveal data-spot>${dots('sun', 'n-shop__dots')}
 <p class="kicker">Delivery or pickup</p>
 <h2 class="display n-shop__title" id="n-shop-title">Shop the Lady L <em>menu</em></h2>
 <p class="n-shop__line">Order online, then choose delivery or in-store pickup at ${esc(a.streetShort || a.street)}, ${esc(a.city)}.</p>
 <div class="btn-row"><a class="btn btn--sun"${linkAttrs(menu(ctx))}>${icon('truck')}${esc(del.label)}</a><a class="btn btn--glass"${linkAttrs(menu(ctx))}>${icon('bag')}${esc(pick.label)}</a></div>
 <p class="n-shop__more"><a class="link-arrow"${linkAttrs(del.info || '/service/')}>About delivery${icon('arrow')}</a><a class="link-arrow"${linkAttrs(pick.info || '/in-store-pickup/')}>About pickup${icon('arrow')}</a></p>
 </div>
-<span class="n-shop__cut" data-depth="0.12" aria-hidden="true">${gimg('g-moon-cut', { alt: '', cls: 'cut', sizes: '(min-width: 1024px) 240px, 120px' })}</span>
+<span class="sticker n-shop__cut" data-depth="0.12" aria-hidden="true">${gimg('g-moon-cut', { alt: '', cls: 'cut', sizes: '(min-width: 1024px) 240px, 120px' })}</span>
 </div>
 </section>`;
 }
@@ -196,7 +205,7 @@ function capBlocks(ctx, blocks) {
     if (b.type === 'icon-box') {
       const run = [];
       while (i < blocks.length && blocks[i].type === 'icon-box') run.push(blocks[i++]);
-      out.push(`<div class="n-boxes n-boxes--${Math.min(run.length, 4)}">${run.map((x, k) => `<div class="glass glass--cream glass--lift n-boxes__item" data-reveal style="--i:${k}">${capBlock(ctx, x)}</div>`).join('')}</div>`);
+      out.push(`<div class="n-boxes n-boxes--${Math.min(run.length, 4)} ${bentoCls(run.length)}">${run.map((x, k) => `<div class="glass glass--cream glass--lift n-boxes__item" data-reveal style="--i:${k}">${capBlock(ctx, x)}</div>`).join('')}</div>`);
       continue;
     }
     if (b.type === 'button') {
@@ -226,8 +235,8 @@ function blogHub(ctx, items) {
 ${clipOf('n-ground--cream')}
 <div class="wrap">
 <article class="n-feat" data-reveal>
-<a class="arch arch--wide n-feat__media"${linkAttrs(feat.link)} tabindex="-1" aria-hidden="true"><span class="arch__img">${media(feat.ph, feat.gen, { sizes: '(min-width: 1024px) 720px, 92vw', alt: '' })}</span></a>
-<div class="glass glass--cream glass--lift n-feat__body">
+<a class="bento-tile fill-sky n-feat__media"${linkAttrs(feat.link)} tabindex="-1" aria-hidden="true">${dots('lav', 'n-feat__dots')}<span class="clipping n-clip n-clip--wide" data-tilt="3">${tape('top')}<span class="n-clip__img">${media(feat.ph, feat.gen, { sizes: '(min-width: 1024px) 720px, 92vw', alt: '' })}</span></span></a>
+<div class="glass glass--cream bento-tile fill-sun n-feat__body">
 <p class="kicker">Latest post</p>
 <p class="n-meta n-feat__meta"><time datetime="${escA(ymd(feat.date))}">${esc(feat.dateText)}</time><span>${esc(feat.minutes)} min read</span></p>
 <h2 class="display n-feat__title" id="n-feat-title"><a${linkAttrs(feat.link)}>${esc(feat.title)}</a></h2>
@@ -274,7 +283,7 @@ function postPage(ctx, p, it, items) {
   // Lady L's own Previous Post / Next Post links (captured as p.adjacent)
   const adj = (p.adjacent || []).filter((a) => a && a.href && a.label).map((a) => ({ ...a, link: encPath(liveHref(a.href)) }));
   const pn = adj.length ? `<nav class="n-pn" aria-label="Previous and next posts">${adj.map((a) => `<a class="glass glass--cream glass--lift n-pn__link${/next/i.test(a.label) ? ' n-pn__link--next' : ''}"${linkAttrs(a.link)}><span class="n-pn__dir">${esc(a.label)}</span><span class="n-pn__title">${esc(a.title || '')}</span></a>`).join('')}</nav>` : '';
-  const main = `${hero({ crumbs, kicker: 'The Lady L Blog', title: esc(it.title), meta, art, mod: 'n-hero--article n-hero--post' })}
+  const main = `${hero({ crumbs, kicker: 'The Lady L Blog', title: esc(it.title), meta, art, mod: 'n-hero--article n-hero--post', fill: 'coral' })}
 <section class="band band--cream n-body" aria-label="Article">
 ${clipOf('n-ground--cream')}
 <div class="wrap n-body__wrap">
@@ -318,9 +327,9 @@ function eduHub(ctx, guideItems, eduPosts) {
 ${clipOf('n-ground--cream')}
 <div class="wrap">
 ${head({ kicker: 'Guides', title: 'Learn the <em>basics</em>, then the rules', id: 'n-guides-h', line: 'Plain-language guides. Every New Jersey legal point links to its official source.' })}
-<ul class="n-features" role="list">
-${guideItems.map((it, i) => `<li class="n-features__item" data-reveal style="--i:${i}"><a class="glass glass--cream glass--lift n-feature"${linkAttrs(it.link)}>
-<span class="arch n-feature__arch"><span class="arch__img">${gimg(it.gen, { alt: '', sizes: '(min-width: 1024px) 340px, 80vw' })}</span></span>
+<ul class="n-features ${bentoCls(guideItems.length)}" role="list">
+${guideItems.map((it, i) => `<li class="n-features__item" data-reveal style="--i:${i}"><a class="glass glass--cream bento-tile fill-${['sun', 'sky', 'coral'][i % 3]} n-feature n-fill--${['sun', 'sky', 'coral'][i % 3]}"${linkAttrs(it.link)}>
+<span class="n-card__clip n-feature__arch${i % 2 ? ' n-card__clip--r' : ''}">${tape(i % 2 ? 'tr' : 'tl')}<span class="n-card__media n-feature__media">${gimg(it.gen, { alt: '', sizes: '(min-width: 1024px) 340px, 80vw' })}</span></span>
 <span class="n-feature__body">
 <span class="kicker n-feature__kicker">${esc(it.kicker)}</span>
 <h3 class="display n-feature__title">${esc(it.title)}</h3>
@@ -335,7 +344,7 @@ ${guideItems.map((it, i) => `<li class="n-features__item" data-reveal style="--i
   const guideBand = `<section class="band band--night n-gband" aria-labelledby="n-gband-h">
 ${clipOf('n-ground--night')}
 <div class="wrap n-gband__wrap">
-<a class="arch arch--rainbow n-gband__arch"${linkAttrs('/cannabis-guide/')} tabindex="-1" aria-hidden="true" data-tilt><span class="arch__img">${gimg('g-guide', { alt: '', sizes: '(min-width: 1024px) 420px, 70vw' })}</span></a>
+<a class="bento-tile fill-coral n-gband__arch"${linkAttrs('/cannabis-guide/')} tabindex="-1" aria-hidden="true">${dots('ink', 'n-gband__dots')}<span class="clipping n-clip n-clip--l" data-tilt="3">${tape('top')}<span class="n-clip__img">${gimg('g-guide', { alt: '', sizes: '(min-width: 1024px) 420px, 70vw' })}</span></span></a>
 <div class="n-gband__text" data-reveal>
 <p class="kicker">Lady L’s own guide</p>
 <h2 class="display n-gband__title" id="n-gband-h">The Lady L Cannabis <em>Guide</em></h2>
@@ -352,7 +361,7 @@ ${grid(eduPosts, { cols: eduPosts.length >= 5 ? 5 : eduPosts.length, excerpt: fa
 <p class="n-all"><a class="link-arrow"${linkAttrs('/blog/')}>All posts${icon('arrow')}</a></p>
 </div>
 </section>` : '';
-  const main = `${hero({ crumbs, kicker: 'Education', title: 'Cannabis <em>Education</em>', lede: 'Plain-language guides from Lady L Cannabis, with the New Jersey rules linked to their official sources.', ctas, art, mod: 'n-hero--edu' })}
+  const main = `${hero({ crumbs, kicker: 'Education', title: 'Cannabis <em>Education</em>', lede: 'Plain-language guides from Lady L Cannabis, with the New Jersey rules linked to their official sources.', ctas, art, mod: 'n-hero--edu', fill: 'sky' })}
 ${guidesHtml}
 ${guideBand}
 ${postsHtml}`;
@@ -493,7 +502,7 @@ function cannabisGuide(ctx, rec) {
     // a FAQ block of short topics reads as cards too (each question stays a heading)
     const faq = introBlocks.find((b) => b.type === 'faq');
     const introHtml = capBlocks(ctx, introBlocks.filter((b) => b !== faq && !(b.type === 'embed')));
-    const faqHtml = faq ? `<div class="n-boxes n-boxes--${Math.min((faq.items || []).length, 4)}">${(faq.items || []).map((q, j) => `<div class="glass ${night ? '' : 'glass--cream '}glass--lift n-boxes__item" data-reveal style="--i:${j}"><div class="n-box"><span class="n-box__num numeral" aria-hidden="true">${String(j + 1).padStart(2, '0')}</span><h3 class="n-box__title">${esc(q.q)}</h3><div class="n-box__text">${prose(q.a_html || '')}</div></div></div>`).join('')}</div>` : '';
+    const faqHtml = faq ? `<div class="n-boxes n-boxes--${Math.min((faq.items || []).length, 4)} ${bentoCls((faq.items || []).length)}">${(faq.items || []).map((q, j) => `<div class="glass ${night ? '' : 'glass--cream '}glass--lift n-boxes__item" data-reveal style="--i:${j}"><div class="n-box"><span class="n-box__num numeral" aria-hidden="true">${String(j + 1).padStart(2, '0')}</span><h3 class="n-box__title">${esc(q.q)}</h3><div class="n-box__text">${prose(q.a_html || '')}</div></div></div>`).join('')}</div>` : '';
     const embed = blocks.find((b) => b.type === 'embed' && b.kind === 'map');
     const mapLink = embed ? `<p class="n-cap__btn"><a class="btn btn--glass"${linkAttrs(ctx.site.mapUrl || '#')}>${icon('pin')}Open the map${icon('ext', 'ico--ext')}</a></p>` : '';
     const lone = !asCards && !intro ? groups.flatMap((g) => g.blocks) : [];
@@ -512,11 +521,11 @@ ${mapLink}
 </div>
 </div>
 ${faqHtml}
-${asCards ? `<div class="n-boxes n-boxes--${Math.min(cards.length, 4)}">${cards.map((g, j) => cardHtml(g, j, night)).join('')}</div>` : ''}
+${asCards ? `<div class="n-boxes n-boxes--${Math.min(cards.length, 4)} ${bentoCls(cards.length)}">${cards.map((g, j) => cardHtml(g, j, night)).join('')}</div>` : ''}
 </div>
 </section>`;
   }).join('\n');
-  const main = `${hero({ crumbs, kicker: kickB ? prose(kickB.html) : 'Education', title: esc(h1), lede: 'Flower fundamentals, the classic categories and alternative cannabinoids, in Lady L’s own words.', ctas, art, mod: 'n-hero--cg' })}
+  const main = `${hero({ crumbs, kicker: kickB ? prose(kickB.html) : 'Education', title: esc(h1), lede: 'Flower fundamentals, the classic categories and alternative cannabinoids, in Lady L’s own words.', ctas, art, mod: 'n-hero--cg', fill: 'coral' })}
 ${topRest.length ? `<section class="band band--cream n-cg"><div class="wrap">${capBlocks(ctx, topRest)}</div></section>` : ''}
 ${body}`;
   const title = (rec && rec.title) || titleOf('Cannabis Guide');

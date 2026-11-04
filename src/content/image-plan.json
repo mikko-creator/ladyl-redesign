@@ -1,393 +1,376 @@
 {
- "about": "Generated mood imagery for the Lady L Cannabis redesign pitch (IMAGERY lane, 2026-11-04), design LAVENDER PARLOR: Art Deco x bohemian parlor, clean and modern editorial photography in deep aubergine-violet, lavender, sunflower gold, coral, sky blue and warm cream. Every image is AI-generated mood imagery only: none shows, or stands in for, Lady L's store, staff, customers, products, brands or any real place, and every alt describes what is depicted. fal entries run with: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project> --concurrency 4. Entries marked external: higgsfield-mcp were generated through the Higgsfield MCP (z_image) and labelled with tools/ai-label.mjs; reuse: true makes fal-gen skip them. Cut-outs (cutout: true) are generated on a plain background, then cut out with birefnet v2 (Matting) to a transparent PNG.",
- "defaults": {
-  "model": "fal-ai/flux-pro/v1.1-ultra",
-  "input": {
-   "output_format": "jpeg",
-   "safety_tolerance": "5"
+  "about": "Generated mood imagery for the Lady L Cannabis redesign pitch. Revision 1 (2026-11-04), design PASTE UP POP: mixed media, pop art and bento box on the brand lavender, sunflower, coral and sky blue. The eight category tiles, the home hero still, the guide flat lay, the paper collage texture (g-sunburst-wall) and the haze key frame (g-haze) were regenerated IN PLACE for revision 1 (same ids, files and aspect ratios) with defaults.style; the cut-outs, g-linen and the two Higgsfield stills are kept from revision 0 and were generated with defaults.styleRev0 (each sidecar records the exact prompt). Every image is AI-generated mood imagery only: none shows, or stands in for, Lady L's store, staff, customers, products, brands or any real place, and every alt describes what is depicted. fal entries run with: node tools/fal-gen.mjs --plan src/content/image-plan.json --key-file <path outside the project> --concurrency 4. Entries marked external: higgsfield-mcp were generated through the Higgsfield MCP (z_image) and labelled with tools/ai-label.mjs; reuse: true makes fal-gen skip them. Cut-outs (cutout: true) are generated on a plain background, then cut out with birefnet v2 (Matting) to a transparent PNG.",
+  "defaults": {
+    "model": "fal-ai/flux-pro/v1.1-ultra",
+    "input": {
+      "output_format": "jpeg",
+      "safety_tolerance": "5"
+    },
+    "cutoutModel": "fal-ai/birefnet/v2",
+    "cutoutInput": {
+      "model": "Matting",
+      "operating_resolution": "2048x2048",
+      "output_format": "png",
+      "refine_foreground": true
+    },
+    "style": "Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+    "styleRev0": "Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes."
   },
-  "cutoutModel": "fal-ai/birefnet/v2",
-  "cutoutInput": {
-   "model": "Matting",
-   "operating_resolution": "2048x2048",
-   "output_format": "png",
-   "refine_foreground": true
-  },
-  "style": "Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes."
- },
- "images": [
-  {
-   "id": "g-hero-parlor",
-   "file": "assets/generated/g-hero-parlor.jpg",
-   "role": "backdrop",
-   "usedFor": [
-    "home hero stage backdrop (with the hero-haze loop)",
-    "OG image candidate"
-   ],
-   "negativeSpace": "left 45% dark, calm violet wall for the headline; furniture and plants in the right half",
-   "input": {
-    "aspect_ratio": "16:9"
-   },
-   "alt": "A dim plum-violet Art Deco lounge at dusk: a brass sunburst mirror, a lavender velvet armchair with a coral cushion, a glowing brass lamp, pampas grass, a potted palm in a rattan basket and an arched window.",
-   "prompt": "Wide interior photograph of a moody Art Deco bohemian parlor lounge at dusk, seen straight on. Composition: the entire left half of the frame is an empty, calm, dark deep aubergine-violet plaster wall in deep shadow above a dark floor, with no furniture and no objects at all. Everything sits in the right half: a large round brass Art Deco sunburst mirror with long straight radiating brass rays on the wall, reflecting only a soft blurred wall; below it a lavender velvet armchair with one coral cushion; beside it a tall arched window showing only a soft violet dusk sky; a potted cannabis plant with distinctive serrated seven-fingered fan leaves in a woven rattan basket; tall plumes of pale pampas grass in a cream terrazzo planter; a small brass table lamp glowing warm amber-gold. Low-key cinematic light, warm lamp glow against cool violet dusk, soft deep shadows, calm and luxurious but homely",
-   "rejectReason": "attempt 1: the sofa filled the lower left (the left 45% must stay calm and dark), the plants read as palms, no sunburst mirror",
-   "buildNotes": {
-    "tone": "dark",
-    "calm": "left 45%: plain dark plum wall (a dark potted palm sits low at 12-31% of the width); brightest elements: lamp and window at the far right",
-    "crop": "object-position about 60% 50%; keep the right edge (lamp, window) in frame"
-   }
-  },
-  {
-   "id": "g-sunburst-wall",
-   "file": "assets/generated/g-sunburst-wall.jpg",
-   "role": "backdrop",
-   "usedFor": [
-    "CTA and feature band ground",
-    "inner page hero ground"
-   ],
-   "negativeSpace": "upper two thirds calm; the sunburst rises from the bottom centre",
-   "input": {
-    "aspect_ratio": "16:9"
-   },
-   "alt": "A pale lavender wall with an Art Deco sunburst relief traced in fine gold lines, in soft raking light.",
-   "prompt": "Architectural detail photograph of a smooth matte lavender plaster wall carved with a large shallow Art Deco sunburst relief: long straight rays fan upward and outward from a half-circle at the bottom centre edge of the frame like a rising sun, each ray edged with a fine line of gold leaf. Soft raking light from the left casts gentle shadows along the relief. Calm and minimal, large plain areas of wall above, muted lavender and pale lavender tones with fine sunflower-gold lines and a warm cream highlight",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "upper fifth and both outer sixths",
-    "crop": "object-position 50% 100% keeps the sunburst rising from the bottom"
-   }
-  },
-  {
-   "id": "g-linen",
-   "file": "assets/generated/g-linen.jpg",
-   "role": "backdrop",
-   "usedFor": [
-    "light DAY band ground behind grids and long text"
-   ],
-   "negativeSpace": "the whole frame is calm and light",
-   "input": {
-    "aspect_ratio": "16:9"
-   },
-   "alt": "Draped warm cream fabric with a leafy branch and its soft shadow at the right edge.",
-   "prompt": "Flat lay photograph of smooth warm cream linen fabric filling the entire frame, evenly lit by soft diffused daylight, its fine natural weave visible, with only the faintest, very soft, out-of-focus shadow of a few slender leaves along the far right edge. Extremely subtle and low in contrast, high key, warm cream and pale sand tones, almost entirely plain, nothing else in the frame",
-   "rejectReason": "attempt 2: grey cast, a saturated palm frond object and a hard diagonal light band, not calm linen (attempt 1 kept in tmp/img/rejected as the fallback)",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "centre 40% plain cream; folds on the left, a leafy branch on the right",
-    "crop": "object-position 50% 50%; on phones the plain centre"
-   }
-  },
-  {
-   "id": "g-haze",
-   "file": "assets/generated/g-haze.jpg",
-   "role": "backdrop",
-   "usedFor": [
-    "key frame of the hero-haze motion loop",
-    "night band ground"
-   ],
-   "negativeSpace": "left 40% dark calm haze; window and light rays right of centre",
-   "input": {
-    "aspect_ratio": "16:9"
-   },
-   "alt": "A dark violet room with golden light rays falling through an arched window onto the floor.",
-   "prompt": "Wide atmospheric photograph of a dark, nearly empty violet room with Art Deco plaster mouldings, the air filled with soft drifting lavender haze. A tall arched window in the right third of the frame lets slow golden light rays stream diagonally down through the haze toward the floor right of centre, the beams clearly visible as soft volumetric shafts, a few floating dust motes glinting gold. The left 40 percent of the frame stays dark, calm deep aubergine-violet haze with nothing in it. No furniture. Deep aubergine-violet shadows, lavender haze, sunflower-gold rays, a hint of pale sky blue in the window glass",
-   "buildNotes": {
-    "tone": "dark",
-    "calm": "left 45% dark",
-    "crop": "object-position 70% 50% keeps the window and rays"
-   }
-  },
-  {
-   "id": "g-flower",
-   "file": "assets/generated/g-flower.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/flower/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "Cured cannabis buds in a fluted copper-gold bowl on lavender velvet.",
-   "prompt": "Still-life photograph of four dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and twisted amber pistils, resting in a small round polished brass dish with a stepped fluted Art Deco rim, the dish set on soft lavender velvet. Centred subject with generous space around it, soft warm side light, shallow depth of field, a softly blurred deep violet background",
-   "buildNotes": {
-    "tone": "mid to dark",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-prerolls",
-   "file": "assets/generated/g-prerolls.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/pre-rolls/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "Three plain paper pre-rolls with ground cannabis at their open ends on a gold tray, beside dried lavender and cream flowers on violet velvet.",
-   "prompt": "Still-life photograph of three plain unbranded cannabis pre-rolls lying side by side on a small polished brass Art Deco tray. Each pre-roll is a slim tapered cone of thin translucent unbleached hemp rolling paper, clearly wider at the top end and narrow at the mouth end, tightly packed with ground green cannabis flower that shows faintly through the thin paper, the wide top end neatly twisted closed into a small paper twist, the narrow mouth end finished with a short rolled crutch of the same pale paper, no filter and no tan tip. A few dried lavender sprigs and small dried cream strawflowers beside the tray, on deep violet velvet. Centred subject with generous space around it, soft warm light, shallow depth of field",
-   "rejectReason": "attempt 1: straight tubes with tan filter tips, read as cigarettes",
-   "buildNotes": {
-    "tone": "mid to dark",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-infused",
-   "file": "assets/generated/g-infused.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/infused-pre-rolls/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "Two cone pre-rolls with kief-coated tips beside brass dishes of cured cannabis buds and golden kief on lavender terrazzo.",
-   "prompt": "Close still-life photograph of two plump plain white pre-rolled cannabis joints, slightly cone-shaped, filled with ground cannabis flower, the wide ends twisted shut, the whole outer paper coated in a fine sparkling dusting of golden-amber kief so they look sugared with gold, lying on a smooth polished terrazzo slab with small flat lavender, coral and cream stone flecks set into it, a small brass scoop with a little mound of golden kief beside them. Centred subject with generous space around it, soft warm light, shallow depth of field",
-   "rejectReason": "attempt 2: hollow empty paper tubes with mottled paper, not readable as pre-rolls; attempt 3 replaced by attempt 4 (main session): cone pre-rolls with kief-coated tips",
-   "buildNotes": {
-    "tone": "mid to dark",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-vapes",
-   "file": "assets/generated/g-vapes.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/vapes/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "A single plain vape cartridge filled with amber oil, standing on lavender glass.",
-   "prompt": "Minimal studio product photograph of one single plain unbranded cannabis oil vape cartridge standing upright: a slim clear glass tube filled with golden amber oil, a matte black mouthpiece on top and a plain brushed metal base, completely smooth with no markings, no graduation lines and no print. It stands on a sheet of frosted lavender glass with a soft gold reflection line, in front of a smooth gradient background from lavender to deep violet. Centred subject with generous space around it, soft diffused light",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-edibles",
-   "file": "assets/generated/g-edibles.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/edibles/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "Broken pieces of dark chocolate and a small amber glass jar with a brass lid on cream linen, with dried lavender.",
-   "prompt": "Still-life photograph of a few rough, irregular, hand-broken shards of dark chocolate with jagged broken edges and a plain matte surface, no squares and no moulded pattern, loosely piled next to a small round amber glass jar with a plain brass lid, on warm cream linen with a single sprig of dried lavender. Muted earthy tones, deep brown, amber, cream and a touch of lavender. Centred subject with generous space around it, soft window light, calm and minimal",
-   "rejectReason": "attempt 1: garbled embossed lettering on the chocolate squares",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-tinctures",
-   "file": "assets/generated/g-tinctures.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/tinctures/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "Two plain amber dropper bottles among cannabis-like leaves, lavender and chamomile flowers on a cream marble ledge.",
-   "prompt": "Still-life photograph of three small plain amber glass dropper bottles with black rubber bulbs and brass collars, completely bare glass with no labels, no markings and no print, standing among fresh serrated cannabis leaves, dried lavender and small chamomile flowers on a cream marble ledge, a soft lavender plaster wall behind. Centred subject with generous space around it, soft warm light, shallow depth of field",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-concentrates",
-   "file": "assets/generated/g-concentrates.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/concentrates/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "A glossy pool of amber rosin on parchment paper on a small gold tray, with a brass dab tool.",
-   "prompt": "Macro still-life photograph of a thin, flat, irregular puddle of translucent amber-gold cannabis rosin oil, runny and smooth like pine tree sap, with a few tiny air bubbles and no sparkles, spread on a square of unbleached brown parchment paper, a slim plain brass dab tool resting beside it, the parchment on a small round gold tray on lavender velvet. Centred subject with generous space around it, warm side light, shallow depth of field, deep violet background",
-   "rejectReason": "attempt 2: a glossy orange drop with glitter sparkles that can read as a hard candy or gummy",
-   "buildNotes": {
-    "tone": "mid to dark",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-accessories",
-   "file": "assets/generated/g-accessories.jpg",
-   "role": "tile",
-   "usedFor": [
-    "category tile /products/accessories/"
-   ],
-   "negativeSpace": "subject centred with margin all round (arch crop)",
-   "input": {
-    "aspect_ratio": "3:2"
-   },
-   "alt": "A clear glass spoon pipe, brass herb grinders and a brass tray with Art Deco fan motifs beside a cannabis leaf on violet velvet.",
-   "prompt": "Still-life photograph of exactly three objects arranged apart on deep violet velvet: a small clear glass spoon pipe with a round bowl, a squat round polished brass herb grinder (a short knurled cylinder with a lid), and a small shallow rectangular brass tray with a plain smooth floor and a raised border of repeating Art Deco fan shapes. All three are plain polished metal or clear glass, completely unmarked, with no engraving of words, no script and no lettering anywhere. Two cannabis fan leaves beside them. Centred subject with generous space around it, soft warm light, shallow depth of field",
-   "rejectReason": "attempt 2: a script word engraved inside the tray",
-   "buildNotes": {
-    "tone": "mid to dark",
-    "calm": "subject centred",
-    "crop": "object-position 50% 55% in the arch"
-   }
-  },
-  {
-   "id": "g-guide",
-   "file": "assets/generated/g-guide.jpg",
-   "role": "feature",
-   "usedFor": [
-    "education and cannabis guide feature image"
-   ],
-   "negativeSpace": "generated at 3:4, centre-bottom cropped to 4:5 (1792x2240)",
-   "input": {
-    "aspect_ratio": "3:4"
-   },
-   "alt": "An open notebook with a pressed cannabis leaf on one page, a lavender pen and a lavender ribbon on violet satin.",
-   "prompt": "Top-down still-life photograph of an open notebook with thick cream paper on a deep violet velvet surface. On the left page lies a single pressed dried cannabis fan leaf; the right page holds only delicate graphite line drawings of leaves and small flowers, with no handwriting and no words anywhere. A slim brass fountain pen lies across the lower corner and a lavender silk ribbon bookmark trails from the spine. Soft warm light, calm and minimal",
-   "buildNotes": {
-    "tone": "dark ground, light pages",
-    "calm": "top third plain violet satin",
-    "crop": "object-position 50% 70%"
-   }
-  },
-  {
-   "id": "g-leaf-cut",
-   "file": "assets/generated/g-leaf-cut.png",
-   "role": "cutout",
-   "cutout": true,
-   "usedFor": [
-    "protruding botanical cut-out across section seams"
-   ],
-   "input": {
-    "aspect_ratio": "1:1"
-   },
-   "alt": "",
-   "altDescribes": "A single cannabis fan leaf with gold veins (decorative cut-out, empty alt by default).",
-   "prompt": "A single pressed dried cannabis fan leaf with seven slender serrated leaflets on a short stem, laid flat and photographed straight from above, muted sage green with fine visible veins, the whole leaf fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, soft even light, no shadow, nothing else in the frame",
-   "buildNotes": {
-    "tone": "transparent PNG",
-    "calm": "n/a",
-    "crop": "never crop; size by width"
-   }
-  },
-  {
-   "id": "g-pampas-cut",
-   "file": "assets/generated/g-pampas-cut.png",
-   "role": "cutout",
-   "cutout": true,
-   "usedFor": [
-    "protruding botanical cut-out across section seams"
-   ],
-   "input": {
-    "aspect_ratio": "3:4"
-   },
-   "alt": "",
-   "altDescribes": "A plume of pampas grass on a long stem (decorative cut-out, empty alt by default).",
-   "prompt": "A single tall feathery plume of pampas grass in warm cream and pale beige on its thin stem, gently curving, the whole plume and stem fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey-violet studio background, soft even light, no shadow, nothing else in the frame",
-   "buildNotes": {
-    "tone": "transparent PNG",
-    "calm": "n/a",
-    "crop": "never crop; size by width"
-   }
-  },
-  {
-   "id": "g-moon-cut",
-   "file": "assets/generated/g-moon-cut.png",
-   "role": "cutout",
-   "cutout": true,
-   "usedFor": [
-    "protruding brass ornament cut-out"
-   ],
-   "input": {
-    "aspect_ratio": "1:1"
-   },
-   "alt": "",
-   "altDescribes": "A ridged brass crescent moon with two tiny stars hanging below it on a chain (decorative cut-out, empty alt by default).",
-   "prompt": "A polished brass crescent moon wall ornament, a slim elegant crescent with a fine ridged Art Deco border, with one tiny brass star dangling below it on a short fine brass chain, the whole ornament fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey studio background, soft even light, no shadow, nothing else in the frame",
-   "buildNotes": {
-    "tone": "transparent PNG",
-    "calm": "n/a",
-    "crop": "never crop; size by width"
-   }
-  },
-  {
-   "id": "g-bud-cut",
-   "file": "assets/generated/g-bud-cut.png",
-   "role": "cutout",
-   "cutout": true,
-   "usedFor": [
-    "protruding cut-out on product and category heroes"
-   ],
-   "input": {
-    "aspect_ratio": "1:1"
-   },
-   "alt": "",
-   "altDescribes": "A single cured cannabis bud (decorative cut-out, empty alt by default).",
-   "prompt": "Macro photograph of a single dense cured cannabis flower bud, frosty with resin trichomes, green calyxes with violet hints and twisted amber pistils, the whole bud fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, sharp focus throughout, soft even light, no shadow, nothing else in the frame",
-   "buildNotes": {
-    "tone": "transparent PNG",
-    "calm": "n/a",
-    "crop": "never crop; size by width"
-   }
-  },
-  {
-   "id": "g-hf-arch",
-   "file": "assets/generated/g-hf-arch.jpg",
-   "role": "feature",
-   "external": "higgsfield-mcp",
-   "reuse": true,
-   "model": "higgsfield z_image",
-   "input": {
-    "aspect_ratio": "3:4"
-   },
-   "alt": "A bohemian arched doorway in a lavender wall, with hanging plants, macrame hangers and a rattan chair with a coral cushion.",
-   "prompt": "Interior photograph of a bohemian arched doorway in a smooth lavender plaster wall, trailing green plants hanging in cream macrame hangers inside the arch, a rattan peacock chair with a cream cushion and one coral pillow beside the doorway, a small brass Art Deco wall sconce, warm soft late-afternoon light, clean modern bohemian styling, palette of lavender, warm cream, coral and sunflower gold. No people, no text, no letters, no logos, no signage.",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "lavender wall either side of the arch",
-    "crop": "object-position 50% 55%"
-   }
-  },
-  {
-   "id": "g-hf-mirror",
-   "file": "assets/generated/g-hf-mirror.jpg",
-   "role": "feature",
-   "external": "higgsfield-mcp",
-   "reuse": true,
-   "model": "higgsfield z_image",
-   "input": {
-    "aspect_ratio": "4:3"
-   },
-   "alt": "An Art Deco brass sunburst mirror on a lavender wall above a violet velvet bench, with pampas grass in a cream vase.",
-   "prompt": "Interior photograph of a large round Art Deco brass sunburst mirror hanging on a smooth lavender plaster wall, above a long deep violet velvet bench with a coral cushion, a tall cream vase of pale pampas grass beside the bench, the mirror reflecting only a soft blurred lavender wall, warm soft lamp light, clean modern bohemian styling, palette of lavender, aubergine violet, gold, coral and warm cream. No people, no text, no letters, no logos, no signage.",
-   "buildNotes": {
-    "tone": "light",
-    "calm": "right third lavender wall",
-    "crop": "object-position 45% 40%"
-   }
-  }
- ]
+  "images": [
+    {
+      "id": "g-hero-parlor",
+      "file": "assets/generated/g-hero-parlor.jpg",
+      "role": "backdrop",
+      "usedFor": [
+        "home hero stage backdrop (with the hero-haze loop)",
+        "OG image candidate"
+      ],
+      "negativeSpace": "left 45% calm, empty lavender paper for the headline; buds, pre-roll and paper shapes in the right half",
+      "input": {
+        "aspect_ratio": "16:9"
+      },
+      "alt": "Cured cannabis buds among cut and torn paper shapes in pale blue, coral, yellow and pink with two paper rolls, on a plain lilac backdrop.",
+      "prompt": "Pop-art collage still life photographed straight down from above on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame. Composition: the entire left 45 percent of the frame is calm, completely empty plain lavender paper with nothing in it at all. In the right half only: a few dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and amber pistils, and one plain unbranded cone-shaped pre-roll of thin unbleached hemp paper packed with ground cannabis, its wide end twisted shut, resting on and beside cut paper shapes: a large flat circle of sunflower-yellow paper, a torn strip of coral-pink paper with a rough fibrous white edge, and a small piece of pale sky-blue paper. Hard direct flash light from the upper left with crisp hard-edged shadows under each object and each paper shape, saturated, clean and graphic, bold but restrained",
+      "rejectReason": "kept attempt 1; Real cured buds on a cut-paper collage (sky circle, coral and yellow discs, torn pink, white and blue strips, a peach and a pink paper roll), left 48 percent plain lilac for type; no text, no people. Attempt 2 (archived): on-brand blue-violet but busy across 85 percent of the frame; attempt 3 (archived): flaky synthetic buds",
+      "buildNotes": {
+        "tone": "light (lilac paper)",
+        "calm": "left 48%: plain lilac paper",
+        "crop": "object-position about 65% 50%; keep the right half (buds, paper shapes) in frame"
+      },
+      "rejectReasonRev0": "attempt 1: the sofa filled the lower left (the left 45% must stay calm and dark), the plants read as palms, no sunburst mirror",
+      "revision": 1
+    },
+    {
+      "id": "g-haze",
+      "file": "assets/generated/g-haze.jpg",
+      "role": "backdrop",
+      "usedFor": [
+        "key frame of the hero-haze motion loop",
+        "night band ground"
+      ],
+      "negativeSpace": "left 40% nearly plain yellow; smoke wisps across the middle and right",
+      "input": {
+        "aspect_ratio": "16:9"
+      },
+      "alt": "A glossy ribbon of pale lavender white smoke curling across a flat butter yellow backdrop.",
+      "prompt": "Wide high-key studio photograph of soft, pale lavender-white smoke wisps curling slowly in the air in front of a flat, seamless, evenly coloured bright sunflower-yellow paper backdrop that fills the whole frame. The smoke forms a few delicate translucent ribbons and curls that drift across the middle and right of the frame; the left 40 percent of the frame is calm, nearly plain yellow with only the faintest trace of haze. Clean, bright, even high-key studio light, no hard shadows, crisp and airy, saturated yellow, nothing else in the frame",
+      "buildNotes": {
+        "tone": "light (butter yellow)",
+        "calm": "left 44% plain yellow",
+        "crop": "object-position 60% 50%"
+      },
+      "rejectReason": "kept attempt 1; Flat yellow ground, left 44 percent plain, one glossy pale lavender smoke ribbon at the right; reads more as a ribbon than as wisps. Attempt 2 (purple to orange gradient) and attempt 3 (peach to pink gradient) archived: neither kept the yellow ground",
+      "revision": 1
+    },
+    {
+      "id": "g-flower",
+      "file": "assets/generated/g-flower.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/flower/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "Three cured cannabis buds on a lilac paper circle on a sunflower yellow backdrop, lit by hard flash with crisp shadows.",
+      "prompt": "Pop-art studio product photograph of four dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and twisted amber pistils, sitting in a small loose cluster directly on a flat, seamless, evenly coloured sunflower-yellow paper backdrop that fills the whole frame, with one small flat cut-paper circle in lavender-violet lying just behind them, seen from a slightly high angle. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty yellow margins on every side",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReason": "kept attempt 1; Three real cured buds on a lilac paper circle, yellow seamless ground, hard flash shadow; no text; buds sit right of centre but inside a centred square crop",
+      "revision": 1
+    },
+    {
+      "id": "g-prerolls",
+      "file": "assets/generated/g-prerolls.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/pre-rolls/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "Three kraft paper cones, two of them showing ground cannabis at their open ends, beside a yellow paper circle on a pale sky blue backdrop.",
+      "prompt": "Pop-art studio product photograph, seen from above at a slight angle, of three slim cone-shaped cannabis pre-rolls lying side by side in parallel on a diagonal, directly on a flat, seamless, evenly coloured pale sky-blue paper backdrop that fills the whole frame. Each pre-roll is clearly a long tapered cone, about three times wider at one end than the other, made of thin translucent unbleached light brown hemp paper with a visible fine paper texture, tightly packed with ground green cannabis flower that shows faintly through the thin paper, the wide end neatly twisted shut into a small paper twist, the narrow end a short plain rolled paper end of the same light brown hemp paper. One small flat cut-paper circle in sunflower yellow lies beside them. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The whole group is centred and fits inside the middle third of the frame, with wide empty sky-blue margins on every side",
+      "rejectReason": "kept attempt 2; Kraft hemp cones with ground cannabis at the open ends, yellow circle, sky ground, crisp shadows; no text. Attempt 1 (archived) read as cigarettes with filter tips",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReasonRev0": "attempt 1: straight tubes with tan filter tips, read as cigarettes",
+      "revision": 1
+    },
+    {
+      "id": "g-infused",
+      "file": "assets/generated/g-infused.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/infused-pre-rolls/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "Two white paper cones filled with ground cannabis beside a small mound of golden kief on a lilac backdrop with a coral paper circle.",
+      "prompt": "Pop-art studio product photograph of two plump plain white cone-shaped cannabis pre-rolls, tightly packed with ground green cannabis flower, the wide ends twisted shut, the outer paper of each coated in a fine sparkling dusting of golden-amber kief so they look sugared with gold, lying side by side with a small mound of golden kief beside them, directly on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame, with one small flat cut-paper circle in coral pink just behind them, seen from above at a slight angle. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty lavender margins on every side",
+      "rejectReason": "kept attempt 1; Two paper cones filled with ground flower and a kief mound on lilac with a coral circle, hard shadow; no text; the kief coating on the paper did not render (alt says so)",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReasonRev0": "attempt 2: hollow empty paper tubes with mottled paper, not readable as pre-rolls; attempt 3 replaced by attempt 4 (main session): cone pre-rolls with kief-coated tips",
+      "revision": 1
+    },
+    {
+      "id": "g-vapes",
+      "file": "assets/generated/g-vapes.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/vapes/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "A single plain vape cartridge of amber oil standing on a coral backdrop in front of a pale blue paper disc, with a crisp shadow.",
+      "prompt": "Pop-art studio product photograph of one single plain unbranded cannabis oil vape cartridge standing upright: a slim clear glass tube filled with golden amber oil, a matte black mouthpiece on top and a plain brushed steel base, completely smooth with no markings, no graduation lines and no print. It stands directly on a flat, seamless, evenly coloured soft coral-pink paper backdrop that fills the whole frame and curves up behind it, in front of one flat cut-paper circle in pale sky blue. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty coral margins on every side",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReason": "kept attempt 1; One plain cartridge, amber oil, black tip, steel base, coral sweep, sky disc, hard shadow; unmarked; centred",
+      "revision": 1
+    },
+    {
+      "id": "g-edibles",
+      "file": "assets/generated/g-edibles.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/edibles/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "Broken pieces of dark chocolate beside a small amber glass jar with a white lid and a yellow paper triangle on a pale sky blue backdrop.",
+      "prompt": "Pop-art studio product photograph of a few rough, irregular, hand-broken shards of dark chocolate with jagged broken edges and a plain matte surface, no squares and no moulded pattern, loosely piled next to a small round amber glass jar with a plain matte white lid, directly on a flat, seamless, evenly coloured pale sky-blue paper backdrop that fills the whole frame, with one small flat cut-paper triangle in sunflower yellow beside them, seen from a slightly high angle. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty sky-blue margins on every side",
+      "rejectReason": "kept attempt 1; Jagged chocolate shards (no squares, no embossing), amber jar with a white lid, yellow triangle, sky ground; no text; light softer than hard flash",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReasonRev0": "attempt 1: garbled embossed lettering on the chocolate squares",
+      "revision": 1
+    },
+    {
+      "id": "g-tinctures",
+      "file": "assets/generated/g-tinctures.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/tinctures/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "Three plain amber dropper bottles and a fresh cannabis leaf on a yellow floor against a lilac wall with coral and pale blue paper circles.",
+      "prompt": "Pop-art studio product photograph of three small plain amber glass dropper bottles with black rubber bulbs and plain black collars, completely bare glass with no labels, no markings and no print, standing in a neat row in the exact centre of the frame on one single flat, seamless, evenly coloured saturated sunflower-yellow paper sweep: the floor and the wall behind are the same one yellow, with no other colour panels. One fresh serrated green cannabis fan leaf lies flat on the floor in front of the bottles, and one small flat cut-paper circle in deep periwinkle blue-violet leans on the yellow wall directly behind them. Hard direct flash light from the upper left with one crisp, hard-edged shadow cast on the yellow wall, saturated, clean and graphic. The whole group is centred and fits inside the middle third of the frame, with wide empty yellow margins on every side",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReason": "kept attempt 3; Three bare amber dropper bottles centred, cannabis leaf, coral and sky circles, hard shadows; no labels or text. The ground is a yellow floor with a lilac wall (FLUX colour-blocked it in all three attempts); attempts 1 (two bottles, soft stock look) and 2 (two bottles, pink panel) archived",
+      "revision": 1
+    },
+    {
+      "id": "g-concentrates",
+      "file": "assets/generated/g-concentrates.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/concentrates/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "A pool of amber rosin on a square of parchment paper on a lilac backdrop, lit by hard flash with a crisp shadow.",
+      "prompt": "Pop-art studio product photograph, seen from above, of a thin, flat, irregular puddle of translucent amber-gold cannabis rosin oil, runny and smooth like pine tree sap, with a few tiny air bubbles and no sparkles, spread on a small square of unbleached brown parchment paper, a slim plain steel dab tool resting beside it, all lying directly on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame, with one small flat cut-paper circle in pale sky blue near the parchment. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty lavender margins on every side",
+      "rejectReason": "kept attempt 1; Translucent amber rosin with small bubbles on deckled parchment, lilac ground, crisp shadow, centred with wide margins; no sparkle, no candy read; the dab tool and paper circle did not render (alt says so)",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReasonRev0": "attempt 2: a glossy orange drop with glitter sparkles that can read as a hard candy or gummy",
+      "revision": 1
+    },
+    {
+      "id": "g-accessories",
+      "file": "assets/generated/g-accessories.jpg",
+      "role": "tile",
+      "usedFor": [
+        "category tile /products/accessories/"
+      ],
+      "negativeSpace": "subject centred in the middle third with wide margins all round (tiles crop to 3:2 and to square)",
+      "input": {
+        "aspect_ratio": "3:2"
+      },
+      "alt": "A clear glass spoon pipe beside a yellow rolling tray holding a pale blue herb grinder, on a coral backdrop seen from above.",
+      "prompt": "Pop-art studio flat lay product photograph, straight down from above, on a flat, seamless, evenly coloured soft coral-pink paper backdrop that fills the whole frame with no wall, no corner and no horizon. Exactly three objects arranged apart in a neat loose row: a small hand-blown clear glass spoon pipe (a short glass stem with a round open bowl at one end), a squat round herb grinder in matte pale sky-blue anodised aluminium (a short knurled cylinder with its lid on), and a small flat rectangular rolling tray in plain glossy sunflower-yellow enamel with a smooth empty floor and a low raised rim. All three are completely plain and unmarked, with no engraving, no pattern, no script and no lettering anywhere. Hard direct flash light from the upper left with one crisp, hard-edged shadow beside each object, saturated, clean and graphic. The group is centred and fits inside the middle half of the frame, with wide empty coral margins on every side",
+      "rejectReason": "kept attempt 2; Top-down on one seamless coral ground: glass spoon pipe, yellow enamel tray, sky-blue grinder; unmarked; hard shadows. Attempt 1 (archived) had a two-tone corner set and an extra dish",
+      "buildNotes": {
+        "tone": "light, flat brand colour backdrop",
+        "calm": "subject centred",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReasonRev0": "attempt 2: a script word engraved inside the tray",
+      "revision": 1
+    },
+    {
+      "id": "g-guide",
+      "file": "assets/generated/g-guide.jpg",
+      "role": "feature",
+      "usedFor": [
+        "education and cannabis guide feature image"
+      ],
+      "negativeSpace": "generated at 3:4, cropped to 4:5 (1792x2240); even coral margin all round the sketchbook",
+      "input": {
+        "aspect_ratio": "3:4"
+      },
+      "alt": "An open sketchbook on a coral ground with a pressed cannabis leaf taped across its pages with yellow tape, torn blue and lavender paper scraps and a pencil.",
+      "prompt": "Top-down mixed-media flat lay photograph, straight down from above: an open sketchbook with thick blank warm white pages lying on a flat, seamless, evenly coloured soft coral-pink paper ground. One pressed dried cannabis fan leaf with seven slender serrated leaflets is taped flat onto the left page with two short strips of sunflower-yellow paper tape; the right page is completely blank. Small torn paper scraps in pale sky blue and medium lavender-violet with rough fibrous edges lie near the sketchbook, and one plain wooden pencil lies beside it. No writing, no letters, no readable text anywhere. Hard direct flash light with crisp, hard-edged shadows, saturated, clean and graphic. The sketchbook is centred with an even margin of coral ground all round, and the top and bottom tenths of the frame are plain coral",
+      "buildNotes": {
+        "tone": "light (coral ground, white pages)",
+        "calm": "coral margin all round",
+        "crop": "object-position 50% 50%"
+      },
+      "rejectReason": "kept attempt 1; Blank sketchbook pages (no writing), pressed leaf taped with yellow tape across the gutter, torn sky and lavender scraps, pencil, coral ground; cropped 3:4 to 4:5",
+      "revision": 1
+    },
+    {
+      "id": "g-leaf-cut",
+      "file": "assets/generated/g-leaf-cut.png",
+      "role": "cutout",
+      "cutout": true,
+      "usedFor": [
+        "protruding botanical cut-out across section seams"
+      ],
+      "input": {
+        "aspect_ratio": "1:1"
+      },
+      "alt": "",
+      "altDescribes": "A single cannabis fan leaf with gold veins (decorative cut-out, empty alt by default).",
+      "prompt": "A single pressed dried cannabis fan leaf with seven slender serrated leaflets on a short stem, laid flat and photographed straight from above, muted sage green with fine visible veins, the whole leaf fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, soft even light, no shadow, nothing else in the frame",
+      "buildNotes": {
+        "tone": "transparent PNG",
+        "calm": "n/a",
+        "crop": "never crop; size by width"
+      }
+    },
+    {
+      "id": "g-pampas-cut",
+      "file": "assets/generated/g-pampas-cut.png",
+      "role": "cutout",
+      "cutout": true,
+      "usedFor": [
+        "protruding botanical cut-out across section seams"
+      ],
+      "input": {
+        "aspect_ratio": "3:4"
+      },
+      "alt": "",
+      "altDescribes": "A plume of pampas grass on a long stem (decorative cut-out, empty alt by default).",
+      "prompt": "A single tall feathery plume of pampas grass in warm cream and pale beige on its thin stem, gently curving, the whole plume and stem fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey-violet studio background, soft even light, no shadow, nothing else in the frame",
+      "buildNotes": {
+        "tone": "transparent PNG",
+        "calm": "n/a",
+        "crop": "never crop; size by width"
+      }
+    },
+    {
+      "id": "g-moon-cut",
+      "file": "assets/generated/g-moon-cut.png",
+      "role": "cutout",
+      "cutout": true,
+      "usedFor": [
+        "protruding brass ornament cut-out"
+      ],
+      "input": {
+        "aspect_ratio": "1:1"
+      },
+      "alt": "",
+      "altDescribes": "A ridged brass crescent moon with two tiny stars hanging below it on a chain (decorative cut-out, empty alt by default).",
+      "prompt": "A polished brass crescent moon wall ornament, a slim elegant crescent with a fine ridged Art Deco border, with one tiny brass star dangling below it on a short fine brass chain, the whole ornament fully inside the frame and centred with wide margins, isolated on a plain flat even medium grey studio background, soft even light, no shadow, nothing else in the frame",
+      "buildNotes": {
+        "tone": "transparent PNG",
+        "calm": "n/a",
+        "crop": "never crop; size by width"
+      }
+    },
+    {
+      "id": "g-bud-cut",
+      "file": "assets/generated/g-bud-cut.png",
+      "role": "cutout",
+      "cutout": true,
+      "usedFor": [
+        "protruding cut-out on product and category heroes"
+      ],
+      "input": {
+        "aspect_ratio": "1:1"
+      },
+      "alt": "",
+      "altDescribes": "A single cured cannabis bud (decorative cut-out, empty alt by default).",
+      "prompt": "Macro photograph of a single dense cured cannabis flower bud, frosty with resin trichomes, green calyxes with violet hints and twisted amber pistils, the whole bud fully inside the frame and centred with wide margins, isolated on a plain flat even light grey studio background, sharp focus throughout, soft even light, no shadow, nothing else in the frame",
+      "buildNotes": {
+        "tone": "transparent PNG",
+        "calm": "n/a",
+        "crop": "never crop; size by width"
+      }
+    },
+    {
+      "id": "g-hf-arch",
+      "file": "assets/generated/g-hf-arch.jpg",
+      "role": "feature",
+      "external": "higgsfield-mcp",
+      "reuse": true,
+      "model": "higgsfield z_image",
+      "input": {
+        "aspect_ratio": "3:4"
+      },
+      "alt": "A bohemian arched doorway in a lavender wall, with hanging plants, macrame hangers and a rattan chair with a coral cushion.",
+      "prompt": "Interior photograph of a bohemian arched doorway in a smooth lavender plaster wall, trailing green plants hanging in cream macrame hangers inside the arch, a rattan peacock chair with a cream cushion and one coral pillow beside the doorway, a small brass Art Deco wall sconce, warm soft late-afternoon light, clean modern bohemian styling, palette of lavender, warm cream, coral and sunflower gold. No people, no text, no letters, no logos, no signage.",
+      "buildNotes": {
+        "tone": "light",
+        "calm": "lavender wall either side of the arch",
+        "crop": "object-position 50% 55%"
+      }
+    },
+    {
+      "id": "g-hf-mirror",
+      "file": "assets/generated/g-hf-mirror.jpg",
+      "role": "feature",
+      "external": "higgsfield-mcp",
+      "reuse": true,
+      "model": "higgsfield z_image",
+      "input": {
+        "aspect_ratio": "4:3"
+      },
+      "alt": "An Art Deco brass sunburst mirror on a lavender wall above a violet velvet bench, with pampas grass in a cream vase.",
+      "prompt": "Interior photograph of a large round Art Deco brass sunburst mirror hanging on a smooth lavender plaster wall, above a long deep violet velvet bench with a coral cushion, a tall cream vase of pale pampas grass beside the bench, the mirror reflecting only a soft blurred lavender wall, warm soft lamp light, clean modern bohemian styling, palette of lavender, aubergine violet, gold, coral and warm cream. No people, no text, no letters, no logos, no signage.",
+      "buildNotes": {
+        "tone": "light",
+        "calm": "right third lavender wall",
+        "crop": "object-position 45% 40%"
+      }
+    }
+  ]
 }

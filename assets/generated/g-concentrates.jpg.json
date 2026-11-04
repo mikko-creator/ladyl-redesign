@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Macro still-life photograph of a thin, flat, irregular puddle of translucent amber-gold cannabis rosin oil, runny and smooth like pine tree sap, with a few tiny air bubbles and no sparkles, spread on a square of unbleached brown parchment paper, a slim plain brass dab tool resting beside it, the parchment on a small round gold tray on lavender velvet. Centred subject with generous space around it, warm side light, shallow depth of field, deep violet background, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art studio product photograph, seen from above, of a thin, flat, irregular puddle of translucent amber-gold cannabis rosin oil, runny and smooth like pine tree sap, with a few tiny air bubbles and no sparkles, spread on a small square of unbleached brown parchment paper, a slim plain steel dab tool resting beside it, all lying directly on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame, with one small flat cut-paper circle in pale sky blue near the parchment. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty lavender margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 3615166974,
-  "requestId": "01a1a2cd-ca36-7f41-924c-32ff1462219c",
+  "seed": 537093418,
+  "requestId": "01a1a3fc-d93a-7513-97df-0c7885460d5d",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "300a46a79483f01ed859ac39c3b81c9fed4245ac738453f540eb7b00898e6319",
-  "raw": "tmp/img/raw/g-concentrates.1793732768713.jpg",
-  "attempt": 3,
-  "generatedAt": "2026-11-03T19:06:10.575Z",
+  "sha256": "6a2f54cf5272518f67181b7b8c031de4141476f47a09d211f2abe649a2741241",
+  "raw": "tmp/img/raw/g-concentrates.1793752628047.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-04T00:37:10.108Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 3. A glossy amber rosin pool on parchment on a gold tray with a brass dab tool; reads as rosin or sap, not candy (operator check suggested for a honey read)",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1. Translucent amber rosin with small bubbles on deckled parchment, lilac ground, crisp shadow, centred with wide margins; no sparkle, no candy read; the dab tool and paper circle did not render (alt says so)",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Still-life photograph of three plain unbranded cannabis pre-rolls lying side by side on a small polished brass Art Deco tray. Each pre-roll is a slim tapered cone of thin translucent unbleached hemp rolling paper, clearly wider at the top end and narrow at the mouth end, tightly packed with ground green cannabis flower that shows faintly through the thin paper, the wide top end neatly twisted closed into a small paper twist, the narrow mouth end finished with a short rolled crutch of the same pale paper, no filter and no tan tip. A few dried lavender sprigs and small dried cream strawflowers beside the tray, on deep violet velvet. Centred subject with generous space around it, soft warm light, shallow depth of field, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art studio product photograph, seen from above at a slight angle, of three slim cone-shaped cannabis pre-rolls lying side by side in parallel on a diagonal, directly on a flat, seamless, evenly coloured pale sky-blue paper backdrop that fills the whole frame. Each pre-roll is clearly a long tapered cone, about three times wider at one end than the other, made of thin translucent unbleached light brown hemp paper with a visible fine paper texture, tightly packed with ground green cannabis flower that shows faintly through the thin paper, the wide end neatly twisted shut into a small paper twist, the narrow end a short plain rolled paper end of the same light brown hemp paper. One small flat cut-paper circle in sunflower yellow lies beside them. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The whole group is centred and fits inside the middle third of the frame, with wide empty sky-blue margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 2875241334,
-  "requestId": "01a1a2c3-569d-72f3-86fb-a3f6f72f44f3",
+  "seed": 988029254,
+  "requestId": "01a1a402-10c3-7fc1-9095-843cebba5da5",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "82d7d4553f61a5cc36c91bc9ade44f3b5bf695312b6958caf62a84680a121f98",
-  "raw": "tmp/img/raw/g-prerolls.1793732080935.jpg",
+  "sha256": "3d26dd355c3b389c6ddb999ed009c020768949752724c75a68d8496361d6559a",
+  "raw": "tmp/img/raw/g-prerolls.1793752976763.jpg",
   "attempt": 2,
-  "generatedAt": "2026-11-03T18:54:42.722Z",
+  "generatedAt": "2026-11-04T00:42:58.561Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 2. Three cream paper pre-rolls with ground flower at their open ends on a gold tray with a Greek-key border, dried lavender and cream flowers; no filter tips",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 2. Kraft hemp cones with ground cannabis at the open ends, yellow circle, sky ground, crisp shadows; no text. Attempt 1 (archived) read as cigarettes with filter tips",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

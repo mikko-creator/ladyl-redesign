@@ -72,7 +72,7 @@ export async function render(ctx) {
     if (!items.length) return '';
     const id = 'sm-' + g.name.toLowerCase().replace(/[^a-z]+/g, '-');
     const long = items.length > 10;
-    return `<section class="p-sm__group glass glass--cream glass--lift${long ? ' p-sm__group--long' : ''}" data-reveal style="--i:${gi % 3}" aria-labelledby="${id}">
+    return `<section class="p-sm__group glass glass--cream glass--lift bento-tile fill-${long ? 'paper' : gi % 3 === 1 ? 'news' : 'paper'} p-tile${long ? ' p-sm__group--long' : ''}" data-reveal style="--i:${gi % 3}" aria-labelledby="${id}">
 <h2 class="p-sm__title" id="${id}"><span class="p-sm__ico" aria-hidden="true">${icon(g.ico)}</span><span>${esc(g.name)}</span><span class="p-count">${items.length}</span></h2>
 <ul class="p-sm__list" role="list">${items.map(li).join('')}</ul>
 </section>`;
@@ -82,9 +82,10 @@ export async function render(ctx) {
   const title = 'Sitemap | LADY L CANNABIS';
   const description = 'Every page of the Lady L Cannabis site, grouped: shop, services, neighborhoods, delivery areas, learn, blog, events, about and legal.';
   const main = `<section class="page-hero p-hero p-hero--sitemap">
-<div class="band__clip p-hero__clip" aria-hidden="true" data-sunburst><span class="p-hero__glow"></span><span class="grain"></span></div>
-<div class="wrap page-hero__inner page-hero__inner--solo p-hero__grid">
-<div class="page-hero__text p-hero__text">
+<div class="band__clip p-hero__clip" aria-hidden="true" data-sunburst><span class="p-hero__field"></span><span class="grain"></span></div>
+<div class="wrap page-hero__inner page-hero__inner--solo p-hero__grid p-bento">
+<div class="page-hero__text p-hero__text bento-tile fill-paper p-tile">
+<span class="dots dots--lav p-dots p-dots--tr" aria-hidden="true"></span>
 ${crumbsHtml(crumbs)}
 <p class="kicker p-kick" data-reveal>Sitemap</p>
 <h1 class="display p-hero__title" data-reveal style="--i:1">Every <em>page</em></h1>
@@ -95,7 +96,7 @@ ${crumbsHtml(crumbs)}
 </section>
 <section class="band band--cream p-sm" aria-label="All pages">
 <div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
-<div class="wrap"><div class="p-sm__grid">${groups}</div></div>
+<div class="wrap"><div class="p-sm__grid p-bento">${groups}</div></div>
 </section>`;
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

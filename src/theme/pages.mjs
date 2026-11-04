@@ -1,4 +1,4 @@
-// pages.mjs - PAGES lane (Lady L redesign pitch, "Lavender Parlor"): /about-us/ /about-us/reviews/ /faq/ /community/
+// pages.mjs - PAGES lane (Lady L redesign pitch, "Paste Up Pop", revision 1): /about-us/ /about-us/reviews/ /faq/ /community/
 // /events/ /events/<slug>/ /contact-us/ /privacy-policy/ /terms-of-service/ /accessibility/ /404.html
 // (/sitemap/ is sitemap.mjs). Captured pages print EVERY block of src/content/pages/<slug>.json (inline HTML as captured,
 // every <a href> routed through util.rewriteLinks); the head keeps the captured title and description. New words are
@@ -76,7 +76,9 @@ function formHtml(b, id = '') {
 }
 function rcard(b, i = 0) {
   const n = Math.max(0, Math.min(5, Math.round(Number(b.rating) || 0)));
-  return `<article class="rcard p-rcard" data-reveal style="--i:${i % 3}">
+  const rfill = ['paper', 'paper', 'sky', 'paper', 'lav', 'paper', 'paper', 'sky'];
+  return `<article class="rcard p-rcard bento-tile fill-${rfill[i % rfill.length]} p-tile${i === 0 ? ' p-rcard--feat' : ''}" data-reveal style="--i:${i % 3}">
+${i === 0 ? '<span class="dots dots--lav p-dots p-dots--tr" aria-hidden="true"></span>' : ''}
 ${n ? `<p class="rcard__stars p-rcard__stars" aria-label="${n} out of 5 stars">${Array.from({ length: n }, () => icon('star', 'p-star')).join('')}</p>` : ''}
 <blockquote class="rcard__quote p-rcard__quote"><p>${esc(b.text)}</p></blockquote>
 <p class="rcard__name p-rcard__name">${esc(b.name)}</p>
@@ -143,9 +145,10 @@ function out(ctx, { path, title, description, crumbs, main, mod, jsonld = [], im
 // protrusion: the arch photo on the right overhanging the hero's bottom edge into the next band
 function hero({ crumbs, kick, title, lede = '', ctas = [], media = '', mod = '', meta = '' }) {
   return `<section class="page-hero p-hero ${mod}">
-<div class="band__clip p-hero__clip" aria-hidden="true" data-sunburst><span class="p-hero__glow"></span><span class="grain"></span></div>
-<div class="wrap page-hero__inner p-hero__grid${media ? '' : ' page-hero__inner--solo'}">
-<div class="page-hero__text p-hero__text">
+<div class="band__clip p-hero__clip" aria-hidden="true" data-sunburst><span class="p-hero__field"></span><span class="grain"></span></div>
+<div class="wrap page-hero__inner p-hero__grid p-bento${media ? '' : ' page-hero__inner--solo'}">
+<div class="page-hero__text p-hero__text bento-tile fill-paper p-tile">
+<span class="dots dots--lav p-dots p-dots--tr" aria-hidden="true"></span>
 ${crumbsHtml(crumbs)}
 ${kick ? `<p class="kicker p-kick" data-reveal>${esc(kick)}</p>` : ''}
 <h1 class="display p-hero__title" data-reveal style="--i:1">${title}</h1>
@@ -157,9 +160,11 @@ ${media ? `<div class="page-hero__art p-hero__media" data-reveal style="--i:2">$
 </div>
 </section>`;
 }
-const heroArch = (inner, cls = '') => `<figure class="arch p-hero__arch ${cls}" data-depth="0.06"><span class="arch__img">${inner}</span></figure>`;
+// a photo CLIPPING: paper border, ink outline, slight tilt, a tape strip across the top edge
+const heroArch = (inner, cls = '') => `<figure class="clipping clipping--r p-clip p-hero__arch ${cls}" data-depth="0.06"><span class="tape tape--top p-tape p-tape--top" aria-hidden="true"></span><span class="p-clip__img">${inner}</span></figure>`;
 const heroPic = (ref, alt = '', cls = '') => heroArch(pic(ref, { alt, eager: true, sizes: '(min-width: 1024px) 420px, (min-width: 700px) 40vw, 64vw', cls: 'p-hero__img' }), cls);
-const heroCut = (id, cls = '') => `<span class="cut p-hero__cut ${cls}" data-depth="0.1" aria-hidden="true">${gimg(id, { alt: '', eager: true, sizes: '(min-width: 1024px) 380px, 50vw', cls: 'p-hero__cutimg' })}</span>`;
+// a cut-out STICKER that breaks the hero tile edge, on a sun starburst
+const heroCut = (id, cls = '') => `<span class="p-hero__stick"><span class="burst p-burst" aria-hidden="true"></span><span class="cut sticker p-hero__cut ${cls}" data-depth="0.1" aria-hidden="true">${gimg(id, { alt: '', eager: true, sizes: '(min-width: 1024px) 380px, 50vw', cls: 'p-hero__cutimg' })}</span></span>`;
 const h1Html = (rec) => {
   const h = String(rec.h1 || '');
   const sec = (rec.sections || []).find((s) => s.headingAccent && norm(s.heading) === norm(h));
@@ -168,22 +173,25 @@ const h1Html = (rec) => {
 };
 
 // an alternating content row: text column + media (arch photo / emblem / cut-out), sides and grounds alternate
-function row({ id = '', ground = 'cream', side = 'l', kick = '', heading = '', body = '', media = '', mod = '' }) {
+function row({ id = '', ground = 'cream', side = 'l', kick = '', heading = '', body = '', media = '', mod = '', fill = 'paper', plain = false, edge = '' }) {
   const hid = id ? `${id}-h` : '';
-  return `<section class="band band--${ground} p-row p-row--${side} ${mod}"${id ? ` id="${escA(id)}"` : ''}${heading && hid ? ` aria-labelledby="${escA(hid)}"` : ''}>
-<div class="band__clip" aria-hidden="true"><span class="grain"></span>${ground === 'night' || ground === 'plum' ? '<span class="p-row__rays"></span>' : '<span class="p-row__botanical"></span>'}</div>
-<div class="wrap p-row__grid${media ? '' : ' p-row__grid--solo'}">
-<div class="p-row__text" data-reveal>
+  const dark = ground === 'night' || ground === 'plum';
+  // a solo text tile gets a quiet decorative companion tile (no words: halftone and a starburst)
+  const deco = !media && !plain ? `<span class="bento-tile fill-sun p-tile p-row__deco" aria-hidden="true"><span class="dots dots--ink p-dots p-dots--fill"></span><span class="burst p-burst p-burst--deco"></span></span>` : '';
+  return `<section class="band band--${ground} p-row p-row--${side} ${mod}${edge ? ` ${edge}` : ''}"${id ? ` id="${escA(id)}"` : ''}${heading && hid ? ` aria-labelledby="${escA(hid)}"` : ''}>
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="dots ${dark ? 'dots--paper' : 'dots--lav'} p-dots p-dots--band"></span></div>
+<div class="wrap p-row__grid p-bento${media ? '' : ' p-row__grid--solo'}${plain ? ' p-row__grid--plain' : ''}">
+<div class="p-row__text${plain ? '' : ` bento-tile fill-${fill} p-tile`}" data-reveal>
 ${kicker(kick)}
 ${heading ? `<h2 class="display p-row__h"${hid ? ` id="${escA(hid)}"` : ''}>${heading}</h2>` : ''}
 <div class="prose p-row__prose">${body}</div>
 </div>
-${media ? `<div class="p-row__media" data-reveal style="--i:1">${media}</div>` : ''}
+${media ? `<div class="p-row__media" data-reveal style="--i:1">${media}</div>` : deco}
 </div>
 </section>`;
 }
-const archFig = (ref, { alt = '', cls = '', depth = '0.05' } = {}) => `<figure class="arch p-arch ${cls}" data-depth="${depth}"><span class="arch__img">${pic(ref, { alt, sizes: '(min-width: 1024px) 460px, 80vw', cls: 'p-arch__img' })}</span></figure>`;
-const emblem = (ref, alt = '') => `<figure class="p-emblem glass glass--cream" data-tilt>${pic(ref, { alt, sizes: '(min-width: 1024px) 320px, 60vw', cls: 'p-emblem__img' })}</figure>`;
+const archFig = (ref, { alt = '', cls = '', depth = '0.05' } = {}) => { const r = /--b/.test(cls); return `<figure class="clipping clipping--${r ? 'r' : 'l'} p-clip p-arch ${cls}" data-depth="${depth}"><span class="tape ${r ? 'tape--tr' : 'tape--tl'} p-tape ${r ? 'p-tape--tr' : 'p-tape--tl'}" aria-hidden="true"></span><span class="p-clip__img">${pic(ref, { alt, sizes: '(min-width: 1024px) 460px, 80vw', cls: 'p-arch__img' })}</span></figure>`; };
+const emblem = (ref, alt = '') => `<figure class="p-emblem glass glass--cream bento-tile fill-paper" data-tilt>${pic(ref, { alt, sizes: '(min-width: 1024px) 320px, 60vw', cls: 'p-emblem__img' })}</figure>`;
 const isEmblem = (b) => /logo|iconography|icon/i.test(String(b.src || '') + ' ' + String(b.orig || ''));
 
 // the section's own heading, printed once (skipped when a block repeats it, or when it is the page H1)
@@ -211,7 +219,8 @@ function about(ctx) {
   const used = new Set();
   const rows = [];
   let k = 0;
-  const grounds = ['cream', 'night', 'linen', 'night', 'cream', 'plum', 'linen'];
+  const grounds = ['cream', 'linen', 'night', 'cream', 'linen', 'cream', 'night'];
+  const fills = ['paper', 'lav', 'paper', 'sky', 'paper', 'paper', 'paper'];
   const homeRec = captured(ctx, 'home');
   // the founder and mom-and-pop story (Lady L's own words from the home page), placed after "Our Purpose"
   const homeStory = homeRec ? (homeRec.sections || []).filter((s) => /west side up|mom\s*&(amp;)?\s*pop/i.test(s.heading || '')) : [];
@@ -228,16 +237,17 @@ function about(ctx) {
     const faqB = rest.find((b) => b.type === 'faq');
     if (faqB && opts.cards) {
       // the core values: each a glass card (title + its line), not an accordion
-      body = blocksHtml(rest.filter((b) => b !== faqB), { ctx }) + `<ul class="p-values" role="list">${faqB.items.map((it, i) => `<li class="p-value glass glass--cream glass--lift" data-reveal style="--i:${i % 3}"><span class="numeral p-value__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><h3 class="p-value__t">${esc(it.q)}</h3><div class="p-value__b">${rewrite(it.a_html)}</div></li>`).join('')}</ul>`;
+      const vfill = ['deep', 'sky', 'paper', 'paper', 'paper'];
+      body = blocksHtml(rest.filter((b) => b !== faqB), { ctx }) + `<ul class="p-values p-bento" role="list">${faqB.items.map((it, i) => `<li class="p-value glass glass--cream glass--lift bento-tile fill-${vfill[i % vfill.length]} p-tile${i < 2 ? ' p-value--wide' : ''}" data-reveal style="--i:${i % 3}"><span class="numeral p-value__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><h3 class="p-value__t">${esc(it.q)}</h3><div class="p-value__b">${rewrite(it.a_html)}</div></li>`).join('')}</ul>`;
     } else body = blocksHtml(rest, { ctx, btnCls: opts.btnCls });
-    rows.push(row({ id: opts.id || s.id, ground: opts.ground || grounds[k % grounds.length], side: k % 2 ? 'r' : 'l', kick: opts.kick || '', heading: opts.heading != null ? opts.heading : secHeading(s, opts.rec || c), body, media, mod: opts.mod || '' }));
+    rows.push(row({ id: opts.id || s.id, ground: opts.ground || grounds[k % grounds.length], side: k % 2 ? 'r' : 'l', kick: opts.kick || '', heading: opts.heading != null ? opts.heading : secHeading(s, opts.rec || c), body, media, mod: opts.mod || '', fill: fills[k % fills.length], plain: !!opts.cards, edge: k === 2 ? 'torn-top p-torn' : '' }));
     k++;
   };
 
   for (let i = 1; i < S.length; i++) {
     const s = S[i];
     if (/core-values/.test(s.id)) { pushRow(s, { cards: true, mod: 'p-row--values', ground: 'linen' }); continue; }
-    if (/stop-by/.test(s.id)) { pushRow(s, { ground: 'night', mod: 'p-row--visit', media: `<span class="cut p-row__cut" data-depth="0.12" aria-hidden="true">${gimg('g-moon-cut', { alt: '', sizes: '280px' })}</span>` }); continue; }
+    if (/stop-by/.test(s.id)) { pushRow(s, { ground: 'night', mod: 'p-row--visit', media: `<span class="p-row__stick"><span class="burst p-burst" aria-hidden="true"></span><span class="cut sticker p-row__cut" data-depth="0.12" aria-hidden="true">${gimg('g-moon-cut', { alt: '', sizes: '280px' })}</span></span>` }); continue; }
     pushRow(s, { btnCls: 'btn--sun' });
     if (/our-purpose/.test(s.id)) for (const hs of homeStory) pushRow(hs, { rec: homeRec, id: 'story-' + hs.id, kick: /west side up/i.test(hs.heading) ? 'Our founder' : 'Mom and pop', skip: (b) => b.type === 'button' });
   }
@@ -274,7 +284,7 @@ function reviews(ctx) {
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="p-row__botanical"></span></div>
 <div class="wrap">
 <header class="p-head" data-reveal><p class="kicker p-kick">${esc(R.platform || 'Google')}</p><h2 class="display p-head__h" id="p-reviews-h">In their <em>words</em></h2></header>
-${list.length ? `<div class="p-rgrid">${list.map((b, i) => rcard(b, i)).join('\n')}</div>` : '<p class="p-empty">No reviews are captured yet.</p>'}
+${list.length ? `<div class="p-rgrid p-bento">${list.map((b, i) => rcard(b, i)).join('\n')}</div>` : '<p class="p-empty">No reviews are captured yet.</p>'}
 ${R.url ? `<p class="p-reviews__more" data-reveal>${arrow(R.url, 'write a review')}</p>` : ''}
 </div>
 </section>`;
@@ -359,7 +369,8 @@ function community(ctx) {
     const htmlAll = cz.blocks.map((b) => b.html || '').join(' ');
     const m = htmlAll.match(/href="(https?:\/\/[^"]+)"/i);
     const link = m ? m[1] : '';
-    return `<article class="glass glass--lift p-cause" data-reveal style="--i:${i % 3}" data-spot>
+    return `<article class="glass glass--lift bento-tile fill-deep p-tile p-cause" data-reveal style="--i:${i % 3}" data-spot>
+<span class="dots dots--paper p-dots p-dots--tr" aria-hidden="true"></span>
 <span class="p-cause__badge" aria-hidden="true">${icon('sparkle')}</span>
 <h3 class="display p-cause__t">${esc(cz.title)}</h3>
 <div class="prose p-cause__b">${blocksHtml(cz.blocks, { ctx })}</div>
@@ -385,7 +396,7 @@ ${causes.length || leftovers.length ? `<section class="band band--cream p-causes
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="p-row__botanical"></span></div>
 <div class="wrap">
 <header class="p-head" data-reveal><p class="kicker p-kick">Causes</p><h2 class="display p-head__h" id="p-causes-h">What we <em>stand</em> with</h2></header>
-<div class="p-causes__grid">${causes.map(causeCard).join('\n')}</div>
+<div class="p-causes__grid p-bento">${causes.map(causeCard).join('\n')}${causes.length % 2 ? '<span class="bento-tile fill-coral p-tile p-causes__deco" aria-hidden="true"><span class="dots dots--paper p-dots p-dots--fill"></span><span class="burst p-burst p-burst--deco"></span></span>' : ''}</div>
 ${leftovers.length ? `<div class="prose">${blocksHtml(leftovers, { ctx })}</div>` : ''}
 </div>
 </section>` : ''}
@@ -432,8 +443,8 @@ function ecard(e, i, { h = 'h3', title, dateText, timeText } = {}) {
   const dt = dateText != null ? dateText : e.dateText;
   const tm = timeText != null ? timeText : e.timeText;
   const d = sortDate(e);
-  return `<article class="ecard glass glass--lift p-ecard" data-reveal style="--i:${i % 3}">
-<span class="ecard__media p-ecard__media">${media}${d && !yearRound(e) && im && hasPic(im) ? `<span class="ecard__date p-ecard__badge" aria-hidden="true"><span>${MON[+d.slice(5, 7) - 1]}</span><b>${+d.slice(8, 10)}</b></span>` : ''}</span>
+  return `<article class="ecard glass glass--lift bento-tile fill-paper p-tile p-ecard${i === 0 ? ' p-ecard--feat' : ''}" data-reveal style="--i:${i % 3}">
+<span class="ecard__media p-ecard__media">${media}</span>${d && !yearRound(e) && im && hasPic(im) ? `<span class="ecard__date p-ecard__badge" aria-hidden="true"><span>${MON[+d.slice(5, 7) - 1]}</span><b>${+d.slice(8, 10)}</b></span>` : ''}
 <span class="p-ecard__body">
 <span class="ecard__meta p-ecard__meta"><span class="chip chip--sun p-ecard__kind">${kindOf(e) === 'upcoming' ? 'Upcoming' : kindOf(e) === 'year-round' ? 'Year-Round' : 'Past event'}</span></span>
 <${h} class="ecard__title p-ecard__title"><a${linkAttrs(evHref(e))}>${esc(t)}</a></${h}>
@@ -461,7 +472,7 @@ function eventsHub(ctx) {
   const other = c ? blocksOf(c).filter((b) => b.type !== 'loop' && !(b.type === 'h1' && norm(b.text) === norm(c.h1))) : [];
   const group = (id, tag, label, list, empty) => `<section class="p-evgroup" id="${id}" data-filter-item data-tags="${tag}" aria-labelledby="${id}-h">
 <header class="p-evgroup__head" data-reveal><h2 class="display p-evgroup__h" id="${id}-h">${label}</h2><span class="p-count">${list.length}</span></header>
-${list.length ? `<div class="p-egrid">${list.map(cardOf).join('\n')}</div>` : `<div class="p-empty glass glass--cream" data-reveal><p>${empty}</p>${arrow((ctx.site.socials || [])[0] ? ctx.site.socials[0].url : '/contact-us/', (ctx.site.socials || [])[0] ? `Follow ${ctx.site.socials[0].handle} on Instagram` : 'Contact us')}</div>`}
+${list.length ? `<div class="p-egrid p-bento">${list.map(cardOf).join('\n')}</div>` : `<div class="p-empty glass glass--cream" data-reveal><p>${empty}</p>${arrow((ctx.site.socials || [])[0] ? ctx.site.socials[0].url : '/contact-us/', (ctx.site.socials || [])[0] ? `Follow ${ctx.site.socials[0].handle} on Instagram` : 'Contact us')}</div>`}
 </section>`;
   const main = `${hero({
     crumbs, kick: 'Events', title: esc(c ? c.h1 : 'Events'),
@@ -529,7 +540,7 @@ ${more.length ? `<section class="band band--night p-moreev" aria-labelledby="p-m
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="p-row__rays"></span></div>
 <div class="wrap">
 <header class="p-head" data-reveal><p class="kicker p-kick">Events</p><h2 class="display p-head__h" id="p-moreev-h">More from <em>Lady L</em></h2></header>
-<div class="p-egrid">${more.map((x, i) => ecard(x, i)).join('\n')}</div>
+<div class="p-egrid p-egrid--more p-bento">${more.map((x, i) => ecard(x, i)).join('\n')}</div>
 </div>
 </section>` : ''}`;
   const S = ctx.site;
@@ -553,12 +564,16 @@ function storeBlock(ctx) {
   const S = ctx.site;
   const a = S.address || {};
   const dh = shell.deliveryHoursHtml ? shell.deliveryHoursHtml(ctx, 'p-store__hours') : `<ul class="hours p-store__hours">${(S.deliveryHours || []).map((r) => `<li><span>${esc(r.days)}</span> <span>${esc(r.open)} to ${esc(r.close)}</span></li>`).join('')}</ul>`;
-  return `<div class="p-store glass glass--strong" data-reveal data-spot>
+  // a bento of store facts: the store (name + address), phone, email, hours (same order as before)
+  return `<div class="p-store glass glass--strong bento-tile fill-deep p-tile" data-reveal data-spot>
+<span class="dots dots--paper p-dots p-dots--tr" aria-hidden="true"></span>
 <p class="kicker p-kick">The store</p>
 <h2 class="display p-store__name" id="p-store-h">${esc(S.name)}</h2>
 <p class="p-store__row">${icon('pin')}<a${linkAttrs(S.mapUrl)}>${esc(a.street)}, ${esc(a.city)}, ${esc(a.state)} ${esc(a.zip)}</a></p>
-<p class="p-store__row">${icon('phone')}<a${linkAttrs(S.phoneHref)}>${esc(S.phone)}</a></p>
-<p class="p-store__row">${icon('mail')}<a${linkAttrs('mailto:' + S.email)}>${esc(S.email)}</a></p>
+</div>
+<div class="p-fact p-fact--phone bento-tile fill-sun p-tile" data-reveal style="--i:1"><span class="p-fact__ico sticker" aria-hidden="true">${icon('phone')}</span><p class="p-store__row"><a${linkAttrs(S.phoneHref)}>${esc(S.phone)}</a></p></div>
+<div class="p-fact p-fact--mail bento-tile fill-sky p-tile" data-reveal style="--i:2"><span class="p-fact__ico sticker" aria-hidden="true">${icon('mail')}</span><p class="p-store__row"><a${linkAttrs('mailto:' + S.email)}>${esc(S.email)}</a></p></div>
+<div class="p-hours bento-tile fill-paper p-tile" data-reveal>
 <div class="p-store__hrs">
 <div class="p-store__col"><h3 class="p-store__h">${icon('bag')}Store hours</h3>${shell.hoursHtml(ctx, 'p-store__hours')}</div>
 <div class="p-store__col"><h3 class="p-store__h">${icon('truck')}Delivery hours</h3>${dh}</div>
@@ -587,9 +602,9 @@ function contact(ctx) {
   })}
 <section class="band band--cream p-contact" aria-labelledby="p-store-h">
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="p-row__botanical"></span></div>
-<div class="wrap p-contact__grid">
+<div class="wrap p-contact__grid p-bento">
 ${storeBlock(ctx)}
-<div class="p-contact__form glass glass--cream" data-reveal style="--i:1">
+<div class="p-contact__form glass glass--cream bento-tile fill-news p-tile" data-reveal style="--i:1">
 <p class="kicker p-kick">Message</p>
 <h2 class="display p-contact__h">Send a <em>note</em></h2>
 ${formB ? formHtml(formB, 'contact-form') : ''}
@@ -643,7 +658,7 @@ function notFound(ctx) {
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="p-row__botanical"></span></div>
 <div class="wrap">
 <header class="p-head" data-reveal><p class="kicker p-kick">Popular pages</p><h2 class="display p-head__h" id="p-lost-h">Try one of <em>these</em></h2></header>
-<ul class="p-lost__grid" role="list">${[['/', 'Home', 'sparkle'], [menu(ctx), 'Shop the menu', 'cart'], ['/service/', 'Weed Delivery', 'truck'], ['/in-store-pickup/', 'In-Store Pickup', 'bag'], ['/products/', 'Products', 'leaf'], ['/jersey-city-weed-deals/', 'Deals', 'tag'], ['/events/', 'Events', 'star'], ['/contact-us/', 'Contact Us', 'phone'], ['/sitemap/', 'Sitemap', 'search']].map(([u, l, ic], i) => `<li><a class="p-lost__card glass glass--cream glass--lift"${linkAttrs(u)} data-reveal style="--i:${i % 3}"><span class="p-lost__ico">${icon(ic)}</span><span class="p-lost__t">${esc(l)}</span>${extIcon(u)}</a></li>`).join('')}</ul>
+<ul class="p-lost__grid p-bento" role="list">${[['/', 'Home', 'sparkle'], [menu(ctx), 'Shop the menu', 'cart'], ['/service/', 'Weed Delivery', 'truck'], ['/in-store-pickup/', 'In-Store Pickup', 'bag'], ['/products/', 'Products', 'leaf'], ['/jersey-city-weed-deals/', 'Deals', 'tag'], ['/events/', 'Events', 'star'], ['/contact-us/', 'Contact Us', 'phone'], ['/sitemap/', 'Sitemap', 'search']].map(([u, l, ic], i) => `<li class="p-lost__cell${i === 0 || i > 6 ? ' p-lost__cell--wide' : ''}"><a class="p-lost__card glass glass--cream glass--lift bento-tile fill-${i === 0 ? 'sun' : 'paper'} p-tile"${linkAttrs(u)} data-reveal style="--i:${i % 3}"><span class="p-lost__ico">${icon(ic)}</span><span class="p-lost__t">${esc(l)}</span>${extIcon(u)}</a></li>`).join('')}</ul>
 </div>
 </section>`;
   const r = out(ctx, { path, title: 'Page Not Found | LADY L CANNABIS', description: 'The page you were looking for is not on the Lady L Cannabis site.', crumbs, main, mod: '404' });

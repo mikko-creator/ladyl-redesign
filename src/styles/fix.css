@@ -6,3 +6,20 @@
       (tmp/main/hero-overlap.mjs, control fires). Keep a real protrusion (the art still crosses the seam by
       --overhang) without covering text. */
 main .page-hero .page-hero__art { margin-bottom: calc(-1 * var(--overhang)); }
+
+/* 2. Home "Stop By" card (revision 1): its two hours tables sat side by side in a 5 of 12 column card, and at 1280 the
+      time of one table ran over the day label of the other (home full-page shot, 2026-11-04 09:04). Stack them. */
+.h-stop__hours { grid-template-columns: minmax(0, 1fr); }
+
+/* 3. The two Higgsfield stills (g-hf-arch: a boho arch doorway; g-hf-mirror: a brass sunburst mirror) were made for
+      revision 0 and read as the old style next to the new pop imagery (first screens of deals, pickup, blog and
+      education, 2026-11-04 09:24). Print them as lavender monotone pop prints; each clipping's halftone stays on top. */
+img[src*="/g-hf-"] { filter: grayscale(1) sepia(1) hue-rotate(208deg) saturate(1.7) contrast(1.08) brightness(1.03); }
+
+/* 4. Phones: .btn keeps white-space: nowrap (components.css), so a long label ("Get directions from Newark International
+      Airport") set the min-content width of the place hero's title tile and pushed the H1 and the button past the tile's
+      right edge at 390 (dispensary-near-hoboken shot, 2026-11-04). Let buttons wrap below 600px; let hero text shrink. */
+@media (max-width: 600px) {
+  .btn { white-space: normal; text-align: center; }
+  .page-hero__text, .v-hero__text { min-width: 0; }
+}

@@ -30,6 +30,17 @@ const countyId = (c) => 'county-' + slugify(county(c));
 const deliveryHours = (ctx, cls = '') => (typeof shell.deliveryHoursHtml === 'function' ? shell.deliveryHoursHtml(ctx, cls)
   : `<ul class="hours hours--delivery ${cls}">${(ctx.site.deliveryHours || []).map((r) => `<li><span class="hours__d">${esc(r.days)}</span><span class="hours__t">${esc(r.open)} to ${esc(r.close)}</span></li>`).join('')}</ul>`);
 const addrLine = (s) => { const a = s.address || {}; return `${a.street}, ${a.city}, ${a.state} ${a.zip}`; };
+// bento spans for n tiles on a 12 column grid: the first tile is featured (8 columns), rows of three after it, and the
+// last row stretches so no row leaves a hole
+function bentoSpans(n) {
+  if (n <= 1) return ['v-s12'];
+  if (n === 2) return ['v-s7', 'v-s5'];
+  const outS = ['v-s8 v-feat', 'v-s4'];
+  let left = n - 2;
+  while (left > 0) { const row = left === 4 ? 2 : Math.min(3, left); for (let k = 0; k < row; k++) outS.push('v-s' + 12 / row); left -= row; }
+  return outS;
+}
+const TAPE = '<span class="v-tape" aria-hidden="true"></span>';
 
 function serviceCards(ctx, opts = {}) {
   if (typeof shell.serviceCards === 'function') return shell.serviceCards(ctx, opts);
@@ -184,9 +195,10 @@ const catOf = (t) => (CATS.find(([re]) => re.test(norm(t))) || [])[1] || null;
 // ---------- page hero (FOUNDATION .page-hero: night ground, rays, chevron edge, overhanging art) ----------
 function hero({ crumbs, kicker = '', h1, subs = '', lede = '', ctas = [], side = '', art = '', pro = '', mod = '' }) {
   return `<section class="page-hero v-hero ${mod}" data-spot data-sunburst>
-<div class="band__clip" aria-hidden="true"><span class="v-hero__glow"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--hero"></span><span class="grain"></span></div>
 <div class="wrap page-hero__inner${side || art ? '' : ' page-hero__inner--solo'}">
 <div class="page-hero__text v-hero__text" data-reveal>
+${TAPE}
 ${crumbsHtml(crumbs)}
 ${kicker ? `<p class="kicker">${kicker}</p>` : ''}
 <h1 class="display v-hero__h1">${h1}</h1>
@@ -201,20 +213,24 @@ ${pro}
 </section>`;
 }
 const archArt = (inner, cls = '') => `<figure class="arch v-hero__arch ${cls}" data-depth="0.05"><span class="arch__img">${inner}</span></figure>`;
+const CUTS = ['g-leaf-cut', 'g-pampas-cut', 'g-moon-cut', 'g-bud-cut'];
+// a sticker cut-out breaking the hero's bottom edge (one per hero)
+const sticker = (id) => `<span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1">${gen([id, ...CUTS], { alt: '', sizes: '(min-width: 1024px) 220px, 120px', eager: true })}</span>`;
 const heroImgOpts = { alt: '', eager: true, sizes: '(min-width: 1024px) 400px, 70vw' };
 const subsHtml = (subs) => subs.map((b) => `<h2 class="v-hero__sub">${esc(b.text)}</h2>`).join('');
 
 // ---------- generic segment bands ----------
-const GROUNDS = ['night', 'cream', 'linen', 'plum', 'cream', 'night'];
+const GROUNDS = ['cream', 'night', 'linen', 'cream', 'plum', 'linen'];
 function segHead(seg, kicker = '') {
   if (!seg.head) return '';
   return `<header class="v-head" data-reveal>${kicker ? `<p class="kicker">${esc(kicker)}</p>` : ''}<h2 class="display v-head__h">${esc(seg.head.text)}</h2></header>`;
 }
 function stepsHtml(ctx, items, dark) {
-  return `<ol class="v-steps" role="list">${items.map((it, i) => {
+  const sp = bentoSpans(items.length);
+  return `<ol class="v-steps v-bento" role="list">${items.map((it, i) => {
     const m = norm(it.head ? it.head.text : '').match(/^step\s*(\d+)/i);
     const n = m ? m[1].padStart(2, '0') : String(i + 1).padStart(2, '0');
-    return `<li class="v-step glass ${dark ? '' : 'glass--cream '}glass--lift" data-reveal style="--i:${i % 3}">
+    return `<li class="v-step ${sp[i]} glass ${dark ? '' : 'glass--cream '}glass--lift" data-reveal data-tilt="2" style="--i:${i % 3}">
 <span class="numeral v-step__n" aria-hidden="true">${n}</span>
 ${it.head ? `<h3 class="v-step__t">${esc(it.head.text)}${it.title ? ` <span class="v-step__t2">${esc(it.title.text)}</span>` : ''}</h3>` : ''}
 ${it.pic ? `<span class="v-card__icon" aria-hidden="true">${img({ src: it.pic.src, alt: '', w: it.pic.w, h: it.pic.h }, { sizes: '72px' })}</span>` : ''}
@@ -224,7 +240,8 @@ ${it.pic ? `<span class="v-card__icon" aria-hidden="true">${img({ src: it.pic.sr
 }
 function cardsHtml(ctx, items, dark, { places = null } = {}) {
   const cats = items.filter((it) => it.head && catOf(it.head.text)).length >= Math.ceil(items.length / 2);
-  return `<ul class="v-cards${cats ? ' v-cards--menu' : ''}" role="list">${items.map((it, i) => {
+  const sp = bentoSpans(items.length);
+  return `<ul class="v-cards v-bento${cats ? ' v-cards--menu' : ''}" role="list">${items.map((it, i) => {
     const t = it.head ? norm(it.head.text) : '';
     const c = cats && !it.card && !it.pic ? catOf(t) : null;
     const pl = places && t ? places(t) : null;
@@ -236,7 +253,7 @@ function cardsHtml(ctx, items, dark, { places = null } = {}) {
       : c ? `<span class="arch v-card__thumb" aria-hidden="true"><span class="arch__img">${gen(c, { alt: '', sizes: '96px' })}</span></span>`
         : `<span class="v-card__ico" aria-hidden="true">${icon(pl || places ? 'pin' : 'star')}</span>`;
     const cardBody = it.card && it.card.html ? `<p>${rewriteLinks(it.card.html)}</p>${!t && cu ? `<p><a class="link-arrow"${linkAttrs(cu)}>${/\/stores\//.test(cu) ? 'Shop the menu' : 'Visit'}${extIco(cu)}</a></p>` : ''}` : '';
-    return `<li class="v-card glass ${dark ? '' : 'glass--cream '}glass--lift${link ? ' v-card--link' : ''}" data-reveal style="--i:${i % 3}">
+    return `<li class="v-card ${sp[i]} glass ${dark && i ? '' : 'glass--cream '}glass--lift${link ? ' v-card--link' : ''}" data-reveal style="--i:${i % 3}">
 ${media}
 ${title ? `<h3 class="v-card__t">${title}${link ? extIco(link) : ''}</h3>` : ''}
 <div class="v-card__b">${cardBody}${blocks(ctx, it.body, { min: 4, btnCls: 'btn--sun btn--sm' })}</div>
@@ -278,7 +295,7 @@ ${it.tail.length ? `<div class="v-tail prose" data-reveal>${blocks(ctx, it.tail,
     }
   }
   return `<section class="band band--${g} v-sec v-sec--${hasFaq ? 'faq' : it ? (steps ? 'steps' : 'cards') : 'text'}"${id ? ` id="${escA(id)}"` : ''}${hid}${g === 'sun' ? ' data-sunburst' : ''}>
-<div class="band__clip" aria-hidden="true">${g === 'sun' ? gen(['g-sunburst-wall', 'g-haze'], { alt: '', cls: 'band__bg v-bg', sizes: '100vw' }) : ''}<span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots${dark ? ' v-dots--dark' : ''}"></span><span class="grain"></span></div>
 <div class="wrap${hasFaq || (!it && (last || g === 'sun')) ? ' wrap--narrow' : ''}">
 ${headH}
 ${body}
@@ -287,11 +304,11 @@ ${body}
 }
 
 // intro band: the hero section's paragraphs + an aside (service cards, facts, chips)
-function introBand(ctx, list, aside = '', { ground = 'cream', after = '' } = {}) {
+function introBand(ctx, list, aside = '', { ground = 'linen', after = '' } = {}) {
   if (!list.length && !aside && !after) return '';
   const st = { btnCls: 'btn--sun', btnAlt: 'btn--deco' };
   return `<section class="band band--${ground} v-intro">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span><span class="v-botanical"></span></div>
 <div class="wrap">
 <div class="v-intro__grid${aside ? '' : ' v-intro__grid--solo'}">
 ${list.length ? `<div class="v-intro__text prose" data-reveal>${blocks(ctx, list, st)}</div>` : ''}
@@ -364,12 +381,12 @@ function serviceHub(ctx, rec, counties) {
   // main session: Lady L's own storefront photo for the delivery hub (the generated arch doorway already fronts /blog/)
   const store = { src: '/assets/photos/ll/img_4198-scaled.webp', alt: 'The Lady L Cannabis storefront on West Side Avenue, with its purple LADY L sign', w: 1440, h: 2560 };
   const pic = hp.pic ? img({ src: hp.pic.src, alt: norm(hp.pic.alt), w: hp.pic.w, h: hp.pic.h }, heroImgOpts) : img(store, { ...heroImgOpts, alt: store.alt });
-  const hoursCard = `<div class="v-hours glass glass--cream" data-reveal style="--i:2">
+  const hoursCard = `<div class="v-hours v-fill-sky glass glass--cream" data-reveal style="--i:2">${TAPE}
 <div class="v-hours__col"><p class="kicker">${icon('truck')}Delivery hours</p>${deliveryHours(ctx)}</div>
 <div class="v-hours__col"><p class="kicker">${icon('clock')}Store hours</p>${hoursHtml(ctx)}</div>
 ${ctx.site.lastCall ? `<p class="v-hours__note">${esc(ctx.site.lastCall)}</p>` : ''}
 </div>`;
-  let main = hero({ crumbs, kicker: 'Weed Delivery', h1, subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, art: archArt(pic), mod: 'v-hero--hub' });
+  let main = hero({ crumbs, kicker: 'Weed Delivery', h1, subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, art: archArt(pic), pro: sticker('g-bud-cut'), mod: 'v-hero--hub' });
   main += introBand(ctx, hp.intro, hoursCard, { after: `<div class="v-intro__svc">${serviceCards(ctx, { h: 3 })}</div>` });
   // areas region: the "Areas We Serve" segment plus any county segments that follow it
   const ai = segs.findIndex((s) => s.head && /areas we serve/i.test(s.head.text));
@@ -401,15 +418,15 @@ ${ctx.site.lastCall ? `<p class="v-hours__note">${esc(ctx.site.lastCall)}</p>` :
 <div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><p class="kicker">Delivery areas</p><h2 class="display v-head__h" id="areas-hub-h">${esc(areaHead ? areaHead.text : 'Weed Delivery Areas We Serve')}</h2>${ctx.site.delivery && ctx.site.delivery.zones ? '' : ''}</header>
-<div class="v-counties">
-${groups.filter((g) => g.towns.length || g.desc.length || g.name).map((g, i) => `<article class="v-county glass glass--cream glass--lift"${g.name ? ` id="${escA(countyId(g.name))}"` : ' id="county-more"'} data-reveal style="--i:${i % 2}">
+<div class="v-counties v-bento">
+${((gs) => { const sp = bentoSpans(gs.length); return gs.map((g, i) => `<article class="v-county ${sp[i]}${i === 0 ? ' v-fill-sun' : i === 2 ? ' v-fill-sky' : ''} glass glass--cream glass--lift"${g.name ? ` id="${escA(countyId(g.name))}"` : ' id="county-more"'} data-reveal data-tilt="2" style="--i:${i % 3}">${i === 0 ? TAPE : ''}
 <div class="v-county__text">
 <p class="v-county__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</p>
 ${g.name ? `<h3 class="v-county__h">${esc(g.name)}</h3>` : `<h3 class="v-county__h">More delivery towns</h3>`}
 ${blocks(ctx, g.desc.concat(g.other), { min: 4 })}
 </div>
 <ul class="v-chips" role="list">${g.towns.map(chip).join('')}</ul>
-</article>`).join('\n')}
+</article>`).join('\n'); })(groups.filter((g) => g.towns.length || g.desc.length || g.name))}
 </div>
 </div>
 </section>`;
@@ -429,11 +446,11 @@ ${blocks(ctx, g.desc.concat(g.other), { min: 4 })}
   return out(ctx, { path: p, title: rec ? rec.title : 'Weed Delivery | LADY L CANNABIS', description: desc, crumbs, main, mod: 'hub', jsonld: rec ? faqLd(allBlocks(rec)) : [] });
 }
 function noticeBand(ctx, s) {
-  const st = { btnCls: 'btn--sun', btnAlt: 'btn--glass' };
+  const st = { btnCls: 'btn--sun', btnAlt: 'btn--deco' };
   return `<section class="band band--sun v-notice" aria-labelledby="v-notice-h" data-sunburst>
-<div class="band__clip" aria-hidden="true">${gen(['g-haze', 'g-sunburst-wall'], { alt: '', cls: 'band__bg v-bg', sizes: '100vw' })}<span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark v-dots--wide"></span><span class="grain"></span></div>
 <div class="wrap wrap--narrow">
-<div class="v-notice__card glass glass--strong" data-reveal>
+<div class="v-notice__card glass glass--cream" data-reveal>${TAPE}
 <span class="v-notice__ico" aria-hidden="true">${icon('id')}</span>
 <h2 class="display v-notice__h" id="v-notice-h">${esc(s.head.text)}</h2>
 <div class="v-notice__b prose">${blocks(ctx, s.blocks, st)}</div>
@@ -446,12 +463,12 @@ function tipsBand(ctx, s) {
   const st = { btnCls: 'btn--sun', btnAlt: 'btn--deco' };
   const lists = s.blocks.filter((b) => b.type === 'ul' || b.type === 'ol');
   const rest = s.blocks.filter((b) => !lists.includes(b));
-  return `<section class="band band--linen v-tips" aria-labelledby="v-tips-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+  return `<section class="band band--cream v-tips" aria-labelledby="v-tips-h">
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><p class="kicker">Tips</p><h2 class="display v-head__h" id="v-tips-h">${esc(s.head.text)}</h2></header>
 ${rest.length ? `<div class="v-lead prose" data-reveal>${blocks(ctx, rest, st)}</div>` : ''}
-${lists.map((l) => `<${l.type} class="v-tiplist" role="list">${(l.items || []).map((it, i) => `<li class="v-tip glass glass--cream glass--lift" data-reveal style="--i:${i % 3}"><span class="v-tip__ico" aria-hidden="true">${icon('sparkle')}</span><span>${rewriteLinks(itemHtml(it))}</span></li>`).join('')}</${l.type}>`).join('')}
+${lists.map((l) => `<${l.type} class="v-tiplist v-bento" role="list">${(l.items || []).map((it, i, all) => `<li class="v-tip ${bentoSpans(all.length)[i]}${i === 0 ? ' v-fill-coral' : ''} glass glass--cream glass--lift" data-reveal style="--i:${i % 3}"><span class="v-tip__ico" aria-hidden="true">${icon('sparkle')}</span><span>${rewriteLinks(itemHtml(it))}</span></li>`).join('')}</${l.type}>`).join('')}
 </div>
 </section>`;
 }
@@ -459,15 +476,18 @@ ${lists.map((l) => `<${l.type} class="v-tiplist" role="list">${(l.items || []).m
 // ---------- /service/<town>/ ----------
 function factsCard(ctx, c) {
   const d = ctx.site.delivery || {};
-  return `<div class="v-facts glass glass--strong">
+  return `<div class="v-facts">
+<div class="v-facts__tile v-fill-sun glass glass--cream">${TAPE}
 <p class="kicker">${icon('truck')}Delivery facts</p>
 <ul class="v-facts__list">${[d.window, d.minimum, d.id].filter(Boolean).map((t) => `<li>${esc(t)}</li>`).join('')}</ul>
+</div>
+<div class="v-facts__tile glass glass--cream">
 <p class="v-facts__h">Delivery hours</p>
 ${deliveryHours(ctx, 'v-facts__hours')}
 ${c ? `<p class="v-facts__county"><a class="chip chip--sky"${linkAttrs('/service/#' + countyId(c))}>${icon('pin')}${esc(county(c))} County</a></p>` : ''}
+</div>
 </div>`;
 }
-const CUTS = ['g-leaf-cut', 'g-pampas-cut', 'g-moon-cut', 'g-bud-cut'];
 function townPage(ctx, d, i, counties) {
   const p = townPath(d);
   const name = townName(d);
@@ -477,10 +497,10 @@ function townPage(ctx, d, i, counties) {
   const hp = heroParts(hb);
   const ctas = hp.ctas.length ? hp.ctas.map((b, k) => btn(ctx, b, k ? 'btn--glass' : 'btn--sun')) : [glueBtn(menu(ctx), 'Order for Delivery')];
   const cut = CUTS[i % CUTS.length];
-  const pro = `<span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1">${gen([cut, ...CUTS], { alt: '', sizes: '(min-width: 1024px) 220px, 120px', eager: true })}</span>`;
+  const pro = sticker(cut);
   let main = hero({ crumbs, kicker: 'Weed Delivery', h1: esc(d.h1 || name), subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, side: factsCard(ctx, c), pro, mod: 'v-hero--town' });
   const near = (ctx.delivery || []).filter((x) => x !== d && c && county(x.county || counties.get(townPath(x)) || '').toLowerCase() === c.toLowerCase());
-  const nearHtml = `<div class="v-near glass glass--cream">
+  const nearHtml = `<div class="v-near v-fill-sky glass glass--cream">${TAPE}
 <p class="kicker">${c ? `More towns in ${esc(c)} County` : 'More delivery towns'}</p>
 <ul class="v-chips" role="list">${(near.length ? near : (ctx.delivery || []).filter((x) => x !== d).slice(0, 8)).map((x) => `<li><a class="chip v-chip"${linkAttrs(townPath(x))}>${icon('truck')}${esc(townName(x))}</a></li>`).join('')}</ul>
 <p class="v-near__all"><a class="link-arrow"${linkAttrs('/service/#areas')}>Weed Delivery Areas We Serve${icon('arrow')}</a></p>
@@ -526,19 +546,19 @@ function pickupPage(ctx) {
   const photos = ['/assets/photos/ll/storefront.webp', '/assets/photos/ll/store.webp'].filter(photoOk);
   const art = archArt(photos[0] ? img({ src: photos[0], alt: '' }, heroImgOpts) : gen(['g-hf-mirror', 'g-hf-arch', 'g-guide'], heroImgOpts));
   const ctas = [glueBtn(menu(ctx), 'Order for Pickup'), `<a class="btn btn--glass"${linkAttrs(S.mapUrl)}>Get directions${icon('ext')}</a>`];
-  let main = hero({ crumbs, kicker: 'In-Store Pickup', h1: 'In-Store Pickup at <em>Lady L</em>', lede: 'Lady L&#39;s own words on ordering ahead and picking up at the West Side Avenue store.', ctas, art, mod: 'v-hero--pickup' });
-  main += `<section class="band band--cream v-pk" aria-labelledby="v-pk-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
+  let main = hero({ crumbs, kicker: 'In-Store Pickup', h1: 'In-Store Pickup at <em>Lady L</em>', lede: 'Lady L&#39;s own words on ordering ahead and picking up at the West Side Avenue store.', ctas, art, pro: sticker('g-leaf-cut'), mod: 'v-hero--pickup' });
+  main += `<section class="band band--linen v-pk" aria-labelledby="v-pk-h">
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span></div>
 <div class="wrap">
 <div class="v-pk__grid">
-<figure class="v-pk__quote" data-reveal>
+<figure class="v-pk__quote v-fill-sun glass glass--cream" data-reveal>${TAPE}
 <p class="kicker">Order ahead</p>
 <blockquote class="v-bigquote"><p>${esc(S.pickup && S.pickup.order)}</p></blockquote>
 <figcaption class="v-pk__src">From the <a${linkAttrs('/faq/')}>Lady L FAQ</a></figcaption>
 </figure>
 <div class="v-pk__steps">
 <header class="v-head" data-reveal><p class="kicker">Easy Steps</p><h2 class="display v-head__h" id="v-pk-h">How pickup works</h2></header>
-<ol class="v-steps v-steps--three" role="list">${steps.map((s, i) => `<li class="v-step glass glass--cream glass--lift" data-reveal style="--i:${i}">
+<ol class="v-steps v-steps--three" role="list">${steps.map((s, i) => `<li class="v-step glass glass--cream glass--lift" data-reveal data-tilt="2" style="--i:${i}">
 <span class="numeral v-step__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>
 <h3 class="v-step__t">${esc(s.title)}</h3>
 <div class="v-step__b"><p>${rewriteLinks(s.html)}</p></div>
@@ -553,7 +573,7 @@ function pickupPage(ctx) {
 <header class="v-head" data-reveal><p class="kicker">From the FAQ</p><h2 class="display v-head__h" id="v-pkf-h">Before you <em>visit</em></h2></header>
 <div class="v-pk-faq__grid">
 ${[qBring, qOrder].filter(Boolean).map((q, i) => `<article class="v-qa glass glass--lift" data-reveal style="--i:${i}"><h3 class="v-qa__q">${esc(norm(q.q))}</h3><div class="v-qa__a">${rewriteLinks(q.a_html)}</div></article>`).join('\n')}
-${S.lastCall ? `<article class="v-qa v-qa--note glass glass--lift" data-reveal style="--i:2"><span class="v-qa__ico" aria-hidden="true">${icon('clock')}</span><h3 class="v-qa__q">Last call</h3><p class="v-qa__a">${esc(S.lastCall)}</p></article>` : ''}
+${S.lastCall ? `<article class="v-qa v-qa--note v-fill-sun glass glass--cream glass--lift" data-reveal style="--i:2"><span class="v-qa__ico" aria-hidden="true">${icon('clock')}</span><h3 class="v-qa__q">Last call</h3><p class="v-qa__a">${esc(S.lastCall)}</p></article>` : ''}
 </div>
 </div>
 </section>
@@ -561,7 +581,7 @@ ${S.lastCall ? `<article class="v-qa v-qa--note glass glass--lift" data-reveal s
 <div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
 <div class="wrap">
 <div class="v-visit__grid">
-<div class="v-visit__card glass glass--cream" data-reveal>
+<div class="v-visit__card glass glass--cream" data-reveal>${TAPE}
 <p class="kicker">Visit</p>
 <h2 class="display v-head__h" id="v-visit-h">${esc(S.name)}</h2>
 <address class="v-visit__addr">${icon('pin')}<span>${esc(addrLine(S))}</span></address>
@@ -572,7 +592,7 @@ ${hoursHtml(ctx, 'v-visit__hours')}
 ${S.lastCall ? `<p class="v-hours__note">${esc(S.lastCall)}</p>` : ''}
 <div class="btn-row">${glueBtn(menu(ctx), 'Order for Pickup')}</div>
 </div>
-<a class="v-alt glass glass--lift" data-reveal style="--i:1"${linkAttrs('/service/')}>
+<a class="v-alt v-fill-sun glass glass--cream glass--lift" data-reveal data-tilt="2" style="--i:1"${linkAttrs('/service/')}>
 <span class="v-alt__ico" aria-hidden="true">${icon('truck')}</span>
 <span class="v-alt__k">Prefer delivery?</span>
 <span class="v-alt__t">Weed Delivery</span>
@@ -599,7 +619,7 @@ function njHub(ctx, rec) {
   const hp = heroParts(hb);
   const ctas = hp.ctas.length ? hp.ctas.map((b, i) => btn(ctx, b, i ? 'btn--glass' : 'btn--sun')) : [glueBtn(menu(ctx), 'Order Now')];
   const pic = hp.pic ? img({ src: hp.pic.src, alt: norm(hp.pic.alt), w: hp.pic.w, h: hp.pic.h }, heroImgOpts) : gen(['g-guide', 'g-hf-arch', 'g-haze'], heroImgOpts);
-  let main = hero({ crumbs, kicker: 'Neighborhoods', h1: rec ? esc(rec.h1) : 'New Jersey Areas We Serve', subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, art: archArt(pic), mod: 'v-hero--nj' });
+  let main = hero({ crumbs, kicker: 'Neighborhoods', h1: rec ? esc(rec.h1) : 'New Jersey Areas We Serve', subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, art: archArt(pic), pro: sticker('g-moon-cut'), mod: 'v-hero--nj' });
   main += introBand(ctx, hp.intro, serviceCards(ctx, { h: 3, compact: true }));
   const finder = placeFinder(ctx);
   const used = new Set();
@@ -626,11 +646,15 @@ function placePage(ctx, pl, i) {
   // hero quick facts: the page's own captured hours tables (Lady L's rows), else site.json
   const hrs = allBlocks(pl).filter((b) => b.type === 'hours' && (b.rows || []).length);
   const rowsUl = (rows) => `<ul class="hours">${rows.map((r) => `<li><span class="hours__d">${esc(r[0])}</span><span class="hours__t">${esc(r[1] || '')}</span></li>`).join('')}</ul>`;
-  const side = `<div class="v-facts glass glass--strong">
-${hrs.length ? hrs.map((b) => `<p class="v-facts__h">${icon(/deliver/i.test(b.title) ? 'truck' : 'clock')}${esc(b.title || '')}</p>${rowsUl(b.rows)}`).join('') : `<p class="v-facts__h">${icon('clock')}Store hours</p>${hoursHtml(ctx)}<p class="v-facts__h">${icon('truck')}Delivery hours</p>${deliveryHours(ctx)}`}
-<p class="v-facts__county"><a class="chip chip--sky"${linkAttrs(dir)}>${icon('pin')}Get directions from ${esc(name)}</a></p>
+  const tiles = hrs.length ? hrs.map((b) => [`<p class="v-facts__h">${icon(/deliver/i.test(b.title) ? 'truck' : 'clock')}${esc(b.title || '')}</p>`, rowsUl(b.rows)])
+    : [[`<p class="v-facts__h">${icon('clock')}Store hours</p>`, hoursHtml(ctx)], [`<p class="v-facts__h">${icon('truck')}Delivery hours</p>`, deliveryHours(ctx)]];
+  const side = `<div class="v-facts v-facts--place">
+${tiles.map(([h, ul], k) => `<div class="v-facts__tile${k === 0 ? ' v-fill-sun' : ''} glass glass--cream">${k === 0 ? TAPE : ''}
+${h}${ul}${k === tiles.length - 1 ? `
+<p class="v-facts__county"><a class="chip chip--sky"${linkAttrs(dir)}>${icon('pin')}Get directions from ${esc(name)}</a></p>` : ''}
+</div>`).join('\n')}
 </div>`;
-  const pro = `<span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1">${gen([CUTS[(i + 1) % CUTS.length], ...CUTS], { alt: '', sizes: '(min-width: 1024px) 220px, 120px', eager: true })}</span>`;
+  const pro = sticker(CUTS[(i + 1) % CUTS.length]);
   let main = hero({ crumbs, kicker: 'Dispensary near ' + esc(name), h1: esc(pl.h1 || name), subs: subsHtml(hp.subs), lede: hp.lede ? rewriteLinks(hp.lede.html) : '', ctas, side, pro, mod: 'v-hero--place' });
   main += introBand(ctx, hp.intro, '');
   main += segs.map((s, k) => {
@@ -652,9 +676,9 @@ function routeBand(ctx, s, ol, dir, name) {
 <div class="v-route__main">
 <header class="v-head" data-reveal><p class="kicker">Directions</p><h2 class="display v-head__h" id="v-route-h">${esc(s.head.text)}</h2></header>
 ${left.length ? `<div class="prose" data-reveal>${blocks(ctx, left, st)}</div>` : ''}
-<ol class="v-route__steps" role="list">${(list.items || []).map((it, i) => `<li class="v-route__step" data-reveal style="--i:${i % 4}"><span class="v-route__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><span>${rewriteLinks(itemHtml(it))}</span></li>`).join('')}</ol>
+<ol class="v-route__steps glass glass--cream" role="list">${(list.items || []).map((it, i) => `<li class="v-route__step" data-reveal style="--i:${i % 4}"><span class="v-route__n" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span><span>${rewriteLinks(itemHtml(it))}</span></li>`).join('')}</ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1">${TAPE}
 <p class="kicker">${icon('pin')}The store</p>
 <div class="v-route__store prose">${blocks(ctx, right, st)}</div>
 <p class="v-route__dir"><a class="btn btn--sun btn--sm"${linkAttrs(dir)}>Get directions from ${esc(name)}${icon('ext')}</a></p>

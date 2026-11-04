@@ -1,4 +1,4 @@
-// shell.mjs - the page chrome (FOUNDATION, "LAVENDER PARLOR"): <head>, the top link bar (Delivery / Pickup service pills
+// shell.mjs - the page chrome (FOUNDATION, "PASTE UP POP", revision 1): <head>, the top link bar (Delivery / Pickup service pills
 // + quick links), the main bar (logo, nav with image-card dropdown panels, Order Now), the drawer below 1024px, the
 // prefooter bands (areas + newsletter), the footer with the giant LADY L marquee wordmark, the 21+ gate.
 // Exports and the page() signature are FIXED (every lane calls them):
@@ -534,8 +534,7 @@ ${ogi ? `<meta property="og:image" content="${escA(ogi)}">\n<meta name="twitter:
 <meta name="theme-color" content="#120f24">
 ${fav ? `<link rel="icon" href="${escA(fav)}">` : ''}
 ${touch ? `<link rel="apple-touch-icon" href="${escA(touch)}">` : ''}
-<link rel="preload" href="/assets/fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/josefin-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
 ${pre}
 ${css}

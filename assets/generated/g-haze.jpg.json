@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Wide atmospheric photograph of a dark, nearly empty violet room with Art Deco plaster mouldings, the air filled with soft drifting lavender haze. A tall arched window in the right third of the frame lets slow golden light rays stream diagonally down through the haze toward the floor right of centre, the beams clearly visible as soft volumetric shafts, a few floating dust motes glinting gold. The left 40 percent of the frame stays dark, calm deep aubergine-violet haze with nothing in it. No furniture. Deep aubergine-violet shadows, lavender haze, sunflower-gold rays, a hint of pale sky blue in the window glass, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Wide high-key studio photograph of soft, pale lavender-white smoke wisps curling slowly in the air in front of a flat, seamless, evenly coloured bright sunflower-yellow paper backdrop that fills the whole frame. The smoke forms a few delicate translucent ribbons and curls that drift across the middle and right of the frame; the left 40 percent of the frame is calm, nearly plain yellow with only the faintest trace of haze. Clean, bright, even high-key studio light, no hard shadows, crisp and airy, saturated yellow, nothing else in the frame, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "16:9"
   },
-  "seed": 1409547808,
-  "requestId": "01a1a2bc-80b8-7d90-8776-eceb6b04349c",
+  "seed": 1646704885,
+  "requestId": "01a1a3fc-a9cc-7d82-b7a2-b1b6cbeeccb0",
   "cutout": null,
   "width": 2752,
   "height": 1536,
-  "sha256": "ac0757ad854e2749ef24f615bdce5d936bb8f11264cde6a37e62ea8a97c26cba",
-  "raw": "tmp/img/raw/g-haze.1793731634125.jpg",
+  "sha256": "08a7bf1c28497d4f731bc074f5ff0a7e47a9c10ee9ba224ed952b6a4beaa15f8",
+  "raw": "tmp/img/raw/g-haze.1793752614178.jpg",
   "attempt": 1,
-  "generatedAt": "2026-11-03T18:47:15.690Z",
+  "generatedAt": "2026-11-04T00:36:56.112Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 1. Dark violet room, arched window on the right, golden-pink rays to a floor patch, left 45% dark and calm; the loop key frame",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1 (restored). Flat yellow ground, left 44 percent plain, one glossy pale lavender smoke ribbon at the right; reads more as a ribbon than as wisps. Attempt 2 (purple to orange gradient) and attempt 3 (peach to pink gradient) archived: neither kept the yellow ground",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

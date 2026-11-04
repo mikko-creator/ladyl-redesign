@@ -1,4 +1,4 @@
-/* site.js - Lady L "LAVENDER PARLOR" behaviour (FOUNDATION): 21+ gate, header state, dropdown panels (hover intent with
+/* site.js - Lady L "PASTE UP POP" behaviour (FOUNDATION): 21+ gate, header state, dropdown panels (hover intent with
    a gap bridge, click, keyboard, Escape), drawer below 1024px, reveals (2.5 s fail-safe), depth parallax, tilt, cursor
    light, marquee, rotator (real prev, next and dot buttons), tabs, chip filters, video play-in-view and pause toggles,
    demo forms, sunburst turn and footer wordmark light (both run only while on screen), back to top. No dependencies,

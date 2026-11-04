@@ -12,12 +12,12 @@
       "h": 1074,
       "wSmall": 720,
       "hSmall": 1080,
-      "duration": 5,
+      "duration": 4.5,
       "fps": 24,
       "audio": false,
       "alt": "",
       "use": "decorative seamless loop: muted, autoplay, loop, playsinline, aria-hidden, poster first, a visible pause toggle, hidden under prefers-reduced-motion",
-      "note": "AI-generated illustrative motion (fal Kling 2.1 Pro image-to-video from the AI-generated g-haze key frame, first and last frame set to it; jump frame dropped, retimed to constant motion and folded into a seamless 5-second loop with a 12-frame crossfade). Haze and light only: no objects added, no people. The phone file is a 2:3 crop around the window and light rays (45.8% to 83.1% of the width)."
+      "note": "AI-generated illustrative motion (fal Kling 2.1 Pro image-to-video from the AI-generated g-haze key frame, first and last frame set to it; jump frame dropped, retimed to constant motion and folded into a seamless 4.5 second loop with a 12 frame crossfade). A pale lavender ribbon rippling on a flat sunflower yellow ground: no objects added, no people. The phone file is a 2:3 crop around the ribbon (62.2% to 99.4% of the width)."
     }
   }
 }

@@ -51,7 +51,7 @@ function out(ctx, { path, title, description, crumbs, bodyClass, main, jsonld = 
 // and an arch window on the right that breaks out over the hero's bottom edge into the next band.
 function hero({ crumbs, kicker, h1, line, ctas, media, cls = '' }) {
   return `<section class="page-hero s-hero ${cls}" data-sunburst data-spot>
-${clip('<span class="s-hero__glow"></span>')}
+${clip('<span class="dots s-dots s-hero__dots"></span>')}
 <div class="wrap page-hero__inner">
 <div class="page-hero__text s-hero__text">
 ${crumbsHtml(crumbs)}
@@ -64,18 +64,30 @@ ${ctas ? `<div class="btn-row s-hero__ctas" data-reveal style="--i:3">${ctas}</d
 </div>
 </section>`;
 }
-// arch window + an optional cut-out riding on parallax (the two protrusions of the first screen)
-function heroArch(inner, { cut = '', wide = false } = {}) {
-  return `<div class="s-heroarch${wide ? ' s-heroarch--wide' : ''}">
-<span class="s-heroarch__halo" aria-hidden="true"></span>
-<figure class="arch s-heroarch__frame" data-tilt="4"><span class="arch__img">${inner}</span></figure>
-${cut ? `<span class="s-heroarch__cut" data-depth="0.14" aria-hidden="true">${gimg(cut, { alt: '', cls: 'cut', sizes: '(min-width: 1024px) 220px, 28vw' })}</span>` : ''}
+// bento hero art tile: a brand colour tile holding the photo clipping, a sticker cut-out on parallax breaking its edge
+const FILLS = ['sun', 'coral', 'sky', 'lav'];
+function heroArch(inner, { cut = '', wide = false, fill = 'coral' } = {}) {
+  return `<div class="s-heroarch bento-tile fill-${fill} s-fill--${fill}${wide ? ' s-heroarch--wide' : ''}">
+<span class="dots s-dots s-heroarch__dots" aria-hidden="true"></span>
+<figure class="arch clipping clipping--r s-heroarch__frame" data-tilt="2"><span class="arch__img">${inner}</span></figure>
+${cut ? `<span class="sticker s-heroarch__cut" data-depth="0.14" aria-hidden="true">${gimg(cut, { alt: '', cls: 'cut', sizes: '(min-width: 1024px) 220px, 28vw' })}</span>` : ''}
 </div>`;
 }
 
-function tile(c, i, sizes = '(min-width: 1240px) 290px, (min-width: 1024px) 23vw, (min-width: 640px) 45vw, 70vw') {
-  return `<li class="s-tiles__item" data-reveal style="--i:${i % 4}"><a class="tile s-tile"${linkAttrs(c.href)}>
-<span class="tile__media s-tile__media">${gimg(c.gimg, { alt: '', sizes })}<span class="s-tile__no" aria-hidden="true">${pad(c.i + 1)}</span></span>
+// bento tiles. Hub: 01 featured (6 cols x 2 rows), 02 to 05 span 3, 06 to 08 span 4. Strip: 01 featured (3 x 2), rest span 3.
+const SIZES = {
+  feat: '(min-width: 1240px) 600px, (min-width: 768px) 92vw, 92vw',
+  w3: '(min-width: 1240px) 290px, (min-width: 768px) 46vw, 46vw',
+  w4: '(min-width: 1240px) 390px, (min-width: 768px) 30vw, 46vw',
+  sfeat: '(min-width: 1240px) 290px, (min-width: 768px) 92vw, 92vw',
+  s: '(min-width: 1240px) 120px, (min-width: 768px) 18vw, 36vw',
+};
+function tile(c, i, sizes, { strip = false } = {}) {
+  const feat = i === 0;
+  const span = strip ? (feat ? 'span-3 row-2 s-tiles__item--feat' : 'span-3') : feat ? 'span-6 row-2 s-tiles__item--feat' : i >= 5 ? 'span-4 s-tiles__item--w4' : 'span-3';
+  const fill = FILLS[c.i % FILLS.length];
+  return `<li class="s-tiles__item ${span}" data-reveal style="--i:${i % 4}"><a class="tile bento-tile fill-${fill} s-tile s-fill--${fill}${feat ? ' s-tile--feat' : ''}" data-tilt="2"${linkAttrs(c.href)}>
+<span class="tile__media clipping clipping--${i % 2 ? 'r' : 'l'} s-tile__media"><span class="s-tile__ph">${gimg(c.gimg, { alt: '', sizes })}</span><span class="s-tile__no" aria-hidden="true">${pad(c.i + 1)}</span></span>
 <span class="tile__title s-tile__title">${esc(c.label)}</span>
 <span class="tile__cta s-tile__cta">${arrow('Explore')}</span>
 </a></li>`;
@@ -98,6 +110,7 @@ function services(ctx) {
 // Lady L's own words, quoted verbatim in a glass card with a link to the page they come from
 function quoteCard({ heading, q, html, from, href: to }, i = 0, cls = '') {
   return `<figure class="glass glass--lift s-quote ${cls}" data-reveal style="--i:${i}">
+<span class="tape tape--top s-tape s-quote__tape" aria-hidden="true"></span>
 <span class="s-quote__mark" aria-hidden="true">&ldquo;</span>
 ${heading ? `<p class="s-quote__h">${esc(heading)}</p>` : ''}
 ${q ? `<p class="s-quote__q">${esc(q)}</p>` : ''}
@@ -206,8 +219,8 @@ function orderBand(ctx, { slug = '', label = '', id = 'order-h' } = {}) {
   const d = ctx.site.delivery || {};
   const h = label ? `Order <em>${esc(label)}</em> for delivery or pickup` : 'Order online for <em>delivery</em> or pickup';
   const all = cats(ctx);
-  return `<section class="band band--night s-order" aria-labelledby="${id}" data-spot>
-${clip('<span class="s-order__glow"></span>')}
+  return `<section class="band band--yellow s-order${label ? ' s-order--solo' : ''}" aria-labelledby="${id}" data-spot>
+${clip('<span class="dots s-dots s-order__dots"></span><span class="burst s-order__burst"></span>')}
 <div class="wrap s-order__grid">
 <div class="s-order__text" data-reveal>
 <p class="kicker">Lady L's online menu</p>
@@ -227,7 +240,7 @@ function productsPage(ctx) {
   const crumbs = [{ label: 'Home', href: '/' }, { label: 'Products' }];
   const all = cats(ctx);
   const sbc = shopByCategory(ctx);
-  const media = heroArch(gimg('g-flower', { eager: true, alt: '', sizes: '(min-width: 1024px) 440px, 76vw' }), { cut: 'g-pampas-cut' });
+  const media = heroArch(gimg('g-flower', { eager: true, alt: '', sizes: '(min-width: 1024px) 440px, 76vw' }), { cut: 'g-pampas-cut', fill: 'coral' });
   const main = `${hero({
     crumbs,
     kicker: 'Shop by category',
@@ -242,7 +255,7 @@ ${clip('<span class="s-botanical"></span>')}
 <div class="wrap">
 <div class="s-head s-head--row" data-reveal><div><p class="kicker">The categories</p><h2 class="display s-h2" id="cats-h">Shop by <em>category</em></h2></div><p class="s-head__note">Each tile opens a category page with a link to that part of Lady L's online menu.</p></div>
 <ul class="s-tiles" role="list">
-${all.map((c, i) => tile(c, i)).join('\n')}
+${all.map((c, i) => tile(c, i, i === 0 ? SIZES.feat : i >= 5 ? SIZES.w4 : SIZES.w3)).join('\n')}
 </ul>
 </div>
 </section>
@@ -274,7 +287,7 @@ function categoryPage(ctx, cat, all) {
   const others = all.filter((c) => c.slug !== cat.slug);
   const ins = intro(g);
   const pts = points(g);
-  const media = heroArch(gimg(cat.gimg, { eager: true, alt: (g && g.alt) || '', sizes: '(min-width: 1024px) 560px, 88vw' }), { cut: CUT[cat.slug], wide: true });
+  const media = heroArch(gimg(cat.gimg, { eager: true, alt: (g && g.alt) || '', sizes: '(min-width: 1024px) 560px, 88vw' }), { cut: CUT[cat.slug], wide: true, fill: FILLS[cat.i % FILLS.length] });
   const main = `${hero({
     crumbs,
     kicker: 'Shop by category',
@@ -300,7 +313,7 @@ ${pts.length ? `<div class="glass glass--cream glass--lift s-points" data-reveal
 </div>
 </section>
 ${words.length ? `<section class="band band--plum s-words s-words--cat" aria-labelledby="lw-h">
-${clip('<span class="s-words__glow"></span>')}
+${clip('<span class="dots s-dots s-words__dots"></span>')}
 <div class="wrap">
 <div class="s-head s-head--row" data-reveal><div><p class="kicker">In Lady L's words</p><h2 class="display s-h2" id="lw-h">What Lady L says about <em>${esc(label.toLowerCase())}</em></h2></div><p class="s-head__note">Quoted from Lady L's own pages, each with a link to the page it comes from.</p></div>
 <div class="s-quotes s-quotes--${Math.min(words.length, 4)}">
@@ -313,7 +326,7 @@ ${orderBand(ctx, { slug: cat.menu || cat.slug, label })}
 <div class="wrap">
 <div class="s-head s-head--row" data-reveal><div><p class="kicker">Keep browsing</p><h2 class="display s-h2" id="others-h">Other <em>categories</em></h2></div><a class="link-arrow s-head__link"${linkAttrs('/products/')}>${arrow('All products')}</a></div>
 <ul class="s-tiles s-tiles--others" role="list">
-${others.map((c, i) => tile(c, i, '(min-width: 1240px) 210px, (min-width: 1024px) 16vw, (min-width: 640px) 30vw, 60vw')).join('\n')}
+${others.map((c, i) => tile(c, i, i === 0 ? SIZES.sfeat : SIZES.s, { strip: true })).join('\n')}
 </ul>
 </div>
 </section>
@@ -524,7 +537,7 @@ function capturedPage(ctx, slug) {
     heroSec.heading = '';
   }
   const photoOf = (b, sizes, eager = false) => img({ src: b.src, alt: altOf(b), w: b.w, h: b.h }, { sizes, eager });
-  const media = heroArch(heroPhoto ? photoOf(heroPhoto, '(min-width: 1024px) 440px, 76vw', true) : gimg(HERO_IMG[slug] || 'g-hf-arch', { eager: true, alt: '', sizes: '(min-width: 1024px) 440px, 76vw' }), { cut: CUTS[slug] });
+  const media = heroArch(heroPhoto ? photoOf(heroPhoto, '(min-width: 1024px) 440px, 76vw', true) : gimg(HERO_IMG[slug] || 'g-hf-arch', { eager: true, alt: '', sizes: '(min-width: 1024px) 440px, 76vw' }), { cut: CUTS[slug], fill: 'sky' });
   const faqs = [];
   let pool = 0;
   let side = 0;
@@ -543,12 +556,12 @@ function capturedPage(ctx, slug) {
     const headHtml = head && !dupHead ? `<h2 class="display s-h2">${esc(head)}</h2>` : '';
     // alternating text + arch rows for prose sections; special structures get the full width on a calm ground
     let aside = '';
-    if (!special && imgs.length === 0 && prose >= 2) aside = `<figure class="arch s-row__arch" data-tilt="3"><span class="arch__img">${gimg(POOL[pool++ % POOL.length], { alt: '', sizes: '(min-width: 1024px) 420px, 80vw' })}</span></figure>`;
+    if (!special && imgs.length === 0 && prose >= 2) aside = `<figure class="arch clipping clipping--${side % 2 ? 'l' : 'r'} s-row__arch" data-tilt="2"><span class="arch__img">${gimg(POOL[pool++ % POOL.length], { alt: '', sizes: '(min-width: 1024px) 420px, 80vw' })}</span></figure>`;
     const flip = aside ? (side++ % 2 ? ' s-row--flip' : '') : '';
     const id = s.id && /^[a-z][\w-]*$/i.test(s.id) ? ` id="${escA(slug + '-' + s.id)}"` : '';
     if (aside) {
       return `<section class="band ${ground} s-sec s-row${flip}"${id}>
-${night ? clip('<span class="s-sec__glow"></span>') : ''}
+${night ? clip('<span class="dots s-dots s-sec__dots"></span>') : ''}
 <div class="wrap s-row__grid">
 <div class="s-row__text prose" data-reveal>${headHtml}${html}</div>
 <div class="s-row__media" data-reveal style="--i:1">${aside}</div>
@@ -556,7 +569,7 @@ ${night ? clip('<span class="s-sec__glow"></span>') : ''}
 </section>`;
     }
     return `<section class="band ${ground} s-sec${special ? ' s-sec--wide' : ''}"${id}>
-${night ? clip('<span class="s-sec__glow"></span>') : ''}
+${night ? clip('<span class="dots s-dots s-sec__dots"></span>') : ''}
 <div class="wrap${special ? '' : ' wrap--narrow'} s-sec__inner">
 <div class="s-sec__body prose" data-reveal>${headHtml}${html}</div>
 </div>

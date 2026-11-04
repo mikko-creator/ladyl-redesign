@@ -5,25 +5,25 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Top-down still-life photograph of an open notebook with thick cream paper on a deep violet velvet surface. On the left page lies a single pressed dried cannabis fan leaf; the right page holds only delicate graphite line drawings of leaves and small flowers, with no handwriting and no words anywhere. A slim brass fountain pen lies across the lower corner and a lavender silk ribbon bookmark trails from the spine. Soft warm light, calm and minimal, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Top-down mixed-media flat lay photograph, straight down from above: an open sketchbook with thick blank warm white pages lying on a flat, seamless, evenly coloured soft coral-pink paper ground. One pressed dried cannabis fan leaf with seven slender serrated leaflets is taped flat onto the left page with two short strips of sunflower-yellow paper tape; the right page is completely blank. Small torn paper scraps in pale sky blue and medium lavender-violet with rough fibrous edges lie near the sketchbook, and one plain wooden pencil lies beside it. No writing, no letters, no readable text anywhere. Hard direct flash light with crisp, hard-edged shadows, saturated, clean and graphic. The sketchbook is centred with an even margin of coral ground all round, and the top and bottom tenths of the frame are plain coral, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:4"
   },
-  "seed": 3547931528,
-  "requestId": "01a1a2bc-db8d-75e2-b0f3-f80fe091cef0",
+  "seed": 1070837556,
+  "requestId": "01a1a3fc-e379-71f0-b4b3-537c2e1d67d9",
   "cutout": null,
   "width": 1792,
   "height": 2240,
-  "sha256": "fd4cd2de9125597486e2656f9faf4a78f388d736d1d79097c7c185e5550c53db",
-  "raw": "tmp/img/raw/g-guide.1793731659464.jpg",
+  "sha256": "fe7c22482f4241357c49a1ea51205f8bce30e96e05bc7e5a219f31c96b57e1c0",
+  "raw": "tmp/img/raw/g-guide.1793752628956.jpg",
   "attempt": 1,
-  "generatedAt": "2026-11-03T18:47:41.507Z",
+  "generatedAt": "2026-11-04T00:37:10.616Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 1. Open notebook, pressed golden cannabis leaf, blank right page (no sketches drawn, no writing), lavender pen and ribbon; cropped to 4:5",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1. Blank sketchbook pages (no writing), pressed leaf taped with yellow tape across the gutter, torn sky and lavender scraps, pencil, coral ground; cropped 3:4 to 4:5",
+    "at": "2026-11-04T00:49:31.231Z"
   },
-  "postEdit": "cropped 1792x2368 -> 1792x2240 (4:5) by removing the top 128 px of plain violet satin; re-encoded JPEG q93"
+  "postEdit": "cropped 1792x2368 -> 1792x2240 (4:5) by removing 100 px at the top and 28 px at the bottom (plain coral ground); re-encoded JPEG q93"
 }

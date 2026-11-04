@@ -1,4 +1,4 @@
-// home.mjs - the home page "/" (HOME lane, "LAVENDER PARLOR"). Section order = the adopted home order
+// home.mjs - the home page "/" (HOME lane, revision 1 "PASTE UP POP" bento). Section order = the adopted home order
 // (docs/BUILD-CONTRACT.md section 6 HOME). Every captured word of src/content/pages/home.json is rendered
 // (tools/words-check.mjs --only home): each captured section is CLAIMED by a heading matcher and laid out by its own
 // renderer; every block a renderer does not place itself is printed by the generic block renderer at the end of that
@@ -203,18 +203,18 @@ export async function render(ctx) {
     const loop = haze && haze.mp4 && haze.poster
       ? `<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="${escA(haze.poster)}" width="${escA(haze.w || 1920)}" height="${escA(haze.h || 1080)}" aria-hidden="true" tabindex="-1">${haze.mp4Small ? `<source src="${escA(haze.mp4Small)}" type="video/mp4" media="(max-width: 720px)">` : ''}<source src="${escA(haze.mp4)}" type="video/mp4"></video>`
       : '';
-    const pair = typeof shell.serviceCards === 'function' ? shell.serviceCards(ctx, { h: 2, compact: true, reveal: false, cls: 'h-hero__pair' }) : '';
-    html.hero = `<section class="h-hero band band--night" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
+    const pair = typeof shell.serviceCards === 'function' ? shell.serviceCards(ctx, { h: 2, compact: true, reveal: true, cls: 'h-hero__pair' }) : '';
+    // PASTE UP POP bento: the copy on a big paper tile, the hero media as a taped photo clipping, the Delivery and
+    // Pickup cards as their own colour tiles (display: contents on the pair), one sticker breaking the copy tile edge
+    html.hero = `<section class="h-hero band band--paper" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
 <div class="band__clip h-hero__clip" aria-hidden="true">
-${gimg('g-hero-parlor', { alt: '', eager: true, cls: 'band__bg h-hero__bg', sizes: '100vw' })}
-${loop}
-<span class="h-hero__scrim"></span>
+<span class="h-dots h-hero__dots"></span>
 <span class="sunburst h-hero__rays"></span>
-<span class="h-hero__glow"></span>
 <span class="grain"></span>
 </div>
-<div class="wrap wrap--wide h-hero__inner">
+<div class="wrap wrap--wide h-hero__inner h-hero__bento">
 <div class="h-hero__copy">
+<span class="h-dots h-hero__copydots" aria-hidden="true"></span>
 <p class="kicker h-hero__kicker" data-reveal>${esc(addr.neighborhood || addr.city)}, ${esc(addr.city)}</p>
 <h1 id="h-hero-h1" class="display h-hero__h1" data-reveal style="--i:1">${accent(h1Text, /electric/i)}</h1>
 ${sub ? `<p class="h-hero__sub" data-reveal style="--i:2">${accent(stripTags(textOf(sub)), /made for you/i)}</p>` : ''}
@@ -226,10 +226,19 @@ ${ledes.map((b, i) => `<p class="h-hero__lede" data-reveal style="--i:${4 + i}">
 ${other.length ? `<p class="btn-row h-hero__more">${other.map((b) => `<a class="link-arrow"${linkAttrs(btnHref(ctx, b))}>${esc(b.text)}${ico('arrow')}</a>`).join('')}</p>` : ''}
 ${leftovers(ctx, H)}
 </div>
-<div class="h-hero__side" data-reveal style="--i:2">${pair}</div>
+<div class="h-hero__shot" data-reveal style="--i:1">
+<div class="h-hero__media" aria-hidden="true">
+${gimg('g-hero-parlor', { alt: '', eager: true, cls: 'h-hero__bg', sizes: '(max-width: 720px) 92vw, 560px' })}
+${loop}
+<span class="h-hero__halftone"></span>
 </div>
-<div class="h-hero__cut protrude" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.12">${gimg('g-pampas-cut', { alt: '', cls: 'cut h-hero__cut-img', sizes: '(max-width: 720px) 120px, 260px' })}</div></div>
+<span class="h-tape h-tape--tl" aria-hidden="true"></span>
+<span class="h-tape h-tape--br" aria-hidden="true"></span>
 ${loop ? `<button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false">${ico('pause')}<span class="video-toggle__label">Pause motion</span></button>` : ''}
+</div>
+${pair}
+<div class="h-hero__cut" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.06">${gimg('g-bud-cut', { alt: '', cls: 'cut h-hero__cut-img', sizes: '(max-width: 720px) 96px, 180px' })}</div></div>
+</div>
 </section>`;
   }
 
@@ -240,7 +249,7 @@ ${loop ? `<button class="btn btn--glass btn--sm h-hero__toggle" type="button" da
     if (C) { C.takeAll((b) => labels.has(norm(textOf(b)))); C.takeAll((b) => b.type === 'img'); }
     const head = C ? C.head() : 'shop by category';
     const intro = C ? C.takeAll((b) => b.type === 'p') : [];
-    html.cats = `<section class="h-cats band band--cream" id="h-cats" aria-labelledby="h-cats-h">
+    html.cats = `<section class="h-cats band band--newsprint" id="h-cats" aria-labelledby="h-cats-h">
 <div class="band__clip" aria-hidden="true"><span class="h-cats__wash"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split">
@@ -304,7 +313,7 @@ ${leftovers(ctx, C)}
     const pool = [S.story, S.mom, S.why].filter(Boolean).flatMap((x) => x.blocks.filter((b) => b.type === 'img')).filter(hasPhoto);
     const archB = photoB && hasPhoto(photoB) ? photoB : pool[2] || null;
     const media = archB ? pic(archB, { sizes: '(max-width: 720px) 70vw, 440px' }) : gimg('g-hf-arch', { alt: '', sizes: '(max-width: 720px) 70vw, 440px' });
-    html.visit = `<section class="h-visit band band--linen" id="location" aria-labelledby="h-visit-h">
+    html.visit = `<section class="h-visit band band--paper" id="location" aria-labelledby="h-visit-h">
 <div class="band__clip" aria-hidden="true"><span class="h-visit__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-visit__grid">
 <div class="h-visit__copy">
@@ -329,15 +338,18 @@ ${leftovers(ctx, C)}
     const btn = body.find((b) => b.type === 'button');
     const rest = body.filter((b) => !ps.includes(b) && b !== btn);
     if (C) C.takeAll(() => true);
-    html.high = `<section class="h-high band band--sun" id="h-high" aria-labelledby="h-high-h" data-sunburst>
-<div class="band__clip" aria-hidden="true">${gimg('g-haze', { alt: '', cls: 'band__bg h-high__bg', sizes: '100vw' })}<span class="h-high__veil"></span><span class="sunburst h-high__rays"></span><span class="grain"></span></div>
-<div class="h-high__moon protrude" aria-hidden="true"><div data-depth="0.1">${gimg('g-moon-cut', { alt: '', cls: 'cut h-high__moon-img', sizes: '(max-width: 720px) 90px, 190px' })}</div></div>
-<div class="wrap wrap--narrow h-high__inner">
+    html.high = `<section class="h-high band band--yellow" id="h-high" aria-labelledby="h-high-h" data-sunburst>
+<div class="band__clip" aria-hidden="true"><span class="h-dots h-high__dots"></span><span class="sunburst h-high__rays"></span><span class="grain"></span></div>
+<div class="wrap wrap--wide h-high__bento">
+<div class="h-high__inner">
 ${kicker('Feel good', 'h-high__kicker')}
 <h2 class="display display--mega h-high__h" id="h-high-h" data-reveal>${accent(head, /higher self/i)}</h2>
 ${ps.map((b, i) => `<p class="lede h-high__p" data-reveal style="--i:${i + 1}">${htmlOf(b)}</p>`).join('')}
 ${btn ? `<p class="btn-row h-high__ctas" data-reveal style="--i:3"><a class="btn btn--sun"${linkAttrs(btnHref(ctx, btn))}>${esc(btn.text)}${extIco(btnHref(ctx, btn))}</a></p>` : ''}
 ${rest.length ? `<div class="h-extra prose">${blocksHtml(ctx, rest)}</div>` : ''}
+</div>
+<figure class="h-high__shot" aria-hidden="true" data-reveal style="--i:2"><span class="h-high__media">${gimg('g-haze', { alt: '', cls: 'h-high__bg', sizes: '(max-width: 720px) 88vw, 480px' })}</span><span class="h-tape h-tape--top"></span></figure>
+<div class="h-high__moon" aria-hidden="true"><div data-depth="0.1">${gimg('g-moon-cut', { alt: '', cls: 'cut h-high__moon-img', sizes: '(max-width: 720px) 80px, 150px' })}</div></div>
 </div>
 </section>`;
   }
@@ -362,7 +374,7 @@ ${btns.length ? `<p class="btn-row h-tabs__ctas">${btns.map((b, j) => `<a class=
       const photos = panels.flatMap((p) => p.imgs).filter(hasPhoto);
       const main = photos[0] ? pic(photos[0], { sizes: '(max-width: 720px) 80vw, 480px' }) : gimg('g-hf-mirror', { alt: '', sizes: '(max-width: 720px) 80vw, 480px' });
       const second = photos[1] ? pic(photos[1], { sizes: '(max-width: 720px) 40vw, 220px' }) : gimg('g-hf-arch', { alt: '', sizes: '(max-width: 720px) 40vw, 220px' });
-      html.story = `<section class="h-story band band--cream" id="h-story" aria-label="About Lady L">
+      html.story = `<section class="h-story band band--newsprint" id="h-story" aria-label="About Lady L">
 <div class="band__clip" aria-hidden="true"><span class="h-story__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-story__grid">
 <div class="h-story__media" data-reveal>
@@ -393,6 +405,7 @@ ${panels.map((p) => p.html).join('\n')}
     const ps = C.takeAll((b) => b.type === 'p');
     const btns = C.takeAll((b) => b.type === 'button');
     html.deals = `<section class="h-deals band band--night" id="h-deals" aria-labelledby="h-deals-h" data-sunburst>
+<span class="h-torn h-torn--deals" aria-hidden="true"></span>
 <div class="band__clip" aria-hidden="true"><span class="sunburst h-deals__rays"></span><span class="h-deals__glow"></span><span class="grain"></span></div>
 <div class="h-deals__bud protrude" aria-hidden="true"><div data-depth="0.14">${gimg('g-bud-cut', { alt: '', cls: 'cut h-deals__bud-img', sizes: '(max-width: 720px) 100px, 200px' })}</div></div>
 <div class="wrap wrap--wide h-deals__grid">
@@ -418,7 +431,7 @@ ${leftovers(ctx, C)}
     const btns = C.takeAll((b) => b.type === 'button');
     const shown = logos.filter(hasPhoto);
     const chip = (b) => `<li class="h-brand__logo glass glass--cream">${pic(b, { sizes: '160px', cls: 'h-brand__img', alt: '' })}</li>`;
-    html.brand = `<section class="h-brand band band--linen" id="h-brand" aria-labelledby="h-brand-h">
+    html.brand = `<section class="h-brand band band--paper" id="h-brand" aria-labelledby="h-brand-h">
 <div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
 <div class="wrap wrap--wide h-brand__row">
 <div class="h-head" data-reveal>${kicker('Brands')}<h2 class="display h-head__h" id="h-brand-h">${accent(head, /brand/i)}</h2></div>
@@ -445,7 +458,7 @@ ${im ? `<span class="h-spot__media">${pic(im, { sizes: '(max-width: 720px) 80vw,
 ${b.html ? `<p class="h-spot__p">${rich(b.html)}</p>` : ''}
 </li>`;
     };
-    html.spots = `<section class="h-spots band band--cream" id="h-spots" aria-labelledby="h-spots-h">
+    html.spots = `<section class="h-spots band band--newsprint" id="h-spots" aria-labelledby="h-spots-h">
 <div class="band__clip" aria-hidden="true"><span class="h-spots__rainbow"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split"><div data-reveal>${kicker('The West Side')}<h2 class="display h-head__h" id="h-spots-h">${accent(head, /more for you/i)}</h2></div>${intro.length ? `<div class="lede h-head__lede prose" data-reveal style="--i:1">${intro.map((b) => `<p>${htmlOf(b)}</p>`).join('')}</div>` : ''}</div>
@@ -468,7 +481,7 @@ ${leftovers(ctx, C)}
     const writeB = C.take((b) => /write a review/i.test(textOf(b)));
     const badge = C.take((b) => b.type === 'img');
     const intro = C.takeAll((b) => b.type === 'p');
-    html.reviews = `<section class="h-reviews band band--linen" id="h-reviews" aria-labelledby="h-reviews-h">
+    html.reviews = `<section class="h-reviews band band--paper" id="h-reviews" aria-labelledby="h-reviews-h">
 <div class="band__clip" aria-hidden="true"><span class="h-reviews__fan"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split">
@@ -527,7 +540,7 @@ ${cap ? `<span class="h-post__cap">${esc(cap)}</span>` : `<span class="h-post__c
 <span class="h-post__deco h-post__deco--${i % 4}" aria-hidden="true"></span>
 </a></li>`;
     };
-    html.insta = `<section class="h-insta band band--plum" id="h-insta" aria-labelledby="h-insta-h">
+    html.insta = `<section class="h-insta band band--newsprint" id="h-insta" aria-labelledby="h-insta-h">
 <div class="band__clip" aria-hidden="true"><span class="h-insta__glow"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split"><div data-reveal>${kicker(insta.handle || 'Instagram')}<h2 class="display h-head__h" id="h-insta-h">${accent(head, /instagram/i)}</h2>${intro.map((b) => `<p class="lede h-head__lede">${htmlOf(b)}</p>`).join('')}</div>
@@ -554,7 +567,7 @@ ${leftovers(ctx, C)}
     const intro = C.takeAll((b) => b.type === 'p');
     const ldText = (h) => stripTags(String(h || '').replace(/<\/(p|li|h\d)>/gi, ' ').replace(/<br\s*\/?>/gi, ' ')).replace(/\s+/g, ' ').trim();
     faqLd = items.length ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map((it) => ({ '@type': 'Question', name: it.q, acceptedAnswer: { '@type': 'Answer', text: ldText(it.a_html) } })) } : null;
-    html.faq = `<section class="h-faq band band--cream" id="faq" aria-labelledby="h-faq-h">
+    html.faq = `<section class="h-faq band band--paper" id="faq" aria-labelledby="h-faq-h">
 <div class="band__clip" aria-hidden="true"><span class="h-faq__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-faq__grid">
 <div class="h-faq__side">
@@ -578,7 +591,7 @@ ${leftovers(ctx, C)}
     const info = blocksHtml(ctx, C.rest());
     C.takeAll(() => true);
     html.stop = `<section class="h-stop band band--night" id="h-stop" aria-labelledby="h-stop-h">
-<div class="band__clip" aria-hidden="true">${gimg('g-sunburst-wall', { alt: '', cls: 'band__bg h-stop__bg', sizes: '100vw' })}<span class="h-stop__veil"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="h-dots h-stop__dots"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-stop__grid">
 <div class="h-stop__copy" data-reveal>${kicker('Directions')}<h2 class="display h-head__h" id="h-stop-h">${accent(head, /stay high/i)}</h2>${lead ? `<p class="lede">${htmlOf(lead)}</p>` : ''}
 <p class="btn-row h-stop__ctas"><a class="btn btn--sun"${linkAttrs(site.mapUrl)}>${ico('pin')}Get directions${ico('ext', 'ico--ext')}</a>${btns.map((b) => `<a class="btn btn--glass"${linkAttrs(btnHref(ctx, b))}>${esc(b.text)}${extIco(btnHref(ctx, b))}</a>`).join('')}</p></div>
@@ -599,7 +612,7 @@ ${leftovers(ctx, C)}
     if (claimed.has(s)) { prev = KEY_OF[claimed.get(s)] || claimed.get(s); continue; }
     const S2 = makeSec(s);
     const head = S2.head();
-    const out = `<section class="h-misc band band--cream"${head ? ` aria-label="${escA(head)}"` : ''}><div class="wrap wrap--narrow prose">${head ? `<h2 class="display h-head__h">${esc(head)}</h2>` : ''}${blocksHtml(ctx, S2.rest())}</div></section>`;
+    const out = `<section class="h-misc band band--paper"${head ? ` aria-label="${escA(head)}"` : ''}><div class="wrap wrap--narrow prose">${head ? `<h2 class="display h-head__h">${esc(head)}</h2>` : ''}${blocksHtml(ctx, S2.rest())}</div></section>`;
     after.set(prev, (after.get(prev) || '') + out);
   }
   const main = ORDER.map((k) => (html[k] || '') + (after.get(k) || '')).filter(Boolean).join('\n');

@@ -1,127 +1,137 @@
-/* tokens.css - "LAVENDER PARLOR" design tokens for the Lady L Cannabis redesign pitch (main session owns this file).
-   Brand (live ladyljerseycity.com Breakdance global settings + logo): lavender #6868AC (primary, headings, body text on
-   the live site), sunflower yellow #FFDD15, coral #F79C8D, sky blue #BBE0FF, on white. The wordmark is purple and
-   yellow. Live type: Avenir Next LT Pro (commercial, not self-hostable), Montserrat and Poppins.
-   Here: Montserrat (the brand's own Google face) for body and UI, Bodoni Moda for display (Art Deco poster serif),
-   Josefin Sans for deco caps (kickers, nav, buttons, numerals).
-   Style: glassmorphism x bohemian x Art Deco, clean and modern. Three planes:
-     BACK  the PARLOR: deep aubergine-violet night grounds and warm cream linen grounds, Deco sunburst rays, fine
-           yellow-gold rules, chevron and fan ornaments, soft grain;
-     MID   the GLASS: frosted lavender panes with a gold hairline edge and a sky sheen, arch-topped windows;
-     FRONT the BOHO objects: arch-framed photos, botanical cut-outs, rainbow-arch stripes, fringe edges, that break
-           their frames and cross section seams.
-   Never hard-code a colour that has a token here; lanes may add lane-scoped custom properties only. */
+/* tokens.css - "PASTE UP POP" design tokens for the Lady L Cannabis redesign pitch, revision 1 (main session owns
+   this file). Brand (live ladyljerseycity.com Breakdance global settings + logo): lavender #6868AC (primary),
+   sunflower yellow #FFDD15, coral #F79C8D, sky blue #BBE0FF, on white; the wordmark is purple and yellow; Montserrat
+   is one of the live site's own faces.
+   Style: MIXED MEDIA x POP ART x BENTO BOX, clean and modern, never childish:
+     BENTO  every collection is a grid of rounded tiles of varied spans, one idea per tile; a tile is an OPAQUE
+            surface (paper, sun, coral, sky, lavender, ink) with an ink outline and a hard offset shadow;
+     POP    flat brand colour blocks, Ben-Day halftone dots, thick ink outlines, hard (unblurred) offset shadows,
+            heavy grotesque display type, one hand-lettered accent word per heading;
+     MIXED  paper grounds with grain, torn-paper edges, tape strips, photos as clippings (paper border, slight tilt),
+            white-edged cut-out stickers that break tile and section edges (depth), marker scribbles.
+   Revision 0 ("Lavender Parlor") token names are ALIASED at the bottom, so every stylesheet shifts at once. Lanes may
+   add lane-scoped custom properties; never hard-code a colour that has a token here; never rename a token. */
 :root {
-  /* ---- night grounds (back plane, dark) ---- */
-  --night-0: #120f24;         /* deepest aubergine: page ground under dark bands, footer */
-  --night-1: #1a1633;         /* primary dark ground */
-  --night-2: #241f45;         /* lifted violet (cards on dark) */
-  --night-3: #2f2858;         /* plum velvet (hover, raised) */
-  --violet: #4b4a8a;          /* deep lavender: fills, chips on light */
-  --lavender: #6868ac;        /* BRAND primary */
-  --lavender-2: #8b8bc6;      /* soft lavender (text on night grounds allowed: 5.6:1 on --night-1) */
-  --lavender-3: #c9c8ea;      /* pale lavender tint (light fills, hairlines on night) */
-  --lavender-4: #ecebf8;      /* lightest lavender wash */
-
-  /* ---- day grounds (back plane, light) ---- */
-  --cream: #fbf6ec;           /* main light ground (warm, bohemian) */
-  --linen: #f4ecdd;           /* second light ground */
-  --sand: #eadfcb;            /* deeper warm neutral (bands, borders) */
+  /* ---- ink + paper ---- */
+  --ink: #1b1733;             /* outlines, hard shadows, body text on light grounds (15.9:1 on --paper) */
+  --ink-2: #4a4570;           /* secondary text on light grounds (8.3:1 on --paper) */
+  --ink-soft: rgba(27, 23, 51, 0.14); /* hairlines on light */
+  --paper: #fffaf1;           /* main ground: warm white paper */
+  --newsprint: #f4efe4;       /* second light ground */
+  --kraft: #e7d6b8;           /* kraft paper accents (decoration only, never a text ground under small type) */
   --white: #ffffff;
 
-  /* ---- signal ---- */
-  --sun: #ffdd15;             /* BRAND yellow: Deco gold lines, primary CTA fill, focus ring on dark */
-  --sun-hi: #ffe95e;          /* hover / glow core */
-  --sun-deep: #c9a400;        /* gold line on LIGHT grounds (decoration only, never text) */
-  --sun-ink: #1a1633;         /* text on --sun fills (14:1) */
-  --coral: #f79c8d;           /* BRAND coral: boho warmth, arches, hover glows; text on coral = --night-1 */
-  --coral-deep: #c4584a;      /* coral text on cream allowed only >= 24px bold (3.6:1) */
-  --sky: #bbe0ff;             /* BRAND sky: glass sheen, tints, chips on night */
-  --sky-deep: #3d6f9e;        /* sky family text on light (5.1:1 on --cream) */
+  /* ---- brand colour blocks ---- */
+  --lavender: #6868ac;        /* BRAND primary: tiles, bands. Paper text on it 4.6:1: >= 18px bold or large only */
+  --lavender-deep: #4b4a8a;   /* lavender ground under paper body text (8.2:1) */
+  --lavender-dark: #2f2c5c;   /* darkest brand ground (13.4:1 with paper text): footer, dark tiles */
+  --lavender-soft: #c9c8ea;   /* soft lavender tile, ink text */
+  --lavender-pale: #ecebf8;   /* pale wash, ink text */
+  --sun: #ffdd15;             /* BRAND yellow: pop fills, primary CTA, ink text on it (13.7:1) */
+  --sun-hi: #ffe95e;
+  --sun-soft: #fff3a8;
+  --coral: #f79c8d;           /* BRAND coral: tiles, stickers; ink text on it (8.4:1) */
+  --coral-deep: #c4584a;      /* coral as text on paper: >= 24px bold only (3.6:1) */
+  --coral-soft: #fdd8d1;
+  --sky: #bbe0ff;             /* BRAND sky: tiles; ink text on it (12.6:1) */
+  --sky-deep: #3d6f9e;        /* sky family text on paper (5.1:1) */
+  --sky-soft: #e3f2ff;
 
-  /* ---- text ---- */
-  --text-on-night: #f6f3ff;   /* body on night grounds (16:1 on --night-1) */
-  --text-on-night-2: rgba(246, 243, 255, 0.78); /* secondary on night (>= 9:1 on --night-1) */
-  --text-on-cream: #221d42;   /* body on cream/linen (13.9:1) */
-  --text-on-cream-2: #4d4878; /* secondary on cream (7.2:1) */
-  --heading-on-cream: #4b4a8a;/* headings on light grounds: deep lavender (7.4:1); brand #6868ac allowed >= 24px */
+  /* ---- pop mechanics ---- */
+  --line: 2.5px;              /* ink outline width */
+  --line-sm: 2px;
+  --outline: var(--line) solid var(--ink);
+  --shadow-pop: 6px 6px 0 var(--ink);           /* hard offset shadow, no blur */
+  --shadow-pop-sm: 4px 4px 0 var(--ink);
+  --shadow-pop-lg: 10px 10px 0 var(--ink);
+  --shadow-pop-hover: 9px 9px 0 var(--ink);
+  --shadow-press: 2px 2px 0 var(--ink);
+  --shadow-sun: 6px 6px 0 var(--sun);           /* hard shadow for tiles on dark grounds */
+  /* Ben-Day dots as gradients: ALWAYS pair with background-size var(--dots-size) (or -lg), else one giant dot */
+  --dots-ink: radial-gradient(circle, rgba(27, 23, 51, 0.2) 1.3px, transparent 1.7px);
+  --dots-paper: radial-gradient(circle, rgba(255, 250, 241, 0.3) 1.3px, transparent 1.7px);
+  --dots-sun: radial-gradient(circle, var(--sun) 1.7px, transparent 2.1px);
+  --dots-coral: radial-gradient(circle, var(--coral) 1.7px, transparent 2.1px);
+  --dots-lav: radial-gradient(circle, rgba(104, 104, 172, 0.42) 1.5px, transparent 1.9px);
+  --dots-size: 10px 10px;
+  --dots-size-lg: 18px 18px;
+  /* Ben-Day dots as SVG tiles (intrinsic 12px, offset grid): safe with NO background-size */
+  --halftone: url("/assets/brand/halftone.svg");             /* ink dots, 20% */
+  --halftone-lav: url("/assets/brand/halftone-lav.svg");     /* lavender dots, for light grounds */
+  --halftone-paper: url("/assets/brand/halftone-paper.svg"); /* paper dots, for colour and dark grounds */
+  --halftone-sun: url("/assets/brand/halftone-sun.svg");     /* sun dots, for dark grounds */
+  --fade-dots: linear-gradient(120deg, #000 0%, rgba(0, 0, 0, 0.55) 35%, transparent 72%); /* mask to fade a dot field */
 
-  /* ---- glass (mid plane) ---- */
-  --glass-fill: rgba(36, 31, 69, 0.46);           /* frosted night pane */
-  --glass-fill-strong: rgba(26, 22, 51, 0.74);
-  --glass-fill-lav: rgba(104, 104, 172, 0.26);    /* lavender pane over photos */
-  --glass-fill-cream: rgba(251, 246, 236, 0.62);  /* frosted pane on light grounds */
-  --glass-border: rgba(246, 243, 255, 0.18);
-  --glass-border-cream: rgba(75, 74, 138, 0.16);
-  --glass-edge: rgba(255, 221, 21, 0.62);          /* the Deco gold hairline along a pane's top edge */
-  --glass-sheen: linear-gradient(135deg, rgba(187, 224, 255, 0.22), rgba(187, 224, 255, 0) 42%);
-  --glass-blur: 18px;
-  --glass-sat: 160%;
-  --glass-shadow: 0 28px 64px -28px rgba(8, 5, 22, 0.66), 0 1px 0 rgba(255, 255, 255, 0.07) inset;
-  --glass-shadow-cream: 0 24px 54px -28px rgba(34, 29, 66, 0.32);
+  /* ---- mixed media ---- */
+  --grain: url("/assets/brand/grain.svg");
+  --torn-top: url("/assets/brand/torn-top.svg");         /* MASK image: torn top edge, tile x (240 x 18) */
+  --torn-bottom: url("/assets/brand/torn-bottom.svg");   /* MASK image: torn bottom edge */
+  --scribble: url("/assets/brand/scribble.svg");         /* coral marker underline, stretch x */
+  --tape: rgba(255, 233, 94, 0.82);                      /* yellow tape strip */
+  --tape-kraft: rgba(231, 214, 184, 0.9);
+  --tape-clear: rgba(255, 255, 255, 0.6);
+  --tilt-l: -2deg;
+  --tilt-r: 1.6deg;
+  --sticker-edge: drop-shadow(3px 0 0 var(--white)) drop-shadow(-3px 0 0 var(--white)) drop-shadow(0 3px 0 var(--white)) drop-shadow(0 -3px 0 var(--white)) drop-shadow(5px 6px 0 rgba(27, 23, 51, 0.85));
+  --clipping-pad: 8px;        /* paper border around a photo clipping */
 
-  /* ---- Art Deco layer ---- */
-  --rule: 1px solid var(--sun);                     /* single gold rule */
-  --rule-cream: 1px solid var(--sun-deep);
-  --rule-double: 3px double var(--sun);             /* Deco double rule */
-  --sunburst: repeating-conic-gradient(from -90deg at 50% 100%, rgba(255, 221, 21, 0.11) 0deg 3deg, transparent 3deg 9deg);
-  --sunburst-lav: repeating-conic-gradient(from -90deg at 50% 100%, rgba(139, 139, 198, 0.16) 0deg 3deg, transparent 3deg 9deg);
-  --chevron: url("/assets/brand/chevron.svg");     /* FOUNDATION ships: thin gold chevron band, tileable x */
-  --fan: url("/assets/brand/fan.svg");             /* FOUNDATION ships: Deco fan / sunrise ornament */
-  --corner: url("/assets/brand/corner.svg");       /* FOUNDATION ships: stepped Deco corner bracket */
+  /* ---- bento ---- */
+  --bento-gap: clamp(12px, 1.5vw, 18px);
+  --r-tile: 26px;
+  --r-tile-sm: 18px;
+  --r-btn: 14px;
 
-  /* ---- Bohemian layer ---- */
-  --boho-arch: linear-gradient(180deg, var(--coral) 0 25%, var(--sun) 25% 50%, var(--lavender-2) 50% 75%, var(--sky) 75% 100%); /* rainbow-arch stripes, used through masks */
-  --grain: url("/assets/brand/grain.svg");         /* FOUNDATION ships: tiny SVG noise tile */
-  --fringe: url("/assets/brand/fringe.svg");       /* FOUNDATION ships: macrame fringe edge, tileable x */
-  --botanical: url("/assets/brand/botanical.svg"); /* FOUNDATION ships: fine-line leaf and moon line drawing */
-  --glow-coral: radial-gradient(closest-side, rgba(247, 156, 141, 0.40), rgba(247, 156, 141, 0.10) 55%, transparent 78%);
-  --glow-sun: radial-gradient(closest-side, rgba(255, 221, 21, 0.34), rgba(255, 221, 21, 0.08) 55%, transparent 78%);
-  --glow-lav: radial-gradient(closest-side, rgba(139, 139, 198, 0.46), rgba(139, 139, 198, 0.12) 55%, transparent 78%);
+  /* ---- text roles ---- */
+  --text: var(--ink);
+  --text-2: var(--ink-2);
+  --text-on-color: var(--ink);           /* on sun, coral, sky, lavender-soft, paper */
+  --text-on-dark: #fffaf1;               /* on lavender-deep, lavender-dark, ink */
+  --text-on-dark-2: rgba(255, 250, 241, 0.84);
 
   /* ---- type ---- */
-  --font-display: "Bodoni Moda", "Bodoni 72", Didot, "Playfair Display", Georgia, serif;
-  --font-deco: "Josefin Sans", Futura, "Century Gothic", "Avenir Next", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Arial Black", "Helvetica Neue", system-ui, sans-serif;
+  --font-hand: "Caveat", "Segoe Print", "Bradley Hand", cursive;
   --font-body: "Montserrat", "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --fw-display: 600;          /* Bodoni Moda 500-800 (variable); italic for one accent word per heading */
-  --fw-display-2: 500;
-  --fs-mega: clamp(3rem, 1.9rem + 5.4vw, 7.6rem);   /* home hero */
-  --fs-h1: clamp(2.4rem, 1.55rem + 3.2vw, 4.8rem);  /* inner hero h1 */
-  --fs-h2: clamp(1.9rem, 1.3rem + 2vw, 3.3rem);
-  --fs-h3: clamp(1.3rem, 1.08rem + 0.7vw, 1.75rem);
-  --fs-kicker: 0.84rem;       /* Josefin Sans 600 caps */
+  --font-label: "Bricolage Grotesque", "Montserrat", system-ui, sans-serif; /* kickers, nav, buttons, numerals */
+  --fw-display: 800;
+  --fw-display-2: 700;
+  --wdth-display: 84%;        /* font-stretch for display headings (Bricolage wdth axis 75-100%) */
+  --fs-mega: clamp(3rem, 1.7rem + 5.6vw, 7.4rem);   /* home hero */
+  --fs-h1: clamp(2.4rem, 1.5rem + 3.3vw, 4.8rem);   /* inner hero h1 */
+  --fs-h2: clamp(1.9rem, 1.3rem + 2.1vw, 3.4rem);
+  --fs-h3: clamp(1.25rem, 1.05rem + 0.7vw, 1.7rem);
+  --fs-kicker: 0.8rem;
   --fs-body: 1rem;
   --fs-lede: clamp(1.05rem, 0.98rem + 0.35vw, 1.24rem);
   --fs-small: 0.875rem;       /* never below 13px anywhere */
-  --lh-tight: 1.02;
-  --lh-snug: 1.2;
-  --lh-body: 1.7;
-  --track-display: -0.012em;
-  --track-kicker: 0.26em;
-  --track-btn: 0.16em;
+  --fs-hand: 1.2em;           /* Caveat runs small: scale hand-lettered accent words */
+  --lh-tight: 0.98;
+  --lh-snug: 1.12;
+  --lh-body: 1.68;
+  --track-display: -0.028em;
+  --track-kicker: 0.14em;
+  --track-btn: 0.05em;
 
   /* ---- space, shape ---- */
   --wrap: 1240px;
   --wrap-wide: 1440px;
   --wrap-narrow: 760px;
   --gutter: clamp(16px, 4vw, 40px);
-  --section-y: clamp(64px, 8vw, 128px);
-  --r-sm: 10px;
-  --r-md: 18px;
-  --r-lg: 28px;
+  --section-y: clamp(56px, 7vw, 112px);
+  --r-sm: 12px;
+  --r-md: 20px;
+  --r-lg: var(--r-tile);
   --r-pill: 999px;
-  --r-arch: 999px 999px var(--r-md) var(--r-md);   /* bohemian arch window (tall frames) */
-  --r-arch-lg: 50% 50% var(--r-md) var(--r-md) / 34% 34% var(--r-md) var(--r-md); /* wide arch */
-  --r-deco: 2px 2px 2px 2px;                        /* stepped Deco frames use clip-path, not radius */
 
   /* ---- motion ---- */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --dur-fast: 180ms;
-  --dur: 420ms;
-  --dur-slow: 900ms;
-  --reveal-distance: 30px;
+  --dur-fast: 160ms;
+  --dur: 380ms;
+  --dur-slow: 760ms;
+  --reveal-distance: 26px;
+  --lift: -3px;               /* hover lift (translate x and y), pairs with --shadow-pop-hover */
 
   /* ---- layers ---- */
   --z-back: -1;
@@ -131,5 +141,57 @@
   --z-gate: 90;
 
   /* ---- focus ---- */
-  --focus-ring: 0 0 0 3px var(--night-1), 0 0 0 6px var(--sun);
+  --focus-ring: 0 0 0 3px var(--ink), 0 0 0 6px var(--sun);
+
+  /* ==== revision 0 names, aliased onto the new system (lanes may retune VALUES here via the main session; never
+          rename). Dark grounds become brand lavender, not black; glass becomes opaque bento tiles; Deco rays become
+          halftone dots; boho arches become rounded tiles. ==== */
+  --night-0: var(--lavender-dark);
+  --night-1: var(--lavender-dark);
+  --night-2: var(--lavender-deep);
+  --night-3: var(--lavender);
+  --violet: var(--lavender-deep);
+  --lavender-2: #b9b8e6;      /* soft lavender, text on dark grounds allowed (6.6:1 on --lavender-dark) */
+  --lavender-3: var(--lavender-soft);
+  --lavender-4: var(--lavender-pale);
+  --cream: var(--paper);
+  --linen: var(--newsprint);
+  --sand: var(--kraft);
+  --sun-deep: var(--ink);     /* was a gold line on light grounds: lines are ink now */
+  --sun-ink: var(--ink);
+  --text-on-night: var(--text-on-dark);
+  --text-on-night-2: var(--text-on-dark-2);
+  --text-on-cream: var(--ink);
+  --text-on-cream-2: var(--ink-2);
+  --heading-on-cream: var(--ink);
+  --glass-fill: var(--lavender-deep);
+  --glass-fill-strong: var(--lavender-dark);
+  --glass-fill-lav: var(--lavender);
+  --glass-fill-cream: var(--paper);
+  --glass-border: var(--ink);
+  --glass-border-cream: var(--ink);
+  --glass-edge: var(--ink);
+  --glass-sheen: linear-gradient(transparent, transparent);
+  --glass-blur: 0px;
+  --glass-sat: 100%;
+  --glass-shadow: var(--shadow-sun);
+  --glass-shadow-cream: var(--shadow-pop);
+  --rule: var(--line-sm) solid var(--ink);
+  --rule-cream: var(--line-sm) solid var(--ink);
+  --rule-double: var(--line) solid var(--ink);
+  --sunburst: var(--halftone-paper);
+  --sunburst-lav: var(--halftone-lav);
+  --chevron: url("/assets/brand/chevron.svg");   /* FOUNDATION redraws: squiggle rule, tileable x */
+  --fan: url("/assets/brand/fan.svg");           /* FOUNDATION redraws: pop starburst */
+  --corner: url("/assets/brand/corner.svg");     /* FOUNDATION redraws: tape corner */
+  --boho-arch: linear-gradient(180deg, var(--coral) 0 25%, var(--sun) 25% 50%, var(--lavender-soft) 50% 75%, var(--sky) 75% 100%); /* pop stripes */
+  --fringe: url("/assets/brand/fringe.svg");     /* FOUNDATION redraws: torn paper edge strip, tileable x */
+  --botanical: url("/assets/brand/botanical.svg"); /* FOUNDATION redraws: marker doodles (leaf, stars, squiggle) */
+  --glow-coral: radial-gradient(closest-side, color-mix(in srgb, var(--coral) 70%, transparent) 97%, transparent 100%);
+  --glow-sun: radial-gradient(closest-side, color-mix(in srgb, var(--sun) 75%, transparent) 97%, transparent 100%);
+  --glow-lav: radial-gradient(closest-side, color-mix(in srgb, var(--lavender-soft) 80%, transparent) 97%, transparent 100%);
+  --font-deco: var(--font-label);
+  --r-arch: var(--r-tile);
+  --r-arch-lg: var(--r-tile);
+  --r-deco: var(--r-sm);
 }

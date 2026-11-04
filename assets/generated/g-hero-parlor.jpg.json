@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Wide interior photograph of a moody Art Deco bohemian parlor lounge at dusk, seen straight on. Composition: the entire left half of the frame is an empty, calm, dark deep aubergine-violet plaster wall in deep shadow above a dark floor, with no furniture and no objects at all. Everything sits in the right half: a large round brass Art Deco sunburst mirror with long straight radiating brass rays on the wall, reflecting only a soft blurred wall; below it a lavender velvet armchair with one coral cushion; beside it a tall arched window showing only a soft violet dusk sky; a potted cannabis plant with distinctive serrated seven-fingered fan leaves in a woven rattan basket; tall plumes of pale pampas grass in a cream terrazzo planter; a small brass table lamp glowing warm amber-gold. Low-key cinematic light, warm lamp glow against cool violet dusk, soft deep shadows, calm and luxurious but homely, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art collage still life photographed straight down from above on a flat, seamless, evenly coloured medium lavender-violet paper backdrop that fills the whole frame. Composition: the entire left 45 percent of the frame is calm, completely empty plain lavender paper with nothing in it at all. In the right half only: a few dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and amber pistils, and one plain unbranded cone-shaped pre-roll of thin unbleached hemp paper packed with ground cannabis, its wide end twisted shut, resting on and beside cut paper shapes: a large flat circle of sunflower-yellow paper, a torn strip of coral-pink paper with a rough fibrous white edge, and a small piece of pale sky-blue paper. Hard direct flash light from the upper left with crisp hard-edged shadows under each object and each paper shape, saturated, clean and graphic, bold but restrained, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "16:9"
   },
-  "seed": 123981082,
-  "requestId": "01a1a2c3-569c-78e1-8998-88bb6b0eaead",
+  "seed": 1397809630,
+  "requestId": "01a1a3fc-a9c9-7cd1-a881-d5e6b4fcc32b",
   "cutout": null,
   "width": 2752,
   "height": 1536,
-  "sha256": "cac2476ac5b52e1a3e683bb43e05b852da6529e4308f515342a5fff9482421ce",
-  "raw": "tmp/img/raw/g-hero-parlor.1793732078664.jpg",
-  "attempt": 2,
-  "generatedAt": "2026-11-03T18:54:40.742Z",
+  "sha256": "52c6e557f0bca9d84c4d6977704087cbbf379e2e33224608061b03dfc9851272",
+  "raw": "tmp/img/raw/g-hero-parlor.1793752615860.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-04T00:36:57.807Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 2. Calm dark plum wall over the left half (a dark potted palm sits low at 12-31% of the width), brass sunburst mirror at 41-63%, lavender armchair, lamp, pampas and arched window on the right; no text or people. The plants are palms, not cannabis (both attempts)",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1 (restored). Real cured buds on a cut-paper collage (sky circle, coral and yellow discs, torn pink, white and blue strips, a peach and a pink paper roll), left 48 percent plain lilac for type; no text, no people. Attempt 2 (archived): on-brand blue-violet but busy across 85 percent of the frame; attempt 3 (archived): flaky synthetic buds",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

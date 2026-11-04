@@ -5,24 +5,24 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Lady L, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Still-life photograph of four dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and twisted amber pistils, resting in a small round polished brass dish with a stepped fluted Art Deco rim, the dish set on soft lavender velvet. Centred subject with generous space around it, soft warm side light, shallow depth of field, a softly blurred deep violet background, Clean, modern editorial photograph with a bohemian Art Deco parlor sensibility, rich but muted colour drawn from deep aubergine-violet, soft periwinkle lavender, sunflower-yellow gold accents, soft coral, pale sky-blue highlights and warm cream, matte surfaces, soft warm light, fine natural film grain. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, every surface blank and unmarked, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
+  "prompt": "Pop-art studio product photograph of four dense cured cannabis flower buds, frosty with resin trichomes, deep green with violet hints and twisted amber pistils, sitting in a small loose cluster directly on a flat, seamless, evenly coloured sunflower-yellow paper backdrop that fills the whole frame, with one small flat cut-paper circle in lavender-violet lying just behind them, seen from a slightly high angle. Hard direct flash light from the upper left with one crisp, hard-edged shadow, saturated, clean and graphic. The subject is centred and occupies only the middle third of the frame, with wide empty yellow margins on every side, Clean, modern pop-art studio photograph made for a mixed-media paste-up collage, flat saturated colour drawn only from bright sunflower yellow, muted medium lavender-violet, soft coral pink, pale sky blue, warm white paper and black, matte paper surfaces, crisp focus, graphic, restrained and grown-up, never childish. No people, no hands, no faces, no text, no letters, no numbers, no labels, no logos, no signage, no brand packaging, every surface blank and unmarked, no brass, no gold metal, no velvet, no Art Deco objects, nothing candy-like, no alcohol, no vehicles, no neon, no iridescent or holographic finishes.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2"
   },
-  "seed": 1348317500,
-  "requestId": "01a1a2bc-80bc-7610-b657-5998773ef687",
+  "seed": 3023952192,
+  "requestId": "01a1a3fc-a9cc-7bd3-9631-a31c1520fa2a",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "b8d06fd0f48531ffbe271eab4057211f31f11eb7f93f3dc456ba846fc6f6e0e2",
-  "raw": "tmp/img/raw/g-flower.1793731632790.jpg",
+  "sha256": "476d4c36fc40fd10bd89b32340de42822ffa44f60a947ea9dde20738ba59194b",
+  "raw": "tmp/img/raw/g-flower.1793752612479.jpg",
   "attempt": 1,
-  "generatedAt": "2026-11-03T18:47:14.585Z",
+  "generatedAt": "2026-11-04T00:36:54.171Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "viewed at full size 2026-11-04: attempt 1. Cured buds in a fluted copper-gold bowl on lavender velvet; clean",
-    "at": "2026-11-03T19:11:20.821778+00:00"
+    "reason": "viewed by eye 2026-11-04 (revision 1): attempt 1. Three real cured buds on a lilac paper circle, yellow seamless ground, hard flash shadow; no text; buds sit right of centre but inside a centred square crop",
+    "at": "2026-11-04T00:49:31.231Z"
   }
 }

@@ -1,11 +1,11 @@
-/* base.css - reset, type scale, links, focus, .prose (FOUNDATION, "LAVENDER PARLOR"). Colours, fonts and sizes come
-   from tokens.css only. */
+/* base.css: reset, type scale, links, focus, .prose (FOUNDATION, revision 1 "PASTE UP POP"). Colours, fonts and sizes
+   come from tokens.css; the context variables (--fg --fg-2 --accent --mark) come from components.css. */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: 96px; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 body {
   margin: 0; min-height: 100vh; overflow-x: clip;
-  background: var(--cream); color: var(--text-on-cream);
+  background: var(--paper); color: var(--ink);
   font-family: var(--font-body); font-size: var(--fs-body); line-height: var(--lh-body); font-weight: 400;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility;
 }
@@ -20,37 +20,44 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 address { font-style: normal; }
 table { border-collapse: collapse; }
 [hidden] { display: none !important; }
-::selection { background: var(--sun); color: var(--sun-ink); }
+::selection { background: var(--sun); color: var(--ink); }
 
-/* ---------- type scale ---------- */
-h1, h2, h3, h4 { font-family: var(--font-display); font-weight: var(--fw-display); line-height: var(--lh-snug); letter-spacing: var(--track-display); text-wrap: balance; }
+/* ---------- type scale: Bricolage 800 condensed, one hand-lettered accent word ---------- */
+h1, h2, h3, h4 {
+  font-family: var(--font-display); font-weight: var(--fw-display); font-stretch: var(--wdth-display);
+  line-height: var(--lh-snug); letter-spacing: var(--track-display); text-wrap: balance;
+}
 h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); }
-h2 { font-size: var(--fs-h2); line-height: 1.08; }
+h2 { font-size: var(--fs-h2); line-height: var(--lh-tight); }
 h3 { font-size: var(--fs-h3); }
-h4 { font-size: 1.15rem; }
-h1 em, h2 em, h3 em, .display em { font-style: italic; font-weight: var(--fw-display-2); }
+h4 { font-size: 1.15rem; font-weight: var(--fw-display-2); }
+h1 em, h2 em, h3 em, .display em {
+  font-family: var(--font-hand); font-weight: 700; font-style: normal; font-stretch: normal; font-size: var(--fs-hand);
+  letter-spacing: 0; line-height: 0.8; color: var(--accent, var(--coral-deep));
+  padding-bottom: 0.06em; background: var(--scribble) 0 100% / 100% 0.26em no-repeat;
+}
 p { text-wrap: pretty; }
 small { font-size: var(--fs-small); }
 strong, b { font-weight: 700; }
 
-/* ---------- links ---------- */
+/* ---------- links: a marker swipe under the words, full height on hover ---------- */
 a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
 a:not([class]) {
-  color: var(--violet); text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
-  background: linear-gradient(currentColor, currentColor) 0 100% / 0 1.5px no-repeat;
-  transition: background-size var(--dur) var(--ease-out), color var(--dur-fast);
+  color: inherit; font-weight: 600; text-decoration: none;
+  background: linear-gradient(var(--mark, var(--sun)), var(--mark, var(--sun))) 0 100% / 100% 0.36em no-repeat;
+  transition: background-size var(--dur) var(--ease-out);
 }
-a:not([class]):hover { background-size: 100% 1.5px; text-decoration-color: transparent; }
-.band--night a:not([class]), .band--plum a:not([class]), .band--sun a:not([class]), .page-hero a:not([class]), .site-footer a:not([class]), .glass:not(.glass--cream) a:not([class]) { color: var(--sky); }
+a:not([class]):hover, a:not([class]):focus-visible { background-size: 100% 100%; }
 
-/* ---------- focus (D8) ---------- */
+/* ---------- focus (D8): ink ring + sun ring, hard edges ---------- */
 :focus { outline: none; }
-:focus-visible { outline: 3px solid var(--sun); outline-offset: 3px; border-radius: 4px; }
-.band--cream :focus-visible, .band--linen :focus-visible, .glass--cream :focus-visible, .on-cream :focus-visible { outline-color: var(--violet); }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; box-shadow: 0 0 0 6px var(--sun); border-radius: 4px; }
+.band--night :focus-visible, .band--plum :focus-visible, .band--sun :focus-visible, .on-dark :focus-visible, .glass:not(.glass--cream) :focus-visible, .page-hero__text :focus-visible, .site-footer :focus-visible { outline-color: var(--sun); box-shadow: 0 0 0 6px var(--ink); }
 .skip {
-  position: fixed; left: 16px; top: 12px; z-index: calc(var(--z-gate) + 1); padding: 12px 18px; border-radius: var(--r-pill);
-  background: var(--sun); color: var(--sun-ink); font-family: var(--font-deco); font-weight: 600; letter-spacing: var(--track-btn);
-  text-transform: uppercase; text-decoration: none; transform: translateY(-160%); transition: transform var(--dur) var(--ease-out);
+  position: fixed; left: 16px; top: 12px; z-index: calc(var(--z-gate) + 1); padding: 12px 18px; border-radius: var(--r-btn);
+  background: var(--sun); color: var(--ink); border: var(--outline); box-shadow: var(--shadow-pop-sm);
+  font-family: var(--font-label); font-weight: 700; letter-spacing: var(--track-btn);
+  text-transform: uppercase; text-decoration: none; transform: translateY(-180%); transition: transform var(--dur) var(--ease-out);
 }
 .skip:focus, .skip:focus-visible { transform: none; }
 .sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
@@ -61,23 +68,34 @@ a:not([class]):hover { background-size: 100% 1.5px; text-decoration-color: trans
 /* ---------- long text ---------- */
 .prose { max-width: 70ch; font-size: 1.04rem; }
 .prose > * + * { margin-top: 1.1em; }
-.prose h2 { margin-top: 1.8em; font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.4rem); color: var(--heading-on-cream); }
-.prose h3 { margin-top: 1.6em; font-size: var(--fs-h3); color: var(--heading-on-cream); }
-.prose h4 { margin-top: 1.4em; font-family: var(--font-deco); font-weight: 600; font-size: 0.95rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--violet); }
+.prose h2 { margin-top: 1.8em; font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.5rem); color: inherit; }
+.prose h3 { margin-top: 1.6em; font-size: var(--fs-h3); color: inherit; }
+.prose h4 { margin-top: 1.4em; font-family: var(--font-label); font-weight: 700; font-size: 0.92rem; letter-spacing: 0.12em; text-transform: uppercase; }
 .prose h2 + *, .prose h3 + *, .prose h4 + * { margin-top: 0.6em; }
 .prose ul, .prose ol { padding-left: 1.4em; }
-.prose ul { list-style: none; padding-left: 1.5em; }
+.prose ul { list-style: none; padding-left: 1.6em; }
 .prose ul > li { position: relative; }
-.prose ul > li::before { content: ""; position: absolute; left: -1.25em; top: 0.68em; width: 7px; height: 7px; background: var(--sun-deep); transform: rotate(45deg); }
+.prose ul > li::before { /* pop bullet: a sun dot with an ink ring */
+  content: ""; position: absolute; left: -1.45em; top: 0.5em; width: 11px; height: 11px; border-radius: 50%;
+  background: var(--sun); border: var(--line-sm) solid var(--ink);
+}
 .prose li + li { margin-top: 0.45em; }
-.prose ol > li::marker { font-family: var(--font-deco); font-weight: 600; color: var(--violet); }
-.prose blockquote { padding: 18px 22px; border-left: 3px double var(--sun-deep); background: var(--lavender-4); border-radius: 0 var(--r-sm) var(--r-sm) 0; font-family: var(--font-display); font-style: italic; font-size: 1.2rem; line-height: 1.5; color: var(--heading-on-cream); }
-.prose img { border-radius: var(--r-md); }
-.prose figure figcaption { margin-top: 8px; font-size: var(--fs-small); color: var(--text-on-cream-2); }
-.prose table { width: 100%; font-size: 0.95rem; }
-.prose th, .prose td { padding: 10px 12px; border-bottom: 1px solid var(--sand); text-align: left; vertical-align: top; }
-.prose th { font-family: var(--font-deco); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.82rem; color: var(--violet); }
-.prose hr { border: 0; height: 14px; background: var(--chevron) repeat-x 0 50% / 24px 14px; opacity: 0.7; }
-.prose--night, .band--night .prose, .band--plum .prose, .band--sun .prose { color: var(--text-on-night); }
-.band--night .prose h2, .band--night .prose h3, .band--plum .prose h2, .band--plum .prose h3, .prose--night h2, .prose--night h3 { color: var(--text-on-night); }
-.band--night .prose blockquote, .band--plum .prose blockquote, .prose--night blockquote { background: rgba(246, 243, 255, 0.06); color: var(--text-on-night); border-left-color: var(--sun); }
+.prose ol > li::marker { font-family: var(--font-display); font-weight: 800; color: var(--accent, var(--coral-deep)); }
+.prose blockquote { /* a taped note */
+  position: relative; margin-block: 1.6em; padding: 26px 26px 22px;
+  background: var(--sun-soft); color: var(--ink); border: var(--outline); border-radius: var(--r-sm); box-shadow: var(--shadow-pop-sm);
+  font-family: var(--font-body); font-weight: 600; font-size: 1.12rem; line-height: 1.55;
+}
+.prose blockquote::before {
+  content: ""; position: absolute; left: 50%; top: -13px; width: 110px; height: 26px; translate: -50% 0; rotate: -3deg; background: var(--tape-kraft);
+}
+.prose img { border-radius: var(--r-sm); border: var(--outline); box-shadow: var(--shadow-pop-sm); }
+.prose figure figcaption { margin-top: 10px; font-size: var(--fs-small); color: var(--fg-2, var(--ink-2)); }
+.prose table { width: 100%; font-size: 0.95rem; background: var(--paper); color: var(--ink); border: var(--outline); border-radius: var(--r-sm); border-collapse: separate; border-spacing: 0; overflow: hidden; }
+.prose th, .prose td { padding: 11px 14px; border-bottom: var(--line-sm) solid var(--ink-soft); text-align: left; vertical-align: top; }
+.prose tr:last-child td { border-bottom: 0; }
+.prose th { background: var(--sun); border-bottom: var(--outline); font-family: var(--font-label); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.82rem; }
+.prose hr { border: 0; height: 14px; background: var(--ink); -webkit-mask: var(--chevron) repeat-x 0 50% / 40px 14px; mask: var(--chevron) repeat-x 0 50% / 40px 14px; }
+.prose--night, .band--night .prose, .band--plum .prose, .band--sun .prose { color: var(--text-on-dark); }
+.prose--night blockquote, .band--night .prose blockquote, .band--plum .prose blockquote, .band--sun .prose blockquote { color: var(--ink); }
+.band--night .prose hr, .band--plum .prose hr, .band--sun .prose hr, .prose--night hr { background: var(--sun); }
