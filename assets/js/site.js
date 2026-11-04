@@ -536,6 +536,9 @@
         host.addEventListener('pointerleave', function () { v.pause(); });
         host.addEventListener('focusin', function () { playV(v); });
         host.addEventListener('focusout', function () { v.pause(); });
+      } else if (v.hasAttribute('data-after-load') && document.readyState !== 'complete') {
+        // phone pass: a hero loop marked data-after-load starts (and so downloads) only after window load
+        window.addEventListener('load', function () { if (ioVid) ioVid.observe(v); else playV(v); });
       } else if (ioVid) { ioVid.observe(v); } else { playV(v); }
     });
   }

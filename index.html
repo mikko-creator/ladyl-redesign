@@ -19,8 +19,7 @@
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
 <link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/media/hero-caricature.webp" as="image" media="(min-width: 721px)">
-<link rel="preload" href="/ladyl-redesign/assets/media/hero-caricature-sm.webp" as="image" media="(max-width: 720px)">
+
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/tokens.css">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/base.css">
@@ -130,8 +129,8 @@
 <main id="main">
 <section class="h-hero h-hero--bg band band--paper" id="h-hero" aria-labelledby="h-hero-h1">
 <div class="band__clip h-hero__clip" aria-hidden="true">
-<img class="h-hero__bgimg" src="/ladyl-redesign/assets/img/g-hero-caricature-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-caricature-640.webp 640w, /ladyl-redesign/assets/img/g-hero-caricature-960.webp 960w, /ladyl-redesign/assets/img/g-hero-caricature-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-caricature-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-caricature-2560.webp 2560w" sizes="100vw" width="2816" height="1584" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated">
-<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="/ladyl-redesign/assets/media/hero-caricature.webp" width="1920" height="1080" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-caricature-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-caricature.mp4" type="video/mp4"></video>
+<picture class="h-hero__bgpic"><source media="(max-width: 720px)" srcset="/ladyl-redesign/assets/media/hero-caricature-sm.webp" width="720" height="1080"><img class="h-hero__bgimg" src="/ladyl-redesign/assets/img/g-hero-caricature-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-caricature-640.webp 640w, /ladyl-redesign/assets/img/g-hero-caricature-960.webp 960w, /ladyl-redesign/assets/img/g-hero-caricature-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-caricature-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-caricature-2560.webp 2560w" sizes="100vw" width="2816" height="1584" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated"></picture>
+<video class="h-hero__loop" id="h-hero-loop" data-inview-play data-after-load muted loop playsinline preload="none" width="1920" height="1080" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-caricature-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-caricature.mp4" type="video/mp4"></video>
 </div>
 <div class="wrap wrap--wide h-hero__inner h-hero__bento">
 <div class="h-hero__copy">
