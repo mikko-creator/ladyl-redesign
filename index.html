@@ -17,8 +17,7 @@
 <meta name="theme-color" content="#120f24">
 <link rel="icon" href="/ladyl-redesign/favicon-32.png">
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
-<link rel="preload" href="/ladyl-redesign/assets/fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/fonts/josefin-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/media/hero-haze.webp" as="image" media="(min-width: 721px)">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
@@ -128,17 +127,15 @@
 <div class="nav-scrim" data-nav-scrim hidden></div>
 
 <main id="main">
-<section class="h-hero band band--night" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
+<section class="h-hero band band--paper" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
 <div class="band__clip h-hero__clip" aria-hidden="true">
-<img class="band__bg h-hero__bg" src="/ladyl-redesign/assets/img/g-hero-parlor-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-parlor-640.webp 640w, /ladyl-redesign/assets/img/g-hero-parlor-960.webp 960w, /ladyl-redesign/assets/img/g-hero-parlor-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-parlor-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-parlor-2560.webp 2560w" sizes="100vw" width="2752" height="1536" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated">
-<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="/ladyl-redesign/assets/media/hero-haze.webp" width="1920" height="1074" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-haze-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-haze.mp4" type="video/mp4"></video>
-<span class="h-hero__scrim"></span>
+<span class="h-dots h-hero__dots"></span>
 <span class="sunburst h-hero__rays"></span>
-<span class="h-hero__glow"></span>
 <span class="grain"></span>
 </div>
-<div class="wrap wrap--wide h-hero__inner">
+<div class="wrap wrap--wide h-hero__inner h-hero__bento">
 <div class="h-hero__copy">
+<span class="h-dots h-hero__copydots" aria-hidden="true"></span>
 <p class="kicker h-hero__kicker" data-reveal>West Side, Jersey City</p>
 <h1 id="h-hero-h1" class="display h-hero__h1" data-reveal style="--i:1">A Bold &amp; <em>Electric</em> Jersey City Dispensary</h1>
 <p class="h-hero__sub" data-reveal style="--i:2">A West Side Jersey City Dispensary <em>Made For You</em></p>
@@ -150,27 +147,36 @@
 
 
 </div>
-<div class="h-hero__side" data-reveal style="--i:2"><div class="svc-pair h-hero__pair">
-<article class="svc svc--delivery glass glass--lift">
+<div class="h-hero__shot" data-reveal style="--i:1">
+<div class="h-hero__media" aria-hidden="true">
+<img class="h-hero__bg" src="/ladyl-redesign/assets/img/g-hero-parlor-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-parlor-640.webp 640w, /ladyl-redesign/assets/img/g-hero-parlor-960.webp 960w, /ladyl-redesign/assets/img/g-hero-parlor-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-parlor-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-parlor-2560.webp 2560w" sizes="(max-width: 720px) 92vw, 560px" width="2752" height="1536" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated">
+<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="/ladyl-redesign/assets/media/hero-haze.webp" width="1920" height="1074" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-haze-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-haze.mp4" type="video/mp4"></video>
+<span class="h-hero__halftone"></span>
+</div>
+<span class="h-tape h-tape--tl" aria-hidden="true"></span>
+<span class="h-tape h-tape--br" aria-hidden="true"></span>
+<button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13M16 5.5v13"/></svg><span class="video-toggle__label">Pause motion</span></button>
+</div>
+<div class="svc-pair h-hero__pair">
+<article class="svc svc--delivery glass glass--lift" data-reveal style="--i:0">
 <span class="svc__icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg></span>
 <p class="kicker svc__kicker">Delivery</p>
 <h2 class="svc__title">Weed Delivery</h2>
 <ul class="svc__facts"><li>Estimated delivery time is approximately 1 hour.</li><li>A $75 minimum order applies, and delivery is free on orders of $75 or more.</li></ul>
 <div class="svc__cta btn-row"><a class="btn btn--sun btn--sm" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order for Delivery<svg class="ico ico--ext" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="link-arrow" href="/ladyl-redesign/service/">Delivery details<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
 </article>
-<article class="svc svc--pickup glass glass--lift">
+<article class="svc svc--pickup glass glass--lift" data-reveal style="--i:1">
 <span class="svc__icon" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5.5 8h13l-1 12.5h-11L5.5 8Z"/><path d="M9 8V7a3 3 0 0 1 6 0v1"/></svg></span>
 <p class="kicker svc__kicker">Pickup</p>
 <h2 class="svc__title">In-Store Pickup</h2>
 <ul class="svc__facts"><li>We are located at 547 West Side Ave, Jersey City 07304.</li><li>Last call for pickup and delivery is 1 hour before closing.</li></ul>
 <div class="svc__cta btn-row"><a class="btn btn--sun btn--sm" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order for Pickup<svg class="ico ico--ext" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="link-arrow" href="/ladyl-redesign/in-store-pickup/">Pickup details<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
 </article>
-</div></div>
 </div>
-<div class="h-hero__cut protrude" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.12"><img class="cut h-hero__cut-img" src="/ladyl-redesign/assets/img/g-pampas-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-pampas-cut-240.webp 240w, /ladyl-redesign/assets/img/g-pampas-cut-400.webp 400w, /ladyl-redesign/assets/img/g-pampas-cut-640.webp 640w, /ladyl-redesign/assets/img/g-pampas-cut-960.webp 960w, /ladyl-redesign/assets/img/g-pampas-cut-1400.webp 1400w" sizes="(max-width: 720px) 120px, 260px" width="1792" height="2368" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
-<button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13M16 5.5v13"/></svg><span class="video-toggle__label">Pause motion</span></button>
+<div class="h-hero__cut" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.06"><img class="cut h-hero__cut-img" src="/ladyl-redesign/assets/img/g-bud-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-bud-cut-240.webp 240w, /ladyl-redesign/assets/img/g-bud-cut-400.webp 400w, /ladyl-redesign/assets/img/g-bud-cut-640.webp 640w, /ladyl-redesign/assets/img/g-bud-cut-960.webp 960w, /ladyl-redesign/assets/img/g-bud-cut-1400.webp 1400w" sizes="(max-width: 720px) 96px, 180px" width="2048" height="2048" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
+</div>
 </section>
-<section class="h-cats band band--cream" id="h-cats" aria-labelledby="h-cats-h">
+<section class="h-cats band band--newsprint" id="h-cats" aria-labelledby="h-cats-h">
 <div class="band__clip" aria-hidden="true"><span class="h-cats__wash"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split">
@@ -223,7 +229,7 @@
 
 </div>
 </section>
-<section class="h-visit band band--linen" id="location" aria-labelledby="h-visit-h">
+<section class="h-visit band band--paper" id="location" aria-labelledby="h-visit-h">
 <div class="band__clip" aria-hidden="true"><span class="h-visit__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-visit__grid">
 <div class="h-visit__copy">
@@ -240,18 +246,21 @@
 <div class="h-visit__side protrude-wrap"><figure class="h-visit__arch arch arch--rainbow" data-reveal style="--i:2"><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-img_4198-scaled-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-img_4198-scaled-480.webp 480w, /ladyl-redesign/assets/img/p-ll-img_4198-scaled-800.webp 800w, /ladyl-redesign/assets/img/p-ll-img_4198-scaled-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-img_4198-scaled-1440.webp 1440w" sizes="(max-width: 720px) 70vw, 440px" width="1440" height="2560" alt="" decoding="async" loading="lazy"></span></figure></div>
 </div>
 </section>
-<section class="h-high band band--sun" id="h-high" aria-labelledby="h-high-h" data-sunburst>
-<div class="band__clip" aria-hidden="true"><img class="band__bg h-high__bg" src="/ladyl-redesign/assets/img/g-haze-960.webp" srcset="/ladyl-redesign/assets/img/g-haze-640.webp 640w, /ladyl-redesign/assets/img/g-haze-960.webp 960w, /ladyl-redesign/assets/img/g-haze-1440.webp 1440w, /ladyl-redesign/assets/img/g-haze-1920.webp 1920w, /ladyl-redesign/assets/img/g-haze-2560.webp 2560w" sizes="100vw" width="2752" height="1536" alt="" decoding="async" loading="lazy" data-ai="generated"><span class="h-high__veil"></span><span class="sunburst h-high__rays"></span><span class="grain"></span></div>
-<div class="h-high__moon protrude" aria-hidden="true"><div data-depth="0.1"><img class="cut h-high__moon-img" src="/ladyl-redesign/assets/img/g-moon-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-moon-cut-240.webp 240w, /ladyl-redesign/assets/img/g-moon-cut-400.webp 400w, /ladyl-redesign/assets/img/g-moon-cut-640.webp 640w, /ladyl-redesign/assets/img/g-moon-cut-960.webp 960w, /ladyl-redesign/assets/img/g-moon-cut-1400.webp 1400w" sizes="(max-width: 720px) 90px, 190px" width="2048" height="2048" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
-<div class="wrap wrap--narrow h-high__inner">
+<section class="h-high band band--yellow" id="h-high" aria-labelledby="h-high-h" data-sunburst>
+<div class="band__clip" aria-hidden="true"><span class="h-dots h-high__dots"></span><span class="sunburst h-high__rays"></span><span class="grain"></span></div>
+<div class="wrap wrap--wide h-high__bento">
+<div class="h-high__inner">
 <p class="kicker h-high__kicker">Feel good</p>
 <h2 class="display display--mega h-high__h" id="h-high-h" data-reveal>Be your <em>higher self</em></h2>
 <p class="lede h-high__p" data-reveal style="--i:1">Get better sleep, ease the stress, groove out to some tunes, or get into a creative flow. However you like to recreate or medicate, we have the right high for you.</p>
 <p class="btn-row h-high__ctas" data-reveal style="--i:3"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Shop now<svg class="ico ico--ext" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p>
 
 </div>
+<figure class="h-high__shot" aria-hidden="true" data-reveal style="--i:2"><span class="h-high__media"><img class="h-high__bg" src="/ladyl-redesign/assets/img/g-haze-960.webp" srcset="/ladyl-redesign/assets/img/g-haze-640.webp 640w, /ladyl-redesign/assets/img/g-haze-960.webp 960w, /ladyl-redesign/assets/img/g-haze-1440.webp 1440w, /ladyl-redesign/assets/img/g-haze-1920.webp 1920w, /ladyl-redesign/assets/img/g-haze-2560.webp 2560w" sizes="(max-width: 720px) 88vw, 480px" width="2752" height="1536" alt="" decoding="async" loading="lazy" data-ai="generated"></span><span class="h-tape h-tape--top"></span></figure>
+<div class="h-high__moon" aria-hidden="true"><div data-depth="0.1"><img class="cut h-high__moon-img" src="/ladyl-redesign/assets/img/g-moon-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-moon-cut-240.webp 240w, /ladyl-redesign/assets/img/g-moon-cut-400.webp 400w, /ladyl-redesign/assets/img/g-moon-cut-640.webp 640w, /ladyl-redesign/assets/img/g-moon-cut-960.webp 960w, /ladyl-redesign/assets/img/g-moon-cut-1400.webp 1400w" sizes="(max-width: 720px) 80px, 150px" width="2048" height="2048" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
+</div>
 </section>
-<section class="h-story band band--cream" id="h-story" aria-label="About Lady L">
+<section class="h-story band band--newsprint" id="h-story" aria-label="About Lady L">
 <div class="band__clip" aria-hidden="true"><span class="h-story__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-story__grid">
 <div class="h-story__media" data-reveal>
@@ -287,6 +296,7 @@
 </div>
 </section>
 <section class="h-deals band band--night" id="h-deals" aria-labelledby="h-deals-h" data-sunburst>
+<span class="h-torn h-torn--deals" aria-hidden="true"></span>
 <div class="band__clip" aria-hidden="true"><span class="sunburst h-deals__rays"></span><span class="h-deals__glow"></span><span class="grain"></span></div>
 <div class="h-deals__bud protrude" aria-hidden="true"><div data-depth="0.14"><img class="cut h-deals__bud-img" src="/ladyl-redesign/assets/img/g-bud-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-bud-cut-240.webp 240w, /ladyl-redesign/assets/img/g-bud-cut-400.webp 400w, /ladyl-redesign/assets/img/g-bud-cut-640.webp 640w, /ladyl-redesign/assets/img/g-bud-cut-960.webp 960w, /ladyl-redesign/assets/img/g-bud-cut-1400.webp 1400w" sizes="(max-width: 720px) 100px, 200px" width="2048" height="2048" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
 <div class="wrap wrap--wide h-deals__grid">
@@ -301,7 +311,7 @@
 
 </div>
 </section>
-<section class="h-brand band band--linen" id="h-brand" aria-labelledby="h-brand-h">
+<section class="h-brand band band--paper" id="h-brand" aria-labelledby="h-brand-h">
 <div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
 <div class="wrap wrap--wide h-brand__row">
 <div class="h-head" data-reveal><p class="kicker">Brands</p><h2 class="display h-head__h" id="h-brand-h">shop by <em>brand</em></h2></div>
@@ -310,7 +320,7 @@
 <div class="marquee h-brand__marquee" data-marquee aria-label="Brands on the menu" role="region"><div class="marquee__track h-brand__track"><ul class="h-brand__logos" role="list"><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-480.webp 480w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-800.webp 800w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-1800.webp 1800w" sizes="160px" width="2327" height="527" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-706.webp" srcset="/ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-480.webp 480w, /ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-706.webp 706w" sizes="160px" width="706" height="759" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-480.webp 480w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-800.webp 800w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-1800.webp 1800w" sizes="160px" width="2560" height="852" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/photos/ll/piff-coast-farms.avif" width="640" height="414" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-480.webp 480w, /ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-800.webp 800w" sizes="160px" width="800" height="270" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-572.webp" srcset="/ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-480.webp 480w, /ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-572.webp 572w" sizes="160px" width="572" height="600" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-a47de996-4f6a-3357-8dd3-78342510dd52-205.webp" srcset="/ladyl-redesign/assets/img/p-ll-a47de996-4f6a-3357-8dd3-78342510dd52-205.webp 205w" sizes="160px" width="205" height="180" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-480.webp 480w, /ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-800.webp 800w" sizes="160px" width="800" height="447" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-778.webp" srcset="/ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-480.webp 480w, /ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-778.webp 778w" sizes="160px" width="778" height="273" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-hf_logo_400x400-400.webp" srcset="/ladyl-redesign/assets/img/p-ll-hf_logo_400x400-400.webp 400w" sizes="160px" width="400" height="400" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-480.webp 480w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-800.webp 800w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-1800.webp 1800w" sizes="160px" width="2500" height="1219" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-480.webp 480w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-800.webp 800w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-1626.webp 1626w" sizes="160px" width="1626" height="1321" alt="" decoding="async" loading="lazy"></li></ul><ul class="h-brand__logos" role="list" aria-hidden="true"><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-480.webp 480w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-800.webp 800w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-gr-horz-stacked-logo-blue-1800.webp 1800w" sizes="160px" width="2327" height="527" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-706.webp" srcset="/ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-480.webp 480w, /ladyl-redesign/assets/img/p-ll-go2_logo_primary_icon_rgb-706.webp 706w" sizes="160px" width="706" height="759" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-480.webp 480w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-800.webp 800w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-tyson20-blk-1-scaled-1800.webp 1800w" sizes="160px" width="2560" height="852" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/photos/ll/piff-coast-farms.avif" width="640" height="414" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-480.webp 480w, /ladyl-redesign/assets/img/p-ll-8bc6e051-572c-3914-a7ab-8fc82086ea1b-800.webp 800w" sizes="160px" width="800" height="270" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-572.webp" srcset="/ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-480.webp 480w, /ladyl-redesign/assets/img/p-ll-b38a5ad2-1842-37c9-9b70-37a9e0fe64a8-572.webp 572w" sizes="160px" width="572" height="600" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-a47de996-4f6a-3357-8dd3-78342510dd52-205.webp" srcset="/ladyl-redesign/assets/img/p-ll-a47de996-4f6a-3357-8dd3-78342510dd52-205.webp 205w" sizes="160px" width="205" height="180" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-480.webp 480w, /ladyl-redesign/assets/img/p-ll-61f543f6-4028-34d7-b8dd-e6db499244e2-800.webp 800w" sizes="160px" width="800" height="447" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-778.webp" srcset="/ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-480.webp 480w, /ladyl-redesign/assets/img/p-ll-bf630da0-5667-3fb0-b77f-b7132f0006be-778.webp 778w" sizes="160px" width="778" height="273" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-hf_logo_400x400-400.webp" srcset="/ladyl-redesign/assets/img/p-ll-hf_logo_400x400-400.webp 400w" sizes="160px" width="400" height="400" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-480.webp 480w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-800.webp 800w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-wyld_logo_2024_slate-1800.webp 1800w" sizes="160px" width="2500" height="1219" alt="" decoding="async" loading="lazy"></li><li class="h-brand__logo glass glass--cream"><img class="h-brand__img" src="/ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-480.webp 480w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-800.webp 800w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-wana-logo_no-tagline-1626.webp 1626w" sizes="160px" width="1626" height="1321" alt="" decoding="async" loading="lazy"></li></ul></div></div>
 
 </section>
-<section class="h-spots band band--cream" id="h-spots" aria-labelledby="h-spots-h">
+<section class="h-spots band band--newsprint" id="h-spots" aria-labelledby="h-spots-h">
 <div class="band__clip" aria-hidden="true"><span class="h-spots__rainbow"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split"><div data-reveal><p class="kicker">The West Side</p><h2 class="display h-head__h" id="h-spots-h">After You Visit, the West Side's Got <em>More for You</em></h2></div><div class="lede h-head__lede prose" data-reveal style="--i:1"><p><a href="https://www.jerseycitynj.gov/" target="_blank" rel="noopener">Jersey City</a> is one of the liveliest, most layered, and most exciting cities in New Jersey and on the East Coast. Our West Side neighborhood is a little quieter, a little more residential, and a lot more real than the tourist maps suggest. After you stop by our dispensary in Jersey City, there's plenty of the city worth exploring. Here are a few of our favorite spots.</p></div></div>
@@ -355,7 +365,7 @@
 
 </div>
 </section>
-<section class="h-reviews band band--linen" id="h-reviews" aria-labelledby="h-reviews-h">
+<section class="h-reviews band band--paper" id="h-reviews" aria-labelledby="h-reviews-h">
 <div class="band__clip" aria-hidden="true"><span class="h-reviews__fan"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split">
@@ -432,7 +442,7 @@
 </form></div>
 </div>
 </section>
-<section class="h-insta band band--plum" id="h-insta" aria-labelledby="h-insta-h">
+<section class="h-insta band band--newsprint" id="h-insta" aria-labelledby="h-insta-h">
 <div class="band__clip" aria-hidden="true"><span class="h-insta__glow"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide">
 <div class="h-head h-head--split"><div data-reveal><p class="kicker">@ladyljerseycity</p><h2 class="display h-head__h" id="h-insta-h">Follow Us on <em>Instagram</em></h2><p class="lede h-head__lede">Stay connected and see what’s happening in-store. Follow us for the latest products, updates, and behind-the-scenes moments.</p></div>
@@ -572,7 +582,7 @@ A smoother way to browse, learn, and order, all on your time.
 
 </div>
 </section>
-<section class="h-faq band band--cream" id="faq" aria-labelledby="h-faq-h">
+<section class="h-faq band band--paper" id="faq" aria-labelledby="h-faq-h">
 <div class="band__clip" aria-hidden="true"><span class="h-faq__botanical"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-faq__grid">
 <div class="h-faq__side">
@@ -603,7 +613,7 @@ A smoother way to browse, learn, and order, all on your time.
 </div>
 </section>
 <section class="h-stop band band--night" id="h-stop" aria-labelledby="h-stop-h">
-<div class="band__clip" aria-hidden="true"><img class="band__bg h-stop__bg" src="/ladyl-redesign/assets/img/g-sunburst-wall-960.webp" srcset="/ladyl-redesign/assets/img/g-sunburst-wall-640.webp 640w, /ladyl-redesign/assets/img/g-sunburst-wall-960.webp 960w, /ladyl-redesign/assets/img/g-sunburst-wall-1440.webp 1440w, /ladyl-redesign/assets/img/g-sunburst-wall-1920.webp 1920w, /ladyl-redesign/assets/img/g-sunburst-wall-2560.webp 2560w" sizes="100vw" width="2752" height="1536" alt="" decoding="async" loading="lazy" data-ai="generated"><span class="h-stop__veil"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="h-dots h-stop__dots"></span><span class="grain"></span></div>
 <div class="wrap wrap--wide h-stop__grid">
 <div class="h-stop__copy" data-reveal><p class="kicker">Directions</p><h2 class="display h-head__h" id="h-stop-h">Stop By, <em>Stay High</em></h2><p class="lede">Finding us is easy. We're close to the intersection of West Side Avenue and Clendenny Avenue, and just a short drive from Lincoln Park. If you're coming from the Route 440 corridor, we're a straight shot east on Communipaw Avenue. Street parking is available along West Side Avenue and on the surrounding side streets. When you visit, you're supporting a local, woman-owned business that gives back to the community it serves. We'd love to be your go-to dispensary in Jersey City NJ.</p>
 <p class="btn-row h-stop__ctas"><a class="btn btn--sun" href="https://maps.app.goo.gl/VnR5aaEyZddAmJEW9" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>Get directions<svg class="ico ico--ext" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="btn btn--glass" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order now<svg class="ico ico--ext" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>

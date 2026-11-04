@@ -17,8 +17,7 @@
 <meta name="theme-color" content="#120f24">
 <link rel="icon" href="/ladyl-redesign/favicon-32.png">
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
-<link rel="preload" href="/ladyl-redesign/assets/fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/fonts/josefin-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
@@ -129,9 +128,10 @@
 
 <main id="main">
 <section class="page-hero v-hero v-hero--place" data-spot data-sunburst>
-<div class="band__clip" aria-hidden="true"><span class="v-hero__glow"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--hero"></span><span class="grain"></span></div>
 <div class="wrap page-hero__inner">
 <div class="page-hero__text v-hero__text" data-reveal>
+<span class="v-tape" aria-hidden="true"></span>
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/ladyl-redesign/">Home</a></li><li><a href="/ladyl-redesign/new-jersey/">New Jersey</a></li><li><span aria-current="page">Statue of Liberty</span></li></ol></nav>
 <p class="kicker">Dispensary near Statue of Liberty</p>
 <h1 class="h1--mid display v-hero__h1">Dispensary Near Statue of Liberty</h1>
@@ -139,15 +139,20 @@
 
 <div class="btn-row v-hero__ctas"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order for Pickup<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="btn btn--glass" href="https://www.google.com/maps/dir/?api=1&amp;origin=Statue%20of%20Liberty%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener">Get directions from Statue of Liberty<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 </div>
-<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts glass glass--strong">
-<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul><p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
+<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts v-facts--place">
+<div class="v-facts__tile v-fill-sun glass glass--cream"><span class="v-tape" aria-hidden="true"></span>
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul>
+</div>
+<div class="v-facts__tile glass glass--cream">
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
 <p class="v-facts__county"><a class="chip chip--sky" href="https://www.google.com/maps/dir/?api=1&amp;origin=Statue%20of%20Liberty%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>Get directions from Statue of Liberty</a></p>
+</div>
 </div></div>
 
 </div>
 <span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1"><img src="/ladyl-redesign/assets/img/g-bud-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-bud-cut-240.webp 240w, /ladyl-redesign/assets/img/g-bud-cut-400.webp 400w, /ladyl-redesign/assets/img/g-bud-cut-640.webp 640w, /ladyl-redesign/assets/img/g-bud-cut-960.webp 960w, /ladyl-redesign/assets/img/g-bud-cut-1400.webp 1400w" sizes="(min-width: 1024px) 220px, 120px" width="2048" height="2048" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated"></span>
-</section><section class="band band--cream v-intro">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
+</section><section class="band band--linen v-intro">
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span><span class="v-botanical"></span></div>
 <div class="wrap">
 <div class="v-intro__grid v-intro__grid--solo">
 <div class="v-intro__text prose" data-reveal><p>If you're looking for a dispensary near the Statue of Liberty, Lady L Cannabis is your closest real option. Our shop sits on Jersey City's West Side, just 31 minutes away via I-78 W through the Holland Tunnel. You've just stood at the foot of one of the world's most iconic landmarks. Now comes the easy part. Lady L is a woman-owned cannabis microbusiness where the products are curated, the service is warm, and the experience is unlike any dispensary you've walked into before.</p></div>
@@ -162,9 +167,9 @@
 <div class="v-route__main">
 <header class="v-head" data-reveal><p class="kicker">Directions</p><h2 class="display v-head__h" id="v-route-h">Directions from Statue of Liberty to Lady L</h2></header>
 <div class="prose" data-reveal><p>Getting from the Statue of Liberty to Lady L takes about 22 to 50 minutes, depending on tunnel traffic. The drive covers 8.2 miles via I-78 W through the Holland Tunnel. This route has tolls.</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Get on NY-9A N/West St from Battery Park, 1 min (0.2 mi)</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Continue on NY-9A N/West St, 4 min (1.1 mi)</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>Take Hudson St to I-78 W/Holland Tunnel, 3 min (0.4 mi)</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Continue on I-78 W. Take NJ-139 W and US-1 Truck S/US-9 Truck S to Communipaw Ave in Jersey City, 14 min (6.0 mi)</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Continue on Communipaw Ave and drive to West Side Ave, 3 min (0.6 mi), we're on the right</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Get on NY-9A N/West St from Battery Park, 1 min (0.2 mi)</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Continue on NY-9A N/West St, 4 min (1.1 mi)</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>Take Hudson St to I-78 W/Holland Tunnel, 3 min (0.4 mi)</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Continue on I-78 W. Take NJ-139 W and US-1 Truck S/US-9 Truck S to Communipaw Ave in Jersey City, 14 min (6.0 mi)</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Continue on Communipaw Ave and drive to West Side Ave, 3 min (0.6 mi), we're on the right</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><div class="btn-row v-btns"><a class="btn btn--sun" href="https://maps.app.goo.gl/WiDkXKSES97W288r7" target="_blank" rel="noopener">Get direction<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 <div class="v-ibox"><div><a href="tel:+1 (201) 595-0706">(201) 595-0706</a></div></div>
@@ -177,8 +182,8 @@
 </div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s1-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--night v-sec v-sec--text" aria-labelledby="v-s1-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s1-h">A Dispensary Near the Statue of Liberty With Soul</h2></header>
 <div class="v-split v-split--flip"><div class="v-split__text prose" data-reveal><p>Most people who visit the Statue of Liberty spend the day in motion. You board a ferry, cross the harbor, take in one of the most recognized monuments on earth, and head back to shore with a full afternoon still ahead. That's where Lady L comes in.</p>
@@ -187,36 +192,36 @@
 </div>
 </section>
 <section class="band band--linen v-sec v-sec--cards" aria-labelledby="v-s2-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s2-h">What's Inside: Products Worth the Trip from Statue of Liberty</h2></header>
 <div class="v-lead prose" data-reveal><p>Our shelves are built around one standard: quality over quantity. Every product earns its place based on freshness, reliability, and what our customers want. If something doesn't clear that bar, it doesn't make the cut.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Pre-Rolls<br>Grab one on the way out, and you're ready to go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Vapes<br>A discreet experience for customers who prefer something easy on the go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Concentrates<br>For experienced consumers looking for something more.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp" srcset="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp 135w" sizes="72px" width="135" height="205" alt="" decoding="async" loading="lazy"></span>
 <h3 class="v-card__t">Tinctures</h3>
 <div class="v-card__b"><p>A precise, easy-to-dose option for customers who want control over their experience.</p></div>
@@ -228,8 +233,8 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">order NOW<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div></div>
 </div>
 </section>
-<section class="band band--plum v-sec v-sec--text" aria-labelledby="v-s3-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s3-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s3-h">Why Dispensary Shoppers Choose Lady L</h2></header>
 <div class="v-split"><div class="v-split__text prose" data-reveal><p>Lady Liberty stands for freedom, welcome, and the promise of something better. Lady L Cannabis isn't a stretch from that spirit. This is a woman-owned microbusiness built by an immigrant founder on a neighborhood block in Jersey City, and it operates every day with the same values the harbor's most famous resident represents.</p>
@@ -237,22 +242,22 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="/ladyl-redesign/about-us/">Learn More About Us<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div></div><figure class="arch v-split__art" data-reveal style="--i:1" data-depth="0.04"><span class="arch__img"><img src="/ladyl-redesign/assets/img/g-guide-960.webp" srcset="/ladyl-redesign/assets/img/g-guide-640.webp 640w, /ladyl-redesign/assets/img/g-guide-960.webp 960w, /ladyl-redesign/assets/img/g-guide-1440.webp 1440w, /ladyl-redesign/assets/img/g-guide-1792.webp 1792w" sizes="(min-width: 1024px) 380px, 70vw" width="1792" height="2240" alt="" decoding="async" loading="lazy" data-ai="generated"></span></figure></div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--cards" aria-labelledby="v-s4-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--plum v-sec v-sec--cards" aria-labelledby="v-s4-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s4-h">A Day Worth Having: Explore the Statue of Liberty</h2></header>
 <div class="v-lead prose" data-reveal><p>The Statue of Liberty is one of the most visited landmarks on earth, and for good reason. A trip to Liberty Island is a full experience before you ever set foot back on shore. Here's what makes the visit worth planning around, and where Lady L fits into the day.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://www.nps.gov/stli/" target="_blank" rel="noopener">The Statue of Liberty National Monument</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>The Statue of Liberty National Monument is managed by the National Park Service and draws millions of visitors each year. Liberty Island offers ground-level access, pedestal tours, and crown tours for those who book in advance. The views of New York Harbor from the island are unmatched, and the museum at the base tells the full story of the monument's design, construction, and meaning. Plan for at least two to three hours on the island, especially if you have pedestal or crown access.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:1">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://whc.unesco.org/en/list/307/" target="_blank" rel="noopener">A UNESCO World Heritage Site</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>The Statue of Liberty holds UNESCO World Heritage Site status, recognized alongside Ellis Island as a landmark of universal significance. That designation speaks to the monument's role not just as an American symbol but as a global one. The connection between Liberty Island and Ellis Island, which sits nearby in the harbor, makes the area a natural full-day destination. Ellis Island's immigration museum is one of the most moving experiences in the New York Harbor area and pairs naturally with a visit to the Statue of Liberty.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:2">
+<li class="v-card v-s12 glass glass--lift v-card--link" data-reveal style="--i:2">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://dep.nj.gov/parksandforests/state-park/liberty-state-park/" target="_blank" rel="noopener">Liberty State Park</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Just across the water in Jersey City, Liberty State Park offers some of the best unobstructed views of the Statue of Liberty and the Manhattan skyline available anywhere. The park is the departure point for Statue of Liberty and Ellis Island ferries, and it's a destination in its own right. Walking paths, open green space, and waterfront views make it a natural place to decompress after the ferry ride back. From Liberty State Park, Lady L is less than 10 minutes away by car.</p></div>
@@ -260,8 +265,8 @@
 
 </div>
 </section>
-<section class="band band--night v-sec v-sec--faq" aria-labelledby="v-s5-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--linen v-sec v-sec--faq" aria-labelledby="v-s5-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap wrap--narrow">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s5-h">Cannabis Guide for Dispensary Shoppers</h2></header>
 <div class="v-faqwrap" data-reveal><figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-480.webp 480w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp 800w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1619.webp 1619w" sizes="(min-width: 1024px) 420px, 80vw" width="1619" height="1080" alt="03119f51a270ad502b972b1c699799170561feb4" decoding="async" loading="lazy"></span></figure>
@@ -288,9 +293,9 @@
 <figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp" srcset="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-480.webp 480w, /ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp 579w" sizes="(min-width: 1024px) 420px, 80vw" width="579" height="676" alt="Rectangle 3463786" decoding="async" loading="lazy"></span></figure>
 <p>Driving from Battery Park/Lower Manhattan</p>
 <p>Traffic through the Holland Tunnel varies, so plan accordingly. All three routes use I-78 W to cross into Jersey City.</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via I-78 W (typically 22 to 50 min, 8.2 miles)</strong>, The fastest and most direct option. Take NY-9A N from Battery Park, enter the Holland Tunnel via I-78 W, and follow NJ-139 W into Jersey City. Drive to West Side Ave. We're on the right. This route has tolls.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via NY-9A N/West St and I-78 W (typically 26 to 50 min, 9.0 miles)</strong>, A slightly longer variation of the same tunnel crossing. Adds a few minutes but follows a similar path into Jersey City's West Side.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span><strong>Via I-78 W and US-1 Truck N/US-9 Truck N (typically 28 min to 1 hr, 16.6 miles)</strong>, The longest route by distance. A solid backup if the other two are heavily backed up near the tunnel.</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via I-78 W (typically 22 to 50 min, 8.2 miles)</strong>, The fastest and most direct option. Take NY-9A N from Battery Park, enter the Holland Tunnel via I-78 W, and follow NJ-139 W into Jersey City. Drive to West Side Ave. We're on the right. This route has tolls.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via NY-9A N/West St and I-78 W (typically 26 to 50 min, 9.0 miles)</strong>, A slightly longer variation of the same tunnel crossing. Adds a few minutes but follows a similar path into Jersey City's West Side.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span><strong>Via I-78 W and US-1 Truck N/US-9 Truck N (typically 28 min to 1 hr, 16.6 miles)</strong>, The longest route by distance. A solid backup if the other two are heavily backed up near the tunnel.</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><p>Biking from Liberty State Park</p>
 <p>Once you're back on the Jersey City side, Lady L is a quick, mostly flat ride. All three routes clock in under 20 minutes.</p>

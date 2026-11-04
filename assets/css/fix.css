@@ -1,1 +1,1 @@
-main .page-hero .page-hero__art{margin-bottom:calc(-1 * var(--overhang))}
+main .page-hero .page-hero__art{margin-bottom:calc(-1 * var(--overhang))}.h-stop__hours{grid-template-columns:minmax(0,1fr)}img[src*="/g-hf-"]{filter:grayscale(1) sepia(1) hue-rotate(208deg) saturate(1.7) contrast(1.08) brightness(1.03)}@media (max-width:600px){.btn{white-space:normal;text-align:center}.page-hero__text,.v-hero__text{min-width:0}}

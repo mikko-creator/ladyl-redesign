@@ -17,8 +17,7 @@
 <meta name="theme-color" content="#120f24">
 <link rel="icon" href="/ladyl-redesign/favicon-32.png">
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
-<link rel="preload" href="/ladyl-redesign/assets/fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/fonts/josefin-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
@@ -129,9 +128,10 @@
 
 <main id="main">
 <section class="page-hero v-hero v-hero--place" data-spot data-sunburst>
-<div class="band__clip" aria-hidden="true"><span class="v-hero__glow"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--hero"></span><span class="grain"></span></div>
 <div class="wrap page-hero__inner">
 <div class="page-hero__text v-hero__text" data-reveal>
+<span class="v-tape" aria-hidden="true"></span>
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/ladyl-redesign/">Home</a></li><li><a href="/ladyl-redesign/new-jersey/">New Jersey</a></li><li><span aria-current="page">Hoboken</span></li></ol></nav>
 <p class="kicker">Dispensary near Hoboken</p>
 <h1 class="h1--long display v-hero__h1">Dispensary Near Hoboken, NJ, Worth Every Mile</h1>
@@ -139,15 +139,20 @@
 
 <div class="btn-row v-hero__ctas"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order for Pickup<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="btn btn--glass" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hoboken%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener">Get directions from Hoboken<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 </div>
-<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts glass glass--strong">
-<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul><p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
+<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts v-facts--place">
+<div class="v-facts__tile v-fill-sun glass glass--cream"><span class="v-tape" aria-hidden="true"></span>
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul>
+</div>
+<div class="v-facts__tile glass glass--cream">
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
 <p class="v-facts__county"><a class="chip chip--sky" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hoboken%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>Get directions from Hoboken</a></p>
+</div>
 </div></div>
 
 </div>
 <span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1"><img src="/ladyl-redesign/assets/img/g-moon-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-moon-cut-240.webp 240w, /ladyl-redesign/assets/img/g-moon-cut-400.webp 400w, /ladyl-redesign/assets/img/g-moon-cut-640.webp 640w, /ladyl-redesign/assets/img/g-moon-cut-960.webp 960w, /ladyl-redesign/assets/img/g-moon-cut-1400.webp 1400w" sizes="(min-width: 1024px) 220px, 120px" width="2048" height="2048" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated"></span>
-</section><section class="band band--cream v-intro">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
+</section><section class="band band--linen v-intro">
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span><span class="v-botanical"></span></div>
 <div class="wrap">
 <div class="v-intro__grid v-intro__grid--solo">
 <div class="v-intro__text prose" data-reveal><p>If you're searching for a dispensary near Hoboken, you've already found the right place. Lady L sits on Jersey City's West Side, just 22 minutes from Hoboken via I-78 W. We are a woman-owned cannabis microbusiness, and everything here was built around one idea: give people a real experience. Warm service. Curated products. Zero judgment. Whether you've never stepped inside a dispensary or you know exactly what you want, you'll feel it the second you walk in.</p></div>
@@ -162,9 +167,9 @@
 <div class="v-route__main">
 <header class="v-head" data-reveal><p class="kicker">Directions</p><h2 class="display v-head__h" id="v-route-h">Directions from Hoboken to Lady L</h2></header>
 <div class="prose" data-reveal><p>Getting from Hoboken to Lady L is a quick, easy drive. The fastest route takes about 22 minutes and covers 6.0 miles via I-78 W. Note that this route includes tolls. Here's how to get here:</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Head toward Bloomfield Street, then turn left onto Garden Street</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Turn right onto County Road 681, then continue straight onto Newark Street</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>Turn left onto Grove Street, then turn right onto I-78 W / 14th Street</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Follow I-78 W and use the right two lanes to merge onto I-78 W / New Jersey Turnpike Newark Bay Extension (toll road)</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Take Exit 14B toward Jersey City / Liberty State Park (toll road)</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">06</span><span>Merge onto Bayview Avenue, then turn right onto Garfield Avenue</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">07</span><span>Turn left onto Bramhall Avenue, then right onto Bergen Avenue</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">08</span><span>Turn left onto Lexington Avenue, then left onto West Side Avenue</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">09</span><span>Lady L Cannabis is on the right</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Head toward Bloomfield Street, then turn left onto Garden Street</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Turn right onto County Road 681, then continue straight onto Newark Street</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>Turn left onto Grove Street, then turn right onto I-78 W / 14th Street</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Follow I-78 W and use the right two lanes to merge onto I-78 W / New Jersey Turnpike Newark Bay Extension (toll road)</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Take Exit 14B toward Jersey City / Liberty State Park (toll road)</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">06</span><span>Merge onto Bayview Avenue, then turn right onto Garfield Avenue</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">07</span><span>Turn left onto Bramhall Avenue, then right onto Bergen Avenue</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">08</span><span>Turn left onto Lexington Avenue, then left onto West Side Avenue</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">09</span><span>Lady L Cannabis is on the right</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><div class="btn-row v-btns"><a class="btn btn--sun" href="https://maps.app.goo.gl/XMYdZhhWEAdmiAnUA" target="_blank" rel="noopener">Get direction<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 <div class="v-ibox"><div><a href="tel:+1 (201) 595-0706">(201) 595-0706</a></div></div>
@@ -177,8 +182,8 @@
 </div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s1-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--night v-sec v-sec--text" aria-labelledby="v-s1-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s1-h">A Dispensary Near Hoboken With Soul</h2></header>
 <div class="v-split"><div class="v-split__text prose" data-reveal><p>Lady L is minutes from Hoboken's Washington Street corridor. Once you take I-78 W into Jersey City and pull onto West Side Avenue, you'll know you've arrived somewhere different. It's quieter here. More neighborhood. More real.</p>
@@ -188,36 +193,36 @@
 </div>
 </section>
 <section class="band band--linen v-sec v-sec--cards" aria-labelledby="v-s2-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s2-h">What's Inside: Products Worth the Trip from Hoboken</h2></header>
 <div class="v-lead prose" data-reveal><p>We don't try to carry everything. We carry the right things for the people who walk through our door. Curation drives every product decision we make. Freshness matters. Quality matters. And if something doesn't earn its spot, it doesn't get one.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Pre-Rolls<br>Grab one on the way out, and you're ready to go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Vapes<br>A discreet experience for customers who prefer something easy on the go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Concentrates<br>For experienced consumers looking for something more.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp" srcset="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp 135w" sizes="72px" width="135" height="205" alt="" decoding="async" loading="lazy"></span>
 <h3 class="v-card__t">Tinctures</h3>
 <div class="v-card__b"><p>A precise, easy-to-dose option for customers who want control over their experience.</p></div>
@@ -229,8 +234,8 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">order NOW<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div></div>
 </div>
 </section>
-<section class="band band--plum v-sec v-sec--text" aria-labelledby="v-s3-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s3-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s3-h">Why Hoboken Dispensary Shoppers Choose Lady L</h2></header>
 <div class="v-split v-split--flip"><div class="v-split__text prose" data-reveal><p>Hoboken has a lot going for it. A dispensary like Lady L isn't one of the things it has. That's exactly why customers make the trip.</p>
@@ -240,47 +245,47 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="/ladyl-redesign/about-us/">Learn More About Us<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div></div><figure class="arch v-split__art" data-reveal style="--i:1" data-depth="0.04"><span class="arch__img"><img src="/ladyl-redesign/assets/img/g-edibles-960.webp" srcset="/ladyl-redesign/assets/img/g-edibles-640.webp 640w, /ladyl-redesign/assets/img/g-edibles-960.webp 960w, /ladyl-redesign/assets/img/g-edibles-1440.webp 1440w, /ladyl-redesign/assets/img/g-edibles-1920.webp 1920w, /ladyl-redesign/assets/img/g-edibles-2496.webp 2496w" sizes="(min-width: 1024px) 380px, 70vw" width="2496" height="1664" alt="" decoding="async" loading="lazy" data-ai="generated"></span></figure></div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--cards" aria-labelledby="v-s4-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--plum v-sec v-sec--cards" aria-labelledby="v-s4-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s4-h">A Day Worth Having: Explore Hoboken, NJ</h2></header>
 <div class="v-lead prose" data-reveal><p><a href="https://www.hobokennj.gov/">Hoboken</a> is one of New Jersey's most walkable, most vibrant small cities. Before you make the short drive to our dispensary near Hoboken, or after you're done with us, the city has plenty worth staying for. Here are a few of our favorite spots.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://www.visithudson.org/things-to-do/attractions/hudson-river-waterfront-walkway/" target="_blank" rel="noopener">Hudson River Waterfront Walkway</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>The Hoboken stretch of the waterfront walkway is one of the best free experiences in Hudson County. You get unobstructed Manhattan skyline views, fresh air, and a flat path that connects several parks along the water. Walk it at golden hour and you'll understand why people move here from the city. It's photo-worthy in every season and a perfect way to clear your head before heading our way.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:1">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://www.gravityvault.com/locations/hoboken-nj" target="_blank" rel="noopener">Gravity Vault Hoboken</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Gravity Vault is Hoboken's indoor rock climbing gym, and it's genuinely fun for all skill levels. Go for a morning session before your visit, or bring friends for an afternoon of something active and hands-on. The routes challenge you without intimidating you. The energy inside is welcoming and community-focused, which makes it a natural complement to the kind of experience we aim to deliver at Lady L.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:2">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:2">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://www.hobokennj.gov/location/maxwell-place-park" target="_blank" rel="noopener">Maxwell Place Park</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Maxwell Place Park is right on the Hudson waterfront and offers some of the best open green space in the city. There's a playground, open lawn, and stunning water views just steps from the residential neighborhood. People who just want to sit and breathe find something here. Check the Hoboken parks schedule for seasonal events and programming throughout the year.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://hudsontable.com/" target="_blank" rel="noopener">Hudson Table</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Hudson Table is a culinary event space that brings people together around food. It hosts hands-on cooking classes, private experiences, and team events in a warm, modern setting. If you're planning a day in Hoboken, check their calendar for upcoming classes before you arrive. It's a social, creative stop that draws curious, community-minded locals. The vibe here rhymes with ours.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:1">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://yogarenew.com/" target="_blank" rel="noopener">Yoga Renew Hoboken</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Yoga Renew offers classes and teacher training in a space that doesn't take itself too seriously. It's accessible, welcoming, and built for people at all experience levels. A morning class here followed by a drive to Lady L makes for a legitimately good day. Both spaces share a commitment to meeting people where they are and helping them feel better when they leave.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:2">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:2">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://carlosbakery.order.tryperdiem.com/" target="_blank" rel="noopener">Carlos' Bakery</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Carlos' Bakery is a Hoboken landmark. Known from the TV show Cake Boss, this spot has been serving the community for decades with cakes, pastries, and specialty items that are just as good as the reputation suggests. Pick something up before your drive to Lady L, or swing by on the way back. Either way, it's a classic Hoboken experience you don't want to skip.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://napolishobokenpizza.com/" target="_blank" rel="noopener">Napoli's Hoboken Pizza</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Hoboken has a serious pizza reputation, and Napoli's holds a strong place in that legacy. This neighborhood spot is casual, reliable, and exactly what you want after a full afternoon of errands. The slices speak for themselves. Stop in before the drive, or loop back after your visit with us for a well-earned meal.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:1">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://www.williemcbrides.com/" target="_blank" rel="noopener">Willie McBride's</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Willie McBride's is one of Hoboken's most beloved bars. It's a classic Irish pub with a warm, lived-in atmosphere, strong pours, and a crowd that feels like regulars even on a first visit. End your Hoboken day here. It's the kind of place that turns a good afternoon into a great evening, and it's exactly the social note this city deserves.</p></div>
@@ -288,8 +293,8 @@
 
 </div>
 </section>
-<section class="band band--night v-sec v-sec--faq" aria-labelledby="v-s5-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--linen v-sec v-sec--faq" aria-labelledby="v-s5-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap wrap--narrow">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s5-h">Cannabis Guide for Hoboken Dispensary Shoppers</h2></header>
 <div class="v-faqwrap" data-reveal><figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-480.webp 480w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp 800w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1619.webp 1619w" sizes="(min-width: 1024px) 420px, 80vw" width="1619" height="1080" alt="03119f51a270ad502b972b1c699799170561feb4" decoding="async" loading="lazy"></span></figure>
@@ -316,9 +321,9 @@
 <figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp" srcset="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-480.webp 480w, /ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp 579w" sizes="(min-width: 1024px) 420px, 80vw" width="579" height="676" alt="Rectangle 3463786" decoding="async" loading="lazy"></span></figure>
 <p>Driving from Hoboken</p>
 <p>We’re an easy drive over:</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via I-78 W (~22 min, 6.0 miles)</strong>, The fastest route from Hoboken into Jersey City's West Side. Note: this route has tolls.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via via US-1 Truck S/US-9 Truck S (~25 min, 4.2 miles)</strong>, A toll-free alternative through Jersey City surface streets, avoiding the NJ-440 S slowdown.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span><strong>Via I-78 W and Garfield Ave (~23 min, 5.9 miles)</strong>, Slightly longer than the fastest route but avoids the NJ-440 S slowdown.</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via I-78 W (~22 min, 6.0 miles)</strong>, The fastest route from Hoboken into Jersey City's West Side. Note: this route has tolls.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via via US-1 Truck S/US-9 Truck S (~25 min, 4.2 miles)</strong>, A toll-free alternative through Jersey City surface streets, avoiding the NJ-440 S slowdown.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span><strong>Via I-78 W and Garfield Ave (~23 min, 5.9 miles)</strong>, Slightly longer than the fastest route but avoids the NJ-440 S slowdown.</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><p>Public Transit from Hoboken</p>
 <p>Taking transit? Hoboken is well-connected, and a few options get you close to us.</p>

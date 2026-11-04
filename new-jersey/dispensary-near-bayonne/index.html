@@ -17,8 +17,7 @@
 <meta name="theme-color" content="#120f24">
 <link rel="icon" href="/ladyl-redesign/favicon-32.png">
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
-<link rel="preload" href="/ladyl-redesign/assets/fonts/bodoni-moda-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/fonts/josefin-sans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
@@ -129,9 +128,10 @@
 
 <main id="main">
 <section class="page-hero v-hero v-hero--place" data-spot data-sunburst>
-<div class="band__clip" aria-hidden="true"><span class="v-hero__glow"></span><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--hero"></span><span class="grain"></span></div>
 <div class="wrap page-hero__inner">
 <div class="page-hero__text v-hero__text" data-reveal>
+<span class="v-tape" aria-hidden="true"></span>
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/ladyl-redesign/">Home</a></li><li><a href="/ladyl-redesign/new-jersey/">New Jersey</a></li><li><span aria-current="page">Bayonne</span></li></ol></nav>
 <p class="kicker">Dispensary near Bayonne</p>
 <h1 class="h1--long display v-hero__h1">Dispensary Near Bayonne, NJ, Worth Every Mile</h1>
@@ -139,15 +139,20 @@
 
 <div class="btn-row v-hero__ctas"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">Order for Pickup<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a><a class="btn btn--glass" href="https://www.google.com/maps/dir/?api=1&amp;origin=Bayonne%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener">Get directions from Bayonne<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 </div>
-<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts glass glass--strong">
-<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul><p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
+<div class="v-hero__side" data-reveal style="--i:1"><div class="v-facts v-facts--place">
+<div class="v-facts__tile v-fill-sun glass glass--cream"><span class="v-tape" aria-hidden="true"></span>
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Store Hours</p><ul class="hours"><li><span class="hours__d">Monday to Thursday</span><span class="hours__t">10am to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">10am to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">11am to 8pm</span></li></ul>
+</div>
+<div class="v-facts__tile glass glass--cream">
+<p class="v-facts__h"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 6.5h11v9.5h-11z"/><path d="M13.5 10h4l3 3.2V16h-7"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17" cy="17.5" r="1.7"/></svg>Delivery Hours</p><ul class="hours"><li><span class="hours__d">Monday to Wednesday</span><span class="hours__t">2pm to 9pm</span></li><li><span class="hours__d">Thursday</span><span class="hours__t">12pm to 9pm</span></li><li><span class="hours__d">Friday to Saturday</span><span class="hours__t">12pm to 10pm</span></li><li><span class="hours__d">Sunday</span><span class="hours__t">12pm to 8pm</span></li></ul>
 <p class="v-facts__county"><a class="chip chip--sky" href="https://www.google.com/maps/dir/?api=1&amp;origin=Bayonne%2C%20NJ&amp;destination=547%20West%20Side%20Avenue%2C%20Jersey%20City%2C%20NJ%2007304" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>Get directions from Bayonne</a></p>
+</div>
 </div></div>
 
 </div>
 <span class="cut protrude v-hero__cut" aria-hidden="true" data-depth="0.1"><img src="/ladyl-redesign/assets/img/g-pampas-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-pampas-cut-240.webp 240w, /ladyl-redesign/assets/img/g-pampas-cut-400.webp 400w, /ladyl-redesign/assets/img/g-pampas-cut-640.webp 640w, /ladyl-redesign/assets/img/g-pampas-cut-960.webp 960w, /ladyl-redesign/assets/img/g-pampas-cut-1400.webp 1400w" sizes="(min-width: 1024px) 220px, 120px" width="1792" height="2368" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated"></span>
-</section><section class="band band--cream v-intro">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-botanical"></span></div>
+</section><section class="band band--linen v-intro">
+<div class="band__clip" aria-hidden="true"><span class="grain"></span><span class="v-dots"></span><span class="v-botanical"></span></div>
 <div class="wrap">
 <div class="v-intro__grid v-intro__grid--solo">
 <div class="v-intro__text prose" data-reveal><p>Looking for a dispensary near Bayonne? The best stop is less than 20 minutes north on Avenue C. Lady L Cannabis sits on Jersey City's West Side, a woman-owned cannabis microbusiness where the service feels personal, the products are handpicked, and every customer walks out with something worth coming back for. Whether you're brand new to cannabis or a regular who knows exactly what you want, our shop is the weed dispensary Bayonne residents trust.</p></div>
@@ -162,9 +167,9 @@
 <div class="v-route__main">
 <header class="v-head" data-reveal><p class="kicker">Directions</p><h2 class="display v-head__h" id="v-route-h">Directions from Bayonne to Lady L</h2></header>
 <div class="prose" data-reveal><p>Getting from Bayonne to Lady L is one of the easiest drives in Hudson County. The fastest route clocks in at about 17 minutes and covers 4.5 miles via Avenue C and John F. Kennedy Blvd.</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Start by heading toward W 28th St.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Then, make a left onto W 48th St.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>After that, take a right onto John F. Kennedy Blvd.</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Next, turn left onto Lexington Ave and continue for about 0.2 miles.</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Finally, turn left onto West Side Ave, and we will be on the right</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span>Start by heading toward W 28th St.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span>Then, make a left onto W 48th St.</span></li><li class="v-route__step" data-reveal style="--i:2"><span class="v-route__n" aria-hidden="true">03</span><span>After that, take a right onto John F. Kennedy Blvd.</span></li><li class="v-route__step" data-reveal style="--i:3"><span class="v-route__n" aria-hidden="true">04</span><span>Next, turn left onto Lexington Ave and continue for about 0.2 miles.</span></li><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">05</span><span>Finally, turn left onto West Side Ave, and we will be on the right</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><div class="btn-row v-btns"><a class="btn btn--sun" href="https://maps.app.goo.gl/LjMvWLcdw1xByY5C8" target="_blank" rel="noopener">Get direction<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div>
 <div class="v-ibox"><div><a href="tel:+1 (201) 595-0706">(201) 595-0706</a></div></div>
@@ -177,8 +182,8 @@
 </div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s1-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--night v-sec v-sec--text" aria-labelledby="v-s1-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s1-h">A Dispensary Near Bayonne With Soul</h2></header>
 <div class="v-split v-split--flip"><div class="v-split__text prose" data-reveal><p>Bayonne and Jersey City's West Side share the same zip code energy. They're cut from the same Hudson County cloth. So when you make the short drive up, you won't feel far from home. What you'll feel is the difference.</p>
@@ -188,36 +193,36 @@
 </div>
 </section>
 <section class="band band--linen v-sec v-sec--cards" aria-labelledby="v-s2-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s2-h">What's Inside: Products Worth the Trip from Bayonne</h2></header>
 <div class="v-lead prose" data-reveal><p>Every product decision starts with one question: Is this good enough for our customers? If the answer isn't a clear yes, it doesn't make the shelf. Freshness and quality come first, always.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_bud-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Flower<br>Our selection leans toward reliable, high-quality options from trusted brands like Grown Rogue, Happy Farmer, Hamilton Farms, Rythm, Yeti, Good Greens, and Tyson.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/flower" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_preroll-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Pre-Rolls<br>Grab one on the way out, and you're ready to go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/pre-rolls" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_gummies-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Edibles<br>A fan favorite, which ranks among our most loyal customers' top picks.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/edibles" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:0">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:0">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_vape-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Vapes<br>A discreet experience for customers who prefer something easy on the go.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/vaporizers" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:1">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:1">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp" srcset="/ladyl-redesign/assets/img/p-ll-ladyl_iconography_concentrate-300.webp 300w" sizes="72px" width="300" height="300" alt="" decoding="async" loading="lazy"></span>
 
 <div class="v-card__b"><p>Concentrates<br>For experienced consumers looking for something more.</p><p><a class="link-arrow" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city/products/concentrates" target="_blank" rel="noopener">Shop the menu<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--cream glass--lift" data-reveal style="--i:2">
 <span class="v-card__icon" aria-hidden="true"><img src="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp" srcset="/ladyl-redesign/assets/img/p-ll-image-1914-135.webp 135w" sizes="72px" width="135" height="205" alt="" decoding="async" loading="lazy"></span>
 <h3 class="v-card__t">Tinctures</h3>
 <div class="v-card__b"><p>A precise, easy-to-dose option for customers who want control over their experience.</p></div>
@@ -229,8 +234,8 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="https://ladyljerseycity.com/stores/lady-l-cannabis-jersey-city" target="_blank" rel="noopener">order NOW<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a></div></div>
 </div>
 </section>
-<section class="band band--plum v-sec v-sec--text" aria-labelledby="v-s3-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--cream v-sec v-sec--text" aria-labelledby="v-s3-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s3-h">Why Bayonne Dispensary Shoppers Choose Lady L</h2></header>
 <div class="v-split"><div class="v-split__text prose" data-reveal><p>Bayonne is a great city with many attractions, but it's missing one key ingredient: a cannabis dispensary with the unique personality and warmth of Lady L. This is precisely why many Bayonne dispensary shoppers are willing to make the short trip to find what they're looking for.</p>
@@ -239,27 +244,27 @@
 <div class="btn-row v-btns"><a class="btn btn--sun" href="/ladyl-redesign/about-us/">Learn More About Us<svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div></div><figure class="arch v-split__art" data-reveal style="--i:1" data-depth="0.04"><span class="arch__img"><img src="/ladyl-redesign/assets/img/g-flower-960.webp" srcset="/ladyl-redesign/assets/img/g-flower-640.webp 640w, /ladyl-redesign/assets/img/g-flower-960.webp 960w, /ladyl-redesign/assets/img/g-flower-1440.webp 1440w, /ladyl-redesign/assets/img/g-flower-1920.webp 1920w, /ladyl-redesign/assets/img/g-flower-2496.webp 2496w" sizes="(min-width: 1024px) 380px, 70vw" width="2496" height="1664" alt="" decoding="async" loading="lazy" data-ai="generated"></span></figure></div>
 </div>
 </section>
-<section class="band band--cream v-sec v-sec--cards" aria-labelledby="v-s4-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--plum v-sec v-sec--cards" aria-labelledby="v-s4-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots v-dots--dark"></span><span class="grain"></span></div>
 <div class="wrap">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s4-h">A Day Worth Having: Explore Bayonne, NJ</h2></header>
 <div class="v-lead prose" data-reveal><p><a href="https://www.bayonnenj.org/">Bayonne</a> is one of Hudson County's most underrated spots. The waterfront views alone are worth the stop. Before you head over to our dispensary near Bayonne, or after you leave, here are a few local gems that make the day complete.</p></div>
-<ul class="v-cards" role="list"><li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<ul class="v-cards v-bento" role="list"><li class="v-card v-s8 v-feat glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://www.hudsoncountynj.org/stephen-r-gregg-park-bayonne/" target="_blank" rel="noopener">Stephen R. Gregg Park</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Stephen R. Gregg Park is Bayonne's green anchor along the Kill Van Kull waterfront. Trails wind through open land with views of Staten Island across the water. Locals run here, walk here, and take in sunsets that most of New Jersey doesn't know about. It's a great spot to clear your head before or after stopping in.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:1">
+<li class="v-card v-s4 glass glass--lift v-card--link" data-reveal style="--i:1">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://www.thelittlebohobookshop.com/" target="_blank" rel="noopener">The Little Boho Bookshop</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>The Little Boho Bookshop is the kind of indie bookstore that earns a loyal following fast. Curated shelves, a welcoming atmosphere, and the kind of selection that makes you stay longer than you planned. Stop in before heading north to Lady L, and pick something up to read on the way back.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:2">
+<li class="v-card v-s6 glass glass--lift v-card--link" data-reveal style="--i:2">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="http://www.911monument.com/" target="_blank" rel="noopener">The 9/11 Empty Sky Memorial</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>The Empty Sky Memorial stands at Liberty State Park and draws people from across the region for its powerful design and its view of Lower Manhattan. If you're starting your day in Bayonne, this stop puts everything in perspective. The drive from here to Lady L is a straight shot.</p></div>
 </li>
-<li class="v-card glass glass--cream glass--lift v-card--link" data-reveal style="--i:0">
+<li class="v-card v-s6 glass glass--lift v-card--link" data-reveal style="--i:0">
 <span class="v-card__ico" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3.2 2.7 5.5 6 .9-4.35 4.25 1.03 6L12 17l-5.38 2.85 1.03-6L3.3 9.6l6-.9Z"/></svg></span>
 <h3 class="v-card__t"><a class="v-card__link" href="https://www.manhattanbagel.com/" target="_blank" rel="noopener">Manhattan Bagel</a><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></h3>
 <div class="v-card__b"><p>Manhattan Bagel delivers the classic New Jersey bagel experience without any fuss. Fresh bagels, solid spreads, and the kind of breakfast that sets the right tone for the day. Grab one before the drive to Lady L, and you'll arrive in the best possible mood.</p></div>
@@ -267,8 +272,8 @@
 
 </div>
 </section>
-<section class="band band--night v-sec v-sec--faq" aria-labelledby="v-s5-h">
-<div class="band__clip" aria-hidden="true"><span class="grain"></span></div>
+<section class="band band--linen v-sec v-sec--faq" aria-labelledby="v-s5-h">
+<div class="band__clip" aria-hidden="true"><span class="v-dots"></span><span class="grain"></span></div>
 <div class="wrap wrap--narrow">
 <header class="v-head" data-reveal><h2 class="display v-head__h" id="v-s5-h">Cannabis Guide for Bayonne Dispensary Shoppers</h2></header>
 <div class="v-faqwrap" data-reveal><figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp" srcset="/ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-480.webp 480w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-800.webp 800w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1200.webp 1200w, /ladyl-redesign/assets/img/p-ll-03119f51a270ad502b972b1c699799170561feb4-1619.webp 1619w" sizes="(min-width: 1024px) 420px, 80vw" width="1619" height="1080" alt="03119f51a270ad502b972b1c699799170561feb4" decoding="async" loading="lazy"></span></figure>
@@ -295,9 +300,9 @@
 <figure class="arch v-fig " data-reveal><span class="arch__img"><img src="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp" srcset="/ladyl-redesign/assets/img/p-ll-rectangle-3463786-480.webp 480w, /ladyl-redesign/assets/img/p-ll-rectangle-3463786-579.webp 579w" sizes="(min-width: 1024px) 420px, 80vw" width="579" height="676" alt="Rectangle 3463786" decoding="async" loading="lazy"></span></figure>
 <p>Biking from Bayonne</p>
 <p>Both cycling routes from Bayonne are mostly flat, making the ride genuinely easy. You're looking at under 25 minutes either way.</p></div>
-<ol class="v-route__steps" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via John F. Kennedy Blvd and West Side Ave (~22 min, 4.4 miles)</strong>, The fastest cycling route from Bayonne. Head north on JFK Blvd and follow it straight into the West Side. Turn onto West Side Ave, and we're on the right. Mostly flat the whole way.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via Avenue C and Ocean Ave (~25 min, 4.8 miles)</strong>, A slightly longer ride that takes you up Avenue C and connects through Ocean Ave into Jersey City. All routes are mostly flat, so either option is comfortable regardless of your pace.</span></li></ol>
+<ol class="v-route__steps glass glass--cream" role="list"><li class="v-route__step" data-reveal style="--i:0"><span class="v-route__n" aria-hidden="true">01</span><span><strong>Via John F. Kennedy Blvd and West Side Ave (~22 min, 4.4 miles)</strong>, The fastest cycling route from Bayonne. Head north on JFK Blvd and follow it straight into the West Side. Turn onto West Side Ave, and we're on the right. Mostly flat the whole way.</span></li><li class="v-route__step" data-reveal style="--i:1"><span class="v-route__n" aria-hidden="true">02</span><span><strong>Via Avenue C and Ocean Ave (~25 min, 4.8 miles)</strong>, A slightly longer ride that takes you up Avenue C and connects through Ocean Ave into Jersey City. All routes are mostly flat, so either option is comfortable regardless of your pace.</span></li></ol>
 </div>
-<aside class="v-route__card glass glass--cream" data-reveal style="--i:1">
+<aside class="v-route__card v-fill-sky glass glass--cream" data-reveal style="--i:1"><span class="v-tape" aria-hidden="true"></span>
 <p class="kicker"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 10c0 5.6-7 11-7 11s-7-5.4-7-11a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>The store</p>
 <div class="v-route__store prose"><p>Driving from Bayonne</p>
 <p>You've got three solid driving options, and all of them keep the trip under 20 minutes.</p>
