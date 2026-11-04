@@ -202,16 +202,20 @@ export async function render(ctx) {
     const del = btns.find((b) => /deliver/i.test(b.text)) || { text: (tb[0] || {}).label || 'Order for Delivery' };
     const pick = btns.find((b) => /pick/i.test(b.text)) || { text: (tb[1] || {}).label || 'Order for Pickup' };
     const other = btns.filter((b) => b !== del && b !== pick);
-    const loop = heroLoop && heroLoop.mp4 && heroLoop.poster
-      ? `<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="${escA(heroLoop.poster)}" width="${escA(heroLoop.w || 1920)}" height="${escA(heroLoop.h || 1080)}" aria-hidden="true" tabindex="-1">${heroLoop.mp4Small ? `<source src="${escA(heroLoop.mp4Small)}" type="video/mp4" media="(max-width: 720px)">` : ''}<source src="${escA(heroLoop.mp4)}" type="video/mp4"></video>`
+    // Phone pass: no autoplay and preload="none" (an autoplay video downloads in full at parse time, whatever preload
+    // says); site.js plays data-inview-play videos while on screen and, with data-after-load, only after window load.
+    // No poster: the still underneath shows until the first frame, and on phones that still IS the phone crop's frame 0.
+    const loop = heroLoop && heroLoop.mp4
+      ? `<video class="h-hero__loop" id="h-hero-loop" data-inview-play data-after-load muted loop playsinline preload="none" width="${escA(heroLoop.w || 1920)}" height="${escA(heroLoop.h || 1080)}" aria-hidden="true" tabindex="-1">${heroLoop.mp4Small ? `<source src="${escA(heroLoop.mp4Small)}" type="video/mp4" media="(max-width: 720px)">` : ''}<source src="${escA(heroLoop.mp4)}" type="video/mp4"></video>`
       : '';
+    const stillSm = heroLoop && heroLoop.posterSmall ? `<source media="(max-width: 720px)" srcset="${escA(heroLoop.posterSmall)}" width="${escA(heroLoop.wSmall || 720)}" height="${escA(heroLoop.hSmall || 1080)}">` : '';
     const pair = typeof shell.serviceCards === 'function' ? shell.serviceCards(ctx, { h: 2, compact: true, reveal: true, cls: 'h-hero__pair' }) : '';
     // PASTE UP POP bento over a full-bleed background: the Higgsfield caricature still (shown under reduced motion and
     // before the video plays) and its motion loop fill the hero; the copy tile and the Delivery and Pickup tiles sit on
     // the calm paper half on the left, so the illustrated woman with the Lady L tote stays clear on the right
     html.hero = `<section class="h-hero h-hero--bg band band--paper" id="h-hero" aria-labelledby="h-hero-h1">
 <div class="band__clip h-hero__clip" aria-hidden="true">
-${gimg('g-hero-caricature', { alt: '', eager: true, cls: 'h-hero__bgimg', sizes: '100vw' })}
+<picture class="h-hero__bgpic">${stillSm}${gimg('g-hero-caricature', { alt: '', eager: true, cls: 'h-hero__bgimg', sizes: '100vw', attrs: { fetchpriority: 'high' } })}</picture>
 ${loop}
 </div>
 <div class="wrap wrap--wide h-hero__inner h-hero__bento">
@@ -636,7 +640,7 @@ ${leftovers(ctx, C)}
     main,
     crumbs: [],
     noPrefooter: S.join ? 'newsletter' : false,
-    preload: heroLoop && heroLoop.poster ? [{ href: heroLoop.poster, as: 'image', media: '(min-width: 721px)' }, ...(heroLoop.posterSmall ? [{ href: heroLoop.posterSmall, as: 'image', media: '(max-width: 720px)' }] : [])] : [],
+    preload: [], // the hero still is an eager <img fetchpriority=high> (a <source> on phones) found by the preload scanner
   });
   return [{ path: '/', html: out }];
 }

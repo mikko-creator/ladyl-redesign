@@ -158,3 +158,96 @@
   .mega__tile-t { font-size: 0.9rem; }
   .age-gate__actions .btn { min-width: 0; flex: 1 1 auto; }
 }
+
+/* ==== Phone pass 2 (2026-11-04, operator: "optimize mobile"). Measured with tools/phone-audit.mjs at 390 and 360:
+   the home page was 27,000 px and every page carried 5,500 px of prefooter and footer, because every bento grid
+   stacked into one long column. Phones only (max-width 720px), so desktop and tablet are unchanged. ==== */
+@media (max-width: 720px) {
+  /* 1. Swipe rows: card collections scroll sideways (the next card peeks in) instead of stacking. */
+  .h-cats__grid, .h-steps__list, .h-spots__grid, .h-reviews__grid, .h-insta__grid,
+  .areas__groups, .v-counties, .v-sec--cards .v-bento, .footer__hours {
+    display: flex !important; flex-wrap: nowrap; gap: 12px; overflow-x: auto; overflow-y: hidden;
+    overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter);
+    margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 14px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .h-cats__grid::-webkit-scrollbar, .h-steps__list::-webkit-scrollbar, .h-spots__grid::-webkit-scrollbar,
+  .h-reviews__grid::-webkit-scrollbar, .h-insta__grid::-webkit-scrollbar, .areas__groups::-webkit-scrollbar,
+  .v-counties::-webkit-scrollbar, .v-sec--cards .v-bento::-webkit-scrollbar, .footer__hours::-webkit-scrollbar { display: none; }
+  .h-cats__grid > *, .h-steps__list > *, .h-spots__grid > *, .h-reviews__grid > *, .h-insta__grid > *,
+  .areas__groups > *, .v-counties > *, .v-sec--cards .v-bento > *, .footer__hours > * {
+    flex: 0 0 min(84%, 320px); min-width: 0; scroll-snap-align: start; grid-column: auto !important; grid-row: auto !important; margin: 0;
+  }
+  .h-cats__grid > *, .h-insta__grid > * { flex-basis: min(70%, 270px); }
+  .areas__groups, .v-counties { align-items: flex-start; }
+  /* a reveal that waits for the viewport would leave off-screen cards in a row invisible: show them */
+  html.js .h-cats__grid [data-reveal]:not(.is-in), html.js .h-steps__list [data-reveal]:not(.is-in),
+  html.js .h-spots__grid [data-reveal]:not(.is-in), html.js .h-reviews__grid [data-reveal]:not(.is-in),
+  html.js .h-insta__grid [data-reveal]:not(.is-in), html.js .areas__groups [data-reveal]:not(.is-in),
+  html.js .v-counties [data-reveal]:not(.is-in), html.js .v-sec--cards .v-bento [data-reveal]:not(.is-in) { opacity: 1; }
+
+  /* 2. Two-up grids: the products hub tiles and the event cards. */
+  .s-tiles, .p-egrid { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 12px !important; }
+  .s-tiles > *, .p-egrid > * { grid-column: auto !important; grid-row: auto !important; min-width: 0; }
+
+  /* 3. Text: nothing under 13px (each selector below set 0.72rem to 0.8rem). */
+  :root { --fs-kicker: 0.8125rem; }
+  .label,
+  .ecard__date,
+  .ecard__meta, .acard__meta,
+  .rcard__platform,
+  .crumbs ol,
+  .demo-form__label,
+  .video-toggle,
+  .svc-pill__label,
+  .topbar__link,
+  .h-tile__cta,
+  .h-post__top,
+  .h-post__go,
+  .page-shop .s-tiles--others .s-tile:not(.s-tile--feat) .s-tile__cta,
+  .page-shop .s-tiles--others .s-tile:not(.s-tile--feat) .s-tile__no,
+  .page-shop .s-tile__no,
+  .n-page .n-card .acard__meta,
+  .n-pn__dir,
+  .n-page .n-toc__title,
+  .n-page .n-toc__n,
+  .n-page .n-facts__label,
+  .p-rcard__name,
+  .p-faq__num,
+  .p-ecard__badge,
+  .p-ecard__more,
+  .p-pn__dir { font-size: 0.8125rem; }
+
+  /* 4. Taps: 44px rows for the consent checkbox and the small standalone links. */
+  .demo-form__check { min-height: 44px; align-items: center; }
+  .demo-form__check input { width: 24px; height: 24px; flex: none; }
+  .footer__legal-links a, .footer__top, .h-spot__link, .v-card__link, .p-ecard__more, .link-arrow { min-height: 44px; display: inline-flex; align-items: center; }
+}
+@media (max-width: 720px) {
+  /* 5. More swipe rows: the service hub's steps and tips (3 or more cards) and the paired hours tables on home. */
+  .v-steps:has(> :nth-child(3)), .v-tiplist:has(> :nth-child(3)), .h-visit__hours, .h-join__hours, .h-stop__hours {
+    display: flex !important; flex-wrap: nowrap; gap: 12px; overflow-x: auto; overflow-y: hidden;
+    overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter);
+    margin-inline: calc(-1 * var(--gutter)); padding: 4px var(--gutter) 14px; scrollbar-width: none;
+  }
+  .v-steps:has(> :nth-child(3))::-webkit-scrollbar, .v-tiplist:has(> :nth-child(3))::-webkit-scrollbar,
+  .h-visit__hours::-webkit-scrollbar, .h-join__hours::-webkit-scrollbar, .h-stop__hours::-webkit-scrollbar { display: none; }
+  .v-steps:has(> :nth-child(3)) > *, .v-tiplist:has(> :nth-child(3)) > *, .h-visit__hours > *, .h-join__hours > *, .h-stop__hours > * {
+    flex: 0 0 min(84%, 320px); min-width: 0; scroll-snap-align: start; grid-column: auto !important; grid-row: auto !important; margin: 0;
+  }
+  html.js .v-steps [data-reveal]:not(.is-in), html.js .v-tiplist [data-reveal]:not(.is-in) { opacity: 1; }
+  /* 6. Footer link columns three across, a touch smaller, still 44px rows. */
+  .footer__cols { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 14px 10px !important; }
+  .footer__cols .footer__links a { font-size: 0.875rem; line-height: 1.25; }
+}
+@media (max-width: 720px) {
+  /* 7. In a swipe row no grid row sizes the category tile, so its image box (flex: 1, absolute img) collapsed: give it a
+        3:2 box (the category photos are 3:2). */
+  .h-cats__grid .h-tile__media { flex: none; aspect-ratio: 3 / 2; }
+}
+@media (max-width: 720px) {
+  /* 8. Footer taps: column links fill their column (short words like "Blog" were 33px wide) and the phone and email
+        links get 44px rows (they were 36px). */
+  .footer__links a { display: flex; align-items: center; min-height: 44px; width: 100%; }
+  .footer__contact a { display: inline-flex; align-items: center; min-height: 44px; }
+}

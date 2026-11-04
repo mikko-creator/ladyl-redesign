@@ -394,6 +394,7 @@
    face stays in view (a tall section would scale the frame until her face sat behind the tiles). */
 .h-hero--bg { min-height: clamp(560px, 52vw, 860px); padding-block: clamp(18px, 2.6vh, 30px) clamp(64px, 7vw, 104px); }
 .h-hero--bg .h-hero__clip { inset: 0; }
+.h-hero__bgpic { position: absolute; inset: 0; display: block; }
 .h-hero__bgimg, .h-hero__clip .h-hero__loop { position: absolute; inset: 0; display: block; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 70% 0; }
 .h-hero--bg .h-hero__bento { grid-template-rows: auto auto; align-content: start; }
 .h-hero--bg .h-hero__copy { grid-column: 1 / span 6; grid-row: 1; }
@@ -413,7 +414,7 @@
 }
 @media (max-width: 720px) {
   .h-hero--bg { --hero-win: clamp(360px, 112vw, 470px); --hero-overlap: 150px; }
-  .h-hero__bgimg { object-position: 74% 0; }
-  .h-hero__clip .h-hero__loop { object-position: 50% 0; }
+  .h-hero__bgimg, .h-hero__clip .h-hero__loop { object-position: 50% 0; } /* phones: the still is the phone crop's frame 0 */
   .h-hero--bg .h-hero__pair .svc--delivery, .h-hero--bg .h-hero__pair .svc--pickup { grid-column: 1 / -1; }
+  .h-hero--bg .h-hero__pair .svc { grid-row: auto; } /* the desktop row 2 stacked both full-width tiles in one cell */
 }
