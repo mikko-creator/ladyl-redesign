@@ -19,7 +19,8 @@
 <link rel="apple-touch-icon" href="/ladyl-redesign/apple-touch-icon.png">
 <link rel="preload" href="/ladyl-redesign/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/ladyl-redesign/assets/fonts/montserrat-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/ladyl-redesign/assets/media/hero-haze.webp" as="image" media="(min-width: 721px)">
+<link rel="preload" href="/ladyl-redesign/assets/media/hero-caricature.webp" as="image" media="(min-width: 721px)">
+<link rel="preload" href="/ladyl-redesign/assets/media/hero-caricature-sm.webp" as="image" media="(max-width: 720px)">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/fonts.css">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/tokens.css">
 <link rel="stylesheet" href="/ladyl-redesign/assets/css/base.css">
@@ -127,11 +128,10 @@
 <div class="nav-scrim" data-nav-scrim hidden></div>
 
 <main id="main">
-<section class="h-hero band band--paper" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
+<section class="h-hero h-hero--bg band band--paper" id="h-hero" aria-labelledby="h-hero-h1">
 <div class="band__clip h-hero__clip" aria-hidden="true">
-<span class="h-dots h-hero__dots"></span>
-<span class="sunburst h-hero__rays"></span>
-<span class="grain"></span>
+<img class="h-hero__bgimg" src="/ladyl-redesign/assets/img/g-hero-caricature-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-caricature-640.webp 640w, /ladyl-redesign/assets/img/g-hero-caricature-960.webp 960w, /ladyl-redesign/assets/img/g-hero-caricature-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-caricature-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-caricature-2560.webp 2560w" sizes="100vw" width="2816" height="1584" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated">
+<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="/ladyl-redesign/assets/media/hero-caricature.webp" width="1920" height="1080" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-caricature-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-caricature.mp4" type="video/mp4"></video>
 </div>
 <div class="wrap wrap--wide h-hero__inner h-hero__bento">
 <div class="h-hero__copy">
@@ -146,16 +146,6 @@
 <p class="h-hero__lede" data-reveal style="--i:4">Welcome to Lady L Cannabis, the Jersey City dispensary that feels like home from the moment you walk in. Our shop lives on West Side Avenue, in Jersey City's West Side neighborhood. We're a woman-owned cannabis microbusiness, and we built this place with one purpose: to serve you with warmth, real knowledge, and zero judgment. Whether you're brand new to cannabis or you know exactly what you want, you'll find your people here.</p>
 
 
-</div>
-<div class="h-hero__shot" data-reveal style="--i:1">
-<div class="h-hero__media" aria-hidden="true">
-<img class="h-hero__bg" src="/ladyl-redesign/assets/img/g-hero-parlor-960.webp" srcset="/ladyl-redesign/assets/img/g-hero-parlor-640.webp 640w, /ladyl-redesign/assets/img/g-hero-parlor-960.webp 960w, /ladyl-redesign/assets/img/g-hero-parlor-1440.webp 1440w, /ladyl-redesign/assets/img/g-hero-parlor-1920.webp 1920w, /ladyl-redesign/assets/img/g-hero-parlor-2560.webp 2560w" sizes="(max-width: 720px) 92vw, 560px" width="2752" height="1536" alt="" decoding="async" loading="eager" fetchpriority="high" data-ai="generated">
-<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="/ladyl-redesign/assets/media/hero-haze.webp" width="1920" height="1074" aria-hidden="true" tabindex="-1"><source src="/ladyl-redesign/assets/media/hero-haze-sm.mp4" type="video/mp4" media="(max-width: 720px)"><source src="/ladyl-redesign/assets/media/hero-haze.mp4" type="video/mp4"></video>
-<span class="h-hero__halftone"></span>
-</div>
-<span class="h-tape h-tape--tl" aria-hidden="true"></span>
-<span class="h-tape h-tape--br" aria-hidden="true"></span>
-<button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13M16 5.5v13"/></svg><span class="video-toggle__label">Pause motion</span></button>
 </div>
 <div class="svc-pair h-hero__pair">
 <article class="svc svc--delivery glass glass--lift" data-reveal style="--i:0">
@@ -175,6 +165,7 @@
 </div>
 <div class="h-hero__cut" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.06"><img class="cut h-hero__cut-img" src="/ladyl-redesign/assets/img/g-bud-cut-960.webp" srcset="/ladyl-redesign/assets/img/g-bud-cut-240.webp 240w, /ladyl-redesign/assets/img/g-bud-cut-400.webp 400w, /ladyl-redesign/assets/img/g-bud-cut-640.webp 640w, /ladyl-redesign/assets/img/g-bud-cut-960.webp 960w, /ladyl-redesign/assets/img/g-bud-cut-1400.webp 1400w" sizes="(max-width: 720px) 96px, 180px" width="2048" height="2048" alt="" decoding="async" loading="lazy" data-ai="generated"></div></div>
 </div>
+<div class="h-hero__ctrl"><button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false"><svg class="ico" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13M16 5.5v13"/></svg><span class="video-toggle__label">Pause motion</span></button></div>
 </section>
 <section class="h-cats band band--newsprint" id="h-cats" aria-labelledby="h-cats-h">
 <div class="band__clip" aria-hidden="true"><span class="h-cats__wash"></span><span class="grain"></span></div>
