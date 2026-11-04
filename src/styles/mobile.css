@@ -259,3 +259,9 @@
   .p-toc ol > li > a { display: flex; align-items: center; min-height: 44px; }
   .p-sm__link { min-height: 46px; }
 }
+@media (max-width: 720px) {
+  /* 10. The last seven the audit listed: contact rows and info boxes (phone and email links 19 to 28px tall), the
+         pickup quote source (19px), and the short "Blog" crumb (40px wide). */
+  .v-visit__row a, .v-ibox a, .p-store__row a, .v-pk__src a { display: inline-flex; align-items: center; min-height: 44px; }
+  .crumbs a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; }
+}
