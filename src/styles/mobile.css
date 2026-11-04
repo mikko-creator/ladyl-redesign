@@ -251,3 +251,11 @@
   .footer__links a { display: flex; align-items: center; min-height: 44px; width: 100%; }
   .footer__contact a { display: inline-flex; align-items: center; min-height: 44px; }
 }
+@media (max-width: 720px) {
+  /* 9. The last small taps the audit listed: home info links (phone 19px tall, Map 36px wide), event titles (42px),
+        the legal contents list (18px), quote source links (42px), site map links (a fraction under 44px). */
+  .h-ibox a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; }
+  .p-ecard__title a, .s-quote__src a { display: inline-flex; align-items: center; min-height: 44px; }
+  .p-toc ol > li > a { display: flex; align-items: center; min-height: 44px; }
+  .p-sm__link { min-height: 46px; }
+}
