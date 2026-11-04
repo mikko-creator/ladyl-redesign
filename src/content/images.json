@@ -1,23 +1,23 @@
 {
   "photos": {},
   "media": {
-    "hero-haze": {
-      "mp4": "/assets/media/hero-haze.mp4",
-      "mp4Small": "/assets/media/hero-haze-sm.mp4",
-      "poster": "/assets/media/hero-haze.webp",
-      "posterSmall": "/assets/media/hero-haze-sm.webp",
-      "posterJpg": "/assets/media/hero-haze.jpg",
-      "posterSmallJpg": "/assets/media/hero-haze-sm.jpg",
+    "hero-caricature": {
+      "mp4": "/assets/media/hero-caricature.mp4",
+      "mp4Small": "/assets/media/hero-caricature-sm.mp4",
+      "poster": "/assets/media/hero-caricature.webp",
+      "posterSmall": "/assets/media/hero-caricature-sm.webp",
+      "posterJpg": "/assets/media/hero-caricature.jpg",
+      "posterSmallJpg": "/assets/media/hero-caricature-sm.jpg",
       "w": 1920,
-      "h": 1074,
+      "h": 1080,
       "wSmall": 720,
       "hSmall": 1080,
-      "duration": 4.5,
+      "duration": 4.54,
       "fps": 24,
       "audio": false,
       "alt": "",
-      "use": "decorative seamless loop: muted, autoplay, loop, playsinline, aria-hidden, poster first, a visible pause toggle, hidden under prefers-reduced-motion",
-      "note": "AI-generated illustrative motion (fal Kling 2.1 Pro image-to-video from the AI-generated g-haze key frame, first and last frame set to it; jump frame dropped, retimed to constant motion and folded into a seamless 4.5 second loop with a 12 frame crossfade). A pale lavender ribbon rippling on a flat sunflower yellow ground: no objects added, no people. The phone file is a 2:3 crop around the ribbon (62.2% to 99.4% of the width)."
+      "use": "home hero background: muted, autoplay, loop, playsinline, aria-hidden, poster first, a visible pause toggle, hidden under prefers-reduced-motion (the g-hero-caricature still shows instead)",
+      "note": "AI-generated motion (fal Kling 2.1 Pro image-to-video) from the Higgsfield caricature still g-hero-caricature, which Higgsfield drew from Lady L's own campaign photo IMG_4196; first and last frame set to the still; the duplicated first frame dropped and the seam folded into a seamless 4.5 second loop with a 12 frame crossfade (no retime, so the blink keeps its natural timing). Hair, a slow blink and a slight head turn move; no objects added. The phone file is a 2:3 crop around her (61.0% to 98.5% of the width). It shows the person in that photo: Lady L and the person should approve it before any public use."
     }
   }
 }

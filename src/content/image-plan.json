@@ -371,6 +371,26 @@
         "calm": "right third lavender wall",
         "crop": "object-position 45% 40%"
       }
+    },
+    {
+      "id": "g-hero-caricature",
+      "file": "assets/generated/g-hero-caricature.jpg",
+      "role": "hero background (home), key frame of the hero-caricature loop",
+      "external": "higgsfield-mcp",
+      "reuse": true,
+      "model": "higgsfield seedream_5_0_flash",
+      "input": {
+        "aspect_ratio": "16:9",
+        "resolution": "2k",
+        "reference": "Lady L campaign photo IMG_4196"
+      },
+      "alt": "A pop-art comic illustration of a woman with long curly hair looking back over her shoulder outside a pink brick building, carrying a cream Lady L Cannabis tote bag.",
+      "prompt": "Redraw the reference photo as a flattering, friendly cartoon caricature illustration in a bold, modern pop-art comic style. Keep the same adult woman, fully clothed as in the photo: her pose looking back over her shoulder, long dark curly hair, gold hoop earrings, coral pink t-shirt, light blue jeans, and the cream canvas tote bag on her shoulder with its printed artwork copied as it is (a black and white checkerboard arch around a pink panel with a potted green plant in a blue pot and two lavender flowers, and the store name lettering below it). Caricature treatment: slightly enlarged head and expressive eyes, a confident, warm smile, smooth stylised proportions, respectful and charming. Style: thick dark ink outlines, flat colour fills, Ben-Day halftone dot shading, light cut-paper collage texture. Palette: lavender, sunflower yellow, coral pink and sky blue on warm white paper, her natural skin tone kept. Wide 16:9 website hero composition: she stands in the right third of the frame, seen from head to hips, filling the frame height; the left two thirds are a calm, simplified pop-art street scene (a pink brick building with tall windows and a purple storefront ledge) with large plain areas and soft halftone dots, low detail, quiet space for text. No other people, no speech bubbles, no extra words.",
+      "buildNotes": {
+        "tone": "light",
+        "calm": "left half: plain paper wall for the copy tile",
+        "crop": "object-position 76% 0 on narrow screens (her face and the tote)"
+      }
     }
   ]
 }

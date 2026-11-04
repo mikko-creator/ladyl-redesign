@@ -16,8 +16,10 @@ dispensary at 547 West Side Avenue in Jersey City, NJ. It is a pitch preview, no
   sunflower, coral and sky as flat colour tiles, halftone dots, taped photo clippings and cut-out stickers that break
   their frames. See [docs/DESIGN.md](docs/DESIGN.md).
 - **Imagery:** Lady L's own photos, plus AI-generated mood imagery and a motion loop, each labelled as AI-generated
-  (IPTC digital source type `trainedAlgorithmicMedia`) and listed in [docs/MEDIA.md](docs/MEDIA.md). Generated images
-  never show Lady L's store, staff, customers, products or brands.
+  (IPTC digital source type `trainedAlgorithmicMedia`) and listed in [docs/MEDIA.md](docs/MEDIA.md). The home hero
+  background is a pop art caricature that Higgsfield drew from one of Lady L's own campaign photos, animated into a
+  motion loop; Lady L and the person shown should approve it before any public use. No other generated image shows Lady
+  L's store, staff, customers, products or brands.
 
 ## Build
 

@@ -160,6 +160,8 @@ export async function render(ctx) {
   const tb = (ctx.ia.topbar && ctx.ia.topbar.services) || [];
   const cats = ((ctx.ia.nav || []).find((n) => n.href === '/products/') || {}).children || [];
   const haze = ((ctx.images && ctx.images.media) || {})['hero-haze'];
+  // revision 1b: the hero background is the Higgsfield caricature of Lady L's own campaign photo, moving (fal Kling loop)
+  const heroLoop = ((ctx.images && ctx.images.media) || {})['hero-caricature'] || haze;
   const insta = (site.socials || []).find((x) => /instagram/i.test(x.name)) || {};
   const igUrl = insta.url || 'https://www.instagram.com/';
   const html = {};
@@ -189,7 +191,7 @@ export async function render(ctx) {
   byType('join', 'form');
   if (!S.hero && secs[0] && !claimed.has(secs[0])) { claimed.set(secs[0], 'hero'); S.hero = makeSec(secs[0]); }
 
-  // ---------- 1. hero stage: the night parlor + the haze loop, H1 straight on the wall, the service pair in glass ----------
+  // ---------- 1. hero: bento tiles over the caricature background (Higgsfield still + its motion loop) ----------
   {
     const H = S.hero;
     if (H) H.take((b) => isHead(b) && norm(b.text) === norm(h1Text));
@@ -200,17 +202,17 @@ export async function render(ctx) {
     const del = btns.find((b) => /deliver/i.test(b.text)) || { text: (tb[0] || {}).label || 'Order for Delivery' };
     const pick = btns.find((b) => /pick/i.test(b.text)) || { text: (tb[1] || {}).label || 'Order for Pickup' };
     const other = btns.filter((b) => b !== del && b !== pick);
-    const loop = haze && haze.mp4 && haze.poster
-      ? `<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="${escA(haze.poster)}" width="${escA(haze.w || 1920)}" height="${escA(haze.h || 1080)}" aria-hidden="true" tabindex="-1">${haze.mp4Small ? `<source src="${escA(haze.mp4Small)}" type="video/mp4" media="(max-width: 720px)">` : ''}<source src="${escA(haze.mp4)}" type="video/mp4"></video>`
+    const loop = heroLoop && heroLoop.mp4 && heroLoop.poster
+      ? `<video class="h-hero__loop" id="h-hero-loop" autoplay muted loop playsinline preload="metadata" poster="${escA(heroLoop.poster)}" width="${escA(heroLoop.w || 1920)}" height="${escA(heroLoop.h || 1080)}" aria-hidden="true" tabindex="-1">${heroLoop.mp4Small ? `<source src="${escA(heroLoop.mp4Small)}" type="video/mp4" media="(max-width: 720px)">` : ''}<source src="${escA(heroLoop.mp4)}" type="video/mp4"></video>`
       : '';
     const pair = typeof shell.serviceCards === 'function' ? shell.serviceCards(ctx, { h: 2, compact: true, reveal: true, cls: 'h-hero__pair' }) : '';
-    // PASTE UP POP bento: the copy on a big paper tile, the hero media as a taped photo clipping, the Delivery and
-    // Pickup cards as their own colour tiles (display: contents on the pair), one sticker breaking the copy tile edge
-    html.hero = `<section class="h-hero band band--paper" id="h-hero" aria-labelledby="h-hero-h1" data-sunburst>
+    // PASTE UP POP bento over a full-bleed background: the Higgsfield caricature still (shown under reduced motion and
+    // before the video plays) and its motion loop fill the hero; the copy tile and the Delivery and Pickup tiles sit on
+    // the calm paper half on the left, so the illustrated woman with the Lady L tote stays clear on the right
+    html.hero = `<section class="h-hero h-hero--bg band band--paper" id="h-hero" aria-labelledby="h-hero-h1">
 <div class="band__clip h-hero__clip" aria-hidden="true">
-<span class="h-dots h-hero__dots"></span>
-<span class="sunburst h-hero__rays"></span>
-<span class="grain"></span>
+${gimg('g-hero-caricature', { alt: '', eager: true, cls: 'h-hero__bgimg', sizes: '100vw' })}
+${loop}
 </div>
 <div class="wrap wrap--wide h-hero__inner h-hero__bento">
 <div class="h-hero__copy">
@@ -226,19 +228,10 @@ ${ledes.map((b, i) => `<p class="h-hero__lede" data-reveal style="--i:${4 + i}">
 ${other.length ? `<p class="btn-row h-hero__more">${other.map((b) => `<a class="link-arrow"${linkAttrs(btnHref(ctx, b))}>${esc(b.text)}${ico('arrow')}</a>`).join('')}</p>` : ''}
 ${leftovers(ctx, H)}
 </div>
-<div class="h-hero__shot" data-reveal style="--i:1">
-<div class="h-hero__media" aria-hidden="true">
-${gimg('g-hero-parlor', { alt: '', eager: true, cls: 'h-hero__bg', sizes: '(max-width: 720px) 92vw, 560px' })}
-${loop}
-<span class="h-hero__halftone"></span>
-</div>
-<span class="h-tape h-tape--tl" aria-hidden="true"></span>
-<span class="h-tape h-tape--br" aria-hidden="true"></span>
-${loop ? `<button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false">${ico('pause')}<span class="video-toggle__label">Pause motion</span></button>` : ''}
-</div>
 ${pair}
 <div class="h-hero__cut" aria-hidden="true"><div class="h-hero__cut-in" data-depth="0.06">${gimg('g-bud-cut', { alt: '', cls: 'cut h-hero__cut-img', sizes: '(max-width: 720px) 96px, 180px' })}</div></div>
 </div>
+${loop ? `<div class="h-hero__ctrl"><button class="btn btn--glass btn--sm h-hero__toggle" type="button" data-video-toggle aria-controls="h-hero-loop" aria-pressed="false">${ico('pause')}<span class="video-toggle__label">Pause motion</span></button></div>` : ''}
 </section>`;
   }
 
@@ -643,7 +636,7 @@ ${leftovers(ctx, C)}
     main,
     crumbs: [],
     noPrefooter: S.join ? 'newsletter' : false,
-    preload: haze && haze.poster ? [{ href: haze.poster, as: 'image', media: '(min-width: 721px)' }] : [],
+    preload: heroLoop && heroLoop.poster ? [{ href: heroLoop.poster, as: 'image', media: '(min-width: 721px)' }, ...(heroLoop.posterSmall ? [{ href: heroLoop.posterSmall, as: 'image', media: '(max-width: 720px)' }] : [])] : [],
   });
   return [{ path: '/', html: out }];
 }
